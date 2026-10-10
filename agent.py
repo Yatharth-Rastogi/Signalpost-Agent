@@ -104,9 +104,11 @@ def ai_status():
 def key_source_label():
     parts = []
     if getattr(llm, "client", None) is not None:
-        parts.append("OpenRouter (.env)")
+        src = getattr(llm, "KEY_SOURCE", "env")
+        parts.append(f"OpenRouter ({'your .env' if src == 'env' else 'built-in judge key'})")
     if getattr(search, "_client", None) is not None:
-        parts.append("Tavily (.env)")
+        src = getattr(search, "KEY_SOURCE", "env")
+        parts.append(f"Tavily ({'your .env' if src == 'env' else 'built-in judge key'})")
     return " + ".join(parts) if parts else "no keys (.env missing)"
 
 # ---------------------------------------------------------------------------

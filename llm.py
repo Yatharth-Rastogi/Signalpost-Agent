@@ -9,11 +9,13 @@ Keys loaded from .env — never hardcoded.
 import os
 import re
 import time
+import judge_keys
 from dotenv import load_dotenv
 from openai import OpenAI
 
 load_dotenv()
-_KEY_1 = (os.getenv("OPENROUTER_API_KEY") or "").strip() or None
+_KEY_1 = (os.getenv("OPENROUTER_API_KEY") or "").strip() or judge_keys.OPENROUTER_JUDGE_KEY
+KEY_SOURCE = "env" if (os.getenv("OPENROUTER_API_KEY") or "").strip() else "judge"
 _KEY_2 = (os.getenv("OPENROUTER_API_KEY_2") or "").strip() or None
 
 def _build_client(key):

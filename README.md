@@ -44,3 +44,13 @@ python main.py --companies 914778271 Telenor "DNB BANK ASA"
 
 # 4) Web UI (chat, history, reports, evidence)
 streamlit run streamlit_app.py
+
+## 🔑 For judges: clone-and-run
+
+This repo ships with **disposable free-tier API keys** (`judge_keys.py`) so you can test the full agent immediately:
+
+```bash
+git clone https://github.com/Yatharth-Rastogi/Signalpost-Agent.git
+cd Signalpost-Agent
+pip install -r requirements.txt
+python main.py --batch-file test_batch.txt
