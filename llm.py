@@ -1,22 +1,28 @@
 """
-llm.py — OpenRouter LLM engine (final).
-Verified-active free models only; account-level daily-cap detection with
-optional secondary-key failover (OPENROUTER_API_KEY_2 in .env); per-request
-hop timeouts; 429/timeout cooldowns; winner memory; reasoning-safe polishing
-with expanded chain-of-thought detection; hard per-call budgets.
-Keys loaded from .env — never hardcoded.
+llm.py — OpenRouter LLM engine (final, multi-key failover).
+Verified-active free models only. Key pool is built in priority order:
+  env OPENROUTER_API_KEY -> env OPENROUTER_API_KEY_2
+  -> judge_keys.OPENROUTER_JUDGE_KEY -> judge_keys.OPENROUTER_JUDGE_KEY_2
+(empties + placeholder strings skipped, duplicates removed). On an
+account-level daily free cap the engine advances to the next key and retries;
+when every key is exhausted it arms a quiet period and returns None so
+downstream code degrades to registry-template explanations. Per-request hop
+timeouts, 429/timeout cooldowns, winner memory, reasoning-safe polishing with
+expanded chain-of-thought detection, hard per-call budgets. Personal keys in
+.env always take priority over the bundled judge keys.
 """
 import os
 import re
 import time
-import judge_keys
 from dotenv import load_dotenv
 from openai import OpenAI
 
+try:
+    import judge_keys
+except Exception:
+    judge_keys = None  # repo still runs (env-only or basic mode) if file absent
+
 load_dotenv()
-_KEY_1 = (os.getenv("OPENROUTER_API_KEY") or "").strip() or judge_keys.OPENROUTER_JUDGE_KEY
-KEY_SOURCE = "env" if (os.getenv("OPENROUTER_API_KEY") or "").strip() else "judge"
-_KEY_2 = (os.getenv("OPENROUTER_API_KEY_2") or "").strip() or None
 
 def _build_client(key):
     return OpenAI(
@@ -26,13 +32,33 @@ def _build_client(key):
         max_retries=0,   # WE manage retries; no hidden client backoff
     )
 
+def _clean(k):
+    k = (k or "").strip()
+    if not k or "PLACEHOLDER" in k.upper() or "PASTE" in k.upper():
+        return None
+    return k
+
+# Ordered, de-duplicated key pool: personal env keys first, then bundled judge keys.
+_CANDIDATES = []
+for _raw, _tag in [
+    (os.getenv("OPENROUTER_API_KEY") or "", "env"),
+    (os.getenv("OPENROUTER_API_KEY_2") or "", "env"),
+    (getattr(judge_keys, "OPENROUTER_JUDGE_KEY", "") or "", "judge"),
+    (getattr(judge_keys, "OPENROUTER_JUDGE_KEY_2", "") or "", "judge"),
+]:
+    _c = _clean(_raw)
+    if _c and _c not in [x[0] for x in _CANDIDATES]:
+        _CANDIDATES.append((_c, _tag))
+
 client = None
-_active_key = None
-if _KEY_1:
-    client = _build_client(_KEY_1)
-    _active_key = _KEY_1
+KEY_SOURCE = None      # 'env' | 'judge' | None  (read by agent.key_source_label)
+_key_index = 0
+_account_limited_until = 0.0
+if _CANDIDATES:
+    client = _build_client(_CANDIDATES[0][0])
+    KEY_SOURCE = _CANDIDATES[0][1]
 else:
-    print("[LLM] No OPENROUTER_API_KEY in .env — AI disabled (Basic mode).")
+    print("[LLM] No OpenRouter key (.env or judge_keys) — AI disabled (Basic mode).")
 
 # Verified active free models (agentic-only & delisted models removed)
 MODEL_CHAIN = [
@@ -47,7 +73,6 @@ FAST_CHAIN = [
 ]
 _working = {"smart": None, "fast": None}
 _cooldown = {}                        # model -> skip-until timestamp
-_account_limited_until = 0.0
 MAX_TOKENS = {"smart": 4096, "fast": 500}
 REQ_TIMEOUT = {"smart": 40, "fast": 12}    # per-request hop limit (seconds)
 BUDGET = {"smart": 60, "fast": 20}         # total per-call limit (seconds)
@@ -122,11 +147,11 @@ def _call(model, messages, tier, ctrl):
 
 def ask_llm(prompt, system_prompt=None, model_tier="smart", json_mode=False):
     """json_mode ignored on purpose (free endpoints reject response_format)."""
-    global client, _active_key, _account_limited_until
+    global client, KEY_SOURCE, _key_index, _account_limited_until
     if client is None:
         return None
     if _account_limited_until > time.time():
-        return None   # account cap active — fail fast, templates downstream
+        return None   # every key capped — fail fast, templates downstream
 
     chain = FAST_CHAIN if model_tier == "fast" else MODEL_CHAIN
     win = _working.get(model_tier)
@@ -153,14 +178,18 @@ def ask_llm(prompt, system_prompt=None, model_tier="smart", json_mode=False):
                 last_err = f"{model}: {err[:120]}"
                 print(f"[LLM] FAIL {last_err}")
                 if _is_account_limit(err):
-                    if _KEY_2 and _active_key != _KEY_2:
-                        client = _build_client(_KEY_2)
-                        _active_key = _KEY_2
-                        print("[LLM] Primary key daily cap hit — failing over to secondary key.")
-                        return ask_llm(prompt, system_prompt=system_prompt, model_tier=model_tier)
+                    # Advance to the next key in the pool and retry once.
+                    if _key_index + 1 < len(_CANDIDATES):
+                        _key_index += 1
+                        client = _build_client(_CANDIDATES[_key_index][0])
+                        KEY_SOURCE = _CANDIDATES[_key_index][1]
+                        print(f"[LLM] Key #{_key_index} daily cap hit — failing over "
+                              f"to next key (source={KEY_SOURCE}).")
+                        return ask_llm(prompt, system_prompt=system_prompt,
+                                       model_tier=model_tier)
                     _account_limited_until = time.time() + ACCOUNT_QUIET_SECONDS
-                    print("[LLM] OpenRouter daily free cap reached — registry-template "
-                          "fallback active until reset or a second key is added.")
+                    print("[LLM] All OpenRouter keys hit the daily free cap — "
+                          "registry-template fallback active until reset.")
                     return None
                 if _is_rate_limited(err):
                     _cooldown[model] = time.time() + COOLDOWN_429
