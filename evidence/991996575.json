@@ -1,0 +1,79 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/991996575"
+    }
+  },
+  "aktivitet": [
+    "Produktutvikling av et flytende bølgekraftverk."
+  ],
+  "epostadresse": "oce@oce.as",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hatlevegen 1"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6240",
+    "poststed": "ØRSKOG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2007-12-17 20:45:47",
+      "navn": "DEALCO INTERNATIONAL AS",
+      "tilDato": "2008-02-27 14:44:31"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 244900000,
+    "belop": 12245000.0,
+    "innfortDato": "2022-09-12",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": true,
+  "konkursdato": "2025-07-01",
+  "maalform": "Bokmål",
+  "mobil": "900 78 006",
+  "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+  },
+  "navn": "OCEAN ENERGY AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "991996575",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2007-12-17",
+  "registreringsdatoForetaksregisteret": "2007-12-17",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2023",
+  "stiftelsesdato": "2007-11-22",
+  "telefon": "88 00 30 40",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2022-07-04",
+  "vedtektsfestetFormaal": [
+    "Produktutvikling, samt dermed beslektet virksomhet."
+  ]
+}

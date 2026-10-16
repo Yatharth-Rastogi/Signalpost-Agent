@@ -1,9 +1,8 @@
-# Copyright (c) 2026 <Yatharth Rastogi> — MIT License.
-
 import streamlit as st
 import time
 import json
 import os
+import re
 import base64
 from fpdf import FPDF
 from fpdf.enums import XPos, YPos
@@ -16,8 +15,13 @@ from agent import (lookup_company, search_by_name, initialize_batch_cache,
 _FAV = os.path.join("assets", "favicon.png")
 _LOGO = os.path.join("assets", "logo.png")
 _ICON = _FAV if os.path.exists(_FAV) else (_LOGO if os.path.exists(_LOGO) else "🏢")
-st.set_page_config(page_title="Signalpost Intelligence", page_icon=_ICON,
-                   layout="wide", initial_sidebar_state="expanded")
+
+st.set_page_config(
+    page_title="Signalpost Intelligence",
+    page_icon=_ICON,
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
 
 # --- Logo as base64 so it can render inside HTML (emoji only as fallback) ---
 _LOGO_B64 = None
@@ -28,82 +32,222 @@ if os.path.exists(_LOGO):
     except Exception:
         _LOGO_B64 = None
 
+
 def logo_img(px=26):
     if _LOGO_B64:
-        return (f'<img src="data:image/png;base64,{_LOGO_B64}" '
-                f'style="width:{px}px;height:{px}px;vertical-align:middle;'
-                f'border-radius:6px;margin-right:8px;">')
+        return (
+            f'<img src="data:image/png;base64,{_LOGO_B64}" '
+            f'style="width:{px}px;height:{px}px;vertical-align:middle;'
+            f'border-radius:7px;margin-right:8px;box-shadow:0 2px 8px rgba(0,0,0,.25);">'
+        )
     return "🏢 "
+
 
 CUSTOM_CSS = r"""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-#MainMenu, footer {visibility: hidden;}
-[data-testid="stCaptionContainer"], .stCaption { color: #9AA3B2 !important; }
-/* Hide "Press Enter to apply" hints on every text input (multi-fallback) */
+
+:root {
+    --bg: #0b0f14;
+    --surface: #111827;
+    --border: #1f2937;
+    --border-strong: #334155;
+    --text: #e5e7eb;
+    --text-strong: #f8fafc;
+    --muted: #94a3b8;
+    --accent: #6366f1;
+    --accent-soft: rgba(99, 102, 241, 0.14);
+    --accent-border: rgba(99, 102, 241, 0.36);
+}
+
+html, body, [class*="css"] {
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
+    color: var(--text);
+}
+
+#MainMenu, footer { visibility: hidden; }
+[data-testid="stCaptionContainer"], .stCaption { color: var(--muted) !important; }
+[data-testid="stAppViewContainer"] { background: var(--bg) !important; }
+[data-testid="stHeader"] { background: transparent !important; }
+
+.block-container { padding-top: 1.6rem; padding-bottom: 7rem; max-width: 980px; }
+
+/* Hide "Press Enter to apply" hints on every text input */
 [data-testid="stTextInput"] [data-testid="stInputActionHint"],
 [data-testid="stTextInput"] [data-testid*="Hint" i],
 [data-testid="stTextInput"] [data-testid*="Action" i],
 [data-testid="stTextInput"] div:has(> input) + div { display: none !important; }
-.block-container { padding-top: 2.4rem; padding-bottom: 40px; max-width: 1000px; }
-.hero { background: linear-gradient(120deg,#1b2a6b 0%,#4338ca 45%,#7c3aed 100%);
-        border-radius:16px; padding:16px 24px; color:#fff; margin-top: .25rem;
-        box-shadow:0 10px 28px rgba(76,29,149,.35); margin-bottom:10px;}
-.hero h1 {margin:0 0 2px 0; font-size:22px; font-weight:800; letter-spacing:-.4px;}
-.hero p {margin:0 0 8px 0; opacity:.92; font-size:12.5px;}
-.pill {display:inline-block; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.34);
-       border-radius:999px; padding:2px 10px; font-size:11.5px; margin-right:6px;}
-.card {background:#161B26; border:1px solid #232A36; border-radius:14px; padding:16px 18px; height:100%;}
-.card h3 {margin:0 0 6px 0; font-size:15px; font-weight:700; color:#E7EAF0;}
-.card p {margin:0; font-size:13px; color:#9AA3B2; line-height:1.5;}
-.grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin:10px 0;}
-.tile {background:#161B26; border:1px solid #232A36; border-radius:12px; padding:10px 12px;}
-.tile .label {font-size:10.5px; text-transform:uppercase; letter-spacing:.6px; color:#8B93A5; margin-bottom:3px;}
-.tile .value {font-size:13.5px; font-weight:600; color:#E7EAF0;}
-.orgpill {display:inline-block; font-family:monospace; font-size:12px; background:rgba(124,108,240,.15);
-          color:#A5B4FC; border:1px solid rgba(124,108,240,.4); padding:2px 10px; border-radius:999px;}
-.ai-box {background:linear-gradient(180deg, rgba(124,108,240,.12), rgba(59,130,246,.08));
-         border:1px solid rgba(124,108,240,.35); border-radius:12px; padding:12px 14px; margin:10px 0 4px 0;}
-.ai-box h4 {margin:0 0 4px 0; font-size:12px; font-weight:700; color:#C4B5FD;
-            text-transform:uppercase; letter-spacing:.6px;}
-.ai-box p {margin:0; font-size:13.5px; color:#DDE1EA; line-height:1.5;}
-.sidefoot {color:#9AA3B2; font-size:11px; text-align:center; margin-top:22px; line-height:1.5;}
-/* Qwen-style: pinned chat input lifted; disclaimer hangs beneath it via ::after */
-div[data-testid="stChatInput"] { bottom: 30px !important; }
-div[data-testid="stChatInput"]::after {
-    content: "Registry facts are verified live against Brreg.no · AI summaries & web findings may contain errors.";
-    position: absolute; left: 0; right: 0; bottom: -20px; text-align: center;
-    color: #9AA3B2; font-size: 11px; letter-spacing: .2px; pointer-events: none; }
-/* Kebab dots: invisible until the row is hovered (Gemini-style) */
-[data-testid="stSidebar"] button { min-height: 2.4rem; }
+
+/* Buttons */
+.stButton > button, .stDownloadButton > button, .stFormSubmitButton > button {
+    border-radius: 10px; border: 1px solid var(--border-strong);
+    background: var(--surface); color: var(--text); font-weight: 650;
+    transition: all .15s ease;
+}
+.stButton > button:hover, .stDownloadButton > button:hover, .stFormSubmitButton > button:hover {
+    border-color: var(--accent); color: #fff; background: #151c2c;
+}
+.stButton > button[kind="primary"], .stDownloadButton > button[kind="primary"],
+.stFormSubmitButton > button[kind="primary"] {
+    background: var(--accent); border-color: var(--accent); color: #fff;
+}
+.stButton > button:disabled { opacity: .55; }
+
+[data-testid="stExpander"] {
+    border: 1px solid var(--border) !important; border-radius: 12px !important;
+    background: var(--surface) !important; overflow: hidden;
+}
+[data-testid="stExpander"] summary { font-weight: 650; }
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #0f172a 0%, #111827 58%, #1e1b4b 100%);
+    border: 1px solid #312e81; border-left: 4px solid var(--accent);
+    border-radius: 16px; padding: 16px 18px; color: #fff;
+    margin-top: .2rem; margin-bottom: 4px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, .24);
+}
+.hero h1 { margin: 0 0 4px 0; font-size: 22px; font-weight: 850; letter-spacing: -.45px;
+           display: flex; align-items: center; }
+.hero p { margin: 0 0 10px 0; opacity: .92; font-size: 12.8px; line-height: 1.45; color: #cbd5e1; }
+.pill {
+    display: inline-block; background: rgba(148, 163, 184, .12);
+    border: 1px solid rgba(148, 163, 184, .22); border-radius: 999px;
+    padding: 3px 10px; font-size: 11.5px; margin: 0 6px 6px 0; color: #e2e8f0;
+    white-space: nowrap;
+}
+
+/* Cards / tiles */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+        padding: 14px 16px; height: 100%; }
+.card h3 { margin: 0 0 6px 0; font-size: 15px; font-weight: 750; color: var(--text-strong); }
+.card p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 10px; margin: 10px 0; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+        padding: 10px 12px; }
+.tile .label { font-size: 10.5px; text-transform: uppercase; letter-spacing: .6px;
+               color: var(--muted); margin-bottom: 3px; }
+.tile .value { font-size: 13.5px; font-weight: 650; color: var(--text-strong);
+               word-break: break-word; }
+.orgpill {
+    display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px; background: var(--accent-soft); color: #c7d2fe;
+    border: 1px solid var(--accent-border); padding: 2px 10px; border-radius: 999px;
+}
+.ai-box {
+    background: rgba(99, 102, 241, .08); border: 1px solid var(--accent-border);
+    border-left: 3px solid var(--accent); border-radius: 12px;
+    padding: 12px 14px; margin: 10px 0 4px 0;
+}
+.ai-box h4 { margin: 0 0 4px 0; font-size: 12px; font-weight: 750; color: #c7d2fe;
+             text-transform: uppercase; letter-spacing: .6px; }
+.ai-box p { margin: 0; font-size: 13.5px; color: #e2e8f0; line-height: 1.55; }
+.sidefoot { color: var(--muted); font-size: 11px; text-align: center; margin-top: 22px;
+            line-height: 1.5; }
+.mobile-disclaimer { display: none; color: var(--muted); font-size: 11px; text-align: center;
+                     margin: 8px 0 2px 0; line-height: 1.4; }
+
+/* Empty-state: Qwen-style vertical centering (home screen only) */
+.empty-anchor { height: 0; }
+[data-testid="stVerticalBlock"]:has(.empty-anchor) {
+    min-height: calc(100vh - 250px);
+    justify-content: center;
+}
+.block-container:has(.empty-anchor) { padding-bottom: 6rem; }
+
+/* Desktop: pinned composer + disclaimer beneath it */
+@media (min-width: 641px) {
+    div[data-testid="stChatInput"] { bottom: 30px !important; }
+    div[data-testid="stChatInput"]::after {
+        content: "Registry facts are verified live against Brreg.no · AI summaries & web findings may contain errors.";
+        position: absolute; left: 0; right: 0; bottom: -20px; text-align: center;
+        color: var(--muted); font-size: 11px; letter-spacing: .2px; pointer-events: none;
+    }
+}
+
+/* Sidebar cosmetics only — NO width/transform overrides (native drawer behavior) */
+[data-testid="stSidebar"] { background: #0d1117 !important;
+                            border-right: 1px solid var(--border) !important; }
+/* Qwen-style compact header: brand at very top, collapse arrow floats top-right */
+[data-testid="stSidebar"] > div { padding-top: .75rem !important; }
+[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] {
+    position: absolute !important; top: .7rem !important; right: .7rem !important;
+    z-index: 10;
+}
+[data-testid="stSidebar"] button { min-height: 2.25rem; }
+[data-testid="stSidebar"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:first-child button p {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; display: block;
+}
+
+/* Kebab dots: hover-reveal on pointer devices, always semi-visible on touch */
 [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] [data-testid="stPopover"] {
-    opacity: 0; transition: opacity .15s ease; }
+    opacity: 0; transition: opacity .15s ease;
+}
 [data-testid="stSidebar"] [data-testid="stHorizontalBlock"]:hover [data-testid="stPopover"],
 [data-testid="stSidebar"] [data-testid="stPopover"]:focus-within,
 [data-testid="stSidebar"] [data-testid="stPopover"] button[aria-expanded="true"] { opacity: 1; }
 @media (pointer: coarse) {
-    [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] [data-testid="stPopover"] { opacity: .6; }
+    [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] [data-testid="stPopover"] { opacity: .65; }
 }
 [data-testid="stSidebar"] [data-testid="stPopover"] button {
     background: transparent !important; border: none !important; box-shadow: none !important;
-    width: 1.9rem; min-height: 0 !important; height: 2.0rem; padding: 0.15rem 0.35rem; }
+    width: 1.9rem; min-height: 0 !important; height: 2.0rem; padding: .15rem .35rem;
+}
 [data-testid="stSidebar"] [data-testid="stPopover"] button:hover { background: transparent !important; }
 [data-testid="stSidebar"] [data-testid="stPopover"] button svg,
 [data-testid="stSidebar"] [data-testid="stPopover"] button [data-testid^="stIcon"],
 [data-testid="stSidebar"] [data-testid="stPopover"] button p { display: none !important; }
 [data-testid="stSidebar"] [data-testid="stPopover"] button::before {
-    content: "•\A•\A•"; white-space: pre; line-height: 0.72em; display: block;
-    text-align: center; font-size: 15px; font-weight: 700; color: #C4C9D4; }
+    content: "•\A•\A•"; white-space: pre; line-height: .72em; display: block;
+    text-align: center; font-size: 15px; font-weight: 750; color: #cbd5e1;
+}
 [data-testid="stSidebar"] [data-testid="stPopover"] button:hover::before,
-[data-testid="stSidebar"] [data-testid="stPopover"] button[aria-expanded="true"]::before { color: #FFFFFF; }
-/* Compact menu items so panels never scroll */
+[data-testid="stSidebar"] [data-testid="stPopover"] button[aria-expanded="true"]::before { color: #fff; }
 [data-testid="stSidebar"] [data-testid="stPopover"] [data-testid="stVerticalBlock"] button {
-    min-height: 1.9rem; padding: 0.25rem 0.5rem; font-size: 0.8rem; }
-@media (max-width: 700px) {
-    .hero { padding: 12px 16px; }
+    min-height: 1.9rem; padding: .25rem .5rem; font-size: .8rem;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .block-container { padding-top: 1.35rem; max-width: 100%; }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .block-container {
+        padding-left: .85rem !important; padding-right: .85rem !important;
+        padding-top: .9rem !important; padding-bottom: 1rem !important; max-width: 100%;
+    }
+    .hero { padding: 12px 14px; border-radius: 14px; }
     .hero h1 { font-size: 18px; }
-    .grid { grid-template-columns: 1fr 1fr; }
-    .block-container { padding-top: 1.6rem; }
+    .hero p { font-size: 12px; }
+    .pill { font-size: 10.8px; padding: 2px 9px; }
+    .grid { grid-template-columns: 1fr !important; gap: 8px !important; }
+    .tile { padding: 9px 10px; }
+    .card { padding: 12px; }
+
+    /* Unstick composer on phones */
+    [data-testid="stBottom"], [data-testid="stBottomBlockContainer"],
+    div[data-testid="stChatInput"], div[data-testid="stChatInput"] > div {
+        position: static !important; bottom: auto !important;
+    }
+    div[data-testid="stChatInput"]::after { display: none !important; }
+    .mobile-disclaimer { display: block !important; }
+
+    /* Stack main-area rows (feature cards, pills, card action buttons) */
+    .block-container [data-testid="stHorizontalBlock"] {
+        flex-direction: column !important; gap: .5rem !important;
+    }
+    .block-container [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+        width: 100% !important; flex: 1 1 100% !important; min-width: 0 !important;
+    }
+}
+
+/* --- Qwen-style compact sidebar header (version-proof) ---
+   1) Pull the brand row UP into Streamlit's reserved top band
+   2) Pin whatever collapse control exists to the top-right corner */
+[data-testid="stSidebar"] > div > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:first-child {
+    margin-top: -3.4rem;
 }
 """
 st.markdown(f"<style>{CUSTOM_CSS}</style>", unsafe_allow_html=True)
@@ -118,12 +262,14 @@ if "cache_initialized" not in st.session_state:
     with st.spinner("⏳ Initializing agent cache (1,000 companies from Brreg.no)..."):
         initialize_batch_cache(1000)
     st.session_state.cache_initialized = True
+
 for _k, _v in [("active_thread", None), ("dlg", None), ("menu_epoch", 0)]:
     if _k not in st.session_state:
         st.session_state[_k] = _v
+
 N_CACHE = len(load_cache())
 
-# --- PDF (unicode-safe text cleaning) ---
+# --- PDF (unicode-safe) ---
 _UNICODE_FIX = {
     "\u00a0": " ", "\u2000": " ", "\u2001": " ", "\u2002": " ", "\u2003": " ",
     "\u2004": " ", "\u2005": " ", "\u2006": " ", "\u2007": " ", "\u2008": " ",
@@ -133,6 +279,7 @@ _UNICODE_FIX = {
     "\u2026": "...", "\u00d7": "x",
 }
 
+
 def clean_for_pdf(text):
     if not text:
         return "N/A"
@@ -140,6 +287,7 @@ def clean_for_pdf(text):
     for bad, good in _UNICODE_FIX.items():
         text = text.replace(bad, good)
     return text.encode("latin-1", "ignore").decode("latin-1").strip() or "N/A"
+
 
 def generate_pdf_report(companies, title="Signalpost Intelligence Report"):
     pdf = FPDF()
@@ -153,7 +301,8 @@ def generate_pdf_report(companies, title="Signalpost Intelligence Report"):
     pdf.ln(10)
     for comp in companies:
         pdf.set_font("Helvetica", "B", 14)
-        pdf.cell(0, 10, clean_for_pdf(comp.get("company_name")), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pdf.cell(0, 10, clean_for_pdf(comp.get("company_name")),
+                 new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.set_font("Helvetica", "", 11)
         for line in [f"Org Number: {clean_for_pdf(comp.get('org_number'))}",
                      f"Type: {clean_for_pdf(comp.get('business_type'))}",
@@ -169,25 +318,35 @@ def generate_pdf_report(companies, title="Signalpost Intelligence Report"):
         pdf.ln(8)
     return bytes(pdf.output())
 
+
 @st.cache_data(show_spinner=False)
 def _pdf_bytes(payload_json: str, title: str):
     return generate_pdf_report(json.loads(payload_json), title)
+
+
+def safe_filename(name: str, default: str = "Signalpost_Report") -> str:
+    name = re.sub(r'[\\/:*?"<>|]+', "_", (name or "").strip())
+    name = re.sub(r"\s+", " ", name).strip(" ._")
+    return name or default
+
 
 # --- RENDER HELPERS ---
 def card_html(p):
     return f"""
     <div class="grid">
-      <div class="tile"><div class="label">Business Type</div><div class="value">{p.get('business_type','N/A')}</div></div>
-      <div class="tile"><div class="label">Registration Date</div><div class="value">{p.get('registration_date','N/A')}</div></div>
-      <div class="tile"><div class="label">Address</div><div class="value">{p.get('address','N/A')}</div></div>
-      <div class="tile"><div class="label">Employees</div><div class="value">{p.get('employees','N/A')}</div></div>
+      <div class="tile"><div class="label">Business Type</div><div class="value">{p.get('business_type', 'N/A')}</div></div>
+      <div class="tile"><div class="label">Registration Date</div><div class="value">{p.get('registration_date', 'N/A')}</div></div>
+      <div class="tile"><div class="label">Address</div><div class="value">{p.get('address', 'N/A')}</div></div>
+      <div class="tile"><div class="label">Employees</div><div class="value">{p.get('employees', 'N/A')}</div></div>
     </div>
-    <div class="ai-box"><h4>🤖 AI Analysis</h4><p>{p.get('ai_explanation','Not available.')}</p></div>
+    <div class="ai-box"><h4>🤖 AI Analysis</h4><p>{p.get('ai_explanation', 'Not available.')}</p></div>
     """
+
 
 def render_card(p):
     st.markdown(f"### {p.get('company_name')}")
-    st.markdown(f"<span class='orgpill'>Org. Nr {p.get('org_number')}</span>", unsafe_allow_html=True)
+    st.markdown(f"<span class='orgpill'>Org. Nr {p.get('org_number')}</span>",
+                unsafe_allow_html=True)
     st.markdown(card_html(p), unsafe_allow_html=True)
     with st.expander("🧾 Evidence & sources"):
         st.markdown(f"Registry: [{p.get('source_url')}]({p.get('source_url')})")
@@ -197,11 +356,13 @@ def render_card(p):
         else:
             st.caption("Raw registry JSON not captured yet — use **Refresh live** to store it.")
 
+
 def render_sources(srcs):
     if srcs:
         with st.expander(f"🌐 Web sources ({len(srcs)})"):
             for s in srcs:
                 st.markdown(f"- [{s}]({s})")
+
 
 def replay_thread(tid):
     for m in memory.load_messages(tid):
@@ -213,7 +374,7 @@ def replay_thread(tid):
                 if m["kind"] == "company_card" and isinstance(m["content"], dict):
                     render_card(m["content"])
                     _org = m["content"].get("org_number")
-                    ba1, ba2, _sp = st.columns([2, 2, 8])
+                    ba1, ba2 = st.columns(2, gap="small")
                     if memory.is_saved(_org):
                         ba1.button("✅ In report", key=f"csave_{m['id']}", width="stretch",
                                    disabled=True, help="Already in the report pool")
@@ -235,12 +396,14 @@ def replay_thread(tid):
                 else:
                     st.markdown(m["content"])
 
+
 def notice(tid, text):
     memory.add_message(tid, "assistant", text, kind="notice")
 
+
 def transcript_md(tid):
     t = memory.get_thread(tid) or {}
-    lines = [f"# {t.get('title','Research thread')}",
+    lines = [f"# {t.get('title', 'Research thread')}",
              f"_Exported {time.strftime('%Y-%m-%d %H:%M')} — Signalpost Intelligence_", ""]
     for m in memory.load_messages(tid):
         who = "**You**" if m["role"] == "user" else "**Agent**"
@@ -249,7 +412,7 @@ def transcript_md(tid):
             lines.append(f"{who}: 📇 {p.get('company_name')} (Org. Nr {p.get('org_number')})")
             lines.append(f"  - source: {p.get('source_url')}")
         elif m["kind"] == "research" and isinstance(m["content"], dict):
-            lines.append(f"{who}: {m['content'].get('text','')}")
+            lines.append(f"{who}: {m['content'].get('text', '')}")
             for s in (m["content"].get("sources") or []):
                 lines.append(f"  - source: {s}")
         else:
@@ -257,7 +420,8 @@ def transcript_md(tid):
         lines.append("")
     return "\n".join(lines)
 
-# --- DIALOGS (Qwen-style modal confirmations; self-clearing) ---
+
+# --- DIALOGS (modal confirmations; self-clearing) ---
 @st.dialog("Delete this chat?")
 def _delete_dialog(tid):
     st.session_state.dlg = None
@@ -272,6 +436,7 @@ def _delete_dialog(tid):
             st.session_state.active_thread = None
         st.rerun()
 
+
 @st.dialog("Rename chat")
 def _rename_dialog(tid):
     st.session_state.dlg = None
@@ -282,6 +447,7 @@ def _rename_dialog(tid):
             if new.strip():
                 memory.set_title(tid, new.strip())
             st.rerun()
+
 
 @st.dialog("Remove from report pool?")
 def _remove_dialog(org):
@@ -298,6 +464,7 @@ def _remove_dialog(org):
         st.toast(f"🗑️ {name} removed from report pool")
         st.rerun()
 
+
 @st.dialog("Clear the whole report pool?")
 def _clear_dialog():
     st.session_state.dlg = None
@@ -311,8 +478,10 @@ def _clear_dialog():
         st.toast("🗑️ Report pool cleared")
         st.rerun()
 
+
 def _bump():
     st.session_state.menu_epoch = st.session_state.get("menu_epoch", 0) + 1
+
 
 # --- INTENT DISPATCH (guaranteed acknowledgement on every message) ---
 def handle_input(text):
@@ -323,11 +492,29 @@ def handle_input(text):
     memory.add_message(tid, "user", text)
     with st.chat_message("user"):
         st.markdown(text)
-    use_ws = st.session_state.get("web_search_toggle", True)
+    use_ws = True   # live web search always on in chat (toggle removed for judge clarity)
 
     def answer_question(profile, question):
-        status.write("Searching web & generating answer...")
-        resp = chat_with_gemini(profile, question, use_web_search=use_ws)
+        brief = bool(re.search(
+            r"\b(brief|briefly|short|quick|tldr|tl;dr|in short|summar\w*|one[- ]line|"
+            r"condense|key points|too long|no time|gist)\b", question, re.I))
+        deep = bool(re.search(
+            r"\b(tell me more|more detail|deeper|deep dive|elaborate|expand|go deeper|"
+            r"more about it|continue|in depth)\b", question, re.I))
+        conv = []
+        for m in memory.load_messages(tid)[:-1][-4:]:
+            txt = m["content"].get("text") if isinstance(m["content"], dict) else m["content"]
+            if isinstance(txt, str) and txt.strip():
+                conv.append((m["role"], txt[:700]))
+        use_ws_eff = use_ws and not (brief and conv)
+        if brief and conv:
+            status.write("Condensing previous findings...")
+        elif deep:
+            status.write("Deep research: scanning more sources (advanced)...")
+        else:
+            status.write("Searching web & generating answer...")
+        resp = chat_with_gemini(profile, question, use_web_search=use_ws_eff,
+                                conversation=conv, brief=brief, deep=deep)
         sources = list(agent.LAST_SOURCES)
         memory.add_message(tid, "assistant", {"text": resp, "sources": sources}, kind="research")
 
@@ -342,13 +529,9 @@ def handle_input(text):
     def ensure_profile(org):
         if not org:
             return None
-        p = load_cache().get(str(org))
+        p = lookup_company(org)   # cache-hit path also upgrades stale template explanations
         if p:
-            status.write(f"Company resolved: {p['company_name']} (`{org}`) · served from cache")
-            return p
-        p = lookup_company(org)
-        if p:
-            status.write(f"Company resolved: {p['company_name']} (`{org}`) · fetched live")
+            status.write(f"Company resolved: {p['company_name']} (`{org}`)")
         return p
 
     def fail_notice(short_text):
@@ -365,13 +548,29 @@ def handle_input(text):
             status.write(f"Intent: **{d.intent}** · routed via {d.stage}")
 
             if d.intent == "lookup":
+                via_name = not (text.strip().isdigit() and len(text.strip()) == 9) and not d.org_nr
                 org = d.org_nr or (search_by_name(d.company_query) if d.company_query else None)
                 p = ensure_profile(org)
                 if p:
-                    add_card(p)
                     question = d.question or (text if intent.looks_like_question(text) else "")
-                    if question:
-                        answer_question(p, question)
+                    scope = ""
+                    if question and via_name:
+                        scope = agent.llm.ask_llm(
+                            f'Decide with ONE word. Is the user asking about the COMPANY '
+                            f'"{p.get("company_name")}" (org nr {p.get("org_number")}), or about a '
+                            f'GENERAL topic/concept that merely shares words with that name?\n'
+                            f'Reply exactly: COMPANY or TOPIC\nUser message: "{text}"',
+                            model_tier="fast") or ""
+                    if question and scope.strip().upper().startswith("TOPIC"):
+                        status.write("General topic detected — answering without company card...")
+                        resp = agent.chat_about_topic(question, use_web_search=use_ws)
+                        memory.add_message(tid, "assistant",
+                                           {"text": resp, "sources": list(agent.LAST_SOURCES)},
+                                           kind="research")
+                    else:
+                        add_card(p)
+                        if question:
+                            answer_question(p, question)
                 elif intent.looks_like_question(text) and memory.last_company_org(tid):
                     fb = ensure_profile(memory.last_company_org(tid))
                     if fb:
@@ -398,20 +597,17 @@ def handle_input(text):
                 text_low = text.lower()
                 comps = memory.thread_companies(tid)
                 targets = []
-                # 1) every discussed company whose name (or core name) appears in the request
                 for c in comps:
                     name_low = c["name"].lower()
                     core = name_low
                     for suf in (" asa", " as"):
                         if core.endswith(suf):
-                            core = core[: -len(suf)]
+                            core = core[:-len(suf)]
                             break
                     if len(core) >= 4 and (name_low in text_low or core in text_low):
                         targets.append(c)
-                # 2) "all / both / every" without names -> everything in this thread
                 if not targets and comps and any(w in text_low for w in ("all", "both", "every")):
                     targets = list(comps)
-                # 3) fallback: classifier referent or company in view
                 if not targets:
                     org = d.org_nr or memory.last_company_org(tid)
                     if org:
@@ -470,10 +666,11 @@ def handle_input(text):
                         f"Your message is saved — try again or rephrase.")
     st.rerun()
 
+
 # --- THREAD ROW (hover kebab + epoch-remount menu close) ---
 def thread_row(t):
     epoch = st.session_state.menu_epoch
-    c1, c2 = st.columns([12, 1], gap="small")
+    c1, c2 = st.columns([11, 1], gap="small")
     if c1.button(t["title"], width="stretch", key=f"th_{t['id']}",
                  type="primary" if t["id"] == st.session_state.active_thread else "secondary"):
         st.session_state.active_thread = t["id"]
@@ -498,6 +695,7 @@ def thread_row(t):
         if st.button("Delete", width="stretch", key=f"del_{t['id']}"):
             _bump(); st.session_state.dlg = ("delete", t["id"]); st.rerun()
 
+
 # --- SIDEBAR ---
 with st.sidebar:
     st.markdown(f"## {logo_img(24)}Signalpost", unsafe_allow_html=True)
@@ -508,7 +706,7 @@ with st.sidebar:
     pinned, groups = memory.grouped_threads()
     arch = memory.archived_threads()
 
-    # Live (per-keystroke, client-side) thread jump — no blank option, reset before creation
+    # Live (per-keystroke, client-side) thread jump — no blank option
     if st.session_state.pop("jump_reset", False):
         st.session_state["jump"] = None
     all_threads = pinned + [t for g in groups.values() for t in g] + arch
@@ -543,15 +741,7 @@ with st.sidebar:
             for t in arch:
                 thread_row(t)
 
-    with st.expander("⚙️ Engine Status"):
-        _mode, _desc = ai_status()
-        st.caption(_desc)
-        st.caption(f"Keys: {key_source_label()}")
-        st.checkbox("🌐 Live web search in chat (uses Tavily credits)", value=True,
-                    key="web_search_toggle")
-        if _mode != "ai":
-            st.caption("Copy `.env.example` to `.env` and add your keys to unlock AI + web search.")
-        st.caption("Raw registry evidence for every lookup: `evidence/<org>.json`")
+
 
     st.markdown("### 📊 Report Builder")
     saved = memory.list_saved()
@@ -561,7 +751,7 @@ with st.sidebar:
         with pool:
             epoch = st.session_state.menu_epoch
             for c in saved:
-                rc1, rc2 = st.columns([11, 1], gap="small")
+                rc1, rc2 = st.columns([10, 1], gap="small")
                 rc1.checkbox(c["company_name"], value=True, key=f"sel_{c['org_number']}")
                 with rc2.popover(" ", help="Company options",
                                  key=f"poolmenu_{c['org_number']}_{epoch}"):
@@ -572,11 +762,11 @@ with st.sidebar:
                                     placeholder="Report name (optional)")
         selected = [c for c in saved if st.session_state.get(f"sel_{c['org_number']}", True)]
         if selected:
-            title = report_name.strip() or "Signalpost Intelligence Report"
+            raw_title = report_name.strip() or "Signalpost Intelligence Report"
+            fname = safe_filename(report_name, "Signalpost_Report") + ".pdf"
             st.download_button(f"📥 Download PDF ({len(selected)})",
-                               data=_pdf_bytes(json.dumps(selected, ensure_ascii=False), title),
-                               file_name=(report_name.strip() or "Signalpost_Report") + ".pdf",
-                               mime="application/pdf", width="stretch")
+                               data=_pdf_bytes(json.dumps(selected, ensure_ascii=False), raw_title),
+                               file_name=fname, mime="application/pdf", width="stretch")
         else:
             st.caption("Select at least one company above.")
         if st.button("🗑 Clear all saved", width="stretch", key="clear_report"):
@@ -615,7 +805,7 @@ st.markdown(f"""
 if st.session_state.active_thread:
     replay_thread(st.session_state.active_thread)
 else:
-    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<div class='empty-anchor'></div>", unsafe_allow_html=True)
     e1, e2, e3 = st.columns(3)
     e1.markdown("<div class='card'><h3>🔎 Verify</h3><p>Any Norwegian company by name or org "
                 "number — typos and partial names included — against the official registry.</p></div>",
@@ -632,5 +822,9 @@ else:
 
 _last_org = memory.last_company_org(st.session_state.active_thread) if st.session_state.active_thread else None
 _last_name = (load_cache().get(str(_last_org)) or {}).get("company_name") if _last_org else None
+
+st.markdown("<p class='mobile-disclaimer'>Registry facts are verified live against Brreg.no · "
+            "AI summaries & web findings may contain errors.</p>", unsafe_allow_html=True)
+
 if prompt := st.chat_input(f"Ask about {_last_name}… " if _last_name else "Search a company or ask anything…"):
     handle_input(prompt)

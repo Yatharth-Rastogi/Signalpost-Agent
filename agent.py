@@ -2,14 +2,11 @@
 agent.py — Signalpost: Norwegian Company Intelligence Agent (Core Engine)
 Brreg.no registry + local cache + evidence files + Tavily web search +
 OpenRouter reasoning, with graceful Basic-mode degradation.
-Fetch statuses are distinguished: ok / not_found (404) / network_error (retried).
+Fetch statuses: ok / not_found (404) / network_error (retried).
 Name resolution safety: rank gate -> coverage guard -> difflib typo-rescue ->
-LLM spellcheck re-verified against the registry. Weak matches never publish;
-closest names are offered via LAST_SUGGESTIONS instead.
-Keys are loaded from .env by the llm/search modules — never hardcoded here.
+LLM spellcheck re-verified; weak matches never publish, closest names offered
+via LAST_SUGGESTIONS (registry candidates first, local cache fallback).
 """
-
-# Copyright (c) 2026 <Yatharth Rastogi> — MIT License.
 
 import requests
 import json
@@ -27,15 +24,14 @@ load_dotenv()
 
 CACHE_FILE = "company_profiles.json"
 EVIDENCE_DIR = "evidence"
-LAST_SOURCES = []       # populated by chat_with_gemini for the UI sources expander
+LAST_SOURCES = []       # populated by chat functions for the UI sources expander
 LAST_SUGGESTIONS = []   # closest registered names when a weak match is rejected
-LAST_LOOKUP_STATUS = "ok"  # 'ok' | 'not_found' | 'fetch_error' (set by lookup_company)
+LAST_LOOKUP_STATUS = "ok"  # 'ok' | 'not_found' | 'fetch_error'
 
 # ---------------------------------------------------------------------------
 # EVIDENCE (judge-grade raw records)
 # ---------------------------------------------------------------------------
 def save_evidence(org_nr, raw_item):
-    """Stores the FULL raw Brreg.no response for evidence auditing."""
     try:
         os.makedirs(EVIDENCE_DIR, exist_ok=True)
         with open(os.path.join(EVIDENCE_DIR, f"{org_nr}.json"), "w", encoding="utf-8") as f:
@@ -84,8 +80,9 @@ def local_answer(context, question):
     return basic_summary(context)
 
 def _basic_note():
-    return ("\n\n_ℹ️ Answered from verified registry data (Basic mode). "
-            "Add keys to .env to unlock AI analysis & live web search._")
+    return ("\n\n_ℹ️ AI analysis & live web search are unavailable in this run "
+            "(no usable API key, or the bundled judge keys are offline / quota-limited). "
+            "Answering strictly from verified Brreg.no registry data._")
 
 # ---------------------------------------------------------------------------
 # STATUS (key-aware)
@@ -98,8 +95,9 @@ def ai_status():
     if llm_ok:
         return "ai", "AI mode — OpenRouter reasoning (Tavily key missing)"
     if web_ok:
-        return "basic", "Partial mode — web search only; add OPENROUTER_API_KEY for AI"
-    return "basic", "Basic mode — add keys to .env (see .env.example) to unlock AI + web search"
+        return "basic", "Partial mode — web search only; OpenRouter key needed for AI"
+    return "basic", ("Basic mode — no usable key found (check .env or judge_keys.py); "
+                     "add a key to unlock AI + web search")
 
 def key_source_label():
     parts = []
@@ -126,16 +124,14 @@ def load_cache():
     return {}
 
 def save_cache(cache_dict):
-    profiles_list = list(cache_dict.values())
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(profiles_list, f, ensure_ascii=False, indent=2)
+        json.dump(list(cache_dict.values()), f, ensure_ascii=False, indent=2)
 
 # ---------------------------------------------------------------------------
 # LIVE REGISTRY FETCHING (Brreg.no) — status-aware
 # ---------------------------------------------------------------------------
 def fetch_from_registry(org_nr):
-    """Returns (profile_or_None, status); status in {'ok','not_found','network_error'}.
-    404 = entity genuinely absent (no retry). Everything else = transient."""
+    """Returns (profile_or_None, status); status in {'ok','not_found','network_error'}."""
     url = f"https://data.brreg.no/enhetsregisteret/api/enheter/{org_nr}"
     try:
         response = requests.get(url, timeout=10)
@@ -170,8 +166,7 @@ def fetch_from_registry(org_nr):
 # NAME SEARCH (four safety layers + suggestions)
 # ---------------------------------------------------------------------------
 def correct_company_name(query):
-    """LLM spellcheck for garbled company names (fast tier, miss-path only).
-    Never trusted blindly — registry re-verification follows in search_by_name."""
+    """LLM spellcheck for garbled company names (fast tier, miss-path only)."""
     if getattr(llm, "client", None) is None:
         return None
     prompt = (
@@ -187,12 +182,30 @@ def correct_company_name(query):
         return None
     return res
 
+def cache_suggestions(query, cutoff=0.6, n=3):
+    """Closest company names from the local cache (free, offline suggestions)."""
+    q = (query or "").lower().strip()
+    if not q:
+        return []
+    names = []
+    for org, item in load_cache().items():
+        nm = (item.get("company_name") or "").strip()
+        if nm:
+            names.append((nm, org))
+    close = difflib.get_close_matches(q, [nm for nm, _ in names], n=n, cutoff=cutoff)
+    out = []
+    for c in close:
+        org = next((o for nm, o in names if nm == c), None)
+        if org:
+            out.append((c, org))
+    return out
+
 def search_by_name(name_query, max_rank=4):
     """Confidence-ranked name search. Company names always win over commands.
     Layers: rank gate (0-3) -> coverage guard (>=40% of core name for ranks 2-3)
     -> difflib typo-rescue (>=0.85) -> LLM spellcheck re-verified (rank <=2 +
-    coverage + >=0.75 similarity). Weak matches are NEVER published; closest
-    registered names are stored in LAST_SUGGESTIONS instead."""
+    coverage + similarity). Weak matches are NEVER published; closest registered
+    names are stored in LAST_SUGGESTIONS instead."""
     global LAST_SUGGESTIONS
     LAST_SUGGESTIONS = []
     url = "https://data.brreg.no/enhetsregisteret/api/enheter"
@@ -239,7 +252,26 @@ def search_by_name(name_query, max_rank=4):
 
     query_lower = name_query.lower().strip()
     enheter = fetch_candidates(name_query)
+
     if not enheter:
+        # Registry returned nothing: try LLM spellcheck re-query, then cache suggestions
+        corrected = correct_company_name(name_query)
+        if corrected:
+            cq = corrected.lower().strip()
+            sim = difflib.SequenceMatcher(None, query_lower, cq).ratio()
+            if sim >= 0.60:
+                enh2 = fetch_candidates(corrected)
+                if enh2:
+                    cand = sorted(enh2, key=lambda c: rank_company(c, cq))[0]
+                    if rank_company(cand, cq) <= 2 and coverage_ok(cand, cq):
+                        org_nr = str(cand.get("organisasjonsnummer"))
+                        print(f"[SPELLCHECK] “{name_query}” → '{corrected}' (registry-verified)")
+                        print(f"[NAME MATCH] Found '{cand.get('navn')}' (Org Nr: {org_nr})")
+                        return org_nr
+            else:
+                print(f"[SPELLCHECK] LLM suggestion '{corrected}' too far from input; ignored.")
+        LAST_SUGGESTIONS = cache_suggestions(name_query)
+        print(f"[NOT FOUND] Registry has no candidates for “{name_query}”.")
         return None
 
     best_match = sorted(enheter, key=lambda c: rank_company(c, query_lower))[0]
@@ -274,11 +306,11 @@ def search_by_name(name_query, max_rank=4):
                 else:
                     print(f"[SPELLCHECK] LLM suggestion '{corrected}' too far from input; ignored.")
             if best_match is None:
-                LAST_SUGGESTIONS = collect_suggestions()
+                LAST_SUGGESTIONS = collect_suggestions() or cache_suggestions(name_query)
                 print(f"[NOT FOUND] Best match too weak for “{name_query}” (no close spelling).")
                 return None
     elif best_rank > max_rank:
-        LAST_SUGGESTIONS = collect_suggestions()
+        LAST_SUGGESTIONS = collect_suggestions() or cache_suggestions(name_query)
         print(f"[NOT FOUND] Best match too weak for “{name_query}”.")
         return None
 
@@ -306,15 +338,18 @@ def generate_ai_explanation(profile):
         return res
     return basic_summary(profile)
 
-def chat_with_gemini(company_context, user_question, use_web_search=True):
-    """Research answer. Returns a string; sources stashed in LAST_SOURCES for the UI."""
+def chat_with_gemini(company_context, user_question, use_web_search=True,
+                     conversation=None, brief=False, deep=False):
+    """Research answer with conversation context, brevity & depth awareness.
+    Returns a string; sources stashed in LAST_SOURCES for the UI."""
     global LAST_SOURCES
     LAST_SOURCES = []
     context_str = ""
     if use_web_search:
-        print(f"[SEARCH] Querying Tavily for: {user_question}...")
         context_str = search.get_web_context(
-            f"{company_context.get('company_name', '')} {user_question}")
+            f"{company_context.get('company_name', '')} {user_question}",
+            max_results=10 if deep else 5,
+            depth="advanced" if deep else "basic")
         if context_str not in ("No relevant web results found.",
                                "Web search is currently unavailable.") and \
            not context_str.startswith("Web search unavailable:"):
@@ -324,6 +359,20 @@ def chat_with_gemini(company_context, user_question, use_web_search=True):
                     if u and u not in LAST_SOURCES:
                         LAST_SOURCES.append(u)
 
+    conv_str = ""
+    if conversation:
+        conv_str = "\n".join(f"{role.upper()}: {txt}" for role, txt in conversation)
+
+    mode_note = ""
+    if brief:
+        mode_note = ("\nBREVITY MODE ACTIVE: the user explicitly asked for a short/brief answer. "
+                     "Reply in AT MOST 5 bullet points or 80 words. Condense the conversation "
+                     "so far — do not re-list everything and do not repeat the previous long answer.")
+    elif deep:
+        mode_note = ("\nDEPTH MODE ACTIVE: the user asked for more detail. Use the richer "
+                     "advanced findings to give a thorough, well-organised answer "
+                     "(sections or bullets are fine; no word cap).")
+
     prompt = f"""You are an expert business research analyst.
 
 VERIFIED REGISTRY DATA:
@@ -332,15 +381,19 @@ VERIFIED REGISTRY DATA:
 WEB SEARCH FINDINGS (numbered):
 {context_str if context_str else "No web data available."}
 
+CONVERSATION SO FAR (most recent last):
+{conv_str if conv_str else "(start of conversation)"}
+
 USER QUESTION:
 {user_question}
 
 STYLE RULES:
-- Answer directly and concisely (max ~350 words). No internal reasoning, no restating the question.
+- Answer directly; let length match the question (prefer <=350 words unless depth mode or the data demands more).
+- If the conversation so far already contains the facts the user asks to condense, summarize THAT instead of listing new data.
 - Do NOT put inline citation markers like [1] in the text; the app displays sources separately.
 - Use only facts present in the data above. If a metric, year or detail is missing, omit it or say in one short sentence that it is unavailable — never invent numbers and never fill tables with dashes.
 - Use a compact table only when comparing 3+ numeric values; otherwise use bullets or prose.
-- Finish with complete sentences; never end with a truncated footnote."""
+- Finish with complete sentences; never end with a truncated footnote.{mode_note}"""
 
     res = llm.ask_llm(prompt, model_tier="smart")
     if res:
@@ -349,6 +402,41 @@ STYLE RULES:
         return (f"🌐 **Live web findings for “{user_question}”** (AI synthesis temporarily offline):\n\n"
                 f"{context_str}\n\n_Registry facts:_ {basic_summary(company_context)}")
     return local_answer(company_context, user_question) + _basic_note()
+
+def chat_about_topic(user_question, use_web_search=True, deep=False):
+    """General-knowledge answer (no company context). Sources in LAST_SOURCES."""
+    global LAST_SOURCES
+    LAST_SOURCES = []
+    context_str = ""
+    if use_web_search:
+        context_str = search.get_web_context(user_question,
+                                             max_results=10 if deep else 5,
+                                             depth="advanced" if deep else "basic")
+        if context_str not in ("No relevant web results found.",
+                               "Web search is currently unavailable.") and \
+           not context_str.startswith("Web search unavailable:"):
+            for line in context_str.split("\n"):
+                if line.startswith("Source: "):
+                    u = line.split("Source: ")[-1].strip()
+                    if u and u not in LAST_SOURCES:
+                        LAST_SOURCES.append(u)
+    prompt = f"""You are a helpful research assistant.
+
+WEB SEARCH FINDINGS (numbered):
+{context_str if context_str else "No web data available."}
+
+USER QUESTION:
+{user_question}
+
+STYLE RULES:
+- Answer directly; length should match the question (no artificial cap).
+- Do NOT put inline citation markers like [1]; the app shows sources separately.
+- Use only facts from the findings; if missing, say so in one sentence — never invent.
+- Finish with complete sentences; never end with a truncated footnote."""
+    res = llm.ask_llm(prompt, model_tier="smart")
+    if res:
+        return res
+    return context_str or "No reliable web information found for that topic."
 
 # ---------------------------------------------------------------------------
 # INTENT CLASSIFICATION (fast model, robust JSON parse, few-shot; NO exit intent)
@@ -406,8 +494,9 @@ def lookup_company(org_nr, force_refresh=False):
             or current == basic_summary(cache[org_nr])
             or llm.looks_like_cot(current)
             or len(current) > 700
+            or "All facts are verified against the official Brreg.no registry" in current
         ):
-            print("[UPGRADING] Generating AI explanation for cached record...")
+            print("[UPGRADING] Regenerating AI explanation for cached record...")
             cache[org_nr]["ai_explanation"] = generate_ai_explanation(cache[org_nr])
             save_cache(cache)
         LAST_LOOKUP_STATUS = "ok"
@@ -439,7 +528,7 @@ def lookup_company(org_nr, force_refresh=False):
     return None
 
 # ---------------------------------------------------------------------------
-# BATCH INITIALIZATION (Hackathon requirement: 1,000+ profiles)
+# BATCH INITIALIZATION (Hackathon requirement: 1,000+ profiles; paginated, proven)
 # ---------------------------------------------------------------------------
 def initialize_batch_cache(target_count=1000):
     cache = load_cache()
@@ -463,23 +552,23 @@ def initialize_batch_cache(target_count=1000):
             for item in enheter:
                 org_nr = str(item.get("organisasjonsnummer"))
                 if org_nr and org_nr not in cache:
-                    source_url = f"https://data.brreg.no/enhetsregisteret/api/enheter/{org_nr}"
                     addr_info = item.get("forretningsadresse") or item.get("postadresse") or {}
                     address_list = addr_info.get("adresse", [])
                     street = address_list[0] if address_list else ""
                     postplace = addr_info.get("poststed", "")
                     full_address = f"{street}, {postplace}".strip(", ")
-                    cache[org_nr] = {
+                    profile = {
                         "company_name": item.get("navn"),
                         "org_number": org_nr,
                         "business_type": item.get("organisasjonsform", {}).get("beskrivelse"),
                         "address": full_address if full_address else "N/A",
                         "registration_date": item.get("registreringsdatoEnhetsregisteret"),
                         "employees": item.get("antallAnsatte"),
-                        "source_url": source_url,
+                        "source_url": f"https://data.brreg.no/enhetsregisteret/api/enheter/{org_nr}",
                         "retrieved_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-                        "ai_explanation": "Batch initialization - explanation generated on query."
                     }
+                    profile["ai_explanation"] = basic_summary(profile)
+                    cache[org_nr] = profile
                     if len(cache) >= target_count:
                         break
             page += 1

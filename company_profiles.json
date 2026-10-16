@@ -10150,7 +10150,7 @@
     "registration_date": "1995-03-12",
     "employees": 21272,
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
-    "retrieved_date": "2026-10-08",
+    "retrieved_date": "2026-10-11",
     "ai_explanation": "EQUINOR ASA (Org. No. 923609016) is a Norwegian entity registered as Allmennaksjeselskap. It was officially registered on 1995-03-12 and is located at Forusbeen 50, STAVANGER. All facts are verified against the official Brreg.no registry."
   },
   {
@@ -10271,5 +10271,27 @@
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922274169",
     "retrieved_date": "2026-10-09",
     "ai_explanation": "QUITE SIMPLE BELANGER (Org. No. 922274169) is a Norwegian entity registered as Enkeltpersonforetak. It was officially registered on 2019-02-22 and is located at c/o Agata Belanger, ASKER. All facts are verified against the official Brreg.no registry."
+  },
+  {
+    "company_name": "OCEAN ENERGY AS",
+    "org_number": "991996575",
+    "business_type": "Aksjeselskap",
+    "address": "Hatlevegen 1, ØRSKOG",
+    "registration_date": "2007-12-17",
+    "employees": null,
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991996575",
+    "retrieved_date": "2026-10-10",
+    "ai_explanation": "OCEAN ENERGY AS (Org. No. 991996575) is a Norwegian entity registered as Aksjeselskap. It was officially registered on 2007-12-17 and is located at Hatlevegen 1, ØRSKOG. All facts are verified against the official Brreg.no registry."
+  },
+  {
+    "company_name": "PYTHON AS",
+    "org_number": "934263308",
+    "business_type": "Aksjeselskap",
+    "address": "Ingeborgs gate 8C, OSLO",
+    "registration_date": "2024-10-12",
+    "employees": null,
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934263308",
+    "retrieved_date": "2026-10-12",
+    "ai_explanation": "PYTHON AS (Org. No. 934263308) is a Norwegian entity registered as Aksjeselskap. It was officially registered on 2024-10-12 and is located at Ingeborgs gate 8C, OSLO. All facts are verified against the official Brreg.no registry."
   }
 ]
