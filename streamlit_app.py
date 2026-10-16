@@ -163,17 +163,24 @@ html, body, [class*="css"] {
         position: absolute; left: 0; right: 0; bottom: -20px; text-align: center;
         color: var(--muted); font-size: 11px; letter-spacing: .2px; pointer-events: none;
     }
+
+    /* Compact Qwen-style sidebar header — DESKTOP ONLY.
+       The :not() guard ensures only the TOP-LEVEL sidebar block is lifted,
+       so nested blocks (Report Builder pool, expanders) can never overlap. */
+    [data-testid="stSidebar"] [data-testid="stVerticalBlock"]:not([data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"]) > [data-testid="stElementContainer"]:first-child {
+        margin-top: -3.4rem;
+    }
+    [data-testid="stSidebar"] [data-testid*="ollapse"] {
+        position: absolute !important;
+        top: .55rem !important;
+        right: .55rem !important;
+        z-index: 10;
+    }
 }
 
 /* Sidebar cosmetics only — NO width/transform overrides (native drawer behavior) */
 [data-testid="stSidebar"] { background: #0d1117 !important;
                             border-right: 1px solid var(--border) !important; }
-/* Qwen-style compact header: brand at very top, collapse arrow floats top-right */
-[data-testid="stSidebar"] > div { padding-top: .75rem !important; }
-[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] {
-    position: absolute !important; top: .7rem !important; right: .7rem !important;
-    z-index: 10;
-}
 [data-testid="stSidebar"] button { min-height: 2.25rem; }
 [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:first-child button p {
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; display: block;
@@ -234,20 +241,30 @@ html, body, [class*="css"] {
     div[data-testid="stChatInput"]::after { display: none !important; }
     .mobile-disclaimer { display: block !important; }
 
-    /* Stack main-area rows (feature cards, pills, card action buttons) */
+    /* Stack MAIN-area rows (feature cards, pills, card action buttons) */
     .block-container [data-testid="stHorizontalBlock"] {
         flex-direction: column !important; gap: .5rem !important;
     }
     .block-container [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
         width: 100% !important; flex: 1 1 100% !important; min-width: 0 !important;
     }
-}
 
-/* --- Qwen-style compact sidebar header (version-proof) ---
-   1) Pull the brand row UP into Streamlit's reserved top band
-   2) Pin whatever collapse control exists to the top-right corner */
-[data-testid="stSidebar"] > div > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:first-child {
-    margin-top: -3.4rem;
+    /* BUT keep SIDEBAR rows on one line (title + kebab, checkbox + kebab):
+       overrides Streamlit's native mobile column stacking, sidebar only */
+    [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: .35rem !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+        width: auto !important; min-width: 0 !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:first-child {
+        flex: 1 1 auto !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:last-child {
+        flex: 0 0 2rem !important;
+    }
 }
 """
 st.markdown(f"<style>{CUSTOM_CSS}</style>", unsafe_allow_html=True)
@@ -740,8 +757,6 @@ with st.sidebar:
         with st.expander(f"Archived ({len(arch)})"):
             for t in arch:
                 thread_row(t)
-
-
 
     st.markdown("### 📊 Report Builder")
     saved = memory.list_saved()
