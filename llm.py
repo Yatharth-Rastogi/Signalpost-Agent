@@ -61,14 +61,22 @@ else:
     print("[LLM] No OpenRouter key (.env or judge_keys) — AI disabled (Basic mode).")
 
 # Verified active free models (agentic-only & delisted models removed)
+# Merged chain: proven-fast Nemotron first, universal stable models as net.
+# Dead models cost <1s (404) then get cooled down; winner memory promotes
+# whichever model answers first to the front for all later calls.
 MODEL_CHAIN = [
-    "nvidia/nemotron-3-super-120b-a12b:free",   # 12B-active MoE: fast AND smart
+    "nvidia/nemotron-3-super-120b-a12b:free",   # proven OK in our logs: fast MoE, smart
+    "meta-llama/llama-3.3-70b-instruct:free",   # universal stable anchor
     "nvidia/nemotron-3-ultra-550b-a55b:free",   # deepest reasoning
+    "qwen/qwen-2.5-72b-instruct:free",          # stable backup
     "google/gemma-4-31b-it:free",               # backup
+    "google/gemma-2-9b-it:free",                # last resort
 ]
 FAST_CHAIN = [
-    "nvidia/nemotron-3.5-lightning:free",       # quickest
+    "nvidia/nemotron-3.5-lightning:free",       # proven OK in our logs: quickest
+    "google/gemma-2-9b-it:free",                # quick + universal
     "google/gemma-4-26b-a4b-it:free",           # backup
+    "meta-llama/llama-3.3-70b-instruct:free",   # reliable
     "google/gemma-4-31b-it:free",               # last resort
 ]
 _working = {"smart": None, "fast": None}

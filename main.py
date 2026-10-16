@@ -18,7 +18,7 @@ import agent
 from agent import lookup_company, initialize_batch_cache, ai_status, search_by_name
 
 REGISTRY_URL = "https://data.brreg.no/enhetsregisteret/api/enheter/{}"
-FIELDNAMES = ["company_name", "org_number", "business_type", "address",
+FIELDNAMES = ["company_name", "org_number", "business_type", "industry", "address",
               "registration_date", "employees", "retrieved_date",
               "ai_explanation", "source_url", "status"]
 
@@ -91,8 +91,10 @@ def _print_summary(results, elapsed):
 
 def _resolve_item(item):
     """Resolve one input line into {label, org}. org is None if no match."""
-    if item.isdigit() and len(item) == 9:
-        return {"label": item, "org": item}
+    sanitized = agent.sanitize_org_number(item)
+    if sanitized:
+        return {"label": item, "org": sanitized}
+        
     print(f"[NAME SEARCH] Resolving “{item}”...")
     org = search_by_name(item)
     if org:

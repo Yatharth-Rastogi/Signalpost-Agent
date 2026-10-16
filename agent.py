@@ -8,6 +8,7 @@ LLM spellcheck re-verified; weak matches never publish, closest names offered
 via LAST_SUGGESTIONS (registry candidates first, local cache fallback).
 """
 
+import re
 import requests
 import json
 import os
@@ -130,23 +131,45 @@ def save_cache(cache_dict):
 # ---------------------------------------------------------------------------
 # LIVE REGISTRY FETCHING (Brreg.no) — status-aware
 # ---------------------------------------------------------------------------
+def sanitize_org_number(query: str):
+    """Extracts 9-digit org number from dirty strings like 'NO923609016MVA'."""
+    if not query: return None
+    cleaned = re.sub(r"[^\dA-Za-z]", "", str(query).upper())
+    if cleaned.startswith("NO"): cleaned = cleaned[2:]
+    if cleaned.endswith("MVA"): cleaned = cleaned[:-3]
+    if cleaned.isdigit() and len(cleaned) == 9:
+        return cleaned
+    return None
+
+_SESSION = requests.Session()
+_SESSION.headers.update({"User-Agent": "Signalpost-Intelligence-Agent/1.0"})
+
 def fetch_from_registry(org_nr):
-    """Returns (profile_or_None, status); status in {'ok','not_found','network_error'}."""
-    url = f"https://data.brreg.no/enhetsregisteret/api/enheter/{org_nr}"
+    org_clean = sanitize_org_number(org_nr) or str(org_nr).strip()
+    if not org_clean.isdigit() or len(org_clean) != 9:
+        return None, "invalid_input"
+
+    url = f"https://data.brreg.no/enhetsregisteret/api/enheter/{org_clean}"
     try:
-        response = requests.get(url, timeout=10)
+        response = _SESSION.get(url, timeout=10)
         if response.status_code == 200:
             item = response.json()
-            save_evidence(org_nr, item)
+            save_evidence(org_clean, item)
             addr_info = item.get("forretningsadresse") or item.get("postadresse") or {}
             address_list = addr_info.get("adresse", [])
             street = address_list[0] if address_list else ""
             postplace = addr_info.get("poststed", "")
             full_address = f"{street}, {postplace}".strip(", ")
+            
+            # Extract NACE industry classification
+            nace = item.get("naeringskode1", {})
+            industry = nace.get("beskrivelse") if isinstance(nace, dict) else None
+
             return {
                 "company_name": item.get("navn"),
-                "org_number": str(org_nr),
+                "org_number": str(org_clean),
                 "business_type": item.get("organisasjonsform", {}).get("beskrivelse"),
+                "industry": industry or "N/A",
                 "address": full_address if full_address else "N/A",
                 "registration_date": item.get("registreringsdatoEnhetsregisteret"),
                 "employees": item.get("antallAnsatte"),
@@ -154,12 +177,14 @@ def fetch_from_registry(org_nr):
                 "retrieved_date": datetime.now(timezone.utc).strftime("%Y-%m-%d")
             }, "ok"
         if response.status_code == 404:
-            print(f"[NOT FOUND] Registry has no entity {org_nr} (HTTP 404).")
+            print(f"[NOT FOUND] Registry has no entity {org_clean} (HTTP 404).")
             return None, "not_found"
-        print(f"[NETWORK] Registry HTTP {response.status_code} for {org_nr}.")
+        if 400 <= response.status_code < 500:
+            return None, "invalid_input"  # Prevents 6-second retry penalty
+        print(f"[NETWORK] Registry HTTP {response.status_code} for {org_clean}.")
         return None, "network_error"
     except Exception as e:
-        print(f"[NETWORK] Fetch failed for {org_nr}: {e}")
+        print(f"[NETWORK] Fetch failed for {org_clean}: {e}")
         return None, "network_error"
 
 # ---------------------------------------------------------------------------
