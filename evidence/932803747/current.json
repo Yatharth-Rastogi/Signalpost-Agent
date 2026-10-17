@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/932803747"
+    }
+  },
+  "aktivitet": [
+    "Kjøp og salg av elektronikkvarer på nett."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Holmenkollveien 78G"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0784",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med informasjons- og kommunikasjonsteknologiutstyr",
+    "kode": "47.400"
+  },
+  "navn": "@ ALEXANDER JOSEPH JOHANSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "932803747",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 108  vinderen"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0319",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2024-01-11",
+  "registreringsdatoForetaksregisteret": "2024-01-11",
+  "registreringsdatoMerverdiavgiftsregisteret": "2024-03-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2024-03-02",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

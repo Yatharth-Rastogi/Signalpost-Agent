@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937379382"
+    }
+  },
+  "aktivitet": [
+    "Konsulentvirksomhet innen handel og retail."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rindes veg 13"
+    ],
+    "kommune": "PORSGRUNN",
+    "kommunenummer": "4001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3950",
+    "poststed": "BREVIK"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-02-18",
+  "fravalgRevisjonDato": "2026-03-18",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-03-18",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "&LUNDE AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937379382",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-07-15",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-07-10",
+  "registreringsdatoEnhetsregisteret": "2026-03-18",
+  "registreringsdatoForetaksregisteret": "2026-03-18",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-03-31",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-03-31",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-02-18",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-02-18",
+  "vedtektsfestetFormaal": [
+    "Konsulentvirksomhet innen handel og retail, samt annet som naturlig",
+    "hører innunder."
+  ]
+}

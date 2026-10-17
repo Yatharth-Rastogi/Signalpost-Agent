@@ -1,0 +1,81 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/979168268"
+    }
+  },
+  "aktivitet": [
+    "Maskinservice og veivedlikehold, kurs og eventsvirksomhet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Vestby Regnskapskontor AS",
+      "Kleverveien 6"
+    ],
+    "kommune": "VESTBY",
+    "kommunenummer": "3216",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1543",
+    "poststed": "VESTBY"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1997-08-27 18:18:29",
+      "navn": "ANDERS HURUM MODALEN",
+      "tilDato": "2003-08-13 20:33:31"
+    },
+    {
+      "fraDato": "2003-08-13 20:33:31",
+      "navn": "MODALEN MASKIN",
+      "tilDato": "2017-05-31 13:24:00"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "91354577",
+  "naeringskode1": {
+    "beskrivelse": "Reparasjon og vedlikehold av maskiner",
+    "kode": "33.120"
+  },
+  "navn": "...BARE MODALEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "979168268",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 1222 Flattum"
+    ],
+    "kommune": "RINGERIKE",
+    "kommunenummer": "3305",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3503",
+    "poststed": "HØNEFOSS"
+  },
+  "registreringsdatoEnhetsregisteret": "1997-08-27",
+  "registreringsdatoMerverdiavgiftsregisteret": "2017-05-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2017-09-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

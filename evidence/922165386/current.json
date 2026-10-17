@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922165386"
+    }
+  },
+  "aktivitet": [
+    "Å være en non-profit kunstnerdrevet forening, gjennom å tilby",
+    "utstillingsplass, prosjektrom og ateliéer vil foreningen være en",
+    "sentral del av det profesjonelle kreative miljøet i Bergen."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Birkebeinergaten 4"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5003",
+    "poststed": "BERGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": ".ZIP COLLECTIVE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "922165386",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-02-06",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-10-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

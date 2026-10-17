@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936306047"
+    }
+  },
+  "aktivitet": [
+    "Vippeforlengelse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Langgata 64"
+    ],
+    "kommune": "SANDNES",
+    "kommunenummer": "1108",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4306",
+    "poststed": "SANDNES"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Skjønnhetspleie",
+    "kode": "96.220"
+  },
+  "navn": "\"FAVORITE\" BEAUTY STUDIO BY YANA PAVLENKO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "936306047",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-10-08",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-04-16",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-04-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917572305"
+    }
+  },
+  "aktivitet": [
+    "Budbil og varetransport."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Nedre Måsan 21"
+    ],
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1385",
+    "poststed": "ASKER"
+  },
+  "fravalgRevisjonDato": "2016-08-16",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 60000,
+    "belop": 60000.0,
+    "innfortDato": "2016-08-16",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Andre post- og budtjenester",
+    "kode": "53.200"
+  },
+  "navn": "007 TRANSPORT AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "917572305",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-10-13",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-10-10",
+  "registreringsdatoEnhetsregisteret": "2016-08-16",
+  "registreringsdatoForetaksregisteret": "2016-08-16",
+  "registreringsdatoMerverdiavgiftsregisteret": "2016-09-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2016-10-25",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2016-07-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2016-07-25",
+  "vedtektsfestetFormaal": [
+    "Budbil og varetransport tjenester og annet som naturlig faller sammen",
+    "med dette."
+  ]
+}

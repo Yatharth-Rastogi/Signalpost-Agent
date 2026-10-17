@@ -1,20 +1,21 @@
-# Secrets
-.env
-.streamlit/secrets.toml
 
-# Python
+### ④ `.gitignore` — make `git add .` safe so a stray test can't wipe your evidence
+Right now `run_report.json` is *tracked*, so any later `python main.py …` overwrites it with scratch content, and a `git add .` would commit a regression over your 100‑row proof (and sweep in `results.*` junk). Full overwrite of `.gitignore` (small, safe) fixes it by tracking only the frozen `smoke-*` evidence and ignoring live scratch:
+
+```gitignore
+# secrets & local state (never submit)
+.env
+*.local
+signalpost.db
 __pycache__/
 *.py[cod]
-.venv/
-venv/
+.DS_Store
+.streamlit/secrets.toml
 
-# Runtime-only artifacts (regenerated on every run)
-signalpost.db
+# live scratch outputs (regenerated per run; the FROZEN evidence is smoke-*)
 results.json
 results.csv
+results.jsonl
+run_report.json
 
-# Editor / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# keep committed: smoke100.* , smoke-results.* , smoke-run-report.json , judge_keys.py , .env.example

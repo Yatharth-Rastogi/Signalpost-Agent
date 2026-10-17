@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925833088"
+    }
+  },
+  "aktivitet": [
+    "Foreningen har til formål å bidra til rehabilitering av innsatte i",
+    "norske fengsler og derved hindre tilbakefall etter løslatelse. Gjennom",
+    "samlinger i grupper med undervisning og reflekterende samtaler er",
+    "målet at de innsatte får et annet utgangspunkt for å håndtere sine",
+    "liv. Grunnlag for undervisning og metodikk er utdypet i tilgjengelig",
+    "prosjektbeskrivelse."
+  ],
+  "epostadresse": "post@innsikt-norge.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Else Belgau",
+      "Sønderhellene 10"
+    ],
+    "kommune": "LIER",
+    "kommunenummer": "3312",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3404",
+    "poststed": "LIER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.innsikt-norge.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": ":INNSIKT",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "925833088",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-10-24",
+  "registreringsdatoFrivillighetsregisteret": "2020-10-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2020-10-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

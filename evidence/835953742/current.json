@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/835953742"
+    }
+  },
+  "aktivitet": [
+    "Fattigdomsbekjempelse med salg av bøker, blader, informasjon,",
+    "mikroøkonomi prosjekter, diverse gateprodukter,ved,t-skjorter."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Christian Michelsens gate 63"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0474",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "# URBAN STRONG AND PROUD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "835953742",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-08-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-07-07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,6 +1,10 @@
-streamlit>=1.38.0
-openai>=1.40.0
-requests>=2.31.0
-python-dotenv>=1.0.0
-fpdf2>=2.7.9
-tavily-python>=0.3.0
+# Auto-pinned by pin_deps.py — exact versions proven in THIS environment.
+# Python 3.14.8  |  generated 2026-10-17T19:18:51
+# Satisfies section 04: clone @ pinned commit -> empty venv -> pip install -r requirements.txt -> run.
+
+streamlit==1.65.0
+openai==3.26.0
+requests==2.34.2
+python-dotenv==1.2.4
+fpdf2==2.8.9
+tavily-python==0.8.5

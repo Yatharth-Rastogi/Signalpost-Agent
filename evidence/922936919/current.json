@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922936919"
+    }
+  },
+  "aktivitet": [
+    "Rådgivning og veiledningssamtaler."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Strandlia 3C"
+    ],
+    "kommune": "NESODDEN",
+    "kommunenummer": "3212",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1454",
+    "poststed": "FAGERSTRAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Andre personlige tjenester ikke nevnt annet sted",
+    "kode": "96.990"
+  },
+  "navn": "-VEIEN- MED ANITA HELLEBØ-STOREIDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "922936919",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-06-21",
+  "registreringsdatoForetaksregisteret": "2019-06-21",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

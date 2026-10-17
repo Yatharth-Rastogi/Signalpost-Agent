@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921759630"
+    }
+  },
+  "aktivitet": [
+    "Frilans prosjekterende arkitekt; illustrasjonsarbeid, mulighetsstudier",
+    "og prosjekteringsarbeid."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Svaneviksveien 8"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5063",
+    "poststed": "BERGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Arkitektvirksomhet",
+    "kode": "71.110"
+  },
+  "navn": "/C ROMAN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "921759630",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-11-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

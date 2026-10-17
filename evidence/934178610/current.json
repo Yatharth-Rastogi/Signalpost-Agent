@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/934178610"
+    }
+  },
+  "aktivitet": [
+    "Kombinerte kontortjenester.",
+    "Kongress, messe og utstillingsvirksomhet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Øvrevollveien 82"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1358",
+    "poststed": "JAR"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Kontortjenester",
+    "kode": "82.100"
+  },
+  "navn": "@ HJELDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "934178610",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-09-30",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

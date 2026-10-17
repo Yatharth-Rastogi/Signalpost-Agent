@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/934759249"
+    }
+  },
+  "aktivitet": [
+    "Salg av digitale varer. For eksempel Notion Templates, ulike typer",
+    "guider og digitale fargeleggingsbøker."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Middelthuns gate 11B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0368",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Formidlingstjenester tilknyttet detaljhandel med spesialisert vareutvalg",
+    "kode": "47.920"
+  },
+  "navn": "(THENOTIONNOOK) KVISLER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "934759249",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-12-27",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

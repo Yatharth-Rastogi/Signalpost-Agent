@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935455162"
+    }
+  },
+  "aktivitet": [
+    "Kristen menighet forkynnelse av Guds ord. Søndagsmøter, bønnemøter.",
+    "Veldedighet. Sosialt arbeid, språkkafe. Søndagsskole for barn."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Halsanvegen 8B"
+    ],
+    "kommune": "LEVANGER",
+    "kommunenummer": "5037",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7600",
+    "poststed": "LEVANGER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i religiøse organisasjoner",
+    "kode": "94.910"
+  },
+  "navn": "\"LIV I SANNHET\"",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "935455162",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-05-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-03-27",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

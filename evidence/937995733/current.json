@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937995733"
+    }
+  },
+  "aktivitet": [
+    "Hundetrening, kurs og introduksjon. Avløsertjenester innen landbruk,",
+    "stell og tilsynd av dyr, praktisk gårdsarbeid. Fotografitjenester og",
+    "innholdsproduksjon."
+  ],
+  "epostadresse": "anjaaustefjord@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skutlalia 110"
+    ],
+    "kommune": "KVAM",
+    "kommunenummer": "4622",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5600",
+    "poststed": "NORHEIMSUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2026-06-29 12:21:20",
+      "navn": "RYKKJE - AAR AKTIV",
+      "tilDato": "2026-08-14 13:59:07"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "48171433",
+  "naeringskode1": {
+    "beskrivelse": "Tjenester tilknyttet husdyrhold",
+    "kode": "01.620"
+  },
+  "navn": "@TEAM_QUATTRO_BAYAZ - RYKKJE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "937995733",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-06-29",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

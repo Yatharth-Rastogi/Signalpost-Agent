@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/927379759"
+    }
+  },
+  "aktivitet": [
+    "Informasjons- og reisebyrå."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Cato Christensen",
+      "Gråtenveien 8B"
+    ],
+    "kommune": "SANDEFJORD",
+    "kommunenummer": "3907",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3235",
+    "poststed": "SANDEFJORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reisebyråvirksomhet",
+    "kode": "79.110"
+  },
+  "navn": "... IN NORWAY CATO CHRISTENSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "927379759",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-07-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2022",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

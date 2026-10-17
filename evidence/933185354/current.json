@@ -1,0 +1,53 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/933185354"
+    }
+  },
+  "aktivitet": [
+    "Produserer og selger møbler, tepper og belysningsartikler."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Europaplads 16"
+    ],
+    "land": "Danmark",
+    "landkode": "DK",
+    "poststed": "DK-8000 AARHUS C"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av møbler",
+    "kode": "31.000"
+  },
+  "navn": "+HALLE NUF",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "933185354",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-04-08",
+  "registreringsdatoForetaksregisteret": "2024-04-08",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

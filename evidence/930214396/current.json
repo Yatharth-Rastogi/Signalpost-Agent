@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930214396"
+    }
+  },
+  "aktivitet": [
+    "Skal ta på meg oppdrag innen gårdsarbeid. Utleie av musikkutstyr,",
+    "samt tjenester innen musikk og filmproduksjon."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Berg 146"
+    ],
+    "kommune": "OVERHALLA",
+    "kommunenummer": "5047",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7860",
+    "poststed": "SKAGE I NAMDALEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Tjenester tilknyttet husdyrhold",
+    "kode": "01.620"
+  },
+  "navn": "(BENSTUDIO) NUBDALSENG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "930214396",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-11",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

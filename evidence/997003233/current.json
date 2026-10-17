@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/997003233"
+    }
+  },
+  "aktivitet": [
+    "Fagforeningsarbeid."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Sessvollmoen"
+    ],
+    "kommune": "ULLENSAKER",
+    "kommunenummer": "3209",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2058",
+    "poststed": "SESSVOLLMOEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "99092545",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i arbeidstakerorganisasjoner",
+    "kode": "94.200"
+  },
+  "navn": "(NTL) AVD.10161 NORSK TJENESTELAG FORSVARET ROMERIKE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "997003233",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-07-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1946-10-29",
+  "telefon": "63 92 59 94",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473"
+    }
+  },
+  "aktivitet": [
+    "Rådgivning innen IT, administrasjon og personalforvaltning,",
+    "databaseutvikling, kurs, tolke- og oversettelsestjenester.",
+    " "
+  ],
+  "epostadresse": "ebe@ebe-data.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Bekkeliveien 5"
+    ],
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3470",
+    "poststed": "SLEMMESTAD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.ebe-data.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "911 76 537",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "-EBE- DATA Eyolf Berg",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "988539473",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-08-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

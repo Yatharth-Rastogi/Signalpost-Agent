@@ -1,0 +1,98 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929438728"
+    }
+  },
+  "aktivitet": [
+    "Drift av web-portaler."
+  ],
+  "epostadresse": "hho@crl.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Fredensborgveien 39A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0177",
+    "poststed": "OSLO"
+  },
+  "fravalgRevisjonBeslutningsDato": "2022-06-04",
+  "fravalgRevisjonDato": "2022-06-30",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2022-06-30 10:29:29",
+      "navn": "TØIEN AS",
+      "tilDato": "2025-07-31 12:48:42"
+    },
+    {
+      "fraDato": "2025-07-31 12:48:42",
+      "navn": "RIZZED AS",
+      "tilDato": "2025-12-15 17:01:43"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 1000,
+    "belop": 30000.0,
+    "innfortDato": "2022-06-30",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "943 05 030",
+  "naeringskode1": {
+    "beskrivelse": "Annen virksomhet for distribuering av innhold",
+    "kode": "60.390"
+  },
+  "navn": "0177 OSLO AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "929438728",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 110 Sentrum"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0102",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2022-06-30",
+  "registreringsdatoForetaksregisteret": "2022-06-30",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2022-06-04",
+  "telefon": "22 23 92 93",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-07-30",
+  "vedtektsfestetFormaal": [
+    "Investering, konsulenttjenester, utvikling og salg av digitale",
+    "tjenester og produkter, samt annen virksomhet som naturlig faller",
+    "sammen med dette."
+  ]
+}

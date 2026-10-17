@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993933082"
+    }
+  },
+  "aktivitet": [
+    "Kontortjenester."
+  ],
+  "epostadresse": "00rolf@getmail.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ellen Gleditsch' vei 61"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0987",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "920 29 757",
+  "naeringskode1": {
+    "beskrivelse": "Kontortjenester",
+    "kode": "82.100"
+  },
+  "navn": "00ROLF Olsen",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "993933082",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2009-04-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

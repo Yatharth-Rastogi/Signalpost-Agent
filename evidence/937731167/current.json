@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167"
+    }
+  },
+  "aktivitet": [
+    "Holdingselskap."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Angelltrøvegen 100"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7048",
+    "poststed": "TRONDHEIM"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-05-07",
+  "fravalgRevisjonDato": "2026-05-19",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-05-19",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "01 CAPITAL AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937731167",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-05-19",
+  "registreringsdatoForetaksregisteret": "2026-05-19",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-05-07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-05-07",
+  "vedtektsfestetFormaal": [
+    "Investere i selskaper og eiendom og alt annet som naturlig faller",
+    "sammen med dette, herunder å delta i andre selskaper med lignende",
+    "virksomhet, kjøp og salg av aksjer, eller på annen måte gjøre seg",
+    "interessert i andre foretagende."
+  ]
+}

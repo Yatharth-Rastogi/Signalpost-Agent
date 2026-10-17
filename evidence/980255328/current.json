@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/980255328"
+    }
+  },
+  "aktivitet": [
+    "Produksjon og salg av CD. Underholdningsbransjen."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Byrevegen 119"
+    ],
+    "kommune": "NORD-FRON",
+    "kommunenummer": "3436",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2640",
+    "poststed": "VINSTRA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Andre tjenester tilknyttet kunstnerisk virksomhet og underholdningsvirksomhet",
+    "kode": "90.390"
+  },
+  "navn": "`N JALMAR Håkon Sveen",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "980255328",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1998-11-09",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "61 29 06 58",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

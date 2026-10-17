@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/995967952"
+    }
+  },
+  "aktivitet": [
+    "Barnehjem.",
+    "Hjelp til selvhjelp.",
+    "Innsamling av gaver.",
+    "Vaksinering mot malaria."
+  ],
+  "epostadresse": "ugandas.barn@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skjoldehamnveien 1400"
+    ],
+    "kommune": "ANDØY",
+    "kommunenummer": "1871",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8484",
+    "poststed": "RISØYHAMN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.ugandasbarn.org",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "406 42 078",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "(HUB) HJELP UGANDAS BARN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "995967952",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-09-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2010-09-15",
+  "telefon": "33 61 07 10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

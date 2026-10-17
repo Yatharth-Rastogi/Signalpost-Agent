@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/934176014"
+    }
+  },
+  "aktivitet": [
+    "Undervisning i klassene B, B96 og BE."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Strandveien 73"
+    ],
+    "kommune": "TJELDSUND",
+    "kommunenummer": "5512",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9442",
+    "poststed": "RAMSUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen trafikkskoleundervisning",
+    "kode": "85.532"
+  },
+  "navn": "*SER DEG*TRAFIKKSKOLE HARSTAD CONNIE HAJANI",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "934176014",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-09-27",
+  "registreringsdatoForetaksregisteret": "2024-09-27",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

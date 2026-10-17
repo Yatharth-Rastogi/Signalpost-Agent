@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925391093"
+    }
+  },
+  "aktivitet": [
+    "Investering i andre selskaper uansett formål, samt forestå",
+    "administrative tjenester for andre selskap"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skogduevegen 66B"
+    ],
+    "kommune": "NANNESTAD",
+    "kommunenummer": "3238",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2032",
+    "poststed": "MAURA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjelpeenhetskode": {
+    "beskrivelse": "Hovedkontortjenester",
+    "kode": "70.100"
+  },
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100,
+    "belop": 630000.0,
+    "innfortDato": "2020-12-22",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reparasjon og vedlikehold av maskiner",
+    "kode": "33.120"
+  },
+  "navn": "&MF HOLDING AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "925391093",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-07-24",
+  "registreringsdatoForetaksregisteret": "2020-07-24",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2020-07-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2020-10-26",
+  "vedtektsfestetFormaal": [
+    "Investering i andre selskaper uansett formål, samt forestå",
+    "administrative tjenester for andre selskaper."
+  ]
+}

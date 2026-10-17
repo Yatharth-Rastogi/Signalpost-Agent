@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/826649992"
+    }
+  },
+  "aktivitet": [
+    "Utøvende musiker.",
+    "Utgivelse av musikk og lydopptak.",
+    "Produksjon av musikk.",
+    "Lydtekniker på konserter eller andre sceneshow."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Møllendalsveien 4"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5009",
+    "poststed": "BERGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2021-02-22 16:26:25",
+      "navn": "MARKUS JAIME ODDEKALV PETTERSEN",
+      "tilDato": "2026-04-20 16:39:18"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+    "kode": "90.201"
+  },
+  "navn": "-JAIME- OFFICIAL PETTERSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "826649992",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-02-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

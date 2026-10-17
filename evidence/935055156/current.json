@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935055156"
+    }
+  },
+  "aktivitet": [
+    "Skal gjere Juvsjuvet tilgjengeleg ved å opparbeide",
+    "den gamle stien til Juvsjuvet på miljøvenleg og bærekraftig vis slik",
+    "at den er trygg å ferdast, samt knyte den til eksisterande stinett i",
+    "området. Rydde rotvelter, tre og småskog både i og langs stien og opne",
+    "for",
+    "utsikt til elvejuvet.",
+    "Reparere den gamle hestestien på miljøvenleg og bærekraftig vis.",
+    "Leggje om stien og byggje ny sti enkelte stadar for å gjere den",
+    "sikrare å ferdast.",
+    "Byggje den gamle stien vidare fram til Juvsfossen og knyte den saman",
+    "med allereie opparbeidd stinett.",
+    "Utføre nødvendig skilting og merking, samt andre tiltak som naturleg",
+    "høyrer til formålet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Rønnaug Berge Leite",
+      "Tistamvegen 588"
+    ],
+    "kommune": "STRYN",
+    "kommunenummer": "4651",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6797",
+    "poststed": "UTVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "\"JUVSJUVETS HEMMELIGHET\"",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "935055156",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-02-24",
+  "registreringsdatoFrivillighetsregisteret": "2026-02-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-02-14",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935571316"
+    }
+  },
+  "aktivitet": [
+    "Overlevelseskurs, eventyrreiser, organisering av utendørs",
+    "teambuilding-arrangementer. Opplæring i navigasjon og håndtering av",
+    "nødsituasjoner. Utleie av friluftsutstyr, ekspedisjonskjøretøy og",
+    "ekspedisjonsvogner."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skjerpevegen 102"
+    ],
+    "kommune": "HÅ",
+    "kommunenummer": "1119",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4365",
+    "poststed": "NÆRBØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen undervisning ellers",
+    "kode": "85.597"
+  },
+  "navn": "”GREEN POINT” MICHAL WOZNICZKO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "935571316",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-06-02",
+  "registreringsdatoForetaksregisteret": "2025-06-02",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

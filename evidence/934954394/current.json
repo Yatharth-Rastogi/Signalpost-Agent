@@ -1,0 +1,48 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/934954394"
+    }
+  },
+  "aktivitet": [
+    "Reparasjon og vedlikehold av skip og båter."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "ul. Budowniczych  12"
+    ],
+    "land": "Polen",
+    "landkode": "PL",
+    "poststed": "81-336 GDYNIA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reparasjon og vedlikehold av sivile skip og båter",
+    "kode": "33.150"
+  },
+  "navn": "\"HYDRO-NAUTA\" SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "934954394",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-02-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

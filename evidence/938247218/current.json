@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938247218"
+    }
+  },
+  "aktivitet": [
+    "Birøkt og honningproduksjon."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Aremarkveien 16"
+    ],
+    "kommune": "HALDEN",
+    "kommunenummer": "3101",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1792",
+    "poststed": "TISTEDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Husdyrhold ikke nevnt annet sted",
+    "kode": "01.489"
+  },
+  "navn": ">GLADBIA LARS LARSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "938247218",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-08-27",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

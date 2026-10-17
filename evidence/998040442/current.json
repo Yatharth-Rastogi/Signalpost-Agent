@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998040442"
+    }
+  },
+  "aktivitet": [
+    "Hagearbeid, skogrydding og lignende."
+  ],
+  "epostadresse": "johan@sommerschild.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skogaromvegen 6"
+    ],
+    "kommune": "SKAUN",
+    "kommunenummer": "5029",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7350",
+    "poststed": "BUVIKA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "930 91 700",
+  "naeringskode1": {
+    "beskrivelse": "Beplantning av hager og parkanlegg",
+    "kode": "81.300"
+  },
+  "navn": "'N JOHAN SOMMERSCHILD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "998040442",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-02-29",
+  "registreringsdatoForetaksregisteret": "2012-02-29",
+  "registreringsdatoMerverdiavgiftsregisteret": "2012-01-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2012-06-27",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

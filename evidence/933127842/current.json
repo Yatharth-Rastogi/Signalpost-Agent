@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/933127842"
+    }
+  },
+  "aktivitet": [
+    "Catering."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Olav Kyrres vei 6B"
+    ],
+    "kommune": "BAMBLE",
+    "kommunenummer": "4012",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3961",
+    "poststed": "STATHELLE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Catering for arrangementer",
+    "kode": "56.210"
+  },
+  "navn": "'L TACO NYSVEEN-WAARIE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "933127842",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-03-06",
+  "registreringsdatoForetaksregisteret": "2024-03-06",
+  "registreringsdatoMerverdiavgiftsregisteret": "2024-06-16",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2024-06-24",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

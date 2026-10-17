@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/989995278"
+    }
+  },
+  "aktivitet": [
+    "Magasinsalg, promotering av Oslo by, journalistikk, medievirksomhet,",
+    "bokutgivelse, kursvirksomhet samt hva hermed står i forbindelse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Vibeke Omberg",
+      "Lavrans vei 17"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0670",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "93063089",
+  "naeringskode1": {
+    "beskrivelse": "Nyhetsbyråvirksomhet",
+    "kode": "60.310"
+  },
+  "navn": "= OSLO (ERLIK OSLO) DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "989995278",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2006-07-26",
+  "registreringsdatoForetaksregisteret": "2006-07-26",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2006-06-23",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2007-01-25",
+  "vedtektsfestetFormaal": [
+    "Magasinsalg, promotering av Oslo by, journalistikk, medievirksomhet,",
+    "bokutgivelse, kursvirksomhet samt hva hermed står i forbindelse."
+  ]
+}

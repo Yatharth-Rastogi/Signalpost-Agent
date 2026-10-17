@@ -1,0 +1,67 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/837404452"
+    }
+  },
+  "aktivitet": [
+    "Bevare og vedlikeholde Skaga Bedehus. Dugnad. Basar, åreslag."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skagavegen 249"
+    ],
+    "kommune": "NÆRØYSUND",
+    "kommunenummer": "5060",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7970",
+    "poststed": "KOLVEREID"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i religiøse organisasjoner",
+    "kode": "94.910"
+  },
+  "navn": "\"HJELPERNE\" SKAGA BEDEHUS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "837404452",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Skagavegen 299"
+    ],
+    "kommune": "NÆRØYSUND",
+    "kommunenummer": "5060",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7970",
+    "poststed": "KOLVEREID"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-05-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-02-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

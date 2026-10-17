@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926033549"
+    }
+  },
+  "aktivitet": [
+    "Skal være en studentpodkast for studentene ved Nord Universitet.",
+    "Det skal fungere som en moderne studentavis for å dele nyttig",
+    "informasjon og bidra til et bedre studentmiljø. Vi slipper ukentlige",
+    "episoder."
+  ],
+  "epostadresse": "userioest.nord@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Universitetsalléen 11"
+    ],
+    "kommune": "BODØ",
+    "kommunenummer": "1804",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8026",
+    "poststed": "BODØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "(U)SERIØST",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "926033549",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-11-25",
+  "registreringsdatoFrivillighetsregisteret": "2020-11-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2020-10-09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

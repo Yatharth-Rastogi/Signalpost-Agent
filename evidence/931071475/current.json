@@ -1,0 +1,53 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931071475"
+    }
+  },
+  "aktivitet": [
+    "Eierseksjonssameie"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Synøve Eriksen Vadøy",
+      "Fagerlia 7B"
+    ],
+    "kommune": "KINN",
+    "kommunenummer": "4602",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6908",
+    "poststed": "FLORØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i borettslag og boligsameier",
+    "kode": "97.001"
+  },
+  "navn": "\"3-MANNSBOLIG FAGERLIA 7\" SEKSJONSSAMEIE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ESEK"
+      }
+    },
+    "beskrivelse": "Eierseksjonssameie",
+    "kode": "ESEK"
+  },
+  "organisasjonsnummer": "931071475",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-04-28",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-07-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,84 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602"
+    }
+  },
+  "aktivitet": [
+    "Produsent og arrangør av kulturelle opplevelser, reiser, samt",
+    "konsulenttjenester innen underholdning."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kongens gate 6"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0153",
+    "poststed": "OSLO"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-01-06",
+  "fravalgRevisjonDato": "2026-01-20",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100000,
+    "belop": 100000.0,
+    "innfortDato": "2026-01-20",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter utført av utflukts- og eventarrangører",
+    "kode": "79.121"
+  },
+  "navn": "0000 NORGE AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "837000602",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Etna",
+      "Postboks 392 Sentrum"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0103",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-01-20",
+  "registreringsdatoForetaksregisteret": "2026-01-20",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-01-06",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-01-06",
+  "vedtektsfestetFormaal": [
+    "Produsent og arrangør av kulturelle opplevelser, reiser, samt",
+    "konsulenttjenester innen underholdning."
+  ]
+}

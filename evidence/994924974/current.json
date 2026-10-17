@@ -1,0 +1,67 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994924974"
+    }
+  },
+  "aktivitet": [
+    ".:SoR-eSports har som formål å legge til rette for folk i alle aldre",
+    "som har e-sport som hobby. Vi jobber alle på frivillig basis og ser på",
+    "oss selv som en instans innenfor hele norges e-sport-samfunn."
+  ],
+  "epostadresse": "bjhugo@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Bjørn-Hugo Hansen",
+      "Svalestien 43"
+    ],
+    "kommune": "ÅS",
+    "kommunenummer": "3218",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1407",
+    "poststed": "VINTERBRO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2010-01-05 20:16:09",
+      "navn": ".:SOR-ESPORTS",
+      "tilDato": "2010-06-08 20:27:36"
+    }
+  ],
+  "hjemmeside": "www.soldier.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": ".:SOR-ESPORTS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994924974",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-01-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2007-01-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

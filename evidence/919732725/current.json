@@ -1,0 +1,89 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/919732725"
+    }
+  },
+  "aktivitet": [
+    "Drift av idrettslag og idrettsklubb for sport og e-sport."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Torvveien 19"
+    ],
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1383",
+    "poststed": "ASKER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2017-10-17 09:37:45",
+      "navn": "FN7 ÅRGANG 2017 XIV AS",
+      "tilDato": "2017-12-21 12:35:04"
+    },
+    {
+      "fraDato": "2017-12-21 12:35:04",
+      "navn": "NORDAVIND AS",
+      "tilDato": "2022-08-18 15:42:21"
+    }
+  ],
+  "hjemmeside": "www.00nation.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 21308532,
+    "belop": 2130853.2,
+    "innfortDato": "2024-07-30",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Fritidsvirksomhet ellers",
+    "kode": "93.292"
+  },
+  "navn": "00NATION AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "919732725",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-10-17",
+  "registreringsdatoForetaksregisteret": "2017-10-17",
+  "registreringsdatoMerverdiavgiftsregisteret": "2018-07-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2018-07-10",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2017-09-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2024-06-28",
+  "vedtektsfestetFormaal": [
+    "Å delta i e-sport, herunder organisering av",
+    "lag og spillere, samt deltagelse i seriespill og turneringer,",
+    "nasjonalt og internasjonalt. Selskapet skal videre forestå",
+    "spillerutvikling, salg og kjøp av spillere samt generell drift av",
+    "idrettsklubb. Selskapet kan også forestå utvikling og salg av",
+    "audiovisuelt innhold, herunder også apper og programmer. Selskapet kan",
+    "yte konsulenttjenester."
+  ]
+}

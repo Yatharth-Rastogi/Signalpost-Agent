@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926781073"
+    }
+  },
+  "aktivitet": [
+    "Dronefoto og video."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Mørkveien 107A"
+    ],
+    "kommune": "NORDRE FOLLO",
+    "kommunenummer": "3207",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1409",
+    "poststed": "SKOTBU"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Fotografvirksomhet",
+    "kode": "74.200"
+  },
+  "navn": "@ NORDBY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "926781073",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-03-12",
+  "registreringsdatoForetaksregisteret": "2021-03-12",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-06-27",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-06-29",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

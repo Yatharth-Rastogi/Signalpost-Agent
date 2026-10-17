@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916010214"
+    }
+  },
+  "aktivitet": [
+    "Eie og drifte et dragrace-team, herunder både å eie, låne og leie",
+    "kjøretøy, motorer, verktøy og øvrig utstyr for å drifte teamet, samt",
+    "transportere til og fra motorsportstevner og festivaler i Norge og",
+    "Europa forøvrig. Foreningens nedslagsfelt er Oslo og Akershus."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ivar Espeland",
+      "Skogryggveien 19B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0781",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Sportsaktiviteter ikke nevnt annet sted",
+    "kode": "93.190"
+  },
+  "navn": "0.500 NULL.FEMHUNDRE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916010214",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2015-10-01",
+  "registreringsdatoFrivillighetsregisteret": "2015-10-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2015-09-23",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

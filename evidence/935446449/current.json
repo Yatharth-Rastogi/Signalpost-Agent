@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935446449"
+    }
+  },
+  "aktivitet": [
+    "Netthandel med klær."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Røysumvegen 45A"
+    ],
+    "kommune": "MIDT-TELEMARK",
+    "kommunenummer": "4020",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3801",
+    "poststed": "BØ I TELEMARK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med klær",
+    "kode": "47.710"
+  },
+  "navn": "· JYNEX MIROZADA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "935446449",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-05-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -4,6 +4,7 @@ import json
 import os
 import re
 import base64
+from html import escape
 from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 import agent
@@ -349,14 +350,15 @@ def safe_filename(name: str, default: str = "Signalpost_Report") -> str:
 
 # --- RENDER HELPERS ---
 def card_html(p):
+    e = lambda v: escape(str(v)) if v not in (None, "") else "N/A"
     return f"""
     <div class="grid">
-      <div class="tile"><div class="label">Business Type</div><div class="value">{p.get('business_type', 'N/A')}</div></div>
-      <div class="tile"><div class="label">Registration Date</div><div class="value">{p.get('registration_date', 'N/A')}</div></div>
-      <div class="tile"><div class="label">Address</div><div class="value">{p.get('address', 'N/A')}</div></div>
-      <div class="tile"><div class="label">Employees</div><div class="value">{p.get('employees', 'N/A')}</div></div>
+      <div class="tile"><div class="label">Business Type</div><div class="value">{e(p.get('business_type'))}</div></div>
+      <div class="tile"><div class="label">Registration Date</div><div class="value">{e(p.get('registration_date'))}</div></div>
+      <div class="tile"><div class="label">Address</div><div class="value">{e(p.get('address'))}</div></div>
+      <div class="tile"><div class="label">Employees</div><div class="value">{e(p.get('employees'))}</div></div>
     </div>
-    <div class="ai-box"><h4>🤖 AI Analysis</h4><p>{p.get('ai_explanation', 'Not available.')}</p></div>
+    <div class="ai-box"><h4>🤖 AI Analysis</h4><p>{e(p.get('ai_explanation', 'Not available.'))}</p></div>
     """
 
 
