@@ -6,9 +6,9 @@ Fetch statuses: ok / not_found (404) / network_error (retried).
 Name resolution safety: rank gate -> coverage guard -> difflib typo-rescue ->
 LLM spellcheck re-verified; weak matches never publish, closest names offered
 via LAST_SUGGESTIONS (registry candidates first, local cache fallback).
+SELF-HEALING CACHE: Corrupted/stale explanations (CoT leaks, API errors, oversized blobs)
+are automatically regenerated on first query via lookup_company()'s upgrade check.
 """
-
-import re
 import requests
 import json
 import os
@@ -61,7 +61,6 @@ def local_answer(context, question):
     btype = context.get("business_type", "N/A")
     reg = context.get("registration_date", "N/A")
     src = context.get("source_url", "")
-
     if any(k in q for k in ["org", "registration number", "reg number", "orgnr", "org nr", "number"]):
         return f"The official organization number for **{name}** is **{org}**."
     if any(k in q for k in ["people", "employee", "ansatte", "staff", "workers", "number of"]):
@@ -129,22 +128,28 @@ def save_cache(cache_dict):
         json.dump(list(cache_dict.values()), f, ensure_ascii=False, indent=2)
 
 # ---------------------------------------------------------------------------
-# LIVE REGISTRY FETCHING (Brreg.no) — status-aware
+# INPUT SANITIZER (handles NO923609016MVA, spaces, prefixes/suffixes)
 # ---------------------------------------------------------------------------
-def sanitize_org_number(query: str):
+import re as _re
+
+def sanitize_org_number(query):
     """Extracts 9-digit org number from dirty strings like 'NO923609016MVA'."""
     if not query: return None
-    cleaned = re.sub(r"[^\dA-Za-z]", "", str(query).upper())
+    cleaned = _re.sub(r"[^\dA-Za-z]", "", str(query).upper())
     if cleaned.startswith("NO"): cleaned = cleaned[2:]
     if cleaned.endswith("MVA"): cleaned = cleaned[:-3]
     if cleaned.isdigit() and len(cleaned) == 9:
         return cleaned
     return None
 
+# ---------------------------------------------------------------------------
+# LIVE REGISTRY FETCHING (Brreg.no) — status-aware + NACE industry + no-retry on 4xx
+# ---------------------------------------------------------------------------
 _SESSION = requests.Session()
 _SESSION.headers.update({"User-Agent": "Signalpost-Intelligence-Agent/1.0"})
 
 def fetch_from_registry(org_nr):
+    """Returns (profile_or_None, status); status in {'ok','not_found','invalid_input','network_error'}."""
     org_clean = sanitize_org_number(org_nr) or str(org_nr).strip()
     if not org_clean.isdigit() or len(org_clean) != 9:
         return None, "invalid_input"
@@ -279,7 +284,6 @@ def search_by_name(name_query, max_rank=4):
     enheter = fetch_candidates(name_query)
 
     if not enheter:
-        # Registry returned nothing: try LLM spellcheck re-query, then cache suggestions
         corrected = correct_company_name(name_query)
         if corrected:
             cq = corrected.lower().strip()
@@ -500,6 +504,7 @@ Reply with ONLY the JSON object (no markdown, no fences)."""
 
 # ---------------------------------------------------------------------------
 # MAIN LOOKUP LOGIC (retries transient network errors; never retries a 404)
+# SELF-HEALING: Cache-hit path auto-regenerates corrupted/stale explanations
 # ---------------------------------------------------------------------------
 def lookup_company(org_nr, force_refresh=False):
     global LAST_LOOKUP_STATUS
@@ -514,6 +519,7 @@ def lookup_company(org_nr, force_refresh=False):
                 cache[org_nr]["employees"] = live.get("employees")
                 save_cache(cache)
         current = cache[org_nr].get("ai_explanation", "")
+        # AUTO-UPGRADE CHECK: Detects CoT leaks, API error dumps, oversized blobs, stale templates
         if ai_status()[0] == "ai" and (
             not current
             or current == basic_summary(cache[org_nr])
@@ -554,6 +560,7 @@ def lookup_company(org_nr, force_refresh=False):
 
 # ---------------------------------------------------------------------------
 # BATCH INITIALIZATION (Hackathon requirement: 1,000+ profiles; paginated, proven)
+# Adds industry field for schema parity with fetch_from_registry
 # ---------------------------------------------------------------------------
 def initialize_batch_cache(target_count=1000):
     cache = load_cache()
@@ -582,10 +589,15 @@ def initialize_batch_cache(target_count=1000):
                     street = address_list[0] if address_list else ""
                     postplace = addr_info.get("poststed", "")
                     full_address = f"{street}, {postplace}".strip(", ")
+                    
+                    nace = item.get("naeringskode1", {})
+                    industry = nace.get("beskrivelse") if isinstance(nace, dict) else None
+                    
                     profile = {
                         "company_name": item.get("navn"),
                         "org_number": org_nr,
                         "business_type": item.get("organisasjonsform", {}).get("beskrivelse"),
+                        "industry": industry or "N/A",
                         "address": full_address if full_address else "N/A",
                         "registration_date": item.get("registreringsdatoEnhetsregisteret"),
                         "employees": item.get("antallAnsatte"),

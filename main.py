@@ -1,9 +1,9 @@
 """
 main.py — Signalpost CLI Agent (official hackathon entry point)
 Three modes:
-  1. --batch-file PATH    (batch processing of a file)
-  2. --companies A B C    (space-separated on the command line)
-  3. (no arguments)       (interactive: one query at a time, Ctrl+C to exit)
+--batch-file PATH    (batch processing of a file)
+--companies A B C    (space-separated on the command line)
+(no arguments)       (interactive: one query at a time, Ctrl+C to exit)
 Mixed input (org numbers + company names) supported in every mode.
 """
 import argparse
@@ -13,7 +13,6 @@ import time
 import os
 import sys
 from datetime import datetime, timezone
-
 import agent
 from agent import lookup_company, initialize_batch_cache, ai_status, search_by_name
 
@@ -43,12 +42,12 @@ def _missing_entry(label, org, status):
                 f"Enhetsregisteret (Brreg.no) name search as of {_today()}.")
     sugg = getattr(agent, "LAST_SUGGESTIONS", []) or []
     if sugg and status == "not_found":
-        expl += " Closest registered names: " + \
-                "; ".join(f"{n} ({o})" for n, o in sugg) + "."
+        expl += " Closest registered names: " + "; ".join(f"{n} ({o})" for n, o in sugg) + "."
     return {
         "company_name": None if org else label,
         "org_number": org,
         "business_type": None,
+        "industry": None,          # SCHEMA PARITY WITH FIELDNAMES
         "address": None,
         "registration_date": None,
         "employees": None,
@@ -198,6 +197,7 @@ def interactive_mode():
                 results.append(entry)
                 print(f"\n  ✅ {profile.get('company_name')}")
                 print(f"     Type:        {profile.get('business_type')}")
+                print(f"     Industry:    {profile.get('industry', 'N/A')}")
                 print(f"     Address:     {profile.get('address')}")
                 print(f"     Registered:  {profile.get('registration_date')}")
                 print(f"     Employees:   {profile.get('employees') or 'N/A'}")

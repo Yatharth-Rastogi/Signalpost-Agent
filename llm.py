@@ -104,6 +104,16 @@ def _strip_fences(t):
         t = t.rsplit("```", 1)[0]
     return t.strip()
 
+def _safe_extract_content(resp):
+    """Safely extracts message content; returns '' if choices missing/empty."""
+    try:
+        if not resp or not getattr(resp, "choices", None):
+            return ""
+        msg = resp.choices[0].message
+        return (msg.content or "") if msg else ""
+    except Exception:
+        return ""
+
 def _strip_think(t):
     t = re.sub(r"<think.*?</think>", "", t, flags=re.S | re.I)
     t = re.sub(r"<think.*", "", t, flags=re.S | re.I)
