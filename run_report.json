@@ -1,19 +1,30 @@
 {
-  "run_id": "signalpost-20261017-163610",
-  "command": "python main.py --batch-file test_batch.txt",
-  "items_in": 6,
-  "items_recorded": 6,
-  "ok": 2,
-  "not_found": 4,
-  "fetch_error": 0,
-  "runtime_seconds": 19.4,
-  "registry_requests": 2,
+  "run_id": "signalpost-20261017-184853",
+  "command": "python main.py --batch-file smoke100.txt",
+  "items_in": 100,
+  "items_recorded": 100,
+  "row_parity_ok": true,
+  "states": {
+    "available": 100,
+    "not_available": 0,
+    "blocked": 0,
+    "not_applicable": 0,
+    "ambiguous": 0,
+    "failed": 0
+  },
+  "runtime_seconds": 41.5,
+  "registry_requests": 100,
   "web_search_calls": 0,
+  "latency_ms_avg": 359.1,
   "models": {
     "smart": "nvidia/nemotron-3-super-120b-a12b:free",
     "fast": "nvidia/nemotron-3.5-lightning:free"
   },
+  "ai_synthesis_enabled": false,
+  "per_row_delay_s": 0.05,
+  "budget_seconds": 300,
+  "circuit_breaker_tripped": false,
   "third_party_cost_usd": 0.0,
   "cost_basis": "free-tier OpenRouter + keyless Brreg; declared ceiling <= $10/day",
-  "generated_at": "2026-10-17T11:06:10.558771+00:00"
+  "generated_at": "2026-10-17T13:18:53.825189+00:00"
 }
