@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937250835"
+    }
+  },
+  "aktivitet": [
+    "Utleie av tilhengere. Bedriftsrådgivning, HMS og internkontroll."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kystkulturveien 2651"
+    ],
+    "kommune": "GRATANGEN",
+    "kommunenummer": "5516",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9446",
+    "poststed": "GROVFJORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Utleie og leasing av andre maskiner og annet utstyr og materiell ikke nevnt annet sted",
+    "kode": "77.390"
+  },
+  "navn": "1054 SOLUTIONS V/MATS REINHOLTSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "937250835",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-03-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

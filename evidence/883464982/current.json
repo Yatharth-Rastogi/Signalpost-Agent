@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/883464982"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe i Norges Speiderforbund."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17 OSLO KAMPIANERNE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "883464982",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Marte Kjersti Schrøder",
+      "Kaptein Oppegaards vei 3B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1164",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2001-09-08",
+  "registreringsdatoFrivillighetsregisteret": "2009-06-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "1919-02-05",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998059747"
+    }
+  },
+  "aktivitet": [
+    "Konsulentvirksomhet innen forretnings- og organisasjonsutvikling,",
+    "ledelse, undervisning og coaching, samt alt hva hermed står i",
+    "forbindelse, herunder deltagelse i andre selskaper med beslektet",
+    "virksomhet."
+  ],
+  "epostadresse": "per@1rm.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Jarlsøveien 43A"
+    ],
+    "kommune": "TØNSBERG",
+    "kommunenummer": "3905",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3124",
+    "poststed": "TØNSBERG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2012-03-06 20:22:09",
+      "navn": "TALK FORUM PER ANDREW LIER",
+      "tilDato": "2016-02-17 12:47:12"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "480 00 434",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "1RM LIER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "998059747",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-03-06",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-12-11",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-12-12",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

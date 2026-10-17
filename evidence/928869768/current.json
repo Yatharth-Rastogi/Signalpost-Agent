@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928869768"
+    }
+  },
+  "aktivitet": [
+    "Hovedaktiviteten er at kvinner skal kunne",
+    "treffes og deler erfaringer opplevelser og ideer. Samtidig kunne",
+    "strikke, sy og drikke kaffe/te. Hovedideen er å inkludere den unge",
+    "generasjon med den eldre generasjonen. Språk skal ikke være en",
+    "hindring for å komme ut og bli sosial."
+  ],
+  "epostadresse": "toretttovrang@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Havagul Duymaz Kuyu",
+      "Lauritz Hervigs vei 164A"
+    ],
+    "kommune": "DRAMMEN",
+    "kommunenummer": "3301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3035",
+    "poststed": "DRAMMEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "406 11 991",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2 RETT & 2 VRANG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "928869768",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-03-04",
+  "registreringsdatoFrivillighetsregisteret": "2022-03-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-02-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

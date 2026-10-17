@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/821018072"
+    }
+  },
+  "aktivitet": [
+    "Planlegging og gjennomføring av den offisielle feiringa av",
+    "nasjonaldagen i Bygland kommune."
+  ],
+  "epostadresse": "hege.jore.gakkestad@bygland.kommune.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Vassend 12"
+    ],
+    "kommune": "BYGLAND",
+    "kommunenummer": "4220",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4741",
+    "poststed": "BYGLANDSFJORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "977 08 534",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI BYGLAND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "821018072",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Hege Jore Gakkestad",
+      "Vassend 12"
+    ],
+    "kommune": "BYGLAND",
+    "kommunenummer": "4220",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4741",
+    "poststed": "BYGLANDSFJORD"
+  },
+  "registreringsdatoEnhetsregisteret": "2019-04-17",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-02-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

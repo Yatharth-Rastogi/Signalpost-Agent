@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996896609"
+    }
+  },
+  "aktivitet": [
+    "Snekker. Sauebonde."
+  ],
+  "epostadresse": "abadenn@gmx.de",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Vatnarvegen 1115"
+    ],
+    "kommune": "MIDT-TELEMARK",
+    "kommunenummer": "4020",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3804",
+    "poststed": "BØ I TELEMARK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "48266643",
+  "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+  },
+  "naeringskode2": {
+    "beskrivelse": "Sauehold",
+    "kode": "01.451"
+  },
+  "navn": "10/27 WORKS STEFFEN BUCH",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "996896609",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-05-30",
+  "registreringsdatoMerverdiavgiftsregisteret": "2011-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2012-05-29",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

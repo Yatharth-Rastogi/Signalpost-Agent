@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/984060416"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe (barne- og ungdomsarbeid)."
+  ],
+  "epostadresse": "gunder.eidet@c2i.net",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Dagfrid Bråtane",
+      "Gamle Sørlandske 73"
+    ],
+    "kommune": "KRAGERØ",
+    "kommunenummer": "4014",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3766",
+    "poststed": "SANNIDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "975 77 220",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SANNIDAL SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "984060416",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2002-03-30",
+  "registreringsdatoFrivillighetsregisteret": "2009-03-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1938-12-31",
+  "telefon": "35 98 94 94",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

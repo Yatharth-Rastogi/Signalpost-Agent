@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916111576"
+    }
+  },
+  "aktivitet": [
+    "Planlegging og gjennomføring av 17. mai feiringa ved Helland Skule,",
+    "Vestnes."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2015-11-26 11:33:49",
+      "navn": "17. MAI KOMITEEN VED HELLAND SKULE",
+      "tilDato": "2021-06-10 11:43:34"
+    },
+    {
+      "fraDato": "2021-06-10 11:43:34",
+      "navn": "17. MAI KOMITEEN, KULL 2009 HELLAND",
+      "tilDato": "2022-04-21 13:26:14"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITEEN HELLAND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916111576",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Eirin Helen Bueide Gulla",
+      "Buktavegen 29"
+    ],
+    "kommune": "VESTNES",
+    "kommunenummer": "1535",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6390",
+    "poststed": "VESTNES"
+  },
+  "registreringsdatoEnhetsregisteret": "2015-11-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2015-10-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

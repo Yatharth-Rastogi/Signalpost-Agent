@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938578273"
+    }
+  },
+  "aktivitet": [
+    "Holdingselskap."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Morkavegen 9"
+    ],
+    "kommune": "VOLDA",
+    "kommunenummer": "1577",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6105",
+    "poststed": "VOLDA"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-09-22",
+  "fravalgRevisjonDato": "2026-09-28",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-09-28",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "1TIM 6.17-19 AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "938578273",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-09-28",
+  "registreringsdatoForetaksregisteret": "2026-09-28",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-09-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-09-22",
+  "vedtektsfestetFormaal": [
+    "Investere i selskaper og eiendom og alt annet som naturlig faller",
+    "sammen med dette, herunder å delta i andre selskaper med lignende",
+    "virksomhet, kjøp og salg av aksjer, eller på annen måte gjøre seg",
+    "interessert i andre foretagende."
+  ]
+}

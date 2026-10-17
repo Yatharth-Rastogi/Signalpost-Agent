@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930860522"
+    }
+  },
+  "aktivitet": [
+    "Salg via nettet av ski og tilbehør til privatpersoner i Norge."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Högbergsgatan 85"
+    ],
+    "land": "Sverige",
+    "landkode": "SE",
+    "poststed": "SE-118 54 STOCKHOLM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Formidlingstjenester tilknyttet detaljhandel med spesialisert vareutvalg",
+    "kode": "47.920"
+  },
+  "navn": "1000SKIS AB",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "930860522",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Moms Finans Sweden AB",
+      "Fabriksgatan 23H"
+    ],
+    "land": "Sverige",
+    "landkode": "SE",
+    "poststed": "SE-891 33 ÖRNSKÖLDSVIK"
+  },
+  "registreringsdatoEnhetsregisteret": "2023-03-02",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-03-14",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-03-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

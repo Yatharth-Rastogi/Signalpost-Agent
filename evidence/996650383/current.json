@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996650383"
+    }
+  },
+  "aktivitet": [
+    "Organisere alle innenfor forbundets virkeområde på",
+    "arbeidsplassen/bedriften. Ivareta og fremme medlemmenes økonomiske,",
+    "miljømessige, faglige, sosiale og kulturelle interesser. Føre",
+    "forhandling er på vegne av medlemmene."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hoffs gate 10"
+    ],
+    "kommune": "LARVIK",
+    "kommunenummer": "3909",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3262",
+    "poststed": "LARVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i arbeidstakerorganisasjoner",
+    "kode": "94.200"
+  },
+  "navn": "178 LAPI ARBEIDERFORENING (INDUSTRI ENERGI)",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "996650383",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 1281"
+    ],
+    "kommune": "LARVIK",
+    "kommunenummer": "3909",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3254",
+    "poststed": "LARVIK"
+  },
+  "registreringsdatoEnhetsregisteret": "2011-03-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1971-09-29",
+  "telefon": "33 18 09 50",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

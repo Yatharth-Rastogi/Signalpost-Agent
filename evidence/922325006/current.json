@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922325006"
+    }
+  },
+  "aktivitet": [
+    "Softwareutvikling, softwaredesign, utvikling og utplassering for en",
+    "norsk bank, for at de skal kunne legge til rette for sine nye",
+    "finansielle produkter. 11:FS Foundry er en modulær bankingplattform."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "We Work c/o 11FS",
+      "10 Devonshire Square"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "LONDON EC2M 4YP"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+  },
+  "navn": "11:FS FOUNDRY LIMITED NUF",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "922325006",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-03-26",
+  "registreringsdatoForetaksregisteret": "2019-03-26",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

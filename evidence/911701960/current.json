@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/911701960"
+    }
+  },
+  "aktivitet": [
+    "Jobbar for å ivareta funksjonshemma sine interesser i Bremanger",
+    "kommune."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1438 NORGES HANDICAPFORBUND AVD. BREMANGER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "911701960",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Kirsten Signy Havnen",
+      "Bøgjen 23"
+    ],
+    "kommune": "BREMANGER",
+    "kommunenummer": "4648",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6727",
+    "poststed": "BREMANGER"
+  },
+  "registreringsdatoEnhetsregisteret": "2013-03-25",
+  "registreringsdatoFrivillighetsregisteret": "2013-03-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1981-04-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

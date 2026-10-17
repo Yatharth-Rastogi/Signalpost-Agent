@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/913058143"
+    }
+  },
+  "aktivitet": [
+    "Skape et sosialt miljø rundt Bil og MC, samt arbeide mot å øke",
+    "sikkerhet og teknisk kompetanse for medlemmer og ikke-medlemmer.",
+    "Arrangere aktiviteter for medlemmer og ikke-medlemmer. Arrangere",
+    "tekniske kvelder for medlemmer. Arrangere sosiale sammenkomster for",
+    "medlemmer og ikke-medlemmer. Arbeide med partnere for å fremme",
+    "medlemmenes interesser. Arbeide med partnere for å fremme sikkerhet og",
+    "tryggere forhold for medlemmer og ikke-medlemmer."
+  ],
+  "epostadresse": "tommy@10w-30mc.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Råholtgutua 12"
+    ],
+    "kommune": "EIDSVOLL",
+    "kommunenummer": "3240",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2070",
+    "poststed": "RÅHOLT"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "400 66 006",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "10W-30 MOTOR CLUB",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "913058143",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Solheimvegen 8"
+    ],
+    "kommune": "EIDSVOLL",
+    "kommunenummer": "3240",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2070",
+    "poststed": "RÅHOLT"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-01-14",
+  "registreringsdatoFrivillighetsregisteret": "2014-01-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2014-01-05",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

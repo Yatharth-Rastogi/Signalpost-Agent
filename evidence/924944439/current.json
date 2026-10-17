@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/924944439"
+    }
+  },
+  "aktivitet": [
+    "Vaktmestertjenester, snørydding og reparasjon av mobiler, nettbrett og",
+    "laptop."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Stuorravuonna 138"
+    ],
+    "kommune": "NESSEBY",
+    "kommunenummer": "5636",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9840",
+    "poststed": "VARANGERBOTN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Kombinerte tjenester tilknyttet eiendomsdrift",
+    "kode": "81.100"
+  },
+  "navn": "1979 TOM ELLINGSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "924944439",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-04-20",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-03-17",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-04-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987378204"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe."
+  ],
+  "epostadresse": "1.ovsttun@gmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2005-09-28 20:36:46",
+      "navn": "1.ØVSTTUN SPEIDERGRUPPE",
+      "tilDato": "2021-04-12 18:15:47"
+    }
+  ],
+  "hjemmeside": "www.ovsttun.org",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "944 95 584",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. ØVSTTUN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987378204",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Helldalsneset 33"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5226",
+    "poststed": "NESTTUN"
+  },
+  "registreringsdatoEnhetsregisteret": "2005-09-28",
+  "registreringsdatoFrivillighetsregisteret": "2009-03-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1954-01-04",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917154686"
+    }
+  },
+  "aktivitet": [
+    "Grafisk design inkluderer laging av logoer, brosjyrer, annet reklame",
+    "materiell. Sosiale medier innebære, reklame, videosnutter og lyd.",
+    "Webdesign, apps og annen nettbasert media. Vi tilbyr også IT tjenester",
+    "og kurs. 123Bedrift har også en underleverandør kalt CoupleTip som",
+    "tilbyr varer på nett for målgruppe fra start av forhold til gift."
+  ],
+  "epostadresse": "post@123bedrift.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Fridtjof Nansens veg 94A"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4250",
+    "poststed": "KOPERVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2016-05-12 09:27:47",
+      "navn": "SP GRAFISK DESIGN SIMON PETER VEDØY",
+      "tilDato": "2017-07-31 14:42:16"
+    }
+  ],
+  "hjemmeside": "www.123bedrift.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "99160183",
+  "naeringskode1": {
+    "beskrivelse": "Grafisk design og visuell kommunikasjonsdesign",
+    "kode": "74.120"
+  },
+  "navn": "123 BEDRIFT V/SIMON PETER VEDØY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "917154686",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-05-12",
+  "registreringsdatoMerverdiavgiftsregisteret": "2017-07-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2017-08-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

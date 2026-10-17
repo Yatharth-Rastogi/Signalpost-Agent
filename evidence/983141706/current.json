@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983141706"
+    }
+  },
+  "aktivitet": [
+    "Lokal travklubb."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i idrettslag og -klubber",
+    "kode": "93.120"
+  },
+  "navn": "0404 GRUE TRAVKLUBB",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "983141706",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Grue Travklubb",
+      "c/o Sandra Håbakk",
+      "Skjærigutua 97"
+    ],
+    "kommune": "ÅSNES",
+    "kommunenummer": "3418",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2266",
+    "poststed": "ARNEBERG"
+  },
+  "registreringsdatoEnhetsregisteret": "2001-06-14",
+  "registreringsdatoFrivillighetsregisteret": "2009-04-06",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1916-02-03",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

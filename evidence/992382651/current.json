@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/992382651"
+    }
+  },
+  "aktivitet": [
+    "Speiderarbeid."
+  ],
+  "epostadresse": "gruppeleder@1kolbotn.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Gimleveien 3"
+    ],
+    "kommune": "NORDRE FOLLO",
+    "kommunenummer": "3207",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1413",
+    "poststed": "TÅRNÅSEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2008-03-11 20:35:20",
+      "navn": "KOLBOTN GRUPPE AV NORGES SPEIDERFORBUND",
+      "tilDato": "2008-03-31 20:46:34"
+    }
+  ],
+  "hjemmeside": "www.1kolbotn.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. KOLBOTN GRUPPE AV NORGES SPEIDERFORBUND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "992382651",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Nicholas Moe-Pryce",
+      "Mellomåsveien 102"
+    ],
+    "kommune": "NORDRE FOLLO",
+    "kommunenummer": "3207",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1414",
+    "poststed": "TROLLÅSEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2008-03-11",
+  "registreringsdatoFrivillighetsregisteret": "2009-03-09",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1922-04-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

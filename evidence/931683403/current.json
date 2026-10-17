@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931683403"
+    }
+  },
+  "aktivitet": [
+    "Markedsføring og reklame."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Vardåsveien 64"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4637",
+    "poststed": "KRISTIANSAND S"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2023-07-04 14:08:49",
+      "navn": "OF NILSEN",
+      "tilDato": "2023-07-28 16:41:47"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reklamebyråvirksomhet",
+    "kode": "73.110"
+  },
+  "navn": "123 NILSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "931683403",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-07-04",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-08-25",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-10-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

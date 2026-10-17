@@ -1,0 +1,81 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/991272658"
+    }
+  },
+  "aktivitet": [
+    "Konsulent -, evaluering og kursvirksomhet. Evaluering av",
+    "bistandsprosjekter."
+  ],
+  "epostadresse": "mona.thowsen@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Bjerkelundgata 1B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0553",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "922 08 412",
+  "naeringskode1": {
+    "beskrivelse": "All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted",
+    "kode": "74.990"
+  },
+  "navn": "10. APRIL ANS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ANS"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med solidarisk ansvar",
+    "kode": "ANS"
+  },
+  "organisasjonsnummer": "991272658",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Bjerkelundgata 1"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0553",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2007-06-30",
+  "registreringsdatoForetaksregisteret": "2007-06-30",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-12-17",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-12-18",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2023",
+  "stiftelsesdato": "2007-05-14",
+  "telefon": "91 75 44 25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2007-05-14",
+  "vedtektsfestetFormaal": [
+    "Handel med/produksjon av konsulenttjenester og produkter som naturlig",
+    "hører sammen med dette samt deltakelse i andre virksomheter innenfor",
+    "samme bransje."
+  ]
+}

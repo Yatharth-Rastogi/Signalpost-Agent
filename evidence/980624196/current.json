@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/980624196"
+    }
+  },
+  "aktivitet": [
+    "Strategisk rådgivning- og coaching i digital virksomhetsutvikling.",
+    "Trening og kurs i trampoline og ski."
+  ],
+  "epostadresse": "morten@12x.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Øygardveien 113C"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1357",
+    "poststed": "BEKKESTUA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1999-06-09 18:43:36",
+      "navn": "GUDDIS Morten K Gudmundseth",
+      "tilDato": "1999-09-15 18:17:27"
+    },
+    {
+      "fraDato": "1999-09-15 18:17:27",
+      "navn": "NETTBANKEN Morten K Gudmundseth",
+      "tilDato": "2007-06-06 20:17:56"
+    },
+    {
+      "fraDato": "2007-06-06 20:17:56",
+      "navn": "1-2-XCELLENCE Morten Kaspar Gudmundset",
+      "tilDato": "2010-12-28 20:08:34"
+    }
+  ],
+  "hjemmeside": "www.12x.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "906 73 101",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "1 2 EXCELLENCE Morten Kaspar Gudmundseth",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "980624196",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1999-06-09",
+  "registreringsdatoMerverdiavgiftsregisteret": "2010-01-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2011-01-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

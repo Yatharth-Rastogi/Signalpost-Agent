@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/826152842"
+    }
+  },
+  "aktivitet": [
+    "Vennegrupper, arrangement i løpet av skuleåret, arrangement for",
+    "foreldre, arrangement ifm. tema i undervisningen, foreldrearrangert",
+    "tur for trinnet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Cecilie Eriksen Raunholm",
+      "Roleghaugen 11"
+    ],
+    "kommune": "STORD",
+    "kommunenummer": "4614",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5416",
+    "poststed": "STORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.TRINN HYSTAD SKULE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "826152842",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-12-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2020-11-30",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

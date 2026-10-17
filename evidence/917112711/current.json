@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917112711"
+    }
+  },
+  "aktivitet": [
+    "Organisering av 17.mai dagen i Stamnesbygda."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Terje Pedersen",
+      "Oterstadneset 14"
+    ],
+    "kommune": "VAKSDAL",
+    "kommunenummer": "4628",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5727",
+    "poststed": "STAMNES"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI-KOMITE STAMNES",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "917112711",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-06-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2016-03-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

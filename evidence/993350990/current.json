@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993350990"
+    }
+  },
+  "aktivitet": [
+    "Event: Produsent av underholdningstjenester."
+  ],
+  "epostadresse": "stian@1975.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Bergheimsvegen 28"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7049",
+    "poststed": "TRONDHEIM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2008-11-24 20:54:08",
+      "navn": "MONKEY LAKE Stian Thomsen-Aagaard",
+      "tilDato": "2009-10-14 20:15:57"
+    }
+  ],
+  "hjemmeside": "www.1975.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "926 88 588",
+  "naeringskode1": {
+    "beskrivelse": "All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted",
+    "kode": "74.990"
+  },
+  "navn": "1975 STIAN AAGAARD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "993350990",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2008-11-24",
+  "registreringsdatoMerverdiavgiftsregisteret": "2010-05-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2010-09-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

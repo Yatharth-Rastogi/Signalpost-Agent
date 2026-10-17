@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/914894107"
+    }
+  },
+  "aktivitet": [
+    "Mekanikar, sjåfør, maskinfører og andre handtverktjenestar."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rustadbakken 2"
+    ],
+    "kommune": "BREMANGER",
+    "kommunenummer": "4648",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6723",
+    "poststed": "SVELGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2015-02-02 09:26:26",
+      "navn": "1 MIDTBØ",
+      "tilDato": "2015-02-05 16:01:47"
+    },
+    {
+      "fraDato": "2015-02-05 16:01:47",
+      "navn": "1 STK. MIDTBØ",
+      "tilDato": "2015-03-05 17:05:23"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Reparasjon og vedlikehold av maskiner",
+    "kode": "33.120"
+  },
+  "navn": "1 MIDTBØ",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "914894107",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2015-02-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/920620361"
+    }
+  },
+  "aktivitet": [
+    "organisere og avvikle 17 mai på Bjørkelangen Skole"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Haldenveien 123"
+    ],
+    "kommune": "AURSKOG-HØLAND",
+    "kommunenummer": "3226",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1940",
+    "poststed": "BJØRKELANGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17 MAI BJØRKELANGEN SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "920620361",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-04-06",
+  "registreringsdatoFrivillighetsregisteret": "2018-04-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-01-23",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

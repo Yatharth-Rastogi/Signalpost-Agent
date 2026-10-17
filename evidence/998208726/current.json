@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998208726"
+    }
+  },
+  "aktivitet": [
+    "Klubbens formål er å ta vare på det sosiale samværet blant klubbens",
+    "medlemmer."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Forseths veg 12"
+    ],
+    "kommune": "JEVNAKER",
+    "kommunenummer": "3236",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3520",
+    "poststed": "JEVNAKER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "10'ERN KLUBBEN UTEN STYRMANN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "998208726",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-12-11",
+  "registreringsdatoFrivillighetsregisteret": "2017-06-30",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1991-03-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

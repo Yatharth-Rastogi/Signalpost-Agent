@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922673837"
+    }
+  },
+  "aktivitet": [
+    "Planlegge og arrangere 17.mai arrangement for bygda på vegne av Moster",
+    "skule, gjennom møter, forberedelser og praktisk arbeid ved arrangement",
+    "i forkant, etterkant og selve 17.mai."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ruben Espeland",
+      "Onglavikvegen 89"
+    ],
+    "kommune": "BØMLO",
+    "kommunenummer": "4613",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5440",
+    "poststed": "MOSTERHAMN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI-KOMITEEN PÅ MOSTER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "922673837",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-04-27",
+  "registreringsdatoFrivillighetsregisteret": "2019-04-27",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-01-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

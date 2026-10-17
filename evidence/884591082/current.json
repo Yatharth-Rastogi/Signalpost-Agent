@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/884591082"
+    }
+  },
+  "aktivitet": [
+    "Interiørkonsultasjon privat -og bedriftskunder, lyssetting av",
+    "butikker.Konsultasjon og produksjon av markedsføringsmateriell, redaks",
+    "arbeid.Tale -og foredragsvirksomhet."
+  ],
+  "epostadresse": "samnoen@ywam.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Fjordvegen 41"
+    ],
+    "kommune": "STANGE",
+    "kommunenummer": "3413",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2312",
+    "poststed": "OTTESTAD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Interiørdesignvirksomhet",
+    "kode": "74.130"
+  },
+  "navn": "1 KONSULENT ØYSTEIN SAMNØEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "884591082",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2002-06-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "62 58 62 59",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

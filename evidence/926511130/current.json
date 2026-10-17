@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926511130"
+    }
+  },
+  "aktivitet": [
+    "Samle inn penger til sosiale aktiviteter for 2014-kullet ved Begby",
+    "skole i tillegg til sparing til leirskole."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Marius Isebakke",
+      "Spinellveien 18"
+    ],
+    "kommune": "FREDRIKSTAD",
+    "kommunenummer": "3107",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1639",
+    "poststed": "GAMLE FREDRIKSTAD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2014-KULLET VED BEGBY SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "926511130",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-02-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-01-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

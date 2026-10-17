@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/819556822"
+    }
+  },
+  "aktivitet": [
+    "Gjennomføring av 17. mai-feiring i Øyer kommune."
+  ],
+  "epostadresse": "17.mai.oyer@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "C/O René Normann Skistad",
+      "Nermosvegen 8"
+    ],
+    "kommune": "ØYER",
+    "kommunenummer": "3440",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2636",
+    "poststed": "ØYER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "øyerfest.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "952 59 559",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI-KOMITEEN ØYER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "819556822",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-05-22",
+  "registreringsdatoFrivillighetsregisteret": "2024-05-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2024-04-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

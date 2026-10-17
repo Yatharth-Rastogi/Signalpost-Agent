@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994858793"
+    }
+  },
+  "aktivitet": [
+    "Gruppe under Norges speiderforbund."
+  ],
+  "epostadresse": "pet-gulb@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Safirvegen 12"
+    ],
+    "kommune": "PORSGRUNN",
+    "kommunenummer": "4001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3931",
+    "poststed": "PORSGRUNN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.heroyaspeider.org/",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "909 75 393",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.HERØYA SPEIDERGRUPPE AV NSF",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994858793",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2009-12-15",
+  "registreringsdatoFrivillighetsregisteret": "2009-12-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1935-09-25",
+  "telefon": "35 55 29 63",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929293339"
+    }
+  },
+  "aktivitet": [
+    "Tjene og samle inn penger til klassetur i 10. klasse 2023."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Grete Kristin Lutro Høysæter",
+      "Hellelandsvegen 27"
+    ],
+    "kommune": "ULLENSVANG",
+    "kommunenummer": "4618",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5781",
+    "poststed": "LOFTHUS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2022-06-27 11:49:12",
+      "navn": "KLASSETUR 2023 10KLASSE KINSARVIK UNGDOMSSKULE",
+      "tilDato": "2023-06-07 10:17:00"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "480 03 958",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "10KLASSE KINSARVIK UNGDOMSSKULE - SKULETUR",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "929293339",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Ullensvangvegen 257"
+    ],
+    "kommune": "ULLENSVANG",
+    "kommunenummer": "4618",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5781",
+    "poststed": "LOFTHUS"
+  },
+  "registreringsdatoEnhetsregisteret": "2022-06-27",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-03-17",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

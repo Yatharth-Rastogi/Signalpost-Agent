@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987637315"
+    }
+  },
+  "aktivitet": [
+    "Speiderforbund."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Halvdan Svartes gate 16"
+    ],
+    "kommune": "SANDEFJORD",
+    "kommunenummer": "3907",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3208",
+    "poststed": "SANDEFJORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.SANDEFJORD SPEIDERGRUPPE AV NORGES SPEIDERFORBUND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987637315",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2006-06-22",
+  "registreringsdatoFrivillighetsregisteret": "2023-05-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1912-02-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

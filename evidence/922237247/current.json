@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922237247"
+    }
+  },
+  "aktivitet": [
+    "Frilansjournalistikk til aviser og magasiner."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tordenskjolds gate 9A"
+    ],
+    "kommune": "TØNSBERG",
+    "kommunenummer": "3905",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3116",
+    "poststed": "TØNSBERG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Skapende kunstnerisk virksomhet innenfor litteratur",
+    "kode": "90.111"
+  },
+  "navn": "1979 PIA LESKOVSKY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "922237247",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-02-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

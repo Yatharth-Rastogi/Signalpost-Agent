@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/920661912"
+    }
+  },
+  "aktivitet": [
+    "Skal skrive og framføre sang og revy."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ken Are Johnsen",
+      "Bjørkåsen 4B"
+    ],
+    "kommune": "HAMMERFEST",
+    "kommunenummer": "5603",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9610",
+    "poststed": "RYPEFJORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor scenekunst",
+    "kode": "90.202"
+  },
+  "navn": "2 HALVE OG 1 HEL",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "920661912",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 47"
+    ],
+    "kommune": "HAMMERFEST",
+    "kommunenummer": "5603",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9611",
+    "poststed": "RYPEFJORD"
+  },
+  "registreringsdatoEnhetsregisteret": "2018-03-27",
+  "registreringsdatoFrivillighetsregisteret": "2022-06-29",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-01-31",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

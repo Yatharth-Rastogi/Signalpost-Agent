@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993896721"
+    }
+  },
+  "aktivitet": [
+    "1. Stokmarknes Speidergruppes formål er å utvikle mennesker til",
+    "selvstendighet og til å ta aktivt ansvar i samfunn i samsvar med",
+    "idealene fra speiderløftet og speiderloven."
+  ],
+  "epostadresse": "bhart@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ann-Katrin Grimstad",
+      "Rådhusgata 1"
+    ],
+    "kommune": "HADSEL",
+    "kommunenummer": "1866",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8450",
+    "poststed": "STOKMARKNES"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "909 95 030",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. STOKMARKNES SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "993896721",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 26"
+    ],
+    "kommune": "HADSEL",
+    "kommunenummer": "1866",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8455",
+    "poststed": "STOKMARKNES"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-04-18",
+  "registreringsdatoFrivillighetsregisteret": "2009-04-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1929-03-15",
+  "telefon": "76 15 26 96",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

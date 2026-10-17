@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926790706"
+    }
+  },
+  "aktivitet": [
+    "Styrke og fasilitere for personer over 60 år, funksjonshemmede,",
+    "personer med kronisk sykdom og innvandreres deltakelse i sosial,",
+    "kulturell, religiøs, fritids og samfunnets aktiviteter ved å kjøre og",
+    "følge/bli med dem til og fra organisert eller uorganiserte aktiviteter",
+    "eller behandlingsinstitusjoner. Assistere og samhandle med overnevnte",
+    "personers ressurser i praktisk bistand som vare/mat handling,",
+    "henting/levering av apotek, post, lånte eller utlånte varer,",
+    "fest/seremoni forberedelse som pådekking, opprydding, rengjøring,",
+    "terrasse/hagen opprydding. Rengjøring i privat eller",
+    "institusjonstjenester. Avlaste alenemødre, fedre og barns",
+    "omsorgsinstitusjoner ved å fasilitere deres deltakelse i sosial",
+    "og samfunnets formelle eller uformelle aktiviteter og fritidsgjøremål.",
+    "Rådgi, veilede og informere/undervise om sykdomsforebyggende,",
+    "helsefremmende livsstil, skoleliv, arbeidsliv og sosial deltakelse.",
+    "Tiltak og innvandrere orienteres til forskjellige institusjoner og",
+    "viktige offentlige steder i nærmiljøet. Ringetilsyn og avtale",
+    "påminnelse i telefon samtale. Følge/ledsage til planlagte ferier",
+    "innen- og utenlands."
+  ],
+  "epostadresse": "lhls.nyabendacares@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Dønskitoppen 16N"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1346",
+    "poststed": "GJETTUM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2021-04-14 11:40:16",
+      "navn": "LEVEHELELIVETSIKRET NYABENDA -CARES",
+      "tilDato": "2022-04-11 12:02:32"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "46560528",
+  "naeringskode1": {
+    "beskrivelse": "Avlastning utenfor institusjon",
+    "kode": "88.105"
+  },
+  "navn": "2+SAFECARE @ NYABENDA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "926790706",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-04-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/911634120"
+    }
+  },
+  "aktivitet": [
+    "Kjøp/salg av maskiner og teknisk utstyr (anleggsmaskiner til",
+    "verktøyindustrien og ulike typer produksjonsutstyr)."
+  ],
+  "epostadresse": "personbs@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Blommenholmveien 4C"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1365",
+    "poststed": "BLOMMENHOLM"
+  },
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2016-05-10",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "990 43 267",
+  "naeringskode1": {
+    "beskrivelse": "Engroshandel med maskiner og utstyr til jordbruk og skogbruk",
+    "kode": "46.610"
+  },
+  "navn": "2-HAND INTERNATIONAL MACHINERY AND PRODUCTION EQUIPMENT AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "911634120",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2025-11-11",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2025-11-10",
+  "registreringsdatoEnhetsregisteret": "2013-02-28",
+  "registreringsdatoForetaksregisteret": "2013-02-28",
+  "registreringsdatoMerverdiavgiftsregisteret": "2013-03-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2013-05-25",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2013-02-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2015-10-01",
+  "vedtektsfestetFormaal": [
+    "Kjøp/salg av maskiner og teknisk utstyr (anleggsmaskiner til",
+    "verktøyindustrien og ulike typer produksjonsutstyr)."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/985989087"
+    }
+  },
+  "aktivitet": [
+    "Forening tilsluttet Norsk Speiderforbund."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Anne Lene Madsen",
+      "Venstøphøgda 170"
+    ],
+    "kommune": "SKIEN",
+    "kommunenummer": "4003",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3721",
+    "poststed": "SKIEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "10 SKIEN BSK",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "985989087",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2003-09-17",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1948-02-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

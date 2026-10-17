@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925493198"
+    }
+  },
+  "aktivitet": [
+    "Fotografering og videografering."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Frydenlundsgata 9A"
+    ],
+    "kommune": "LILLESTRØM",
+    "kommunenummer": "3205",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2010",
+    "poststed": "STRØMMEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2020-08-14 15:32:15",
+      "navn": "HOUSE OF ADYA SRISKANDARAJAH",
+      "tilDato": "2022-11-14 11:22:31"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Fotografvirksomhet",
+    "kode": "74.200"
+  },
+  "navn": "1000WORDS SRISKANDARAJAH",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "925493198",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-08-14",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-09-20",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-09-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/995488949"
+    }
+  },
+  "aktivitet": [
+    "Arbeidstakerorganisasjon."
+  ],
+  "epostadresse": "marius.ringsrud@kld.dep.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kongens gate 18"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0153",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.intra.dep.no/kld/ansatt/fagforeninger/norsk-tjenestemannslag/id6368/",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "9955245",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i arbeidstakerorganisasjoner",
+    "kode": "94.200"
+  },
+  "navn": "14016 NTL MILJØVERNDEPARTEMENTET",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "995488949",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 8013 Dep"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0030",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2010-05-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2008-04-01",
+  "telefon": "22 24 57 32",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

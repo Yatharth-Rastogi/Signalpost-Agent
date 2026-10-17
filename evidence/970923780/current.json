@@ -1,0 +1,84 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/970923780"
+    }
+  },
+  "aktivitet": [
+    "Fotografering og eventer. Grafisk design og media."
+  ],
+  "epostadresse": "helena@1momentphoto.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Horniveien 12"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1339",
+    "poststed": "VØYENENGA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1995-02-20 04:53:00",
+      "navn": "DATAGRAFISK ASSIST H M ØRITSLAND",
+      "tilDato": "2006-04-01 15:18:54"
+    },
+    {
+      "fraDato": "2006-04-01 15:18:54",
+      "navn": "FELINE MEDIA Helene Maria Øritsland",
+      "tilDato": "2007-03-08 22:57:33"
+    },
+    {
+      "fraDato": "2007-03-08 22:57:33",
+      "navn": "PANTER FILM Miller",
+      "tilDato": "2007-10-03 20:46:14"
+    },
+    {
+      "fraDato": "2007-10-03 20:46:14",
+      "navn": "PANTER FILM Helene Maria Øritsland Miller",
+      "tilDato": "2007-10-09 20:29:28"
+    },
+    {
+      "fraDato": "2007-10-09 20:29:28",
+      "navn": "PANTER FILM Helene Maria Øritsland Miller",
+      "tilDato": "2023-06-20 10:46:16"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "413 23 175",
+  "naeringskode1": {
+    "beskrivelse": "Fotografvirksomhet",
+    "kode": "74.200"
+  },
+  "navn": "1MOMENT H MILLER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "970923780",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1995-02-20",
+  "registreringsdatoForetaksregisteret": "2007-10-09",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

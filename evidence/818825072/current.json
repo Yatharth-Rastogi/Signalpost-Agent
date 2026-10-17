@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/818825072"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17. mai i Innbygda Trysil på vegne av 7. klassene og bidra",
+    "til skoleavslutning for disse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Elisabet Søgaard",
+      "Fageråsvegen 1"
+    ],
+    "kommune": "TRYSIL",
+    "kommunenummer": "3421",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2420",
+    "poststed": "TRYSIL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "979 77 404",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAIKOMITEEN VED INNBYGDA SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "818825072",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-04-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2017-03-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/918415858"
+    }
+  },
+  "aktivitet": [
+    "2. St. Georgs Gilde i Drammen er et lokalt gilde medlem av St. Georgs",
+    "Gildene i Norge. De bygger på speideridealene slik disse er uttrykt i",
+    "speiderloven. Organisasjonens formål er: Å hjelpe de enkelte",
+    "gildemedlemmene til etter beste evne å leve opp til speideridealene. Å",
+    "arbeide for å fremme speider- og gildebevegelsen lokalt, nasjonalt og",
+    "internasjonalt. Å arbeide for mellom-menneskelig hjelpsomhet,",
+    "toleranse og forståelse."
+  ],
+  "epostadresse": "anne.haagensen59@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Astrid Reinertsen",
+      "Bergåsveien 21"
+    ],
+    "kommune": "DRAMMEN",
+    "kommunenummer": "3301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3057",
+    "poststed": "SOLBERGELVA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "408 70 314",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. ST. GEORGS GILDE I DRAMMEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "918415858",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-03-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1984-01-31",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

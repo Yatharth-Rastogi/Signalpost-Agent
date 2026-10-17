@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938067104"
+    }
+  },
+  "aktivitet": [
+    "Konkursbo."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Strandgata 2"
+    ],
+    "kommune": "HAMAR",
+    "kommunenummer": "3403",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2317",
+    "poststed": "HAMAR"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Drift av restauranter",
+    "kode": "56.110"
+  },
+  "navn": "1SB JERNBANEKAFEEN AS KONKURSBO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/KBO"
+      }
+    },
+    "beskrivelse": "Konkursbo",
+    "kode": "KBO"
+  },
+  "organisasjonsnummer": "938067104",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "v/Adv. Tore M Famestad",
+      "Håkons gate 12"
+    ],
+    "kommune": "HAMAR",
+    "kommunenummer": "3403",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2317",
+    "poststed": "HAMAR"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-07-08",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-07-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-07-09",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-07-08",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

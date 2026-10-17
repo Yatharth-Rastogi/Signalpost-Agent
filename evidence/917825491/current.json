@@ -1,0 +1,84 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917825491"
+    }
+  },
+  "aktivitet": [
+    "Investeringer i finansielle instrumenter og annet som naturlig",
+    "sammenfaller med dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Måltrostveien 24B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0786",
+    "poststed": "OSLO"
+  },
+  "fravalgRevisjonDato": "2016-10-04",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Øvrige finansielle foretak unntatt forsikring",
+    "kode": "4900"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2016-10-04",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Andre egeninvesteringsselskaper",
+    "kode": "64.323"
+  },
+  "navn": "1337 INVEST AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "917825491",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "C/o John Bjørnsen",
+      "Måltrostveien 24B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0786",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2016-10-04",
+  "registreringsdatoForetaksregisteret": "2016-10-04",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2016-09-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2016-09-26",
+  "vedtektsfestetFormaal": [
+    "Investere i finansielle instrumenter som inter alia, aksjer og",
+    "obligasjoner, og annet som naturlig faller sammen med dette."
+  ]
+}

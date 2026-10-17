@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/826881402"
+    }
+  },
+  "aktivitet": [
+    "Inspeksjon og vedlikehold av vindturbiner."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "25 Elderpark Workspace",
+      "100 Elderpark Street"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "GLASGOW G51 3TR SCOTLAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reparasjon og vedlikehold av maskiner",
+    "kode": "33.120"
+  },
+  "navn": "1STOPWIND LTD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "826881402",
+  "paategninger": [
+    {
+      "infotype": "FFØR",
+      "innfoertDato": "2023-08-30",
+      "tekst": "Kontaktperson mangler. Virksomheten har fått pålegg om å melde manglende rolle"
+    }
+  ],
+  "registreringsdatoEnhetsregisteret": "2021-04-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

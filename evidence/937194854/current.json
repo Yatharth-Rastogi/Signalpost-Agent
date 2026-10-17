@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937194854"
+    }
+  },
+  "aktivitet": [
+    "Holdingselskap."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Romundstadveien 167"
+    ],
+    "kommune": "TVEDESTRAND",
+    "kommunenummer": "4213",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4957",
+    "poststed": "RISØR"
+  },
+  "fravalgRevisjonBeslutningsDato": "2025-12-12",
+  "fravalgRevisjonDato": "2026-02-18",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30,
+    "belop": 30000.0,
+    "innfortDato": "2026-02-18",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "1157 HOLDING AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937194854",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-02-18",
+  "registreringsdatoForetaksregisteret": "2026-02-18",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-12-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-12-12",
+  "vedtektsfestetFormaal": [
+    "å eie aksjer og andeler i andre selskaper, drive",
+    "investeringsvirksomhet, herunder kapitalforvaltning, samt annen",
+    "virksomhet som naturlig henger sammen med dette."
+  ]
+}

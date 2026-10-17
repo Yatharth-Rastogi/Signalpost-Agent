@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/932258935"
+    }
+  },
+  "aktivitet": [
+    "Foreningen skal jobbe for å fremme godt klasse og læringsmiljø i",
+    "2017-kullet på Hemnes Sentralskole."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Juvikvegen 26"
+    ],
+    "kommune": "HEMNES",
+    "kommunenummer": "1832",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8640",
+    "poststed": "HEMNESBERGET"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2017-KULLET HEMNES SENTRALSKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "932258935",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-10-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-10-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

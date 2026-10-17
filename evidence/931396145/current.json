@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931396145"
+    }
+  },
+  "aktivitet": [
+    "Undervisning i Brasiliansk Jiu Jitsu."
+  ],
+  "epostadresse": "10thpbergen@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tidemands gate 11"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5005",
+    "poststed": "BERGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "10thpbergen.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "484 08 513",
+  "naeringskode1": {
+    "beskrivelse": "Undervisning innenfor idrett og rekreasjon",
+    "kode": "85.510"
+  },
+  "navn": "10TH PLANET BERGEN JIU JITSU - DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "931396145",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Damsgårdslien 54"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5161",
+    "poststed": "LAKSEVÅG"
+  },
+  "registreringsdatoEnhetsregisteret": "2023-05-24",
+  "registreringsdatoForetaksregisteret": "2023-05-24",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-05-01",
+  "underAvvikling": true,
+  "underAvviklingDato": "2025-08-08",
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2023-05-01",
+  "vedtektsfestetFormaal": [
+    "Idrett og rekreasjon: Undervisning i Jiu Jitsu."
+  ]
+}

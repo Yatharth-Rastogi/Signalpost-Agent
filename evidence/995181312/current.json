@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/995181312"
+    }
+  },
+  "aktivitet": [
+    "Musikk- og kulturvirksomhet i Larvik."
+  ],
+  "epostadresse": "rd@11musikk.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Roy Dahl",
+      "Thor Heyerdahls gate 8"
+    ],
+    "kommune": "LARVIK",
+    "kommunenummer": "3909",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3259",
+    "poststed": "LARVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.11musikk.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "982 08 122",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "11MUSIKK",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "995181312",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-02-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2010-01-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

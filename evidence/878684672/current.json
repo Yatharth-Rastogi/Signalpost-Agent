@@ -1,0 +1,82 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/878684672"
+    }
+  },
+  "aktivitet": [
+    "Strategi og konseptutvikling, samt manus og regi innen området",
+    "interaktive medier."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Sagveien 17"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0459",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1997-07-09 18:31:12",
+      "navn": "1000 & 1 DA",
+      "tilDato": "1997-08-08 18:11:33"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen forretningsmessig tjenesteyting ikke nevnt annet sted",
+    "kode": "82.990"
+  },
+  "navn": "1000 & 1 DIGITALE EVENTYR DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "878684672",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Rutgersson",
+      "Schous Plass 6/2"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0552",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "1997-07-09",
+  "registreringsdatoForetaksregisteret": "1997-08-06",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1997-06-16",
+  "underAvvikling": true,
+  "underAvviklingDato": "2026-07-15",
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "1997-07-30",
+  "vedtektsfestetFormaal": [
+    "Konsept og manusutvukling, samt regi innen",
+    "området interaktive medier."
+  ]
+}

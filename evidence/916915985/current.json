@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916915985"
+    }
+  },
+  "aktivitet": [
+    "Foreininga skal arrangera 17. mai-feiring for Valestrandbygda."
+  ],
+  "epostadresse": "17.mai.valestrand@gmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "402 32 844",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI-KOMITEANE PÅ VALESTRAND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916915985",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Kristin Kleppe",
+      "Burkelandsvegen 100"
+    ],
+    "kommune": "OSTERØY",
+    "kommunenummer": "4630",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5281",
+    "poststed": "VALESTRANDSFOSSEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2016-04-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2016-04-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

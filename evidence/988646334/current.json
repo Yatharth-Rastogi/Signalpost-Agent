@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/988646334"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe."
+  ],
+  "epostadresse": "gruppeleder@fjosanger.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ragnar Pettersen",
+      "Ny-Paradis 23"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5230",
+    "poststed": "PARADIS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2005-09-15 20:08:46",
+      "navn": "I. FJØSANGER SPEIDERGRUPPE",
+      "tilDato": "2008-11-26 21:00:10"
+    }
+  ],
+  "hjemmeside": "www.fjosanger.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "952 72 424",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. FJØSANGER SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "988646334",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-09-15",
+  "registreringsdatoFrivillighetsregisteret": "2009-02-09",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1921-09-19",
+  "telefon": "55 91 00 78",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

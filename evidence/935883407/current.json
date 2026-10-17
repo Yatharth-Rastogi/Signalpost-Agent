@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935883407"
+    }
+  },
+  "aktivitet": [
+    "Konsulent- og tekniske tjenester innen kulturfeltet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Varåsgrenda 3"
+    ],
+    "kommune": "BJØRNAFJORDEN",
+    "kommunenummer": "4624",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5210",
+    "poststed": "OS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "1-2 OSABLOD GRØNVIGH",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "935883407",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-08-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

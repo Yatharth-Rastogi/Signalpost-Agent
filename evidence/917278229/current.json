@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917278229"
+    }
+  },
+  "aktivitet": [
+    "Speider gruppe som har et tilbud til barn og unge. Friluftslivtilbud."
+  ],
+  "epostadresse": "torgeir.svensli@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Torgeir Svensli",
+      "Øvre Liedgardsveg 15"
+    ],
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6460",
+    "poststed": "EIDSVÅG I ROMSDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "948 62 067",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.NESSET SPEIDER GRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "917278229",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-06-09",
+  "registreringsdatoFrivillighetsregisteret": "2016-06-09",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1974-08-20",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

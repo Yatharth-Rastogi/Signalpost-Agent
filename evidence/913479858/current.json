@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/913479858"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe underlagt Norges Speiderforbund"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Speiderhuset",
+      "Kornbergvegen 23"
+    ],
+    "kommune": "SOLA",
+    "kommunenummer": "1124",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4055",
+    "poststed": "SOLA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SOLA SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "913479858",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Alexander Øvrevik Slobodinski",
+      "Rognestien 5"
+    ],
+    "kommune": "SOLA",
+    "kommunenummer": "1124",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4051",
+    "poststed": "SOLA"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-04-11",
+  "registreringsdatoFrivillighetsregisteret": "2014-04-11",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1948-09-03",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

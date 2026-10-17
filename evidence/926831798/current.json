@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926831798"
+    }
+  },
+  "aktivitet": [
+    "Trefelling og virksomhet som naturlig hører sammen med dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Vælerenveien 100"
+    ],
+    "kommune": "RINGERIKE",
+    "kommunenummer": "3305",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3533",
+    "poststed": "TYRISTRAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Skogskjøtsel og andre skogbruksaktiviteter",
+    "kode": "02.100"
+  },
+  "navn": "1-2-3 TRE NED OLE PETTER FOSSUM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "926831798",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-03-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

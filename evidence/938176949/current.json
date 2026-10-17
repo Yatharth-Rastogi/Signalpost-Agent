@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938176949"
+    }
+  },
+  "aktivitet": [
+    "180DC Oslo gir studenter praktisk konsulenterfaring gjennom å levere",
+    "strategi- og forretningsrådgivning til non-profit organisasjoner og",
+    "sosiale entreprenører."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "180 DEGREES CONSULTING OSLO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "938176949",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Nydalsveien 37"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0484",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-08-04",
+  "registreringsdatoFrivillighetsregisteret": "2026-08-13",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-07-24",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

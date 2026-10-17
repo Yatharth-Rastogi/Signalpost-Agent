@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996175057"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester innenfor IT-bransjen. Drift og vedlikehold av",
+    "nettsider."
+  ],
+  "epostadresse": "knut.eidsvik@thebroship.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Svingen 6"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5162",
+    "poststed": "LAKSEVÅG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2010-11-13 14:46:02",
+      "navn": "PREROLLED Knut André Sjøwall Eidsvik",
+      "tilDato": "2013-03-09 14:30:47"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "476 23 984",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "1NF1 KNUT ANDRÉ SJØWALL EIDSVIK",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "996175057",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-11-13",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

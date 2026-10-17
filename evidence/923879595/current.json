@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/923879595"
+    }
+  },
+  "aktivitet": [
+    "Foreningen skal organisere og gjennomføre 17. mai feiringen",
+    "i Øvrebø."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Åshild  Botnen",
+      "Slettebrotan 92A"
+    ],
+    "kommune": "VENNESLA",
+    "kommunenummer": "4223",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4715",
+    "poststed": "ØVREBØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2007 BARN ØVREBØ",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "923879595",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-11-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-10-07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

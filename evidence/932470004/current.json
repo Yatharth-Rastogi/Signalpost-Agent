@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/932470004"
+    }
+  },
+  "aktivitet": [
+    "Foreningen skal organisere og gjennomføre 17. mai feiringen i Øvrebø i",
+    "2024. Overskuddet videreføres til liknende formål, eller eventuelt til",
+    "andre ideelle formål."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ken Arne Skaugerud",
+      "Einerlia 2"
+    ],
+    "kommune": "VENNESLA",
+    "kommunenummer": "4223",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4715",
+    "poststed": "ØVREBØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2011-BARN ØVREBØ",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "932470004",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-11-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-10-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

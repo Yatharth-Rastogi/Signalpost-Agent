@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936285139"
+    }
+  },
+  "aktivitet": [
+    "Foreininga samlar inn og forvaltar midlar til felles aktivitetar og",
+    "innkjøp som kjem elevane til gode. Dette kan vere til dømes sosiale",
+    "samlingar, turar eller innkjøp av leiker og utstyr som fremjar",
+    "fellesskap og trivsel."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Gamle Sandvenvegen 27"
+    ],
+    "kommune": "KVAM",
+    "kommunenummer": "4622",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5600",
+    "poststed": "NORHEIMSUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2019-KULLET VED NORHEIMSUND SKULE KLASSEKASSE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "936285139",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-11-06",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-09-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

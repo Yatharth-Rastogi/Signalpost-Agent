@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930507741"
+    }
+  },
+  "aktivitet": [
+    "Tatovering."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kongens gate 5"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6002",
+    "poststed": "ÅLESUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Andre personlige tjenester ikke nevnt annet sted",
+    "kode": "96.990"
+  },
+  "navn": "11 SPIRIT TATTOO LEWICKI",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "930507741",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Hunnedalsvegen 342"
+    ],
+    "kommune": "GJESDAL",
+    "kommunenummer": "1122",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4334",
+    "poststed": "ÅLGÅRD"
+  },
+  "registreringsdatoEnhetsregisteret": "2022-12-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

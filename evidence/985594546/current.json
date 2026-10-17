@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/985594546"
+    }
+  },
+  "aktivitet": [
+    "Speiderarbeid for barn og ungdom i Sarpsborg."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "v/ Ole Petter Johansen",
+      "Gjevikveien 14"
+    ],
+    "kommune": "NORDRE FOLLO",
+    "kommunenummer": "3207",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1404",
+    "poststed": "SIGGERUD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1 SARPSBORG SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "985594546",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2003-05-08",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1912-10-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

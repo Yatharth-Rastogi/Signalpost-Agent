@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935733626"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester innen IT. Budtjenester. Salg og produksjon av",
+    "profilartikler, firmagaver, klær med trykk og folieringstjenester til",
+    "bedrifter. Grafisk design, reklameproduksjon og annen virksomhet som",
+    "naturlig hører sammen med dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Dønskitoppen 16M"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1346",
+    "poststed": "GJETTUM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "1346.NO KARLSEN RÅDGIVNING",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "935733626",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-06-25",
+  "registreringsdatoMerverdiavgiftsregisteret": "2025-07-28",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2025-07-28",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

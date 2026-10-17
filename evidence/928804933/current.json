@@ -1,0 +1,52 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928804933"
+    }
+  },
+  "aktivitet": [
+    "Eierseksjonssameie"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Nordre Selnesveien 18"
+    ],
+    "kommune": "SORTLAND",
+    "kommunenummer": "1870",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8402",
+    "poststed": "SORTLAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i borettslag og boligsameier",
+    "kode": "97.001"
+  },
+  "navn": "15/2314 SELNES SØR",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ESEK"
+      }
+    },
+    "beskrivelse": "Eierseksjonssameie",
+    "kode": "ESEK"
+  },
+  "organisasjonsnummer": "928804933",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-02-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2020-07-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

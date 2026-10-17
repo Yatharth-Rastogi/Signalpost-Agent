@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/819302332"
+    }
+  },
+  "aktivitet": [
+    "Foreningen er en speidergruppe som driver sine speideraktiviteter iht",
+    "Norges speiderforbunds formål og lover.",
+    "Nordstrand speidergruppe legger spesielt vekt på å gi sine medlemmer",
+    "(barn og ungdom) fritidstilbud i form av aktivt friluftsliv. Norges",
+    "speiderforbunds formål er å utvikle mennesker til selvstendighet og",
+    "til å ta aktivt ansvar i samfunnet i samsvar med idealene fra",
+    "speiderløftet og speiderloven."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Karen Johanne Strømstad",
+      "Åssiden terrasse 32A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1160",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. NORDSTRAND SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "819302332",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-07-17",
+  "registreringsdatoFrivillighetsregisteret": "2017-07-17",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1915-05-05",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

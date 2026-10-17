@@ -1,0 +1,50 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/934938003"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester innen fagområdene økonomi, administrasjon,",
+    "organisasjonsutvikling og andre tjenester/produkter som naturlig",
+    "faller sammen med dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "1233 Reamwood Ave"
+    ],
+    "land": "USA",
+    "landkode": "US",
+    "poststed": "CA 94089, SUNNYVALE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "1X TECHNOLOGIES INC",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "934938003",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-02-06",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

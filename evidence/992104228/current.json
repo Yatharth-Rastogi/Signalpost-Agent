@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/992104228"
+    }
+  },
+  "aktivitet": [
+    "Kunstnerisk virksomhet innen kroppskunst og annen kunst."
+  ],
+  "epostadresse": "info@1969tattoo.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Toftes gate 68A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0552",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2008-01-10 20:25:04",
+      "navn": "1969 TATTOO ART-IAM",
+      "tilDato": "2016-04-22 10:20:09"
+    }
+  ],
+  "hjemmeside": "www.1969tattoo.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "92061992",
+  "naeringskode1": {
+    "beskrivelse": "Andre personlige tjenester ikke nevnt annet sted",
+    "kode": "96.990"
+  },
+  "navn": "1969 TATTOO ART-IAM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "992104228",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2008-01-10",
+  "registreringsdatoForetaksregisteret": "2016-04-22",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938355568"
+    }
+  },
+  "aktivitet": [
+    "Konkursbo."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Fortun 10"
+    ],
+    "kommune": "LÆRDAL",
+    "kommunenummer": "4642",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6887",
+    "poststed": "LÆRDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Rengjøring av bygninger",
+    "kode": "81.210"
+  },
+  "navn": "1VASK AS KONKURSBO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/KBO"
+      }
+    },
+    "beskrivelse": "Konkursbo",
+    "kode": "KBO"
+  },
+  "organisasjonsnummer": "938355568",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "v/Njål Ødegård",
+      "Postboks 117"
+    ],
+    "kommune": "SOGNDAL",
+    "kommunenummer": "4640",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6851",
+    "poststed": "SOGNDAL"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-08-26",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-07-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-08-29",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-08-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

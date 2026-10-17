@@ -1,0 +1,86 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/830301402"
+    }
+  },
+  "aktivitet": [
+    "Agder IKS er mottakssentral av nødmeldinger på nødnummer 110.",
+    "Selskapets formål er mottak av nødmeldinger, veiledning og hjelp til",
+    "innringer, alarmering av riktig ressurser for brann- og",
+    "redningstjenesten, varsling av øvrige nødetater (112+113) og",
+    "koordinering av brannvesenets innsats opp mot øvrige nødetater og",
+    "andre relevante organisasjoner og etater."
+  ],
+  "antallAnsatte": 29,
+  "epostadresse": "post@110agder.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Vestre Strandgate 55"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4612",
+    "poststed": "KRISTIANSAND S"
+  },
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "hjemmeside": "www.110agder.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Kommuneforvaltningen",
+    "kode": "6500"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Brannvernaktiviteter",
+    "kode": "84.250"
+  },
+  "navn": "110 AGDER IKS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/IKS"
+      }
+    },
+    "beskrivelse": "Interkommunalt selskap",
+    "kode": "IKS"
+  },
+  "organisasjonsnummer": "830301402",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-05-11",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-05-10",
+  "registreringsdatoEnhetsregisteret": "2023-02-01",
+  "registreringsdatoForetaksregisteret": "2023-02-01",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-01-10",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-10-09",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-02-10",
+  "telefon": "37 06 55 50",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2022-02-10",
+  "vedtektsfestetFormaal": [
+    "Utføre deltakernes plikter knyttet til Brann- og eksplosjonsvernlovens",
+    "§ 16 Nødalarameringssentral, med plikt om tilknytning til en sentral",
+    "for mottak av meldinger om branner og andre ulykker innenfor en",
+    "fastsatt region. Kommunene i regionen plikter å knytte seg til",
+    "nødalarmeringssentralen og å bære sin andel av kostnadene ved",
+    "etablering og drift av sentralen jfr. Brann- og eksplosjonsvernloven §",
+    "16.",
+    " ",
+    "Selskapet skal gi samme tjenestenivå hos alle deltakerne. En deltaker",
+    "skal i tillegg ha anledning til å få levert tjenester utover dette",
+    "nivået, mot kostnadsdekkende godtgjørelse til selskapet, så lenge",
+    "tjenestene er rettet mot hovedmålet; brann og redningstjeneste. Slike",
+    "tjenester krever godkjenning av de øvrige deltakerne."
+  ]
+}

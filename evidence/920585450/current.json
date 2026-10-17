@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/920585450"
+    }
+  },
+  "aktivitet": [
+    "Skal sørge for en flott gjennomføring av 17. mai på Giske. De skal",
+    "selge kioskvarer på skolen, lage til folkearrangement, organisere",
+    "folketoget, og lage til leker til barna."
+  ],
+  "epostadresse": "17maigiske@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Inger Lise Lillebø Emini",
+      "Myrvegen 36"
+    ],
+    "kommune": "GISKE",
+    "kommunenummer": "1532",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6052",
+    "poststed": "GISKE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAIKOMITEEN PÅ GISKE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "920585450",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-03-27",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-02-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

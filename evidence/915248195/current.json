@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/915248195"
+    }
+  },
+  "aktivitet": [
+    "Maling og renovering av hus. Fasadevask. Rengjøring. Flislegging.",
+    "Snekkerarbeid."
+  ],
+  "epostadresse": "100art.no@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Odlandsvegen 123"
+    ],
+    "kommune": "BJERKREIM",
+    "kommunenummer": "1114",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4387",
+    "poststed": "BJERKREIM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "400 92 111",
+  "naeringskode1": {
+    "beskrivelse": "Maler- og glassarbeid",
+    "kode": "43.340"
+  },
+  "navn": "100ART RAPAK",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "915248195",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2015-04-16",
+  "registreringsdatoMerverdiavgiftsregisteret": "2016-07-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2016-09-17",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

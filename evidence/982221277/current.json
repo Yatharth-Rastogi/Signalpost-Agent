@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/982221277"
+    }
+  },
+  "aktivitet": [
+    "Lage internettsider med informasjon om dykke og sportsklokker og selge",
+    "annonseplass på sine internett sider til kommersielle aktører i",
+    "markedet."
+  ],
+  "epostadresse": "firmapost@navn.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skogveien 61B"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1368",
+    "poststed": "STABEKK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "navn.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reklamebyråvirksomhet",
+    "kode": "73.110"
+  },
+  "navn": "123GO DYKKE OG SPORTSKLOKKER DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "982221277",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2000-08-15",
+  "registreringsdatoForetaksregisteret": "2000-08-15",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2000-07-07",
+  "telefon": "95 06 59 09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2000-07-07",
+  "vedtektsfestetFormaal": [
+    "Lage internettsider med informasjon om dykke og sportsklokker og selge",
+    "annonseplass på sine internett sider til kommersielle aktører i",
+    "markedet."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/913994493"
+    }
+  },
+  "aktivitet": [
+    "Fremme speider og gildebevegelsen."
+  ],
+  "epostadresse": "tormod.gunther@outlook.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "901 67 892",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. HALDEN ST. GEORGS GILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "913994493",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Hageveien 3"
+    ],
+    "kommune": "HALDEN",
+    "kommunenummer": "3101",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1791",
+    "poststed": "TISTEDAL"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-08-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1960-03-28",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

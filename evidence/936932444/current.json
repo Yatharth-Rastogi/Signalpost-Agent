@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936932444"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester innen IT."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Suhms gate 20A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0362",
+    "poststed": "OSLO"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-01-02",
+  "fravalgRevisjonDato": "2026-01-08",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-01-08",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "2 CENTS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "936932444",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-02-12",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-02-10",
+  "registreringsdatoEnhetsregisteret": "2026-01-08",
+  "registreringsdatoForetaksregisteret": "2026-01-08",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-01-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-01-02",
+  "vedtektsfestetFormaal": [
+    "Selge varer og tjenester innen IT og annet som naturlig sammenfaller",
+    "med dette, samt deltakelse i andre selskaper, investeringer og",
+    "nærliggende virksomhet."
+  ]
+}

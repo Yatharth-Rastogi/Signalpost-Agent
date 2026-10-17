@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/918906290"
+    }
+  },
+  "aktivitet": [
+    "Håland skule og Dysjaland skule organiserer sammen planlegging og",
+    "gjennomføring av felles 17.mai-feiring på idrettsplassen på Tjelta."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Havdurhuset",
+      "Eikebergvegen 31"
+    ],
+    "kommune": "SOLA",
+    "kommunenummer": "1124",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4054",
+    "poststed": "TJELTA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2017-04-26 09:45:58",
+      "navn": "17. MAI KOMITE DYSJALAND",
+      "tilDato": "2023-03-03 16:03:25"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITE SØRABYGDA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "918906290",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-04-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2017-04-07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/913649753"
+    }
+  },
+  "aktivitet": [
+    "1. Eiksmarka speidergruppes formål er å utvikle mennesker til",
+    "selvstendighet og til å ta aktivt ansvar i samfunnet i samsvar med",
+    "idealene fra speiderløftet og speiderloven."
+  ],
+  "epostadresse": "gl@1eiksmarka.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Grinidammen 6"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1359",
+    "poststed": "EIKSMARKA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.1eiksmarka.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. EIKSMARKA SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "913649753",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Martin lentz",
+      "Ruglandveien 112E"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1359",
+    "poststed": "EIKSMARKA"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-05-30",
+  "registreringsdatoFrivillighetsregisteret": "2014-09-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1956-03-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921589794"
+    }
+  },
+  "aktivitet": [
+    "Er en bevegelse for voksne både med og uten speiderbakgrunn. Skal",
+    "arbeide for speidersaken både lokalt, nasjonalt og internasjonalt. Er",
+    "tilsluttet St. Georgs Gildene i Norge."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Hilde Gulli",
+      "Nedre Rælingsveg 153"
+    ],
+    "kommune": "RÆLINGEN",
+    "kommunenummer": "3224",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2005",
+    "poststed": "RÆLINGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. LILLESTRØM ST. GEORGS GILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "921589794",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-11-03",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2000-03-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

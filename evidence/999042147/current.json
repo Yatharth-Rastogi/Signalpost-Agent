@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/999042147"
+    }
+  },
+  "aktivitet": [
+    "Negldesign."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Bedriftsvegen 65"
+    ],
+    "kommune": "SKIEN",
+    "kommunenummer": "4003",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3735",
+    "poststed": "SKIEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "92039373",
+  "naeringskode1": {
+    "beskrivelse": "Skjønnhetspleie",
+    "kode": "96.220"
+  },
+  "navn": "2 SØSTRE - / BEATE BAKKE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "999042147",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-11-13",
+  "registreringsdatoMerverdiavgiftsregisteret": "2013-01-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2013-04-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

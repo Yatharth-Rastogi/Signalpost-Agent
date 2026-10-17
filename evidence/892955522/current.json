@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/892955522"
+    }
+  },
+  "aktivitet": [
+    "Konsulentbistand, opplæring og motivasjonskurs. Salg av",
+    "husholdningsapparat som feks. kaffemaskin, salg av tjenesster til",
+    "bedrifter ( feks. mobiltelefoni). Førstehjelpskurs, innsamling til",
+    "veldedig formål."
+  ],
+  "epostadresse": "mail@1aid.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skomakervegen 4"
+    ],
+    "kommune": "ULLENSAKER",
+    "kommunenummer": "3209",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2040",
+    "poststed": "KLØFTA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2008-08-11 20:28:06",
+      "navn": "CONZIGO LØVTANGEN",
+      "tilDato": "2012-05-05 14:33:07"
+    },
+    {
+      "fraDato": "2012-05-05 14:33:07",
+      "navn": "1 AID NORGE - LØVTANGEN",
+      "tilDato": "2015-08-18 10:32:21"
+    }
+  ],
+  "hjemmeside": "www.1aid.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "958 51 778",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "1 AID NORGE - LØVTANGEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "892955522",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2008-08-11",
+  "registreringsdatoForetaksregisteret": "2015-08-18",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "99 05 50 00",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

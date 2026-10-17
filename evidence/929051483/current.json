@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929051483"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17. maifeiringen i Kviteseid."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "C/O Mette Skogheim",
+      "Kviteseidvegen 81"
+    ],
+    "kommune": "KVITESEID",
+    "kommunenummer": "4028",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3850",
+    "poststed": "KVITESEID"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAIKOMITEEN I KVITESEID",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "929051483",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-04-07",
+  "registreringsdatoFrivillighetsregisteret": "2022-04-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-03-14",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

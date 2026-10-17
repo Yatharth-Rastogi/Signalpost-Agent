@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930263672"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk enhet/foretak"
+  ],
+  "erIKonsern": false,
+  "foretaksformIHjemlandet": {
+    "beskrivelse": "Limited",
+    "beskrivelseBokmaal": "Aksjeselskap",
+    "kode": "LTD"
+  },
+  "forretningsadresse": {
+    "adresse": [
+      "S.E. Pearman Bldg., 2nd Floor,",
+      "9 Par-la-Ville Road"
+    ],
+    "land": "Bermuda",
+    "landkode": "BM",
+    "poststed": "HAMILTON HM 11"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "2020 BULKERS LTD.",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "930263672",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-18",
+  "registreringsdatoForetaksregisteret": "2022-11-18",
+  "registreringsnummerIHjemlandet": "52905",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2017-09-26",
+  "telefon": "+14415429329",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "underlagtLovgivningLand": "Bermuda",
+  "underlagtLovgivningLandKode": "BM",
+  "utenlandskRegisterAdresse": {
+    "adresse": [],
+    "land": "Bermuda"
+  },
+  "utenlandskRegisterNavn": "Registrar of Companies",
+  "vedtektsdato": "2018-11-13",
+  "vedtektsfestetFormaal": [
+    "Utenlandsk foretak"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993199893"
+    }
+  },
+  "aktivitet": [
+    "Organisere travsportsinteresserte i kommunen. Virksomhet også for barn",
+    "og unge i form av ponnytrav."
+  ],
+  "epostadresse": "may_anita84@hotmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "986 95 934",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "0716 RE TRAVFORENING VESTFOLD TRAVFORBUND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "993199893",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o May Anita Karlsen",
+      "Bispeveien 1665"
+    ],
+    "kommune": "TØNSBERG",
+    "kommunenummer": "3905",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3178",
+    "poststed": "VÅLE"
+  },
+  "registreringsdatoEnhetsregisteret": "2008-10-23",
+  "registreringsdatoFrivillighetsregisteret": "2009-04-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2004-02-09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

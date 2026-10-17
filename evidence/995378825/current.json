@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/995378825"
+    }
+  },
+  "aktivitet": [
+    "Sammenslutning av voksne speidere der formål er å hjelpe de enkelte",
+    "gildemedlemmer til etter beste evne å leve opp til speideridealene, å",
+    "fremme speiderbevegelsen lokalt, nasjonalt og internasjonalt, å",
+    "arbeide for melllommenneskelig hjelpsomhet, toleranse og forståelse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ove Skarpnes",
+      "Lykkmarka 14B"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7081",
+    "poststed": "SJETNEMARKA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "472 86 559",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. ST GEORGS GILDE I TRONDHEIM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "995378825",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-04-14",
+  "registreringsdatoFrivillighetsregisteret": "2010-04-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1949-04-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

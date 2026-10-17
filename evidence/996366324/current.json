@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996366324"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17. mai-feiring ved Fagerholt skole, Kristiansand."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tretjønnveien 2"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4633",
+    "poststed": "KRISTIANSAND S"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITÉ FAGERHOLT SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "996366324",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-04-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2010-11-14",
+  "telefon": "38 00 41 90",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

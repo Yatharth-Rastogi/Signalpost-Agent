@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928226735"
+    }
+  },
+  "aktivitet": [
+    "Forening som skal samordne og legge til rette for arrangementer og",
+    "aktiviteter for 2015 kullet i Austre Moland i Arendal kommune."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Caroline Kjevik",
+      "Tveiteveien 51"
+    ],
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4849",
+    "poststed": "ARENDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2015 BARNA NESHEIM SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "928226735",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-11-26",
+  "registreringsdatoFrivillighetsregisteret": "2021-11-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-11-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

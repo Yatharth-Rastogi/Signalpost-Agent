@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935202051"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk enhet/foretak"
+  ],
+  "epostadresse": "info@2-con.se",
+  "erIKonsern": false,
+  "foretaksformIHjemlandet": {
+    "beskrivelse": "Privata Aktiebolag",
+    "beskrivelseBokmaal": "Aksjeselskap",
+    "kode": "AB"
+  },
+  "forretningsadresse": {
+    "adresse": [
+      "Tegelbruksvägen 10"
+    ],
+    "land": "Sverige",
+    "landkode": "SE",
+    "poststed": "SE-746 30 BÅLSTA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.2-con.se",
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "+46705955146",
+  "navn": "2-CON SVERIGE AB",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "935202051",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-03-12",
+  "registreringsdatoForetaksregisteret": "2025-03-12",
+  "registreringsnummerIHjemlandet": "5569717134",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2014-04-23",
+  "telefon": "+46171467181",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "underlagtLovgivningLand": "Sverige",
+  "underlagtLovgivningLandKode": "SE",
+  "utenlandskRegisterAdresse": {
+    "adresse": [
+      "Stuvarvägen 21"
+    ],
+    "land": "Sverige",
+    "poststed": "851 81 SUNDSVALL"
+  },
+  "utenlandskRegisterNavn": "Bolagsverket",
+  "vedtektsdato": "2017-06-14",
+  "vedtektsfestetFormaal": [
+    "Utenlandsk foretak"
+  ]
+}

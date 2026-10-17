@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/954659623"
+    }
+  },
+  "aktivitet": [
+    "Keramisk produksjo av kunsthandverk, salg av egne produkter."
+  ],
+  "epostadresse": "jens@jkh.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hetlandsgata 14"
+    ],
+    "kommune": "TIME",
+    "kommunenummer": "1121",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4344",
+    "poststed": "BRYNE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1995-02-19 22:54:00",
+      "navn": "SMIÅ Jens Erland",
+      "tilDato": "2006-07-11 20:31:03"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "90161172",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av keramiske husholdningsartikler og dekorasjonsgjenstander",
+    "kode": "23.410"
+  },
+  "navn": "1300 KJ ERLAND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "954659623",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Holmavegen 13A"
+    ],
+    "kommune": "TIME",
+    "kommunenummer": "1121",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4344",
+    "poststed": "BRYNE"
+  },
+  "registreringsdatoEnhetsregisteret": "1995-02-19",
+  "registreringsdatoForetaksregisteret": "1990-06-14",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "51 48 37 77",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

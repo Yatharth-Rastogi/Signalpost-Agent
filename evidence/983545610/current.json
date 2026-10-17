@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983545610"
+    }
+  },
+  "aktivitet": [
+    "Speiderarbeid."
+  ],
+  "epostadresse": "heuber@online.no",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. HELLE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "983545610",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 51"
+    ],
+    "kommune": "KRAGERØ",
+    "kommunenummer": "4014",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3794",
+    "poststed": "HELLE"
+  },
+  "registreringsdatoEnhetsregisteret": "2002-11-28",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1978-04-23",
+  "telefon": "35 54 90 58",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

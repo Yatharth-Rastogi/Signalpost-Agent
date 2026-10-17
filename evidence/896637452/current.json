@@ -1,0 +1,78 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/896637452"
+    }
+  },
+  "aktivitet": [
+    "1. Skjold speidergruppes mål er i samsvar med Norges Speiderforbunds",
+    "formålsparagraf 1-5 å utvikle medlemmene til selvstendige og",
+    "ansvarsbevisste mennesker. 1. Skjold skal ha vekt på friluftsliv,",
+    "samfunnsengasjement, internasjonal forståelse og opplevelse av",
+    "speideridealene, samt å gi medlemmene medbestemmelse og ansvar. 1.",
+    "Skjold speidergruppe er åpen for begge kjønn fra 8 års alder, uansett",
+    "etnisk bakgrunn, religion eller nasjonalitet."
+  ],
+  "epostadresse": "boevr@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Harald Skjolds veg 32"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5236",
+    "poststed": "RÅDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.skjoldspeider.org",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "958 33 447",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SKJOLD SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "896637452",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Bjørn Arne Øvrebø",
+      "Øyjordsveien 78"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5038",
+    "poststed": "BERGEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2011-03-03",
+  "registreringsdatoFrivillighetsregisteret": "2011-03-03",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1956-02-18",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

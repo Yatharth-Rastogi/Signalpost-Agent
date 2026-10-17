@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/914601959"
+    }
+  },
+  "aktivitet": [
+    "Utvikle mennesker til selvstendighet og til å ta aktivt ansvar i",
+    "samfunnet i samsvar med idealene fra speiderløftet og speiderloven."
+  ],
+  "epostadresse": "oyos72@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Øystein Østensen",
+      "Kjøtteinsvegen 93A"
+    ],
+    "kommune": "STORD",
+    "kommunenummer": "4614",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5411",
+    "poststed": "STORD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "900 92 617",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. LEIRVIK SPEIDARGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "914601959",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 167"
+    ],
+    "kommune": "STORD",
+    "kommunenummer": "4614",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5401",
+    "poststed": "STORD"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-12-11",
+  "registreringsdatoFrivillighetsregisteret": "2014-12-11",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1913-02-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

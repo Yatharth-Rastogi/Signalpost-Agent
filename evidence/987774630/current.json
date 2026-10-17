@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987774630"
+    }
+  },
+  "aktivitet": [
+    "Skape nye kunstuttrykk som kan konkurrere med kommersielle uttrykk.",
+    "Øke oppmerksomheten rundt og interessen for nye kunstuttrykk. Bidra",
+    "til en kompetanseheving av profesjonelle, amatører og det potensielle",
+    "publikum. Alltid forsøke å initiere aktiviteter som henter fram det",
+    "beste av humør og arbeidslyst hos sine medlemmer."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rostedsgate 12 A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0187",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "93295821",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "127DB",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987774630",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-02-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2005-01-18",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

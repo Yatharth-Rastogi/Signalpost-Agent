@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928855287"
+    }
+  },
+  "aktivitet": [
+    "Salg av ved, juletrær, eiendomsutvikling/salg av tomter og",
+    "språktjenester, tilby samisk språkkurs."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Sønvismoen 98"
+    ],
+    "kommune": "ALTA",
+    "kommunenummer": "5601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9537",
+    "poststed": "TVERRELVDALEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av fast brensel av vegetabilsk biomasse",
+    "kode": "16.260"
+  },
+  "navn": "2 X SKUM VED OG DIV.",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "928855287",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-03-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

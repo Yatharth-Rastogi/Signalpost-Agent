@@ -1,0 +1,82 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/991297073"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester innen: utvikling av undervisningsopplegg,",
+    "fotografiske oppdrag, kompetanseheving og kartlegging av biologisk",
+    "mangfold, artikler, bøker og andre informative kilder (natur)."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "H302",
+      "Krokliveien 50"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0584",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.2biologer.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "92618681",
+  "naeringskode1": {
+    "beskrivelse": "Annen forretningsmessig tjenesteyting ikke nevnt annet sted",
+    "kode": "82.990"
+  },
+  "navn": "2 BIOLOGISTS DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "991297073",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Storms gate 2"
+    ],
+    "kommune": "HORTEN",
+    "kommunenummer": "3901",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3187",
+    "poststed": "HORTEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2007-09-22",
+  "registreringsdatoForetaksregisteret": "2007-09-22",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2007-05-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2007-05-21",
+  "vedtektsfestetFormaal": [
+    "Handel med/produksjon av konsulenttjenester innen utvikling av",
+    "undervisningsopplegg, fotografiske oppdrag, kompetanseheving,",
+    "kartlegging av biologisk mangfold og produkter som naturlig hører",
+    "samme med dette (salg av egenproduserte artikler, bøker og andre",
+    "informative kilder), samt deltakelse i andre virksomheter innenfor",
+    "samme bransje."
+  ]
+}

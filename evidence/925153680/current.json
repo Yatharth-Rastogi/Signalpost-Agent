@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925153680"
+    }
+  },
+  "aktivitet": [
+    "Reparasjon og vedlikehold av kjøretøy. Dette innebærer også",
+    "feilsøking, montering av ekstrautstyr og reparasjon av elektronikk."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skogveien 60"
+    ],
+    "kommune": "ALTA",
+    "kommunenummer": "5601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9515",
+    "poststed": "ALTA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reparasjon og vedlikehold av motorvogner",
+    "kode": "95.310"
+  },
+  "navn": "12VOLT MARCHENKO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "925153680",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-06-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

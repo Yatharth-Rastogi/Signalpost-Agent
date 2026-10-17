@@ -1,0 +1,84 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929640241"
+    }
+  },
+  "aktivitet": [
+    "Drive virksomhet innen helse, kosthold, optimalisering av lang",
+    "levetid, og relaterte produkter og tjenester, samt virksomhet som",
+    "naturlig faller sammen med dette."
+  ],
+  "epostadresse": "christian@berg-jensen.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Gislehellinga 7"
+    ],
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1390",
+    "poststed": "VOLLEN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2022-06-18",
+  "fravalgRevisjonDato": "2022-08-16",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2022-08-16 11:26:19",
+      "navn": "GMI HODLING AS",
+      "tilDato": "2025-05-13 13:16:05"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2022-08-16",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "932 88 834",
+  "naeringskode1": {
+    "beskrivelse": "Forebyggende helsearbeid",
+    "kode": "86.992"
+  },
+  "navn": "120PLUS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "929640241",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-08-16",
+  "registreringsdatoForetaksregisteret": "2022-08-16",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2022-06-18",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-11-11",
+  "vedtektsfestetFormaal": [
+    "Drive virksomhet innen helse, kosthold, optimalisering av lang levetid",
+    "og relaterte produkter og tjenester, samt forlagsvirksomhet,",
+    "publisering og produksjon av bøker, digitale produkter og annet",
+    "innhold, og virksomhet som naturlig faller sammen med dette."
+  ]
+}

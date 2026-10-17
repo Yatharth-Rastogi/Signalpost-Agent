@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931658247"
+    }
+  },
+  "aktivitet": [
+    "Undervisning innen sport og idrett."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rådhusgata 9"
+    ],
+    "kommune": "INDRE ØSTFOLD",
+    "kommunenummer": "3118",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1830",
+    "poststed": "ASKIM"
+  },
+  "fravalgRevisjonBeslutningsDato": "2023-05-11",
+  "fravalgRevisjonDato": "2023-06-28",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100000,
+    "belop": 30000.0,
+    "innfortDato": "2023-06-28",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Undervisning innenfor idrett og rekreasjon",
+    "kode": "85.510"
+  },
+  "navn": "1190 PLAY AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "931658247",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-06-28",
+  "registreringsdatoForetaksregisteret": "2023-06-28",
+  "registreringsdatoMerverdiavgiftsregisteret": "2023-08-07",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-08-09",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2023-05-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2023-05-11",
+  "vedtektsfestetFormaal": [
+    "Arbeide med å utvikle spillere både på og utenfor banen, personlig",
+    "trener, fotball akademi, trening, konsulenttjenester og utleie av",
+    "coach."
+  ]
+}

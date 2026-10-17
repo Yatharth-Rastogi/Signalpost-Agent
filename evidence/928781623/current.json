@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928781623"
+    }
+  },
+  "aktivitet": [
+    "Speideraktivitet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Karin Ljunggren",
+      "Storbjørnen 3"
+    ],
+    "kommune": "BODØ",
+    "kommunenummer": "1804",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8029",
+    "poststed": "BODØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. FAUSKE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "928781623",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-02-21",
+  "registreringsdatoFrivillighetsregisteret": "2022-02-21",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1927-11-19",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

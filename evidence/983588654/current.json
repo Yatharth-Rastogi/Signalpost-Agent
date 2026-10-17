@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983588654"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe, medlem av Norges Speiderforbund. Underlagt Norges",
+    "Speiderforbunds lover og regler."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Lars Fosse",
+      "Sørberget 6"
+    ],
+    "kommune": "VERDAL",
+    "kommunenummer": "5038",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7657",
+    "poststed": "VERDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1 VINNE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "983588654",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2001-10-30",
+  "registreringsdatoFrivillighetsregisteret": "2009-04-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2009",
+  "stiftelsesdato": "1976-04-27",
+  "telefon": "74 07 63 07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

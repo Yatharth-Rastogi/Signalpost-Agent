@@ -1,0 +1,53 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/927400227"
+    }
+  },
+  "aktivitet": [
+    "Eierseksjonssameie."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Martin Joakim Valderhaug",
+      "Skjongstranda 50"
+    ],
+    "kommune": "GISKE",
+    "kommunenummer": "1532",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6050",
+    "poststed": "VALDERØYA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i borettslag og boligsameier",
+    "kode": "97.001"
+  },
+  "navn": "1532-186/468",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ESEK"
+      }
+    },
+    "beskrivelse": "Eierseksjonssameie",
+    "kode": "ESEK"
+  },
+  "organisasjonsnummer": "927400227",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-10-08",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1992-04-03",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

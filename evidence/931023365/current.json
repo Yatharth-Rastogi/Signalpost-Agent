@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931023365"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17. mai-feiring ved Frøyland skule."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI-KOMITÉ FRØYLAND SKULE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "931023365",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Kvernelandsvegen 41"
+    ],
+    "kommune": "TIME",
+    "kommunenummer": "1121",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4355",
+    "poststed": "KVERNALAND"
+  },
+  "registreringsdatoEnhetsregisteret": "2023-03-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-02-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

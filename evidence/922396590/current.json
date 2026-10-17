@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922396590"
+    }
+  },
+  "aktivitet": [
+    "7. klasse ved Drangedal 10-årige skole arrangerer 17. mai i",
+    "Prestestranda hvert år."
+  ],
+  "epostadresse": "kristinereiten@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Granveien 19"
+    ],
+    "kommune": "DRANGEDAL",
+    "kommunenummer": "4016",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3750",
+    "poststed": "DRANGEDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "904 08 744",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI I PRESTESTRANDA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "922396590",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-03-15",
+  "registreringsdatoFrivillighetsregisteret": "2019-03-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-03-04",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

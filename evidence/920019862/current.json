@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/920019862"
+    }
+  },
+  "aktivitet": [
+    "Speiderarbeid, frilftsliv, vennskap og samfunnsengasjement."
+  ],
+  "epostadresse": "doralien@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Dora Elisabeth Lien Olsen",
+      "K. K. Lien vei 49"
+    ],
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4812",
+    "poststed": "KONGSHAVN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "91130285",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. TROMØY SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "920019862",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-12-12",
+  "registreringsdatoFrivillighetsregisteret": "2017-12-12",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1953-12-31",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

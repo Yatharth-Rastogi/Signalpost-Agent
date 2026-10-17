@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922311994"
+    }
+  },
+  "aktivitet": [
+    "Formålet er å forvalte 17-mai midler etter vedtak i au Vikhammeråsen",
+    "Grendaskole og bhg"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Dalsvingen 14"
+    ],
+    "kommune": "MALVIK",
+    "kommunenummer": "5031",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7560",
+    "poststed": "VIKHAMMER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "905 27 917",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17-MAI MIDLER VIKHAMMERÅSEN GRENDASKOLE OG BHG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "922311994",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-03-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-01-08",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

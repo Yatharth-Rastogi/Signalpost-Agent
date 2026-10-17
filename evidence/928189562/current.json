@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928189562"
+    }
+  },
+  "aktivitet": [
+    "Vask og renhold. Enkle vaktmestertjenester og hagearbeid. Bud og",
+    "transport. Enkel frakting av kolli. Kjøring av el-avfall."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Hågen Ude",
+      "Sørbruvegen 11A"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7088",
+    "poststed": "HEIMDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Rengjøring av bygninger",
+    "kode": "81.210"
+  },
+  "navn": "123 RENT & RYDDIG IBRAHIM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "928189562",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-11-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

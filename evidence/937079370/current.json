@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937079370"
+    }
+  },
+  "aktivitet": [
+    "Guide og reiseleder."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Innelvvegen 112"
+    ],
+    "kommune": "TROMSØ",
+    "kommunenummer": "5501",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9107",
+    "poststed": "KVALØYA"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-01-23",
+  "fravalgRevisjonDato": "2026-02-02",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2026-02-02 11:16:44",
+      "navn": "AFAS 230126-14 AS",
+      "tilDato": "2026-06-26 11:47:21"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 3000,
+    "belop": 30000.0,
+    "innfortDato": "2026-02-02",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Guide- og reiseledervirksomhet",
+    "kode": "79.902"
+  },
+  "navn": "10XTROMSØ AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937079370",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-02-02",
+  "registreringsdatoForetaksregisteret": "2026-02-02",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-01-23",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-02-24",
+  "vedtektsfestetFormaal": [
+    "Å yte turistopplevelser og annet som står i forbindelse med dette."
+  ]
+}

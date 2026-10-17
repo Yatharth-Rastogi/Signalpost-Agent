@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936589049"
+    }
+  },
+  "aktivitet": [
+    "Detaljehandel/websalg av møbler, belysning og boliginteriør."
+  ],
+  "epostadresse": "info@timevat.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Østergade 17"
+    ],
+    "land": "Danmark",
+    "landkode": "DK",
+    "poststed": "DK-1100 KØBENHAVN K"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med møbler, gjelder også madrasser",
+    "kode": "47.551"
+  },
+  "navn": "101 COPENHAGEN APS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "936589049",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o TIMEVAT AS",
+      "Postboks 11 Alnabru"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0614",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2025-12-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

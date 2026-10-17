@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/924290102"
+    }
+  },
+  "aktivitet": [
+    "Foreningen skal arrangere 17. Mai på Vigrestad."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17 MAI KOMITE VIGRESTAD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "924290102",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Brit Tone Bjorheim",
+      "Hauglandsvegen 3"
+    ],
+    "kommune": "HÅ",
+    "kommunenummer": "1119",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4362",
+    "poststed": "VIGRESTAD"
+  },
+  "registreringsdatoEnhetsregisteret": "2020-01-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-11-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

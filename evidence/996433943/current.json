@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996433943"
+    }
+  },
+  "aktivitet": [
+    "Å arrangere 17. mai toget på Heimdal."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ann Kristin Henriksen",
+      "Korsnebbvegen 51"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7082",
+    "poststed": "KATTEM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.17maiheimdal.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "480 46 873",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITE HEIMDAL",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "996433943",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-02-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2011-02-08",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

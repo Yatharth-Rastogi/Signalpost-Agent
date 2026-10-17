@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930159212"
+    }
+  },
+  "aktivitet": [
+    "Skal arrangere og gjennomføre feiring av 17. mai for alle",
+    "skolebarn og familier i skolekretsen til kringsjå skole i",
+    "Kristiansand."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Marte Christina Almås",
+      "Bordalssvingen 89"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4639",
+    "poststed": "KRISTIANSAND S"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITEEN KRINGSJÅ SKOLE KRISTIANSAND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930159212",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-10-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

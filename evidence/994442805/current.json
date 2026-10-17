@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994442805"
+    }
+  },
+  "aktivitet": [
+    "Å promotere og utøve svartkrutt og westernskyting som en seriøs",
+    "skytesport."
+  ],
+  "epostadresse": "olaf.isaksen@nktv.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Olaf Siira Isaksen",
+      "Bentnesveien 35"
+    ],
+    "kommune": "KRISTIANSUND",
+    "kommunenummer": "1505",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6512",
+    "poststed": "KRISTIANSUND N"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "924 29 462",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i idrettslag og -klubber",
+    "kode": "93.120"
+  },
+  "navn": "1873 KLUBBEN - WESTERN LAWDOGS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994442805",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2009-08-31",
+  "registreringsdatoFrivillighetsregisteret": "2009-08-31",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1997-02-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916101902"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17.mai feiring på Flekkerøy."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI KOMITEEN FLEKKERØY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916101902",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Terje Guttormsen",
+      "Skudeviga 9A"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4625",
+    "poststed": "FLEKKERØY"
+  },
+  "registreringsdatoEnhetsregisteret": "2022-01-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-12-29",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

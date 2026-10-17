@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/997078330"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk enhet/foretak"
+  ],
+  "erIKonsern": false,
+  "foretaksformIHjemlandet": {
+    "beskrivelse": "Private limited company",
+    "beskrivelseBokmaal": "Aksjeselskap",
+    "kode": "LTD"
+  },
+  "forretningsadresse": {
+    "adresse": [
+      "Carpenter Court, 1 Maple Road,",
+      "Bramhall, Stockport,"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "CHESHIRE SK7 2DH"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "123DOMAIN.EU DNS SERVICES LTD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "997078330",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-06-28",
+  "registreringsdatoForetaksregisteret": "2011-06-28",
+  "registreringsnummerIHjemlandet": "07674079",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2011-06-20",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "underlagtLovgivningLand": "Storbritannia",
+  "underlagtLovgivningLandKode": "GB",
+  "utenlandskRegisterAdresse": {
+    "adresse": [
+      "Crown Way",
+      "Maindy"
+    ],
+    "land": "Storbritannia",
+    "poststed": "Cardiff CF14 3UZ"
+  },
+  "utenlandskRegisterNavn": "Companies House",
+  "vedtektsdato": "2011-06-20",
+  "vedtektsfestetFormaal": [
+    "Utenlandsk foretak"
+  ]
+}

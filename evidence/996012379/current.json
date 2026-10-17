@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996012379"
+    }
+  },
+  "aktivitet": [
+    "1Vennesla Speidergruppe er tilknyttet Norges speiderforbund og følger",
+    "Norges Speiderforbunds formål, vedtekter og lover. 1Vennesla",
+    "speidergruppe er registrert som gruppe nr. 3534 i Norges",
+    "speiderforbund."
+  ],
+  "epostadresse": "geirolavkaase@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Jon Inge Steinsland",
+      "Tvidøblane 66"
+    ],
+    "kommune": "VENNESLA",
+    "kommunenummer": "4223",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4700",
+    "poststed": "VENNESLA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "1vennesla.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "930 16 059",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1VENNESLA SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "996012379",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 255"
+    ],
+    "kommune": "VENNESLA",
+    "kommunenummer": "4223",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4700",
+    "poststed": "VENNESLA"
+  },
+  "registreringsdatoEnhetsregisteret": "2010-10-16",
+  "registreringsdatoFrivillighetsregisteret": "2010-10-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1921-06-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

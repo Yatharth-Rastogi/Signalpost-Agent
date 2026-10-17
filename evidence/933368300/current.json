@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/933368300"
+    }
+  },
+  "aktivitet": [
+    "Planlegge og gjennomføre 17. mai-arrangementene ved Fosslia Skole."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Marlene Kolden",
+      "Vidablikk 3B"
+    ],
+    "kommune": "STJØRDAL",
+    "kommunenummer": "5035",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7506",
+    "poststed": "STJØRDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAIKOMITÉ FOSSLIA SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "933368300",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-04-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2024-04-17",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

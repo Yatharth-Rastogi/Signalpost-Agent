@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921957068"
+    }
+  },
+  "aktivitet": [
+    "Kulturformidling av mathistorie gjennom matlaging."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tandbergåsen 44D"
+    ],
+    "kommune": "HOLMESTRAND",
+    "kommunenummer": "3903",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3070",
+    "poststed": "SANDE I VESTFOLD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Catering for arrangementer",
+    "kode": "56.210"
+  },
+  "navn": "1987 HANNA TOMSDOTTER BRÅTHEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "921957068",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-12-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

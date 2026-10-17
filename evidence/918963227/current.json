@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/918963227"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe for barn fra 7år og oppover."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Vivian Sættem Opdøl",
+      "Notavollen 5"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6260",
+    "poststed": "SKODJE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. STETTE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "918963227",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-05-22",
+  "registreringsdatoFrivillighetsregisteret": "2017-05-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2000-08-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993787914"
+    }
+  },
+  "aktivitet": [
+    "1. Fredrikstad Speidergrupps formål er å utvikle mennesker til",
+    "selvstendighet og til å ta aktivt ansvar i samfunnet i samsvar med de",
+    "idealene fra Speiderløfte og Speiderloven"
+  ],
+  "epostadresse": "liseevensen@live.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Speiderveien 7"
+    ],
+    "kommune": "FREDRIKSTAD",
+    "kommunenummer": "3107",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1605",
+    "poststed": "FREDRIKSTAD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.1-fredrikstad.net",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "950 57 781",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1 FREDRIKSTAD SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "993787914",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Kråkerøyveien 144"
+    ],
+    "kommune": "FREDRIKSTAD",
+    "kommunenummer": "3107",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1675",
+    "poststed": "KRÅKERØY"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-02-25",
+  "registreringsdatoFrivillighetsregisteret": "2009-02-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1912-09-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998676991"
+    }
+  },
+  "aktivitet": [
+    "Barne- og ungdomsarbeid"
+  ],
+  "epostadresse": "posund@gmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "916 67 644",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. ÅLESUND SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "998676991",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Per Ove Sund",
+      "Samundplassen 10"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6009",
+    "poststed": "ÅLESUND"
+  },
+  "registreringsdatoEnhetsregisteret": "2012-08-08",
+  "registreringsdatoFrivillighetsregisteret": "2017-11-28",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1910-12-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,78 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930903450"
+    }
+  },
+  "aktivitet": [
+    "Skal fremme og drive et speiderarbeid",
+    "for å hjelpe barn og unge til å utvikle en kristen tro og oppdra dem",
+    "til ansvarsbevissthet, selvstendighet, samfunnsmessig engasjement,",
+    "mellomfolkelig forståelse og respekt for naturens verdi."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kong Augvalds veg 29"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4262",
+    "poststed": "AVALDSNES"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2023-03-10 14:11:52",
+      "navn": "2.AVALDSNES KFUM-KFUM SPEIDERE",
+      "tilDato": "2023-06-07 12:41:24"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2.AVALDSNES KFUK-KFUM SPEIDERE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930903450",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Geir Erik Storesund",
+      "Kvalavågvegen 158"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4262",
+    "poststed": "AVALDSNES"
+  },
+  "registreringsdatoEnhetsregisteret": "2023-03-10",
+  "registreringsdatoFrivillighetsregisteret": "2023-03-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-02-05",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

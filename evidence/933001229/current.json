@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/933001229"
+    }
+  },
+  "aktivitet": [
+    "Foreningens formål er å sørge for et familiearrangement for skoler,",
+    "barnehager og befolkningen i midtbygda. Foreningen har det formelle",
+    "ansvaret for organiseringen av 17.mai-toget og arrangementet på",
+    "Tingvoll og Wergelandslunden. Foreningen har som mål at Eidsvoll",
+    "kommune skal ta over arrangementet og ansvaret etter hvert."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Birgit Ulvin Bjerke",
+      "Brennstubben 7"
+    ],
+    "kommune": "EIDSVOLL",
+    "kommunenummer": "3240",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2080",
+    "poststed": "EIDSVOLL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI PÅ TINGVOLL",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "933001229",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-02-13",
+  "registreringsdatoFrivillighetsregisteret": "2024-02-13",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2024-01-24",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

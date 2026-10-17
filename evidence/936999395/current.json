@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936999395"
+    }
+  },
+  "aktivitet": [
+    "Rengjøring av bygninger, bolighus, kontorer og lignende."
+  ],
+  "antallAnsatte": 6,
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kilenveien 47"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1366",
+    "poststed": "LYSAKER"
+  },
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Rengjøring av bygninger",
+    "kode": "81.210"
+  },
+  "navn": "123 RENHOLDSTJENESTER ZAVADCKE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "936999395",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-10-13",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-10-10",
+  "registreringsdatoEnhetsregisteret": "2026-01-20",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-05-29",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-06-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

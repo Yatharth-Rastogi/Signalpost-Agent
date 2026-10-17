@@ -1,0 +1,47 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/980631443"
+    }
+  },
+  "aktivitet": [
+    "Hovedforetak."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Crew Hall Enterprice Park",
+      "Weston Road"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "CW16UE  CHESHIRE, ENGLAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "20:20 LOGISTICS LTD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "980631443",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1999-03-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1996-10-01",
+  "telefon": "441270412020",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

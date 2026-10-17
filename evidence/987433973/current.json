@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987433973"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Valebøvegen 112"
+    ],
+    "kommune": "SKIEN",
+    "kommunenummer": "4003",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3721",
+    "poststed": "SKIEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "928 62 119",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. GJERPEN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987433973",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2004-12-20",
+  "registreringsdatoFrivillighetsregisteret": "2009-11-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1948-11-16",
+  "telefon": "35 59 07 89",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

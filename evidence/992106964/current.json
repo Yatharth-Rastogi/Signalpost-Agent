@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/992106964"
+    }
+  },
+  "aktivitet": [
+    "Kjøpe, eie og drifte hytte som skal kunne disponeres av alle ansatte",
+    "som inngår i Aker Kværner Egersunds velferdordning."
+  ],
+  "epostadresse": "bente.ramsland@akersolutions.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Aker Kværner Egersund",
+      "Hovlandsveien 160"
+    ],
+    "kommune": "EIGERSUND",
+    "kommunenummer": "1101",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4374",
+    "poststed": "EGERSUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "92451907",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2/4M",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "992106964",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2008-01-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2007-12-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

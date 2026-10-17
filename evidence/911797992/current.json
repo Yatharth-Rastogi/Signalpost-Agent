@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/911797992"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester innenfor IT og prosjektledelse, samt investeringer",
+    "i andre selskaper."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Holtveien 9B"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1177",
+    "poststed": "OSLO"
+  },
+  "fravalgRevisjonDato": "2013-04-10",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30,
+    "belop": 30000.0,
+    "innfortDato": "2013-04-10",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "905 24 894",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "2013 CONSULTING AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "911797992",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2013-05-16",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2013-04-15",
+  "registreringsdatoEnhetsregisteret": "2013-04-10",
+  "registreringsdatoForetaksregisteret": "2013-04-10",
+  "registreringsdatoMerverdiavgiftsregisteret": "2013-05-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2013-05-27",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2013-02-27",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2013-02-27",
+  "vedtektsfestetFormaal": [
+    "Konsulenttjenester innenfor IT og prosjektledelse, samt investeringer",
+    "i andre selskaper."
+  ]
+}

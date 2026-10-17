@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926756729"
+    }
+  },
+  "aktivitet": [
+    "Handel med byggevarer samt annen virksomhet som naturlig hører inn",
+    "under dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Sankt Hallvards vei 3"
+    ],
+    "kommune": "LIER",
+    "kommunenummer": "3312",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3414",
+    "poststed": "LIERSTRANDA"
+  },
+  "fravalgRevisjonBeslutningsDato": "2021-02-12",
+  "fravalgRevisjonDato": "2021-03-09",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2021-03-09 15:45:02",
+      "navn": "TANIO ENERGY AS",
+      "tilDato": "2021-11-30 16:56:24"
+    }
+  ],
+  "hjemmeside": "1bygg.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 1000,
+    "belop": 30000.0,
+    "innfortDato": "2026-03-20",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Engroshandel med tømmer, trelast, byggevarer og sanitærutstyr",
+    "kode": "46.830"
+  },
+  "navn": "1BYGG AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "926756729",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-03-09",
+  "registreringsdatoForetaksregisteret": "2021-03-09",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2021-02-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-02-17",
+  "vedtektsfestetFormaal": [
+    "Handel med byggevarer samt annen virksomhet som naturlig hører inn",
+    "under dette."
+  ]
+}

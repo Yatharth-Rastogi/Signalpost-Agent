@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926890735"
+    }
+  },
+  "aktivitet": [
+    "Skal arrangere 17. mai på Bigset. Lage program, pynting, kiosksal,",
+    "friluftsfest og leikar."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Langerysta 5"
+    ],
+    "kommune": "HAREID",
+    "kommunenummer": "1517",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6060",
+    "poststed": "HAREID"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI PÅ BIGSET",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "926890735",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-03-30",
+  "registreringsdatoFrivillighetsregisteret": "2021-03-30",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-02-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

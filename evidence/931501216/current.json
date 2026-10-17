@@ -1,0 +1,53 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931501216"
+    }
+  },
+  "aktivitet": [
+    "Investeringsbransjen: Aktiv og varig investering i aksjer og andre",
+    "verdipapir samt aktiv forvaltning av egne midler og investeringer i",
+    "eiendom og andre liknende varige aktiva."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rastaveien 13"
+    ],
+    "kommune": "LØRENSKOG",
+    "kommunenummer": "3222",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1461",
+    "poststed": "LØRENSKOG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "12HUS INVEST",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "931501216",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-06-21",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

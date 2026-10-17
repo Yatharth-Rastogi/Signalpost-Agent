@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/980594882"
+    }
+  },
+  "aktivitet": [
+    "Salg og markedsføring av varer og tjenester."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0191",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Engroshandel med informasjons- og kommunikasjonsteknologiutstyr",
+    "kode": "46.500"
+  },
+  "navn": "20:20 LOGISTICS LTD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "980594882",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Crew Hall Enterprice Park",
+      "Weston Road"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "CW16UE Cheshire"
+  },
+  "registreringsdatoEnhetsregisteret": "1999-03-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

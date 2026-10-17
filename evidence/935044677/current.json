@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935044677"
+    }
+  },
+  "aktivitet": [
+    "Planlegger og organiserer 17.mai feiringen i Ålesund sentrum og omegn."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Aalesunds Ungdomsmusikkorps",
+      "Parkgata 3A"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6003",
+    "poststed": "ÅLESUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITÉEN ÅLESUND SENTRUM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "935044677",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Aalesunds Ungdomsmusikkorps",
+      "Postboks 578"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6001",
+    "poststed": "ÅLESUND"
+  },
+  "registreringsdatoEnhetsregisteret": "2025-05-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-01-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

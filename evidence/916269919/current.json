@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916269919"
+    }
+  },
+  "aktivitet": [
+    "Jevnlige møter for å fremme langt kameratskap medlemmene i mellom."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Odd Roar Leere",
+      "Tunveien 43A"
+    ],
+    "kommune": "LØRENSKOG",
+    "kommunenummer": "3222",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1475",
+    "poststed": "FINSTADJORDET"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2010/11 KLUBBEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916269919",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-10-01",
+  "registreringsdatoFrivillighetsregisteret": "2018-10-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1997-10-20",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

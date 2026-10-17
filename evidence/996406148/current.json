@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996406148"
+    }
+  },
+  "aktivitet": [
+    "Foreningen 120 tar sikte på å etablere en plattform for profilering og",
+    "promotering av Norske arkitektstudenter."
+  ],
+  "epostadresse": "contact@120hours.no",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.120hours.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "920 13 972",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "120 - EN ARKITEKTKONKURRANSE FOR STUDENTER, AV STUDENTER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "996406148",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Peder Edward Brand",
+      "Kongsvingergata 9F"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0464",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2011-01-12",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2011-01-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

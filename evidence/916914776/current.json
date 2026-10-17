@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916914776"
+    }
+  },
+  "aktivitet": [
+    "Ansvarleg for at det kvart år vert organisert og koordinert ei",
+    "gjennomføring av nasjonaldagsfeiring i bygda vår, Hjørungavåg."
+  ],
+  "epostadresse": "yvonne.ovrelid.breivik@mrfylke.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Pilskogvegen 31"
+    ],
+    "kommune": "HAREID",
+    "kommunenummer": "1517",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6063",
+    "poststed": "HJØRUNGAVÅG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "908 94 230",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI-KOMITEEN HJØRUNGAVÅG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916914776",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Marte Hjørungdal",
+      "Liavegen 178B"
+    ],
+    "kommune": "HAREID",
+    "kommunenummer": "1517",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6063",
+    "poststed": "HJØRUNGAVÅG"
+  },
+  "registreringsdatoEnhetsregisteret": "2018-04-16",
+  "registreringsdatoFrivillighetsregisteret": "2018-04-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2017-12-31",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

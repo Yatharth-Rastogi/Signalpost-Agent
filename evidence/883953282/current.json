@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/883953282"
+    }
+  },
+  "aktivitet": [
+    "Konsulentvirksomhet innenfor arealplanlegging og landskapsarkitektur."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tronesvegen 30"
+    ],
+    "kommune": "VERDAL",
+    "kommunenummer": "5038",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7655",
+    "poststed": "VERDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "95100141",
+  "naeringskode1": {
+    "beskrivelse": "Arkitektvirksomhet",
+    "kode": "71.110"
+  },
+  "navn": "1030 PLAN OG LANDSKAP DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "883953282",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2001-12-04",
+  "registreringsdatoForetaksregisteret": "2001-12-04",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2001-11-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2001-12-03",
+  "vedtektsfestetFormaal": [
+    "Konsulentvirksomhet innenfor arealplanlegging og landskapsarkitektur,",
+    "og virksomhet som naturlig hører sammen med dette."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983381359"
+    }
+  },
+  "aktivitet": [
+    "Reklamebyråvirksomhet og det som naturlig hører til dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ekebergveien 256 C"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1166",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2001-05-22 11:17:15",
+      "navn": "2 YOU REKLAMEBYRÅ DA",
+      "tilDato": "2001-06-07 20:57:16"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Reklamebyråvirksomhet",
+    "kode": "73.110"
+  },
+  "navn": "2 YOU REKLAMEBYRÅ DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "983381359",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2001-05-22",
+  "registreringsdatoForetaksregisteret": "2001-06-07",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2001-03-31",
+  "telefon": "23 38 29 77",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2001-03-31",
+  "vedtektsfestetFormaal": [
+    "Salg av egenprodusert reklame til kunder."
+  ]
+}

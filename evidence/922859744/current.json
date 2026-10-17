@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922859744"
+    }
+  },
+  "aktivitet": [
+    "Eie og drifte vann- og avløpsanlegg. Andre driftsrelaterte tjenester",
+    "som snøbrøyting mv."
+  ],
+  "erIKonsern": true,
+  "forretningsadresse": {
+    "adresse": [
+      "Furujordet 27"
+    ],
+    "kommune": "GOL",
+    "kommunenummer": "3324",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3550",
+    "poststed": "GOL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100,
+    "belop": 30000.0,
+    "innfortDato": "2019-06-07",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uttak fra kilde, rensing og distribusjon av vann",
+    "kode": "36.000"
+  },
+  "navn": "1028 HYTTEDRIFT AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "922859744",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-06-07",
+  "registreringsdatoForetaksregisteret": "2019-06-07",
+  "registreringsdatoMerverdiavgiftsregisteret": "2019-09-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2019-10-28",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2019-05-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2019-05-16",
+  "vedtektsfestetFormaal": [
+    "Eie og drifte vann- og avløpsanlegg, samt tilby andre driftsrelaterte",
+    "tjenester."
+  ]
+}

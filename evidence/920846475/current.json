@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/920846475"
+    }
+  },
+  "aktivitet": [
+    "I samarbeid med klassen barna går i, arrangerer vi forskjellige",
+    "aktiviteter som for eksempel: 17.Mai-kafè, søppelplukking og",
+    "teateroppsetning."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Bjørn Tore Hagen",
+      "Movegen 20"
+    ],
+    "kommune": "NESNA",
+    "kommunenummer": "1828",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8700",
+    "poststed": "NESNA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2010-KULLET",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "920846475",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-05-14",
+  "registreringsdatoFrivillighetsregisteret": "2018-05-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-05-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

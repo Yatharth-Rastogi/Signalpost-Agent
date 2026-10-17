@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929220072"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk enhet/foretak"
+  ],
+  "erIKonsern": false,
+  "foretaksformIHjemlandet": {
+    "beskrivelse": "Private limited company",
+    "beskrivelseBokmaal": "Aksjeselskap",
+    "kode": "LTD"
+  },
+  "forretningsadresse": {
+    "adresse": [
+      "Stron Legal, The Clubhouse St James",
+      "8 St James Square, St James"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "LONDON SW1Y 4JU"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "10X GC NORWAY LIMITED",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "929220072",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-05-16",
+  "registreringsdatoForetaksregisteret": "2022-05-16",
+  "registreringsnummerIHjemlandet": "13940964",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-02-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "underlagtLovgivningLand": "Storbritannia",
+  "underlagtLovgivningLandKode": "GB",
+  "utenlandskRegisterAdresse": {
+    "adresse": [
+      "Crown Way",
+      "Maindy"
+    ],
+    "land": "Storbritannia",
+    "poststed": "Cardiff CF14 3UZ"
+  },
+  "utenlandskRegisterNavn": "Companies House",
+  "vedtektsdato": "2022-02-25",
+  "vedtektsfestetFormaal": [
+    "Utenlandsk foretak"
+  ]
+}

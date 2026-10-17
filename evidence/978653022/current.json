@@ -1,0 +1,79 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/978653022"
+    }
+  },
+  "aktivitet": [
+    "Speidervirksomhet."
+  ],
+  "epostadresse": "iholmeli@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Speiderveien 5"
+    ],
+    "kommune": "FÆRDER",
+    "kommunenummer": "3911",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3121",
+    "poststed": "NØTTERØY"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1997-06-26 20:16:24",
+      "navn": "2. NØTTERØY SPEIDERGRUPPE",
+      "tilDato": "1999-12-20 19:11:33"
+    }
+  ],
+  "hjemmeside": "www.2notteroy.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "995 94 708",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. NØTTERØY SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "978653022",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Inger Helene Holmelin",
+      "Lundgaardveien 10"
+    ],
+    "kommune": "FÆRDER",
+    "kommunenummer": "3911",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3120",
+    "poststed": "NØTTERØY"
+  },
+  "registreringsdatoEnhetsregisteret": "1997-06-26",
+  "registreringsdatoFrivillighetsregisteret": "2016-04-06",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1931-12-15",
+  "telefon": "33 32 17 51",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

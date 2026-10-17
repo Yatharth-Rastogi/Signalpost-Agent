@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921759371"
+    }
+  },
+  "aktivitet": [
+    "Er ansvarlige for at arrangementet under 17. mai feiringen blir",
+    "organisert og gjennomført."
+  ],
+  "epostadresse": "enot83@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Brit Einrun Aspås Brakstad",
+      "Stubøvegen 46"
+    ],
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6460",
+    "poststed": "EIDSVÅG I ROMSDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "482 05 610",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITÉ EIDSVÅG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "921759371",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-12-21",
+  "registreringsdatoFrivillighetsregisteret": "2023-01-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-10-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

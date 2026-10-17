@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994932187"
+    }
+  },
+  "aktivitet": [
+    "Foreningens formål er å drive med speideraktiviteter på Eydehavn og",
+    "Saltrød i Arendal kommune. Aktivitene er rettet mot barn, ungdom og",
+    "voksne. Speiderorganisasjonen har aktivitetstilbud tilpasset alle",
+    "aldersgrupper og ferdigheter."
+  ],
+  "epostadresse": "roger-henriksen@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Claes Gills vei 11"
+    ],
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4810",
+    "poststed": "EYDEHAVN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "986 13 603",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.EYDEHAVN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994932187",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Sankerveien 7"
+    ],
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4810",
+    "poststed": "EYDEHAVN"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-12-26",
+  "registreringsdatoFrivillighetsregisteret": "2009-12-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1948-01-21",
+  "telefon": "37 03 00 56",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

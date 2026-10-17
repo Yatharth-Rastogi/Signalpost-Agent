@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/814095592"
+    }
+  },
+  "aktivitet": [
+    "1. Høvik speidergruppe driver med speideraktivitet for barn og unge i",
+    "nærområdet på Høvik Formålet er å utvikle mennesker til",
+    "selvstendighet, og til å ta aktivt ansvar i samsvar med idealet fra",
+    "speiderløftet og speiderloven."
+  ],
+  "epostadresse": "skaarsberg@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Siv Kaarsberg",
+      "Bauneveien 6"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1363",
+    "poststed": "HØVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "456 11 690",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. HØVIK SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "814095592",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2014-09-02",
+  "registreringsdatoFrivillighetsregisteret": "2015-08-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1922-10-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

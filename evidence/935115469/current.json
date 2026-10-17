@@ -1,0 +1,54 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935115469"
+    }
+  },
+  "aktivitet": [
+    "Skal utføre demontering og montering av automasjonsutrustning hos",
+    "kunde."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tegelbruksvägen 10"
+    ],
+    "land": "Sverige",
+    "landkode": "SE",
+    "poststed": "SE-746 30 BÅLSTA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Elektrisk installasjonsarbeid",
+    "kode": "43.210"
+  },
+  "navn": "2-CON SVERIGE AB NUF",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "935115469",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-03-12",
+  "registreringsdatoForetaksregisteret": "2025-03-12",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

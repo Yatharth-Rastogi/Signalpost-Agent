@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/894008482"
+    }
+  },
+  "aktivitet": [
+    "Å utvikle mennesker til selvstendighet og til å ta aktivt ansvar i",
+    "samfunnet i samsvar med idealene fra speiderløftet og speiderloven."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Morteveien 15"
+    ],
+    "kommune": "NITTEDAL",
+    "kommunenummer": "3232",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1481",
+    "poststed": "HAGAN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.1slattum.org",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SLATTUM SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "894008482",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Erlend Birkedal",
+      "Likollen 39"
+    ],
+    "kommune": "NITTEDAL",
+    "kommunenummer": "3232",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1481",
+    "poststed": "HAGAN"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-04-28",
+  "registreringsdatoFrivillighetsregisteret": "2009-04-28",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1970-01-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

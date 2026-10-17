@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930901741"
+    }
+  },
+  "aktivitet": [
+    "Foreningens formål er å gjennomføre 17. mai arrangementet på Ulefoss i",
+    "Nome kommune. Virksomheten gjennomføres av foreldre på 5. og 6. trinn",
+    "ved Holla 10-årige skole."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Tor Erik Baksås",
+      "Nomevegen 29"
+    ],
+    "kommune": "NOME",
+    "kommunenummer": "4018",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3825",
+    "poststed": "LUNDE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITEEN ULEFOSS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930901741",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-04-24",
+  "registreringsdatoFrivillighetsregisteret": "2023-04-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-01-23",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

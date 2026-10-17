@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938386080"
+    }
+  },
+  "aktivitet": [
+    "Snekkerarbeid, montering av dører, vinduer, kjøkken med mer."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Henrik Ibsens gate 7"
+    ],
+    "kommune": "DRAMMEN",
+    "kommunenummer": "3301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3022",
+    "poststed": "DRAMMEN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-08-21",
+  "fravalgRevisjonDato": "2026-09-01",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 200000,
+    "belop": 200000.0,
+    "innfortDato": "2026-09-01",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+  },
+  "navn": "123ENKELT AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "938386080",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-09-01",
+  "registreringsdatoForetaksregisteret": "2026-09-01",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-08-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-08-21",
+  "vedtektsfestetFormaal": [
+    "Hageservice, snørydding, snekkertjenester mindre gravemaskinoppdrag,",
+    "hjemlevering og montering samt investering i aksjer og eiendom."
+  ]
+}

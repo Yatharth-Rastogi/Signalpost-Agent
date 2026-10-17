@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/897670712"
+    }
+  },
+  "aktivitet": [
+    "1. Tanum Speidergruppe en speidergruppene som er under Asker og Bærum",
+    "krets av Norges Speiderforbund. NSF. Gruppen driver speiderarbeid med",
+    "tilbud for jenter og gutter fra 1. klasse."
+  ],
+  "epostadresse": "gruppeleder@1tanum.no",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "1tanum.speiding.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "970 57 726",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. TANUM SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "897670712",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Per-Stian Vatne",
+      "Tanumveien 57"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1341",
+    "poststed": "SLEPENDEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2011-12-24",
+  "registreringsdatoFrivillighetsregisteret": "2012-10-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1955-03-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

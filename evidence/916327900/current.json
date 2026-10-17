@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916327900"
+    }
+  },
+  "aktivitet": [
+    "Organisere 17. Mai."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "v/17. mai kommiteen",
+      "c/o Riska Ungdomsskole",
+      "Nøtteskjellveien 7"
+    ],
+    "kommune": "SANDNES",
+    "kommunenummer": "1108",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4310",
+    "poststed": "HOMMERSÅK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter utført av utflukts- og eventarrangører",
+    "kode": "79.121"
+  },
+  "navn": "17 MAI KOMITEEN RISKA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916327900",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2015-12-03",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2015-11-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

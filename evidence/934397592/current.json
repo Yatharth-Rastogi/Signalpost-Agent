@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/934397592"
+    }
+  },
+  "aktivitet": [
+    "Impresariovirksomhet."
+  ],
+  "epostadresse": "askeladden.records@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "O.T. Bjanes vei 1"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1352",
+    "poststed": "KOLSÅS"
+  },
+  "fravalgRevisjonBeslutningsDato": "2024-10-15",
+  "fravalgRevisjonDato": "2024-11-01",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2024-11-01",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "459 66 866",
+  "naeringskode1": {
+    "beskrivelse": "All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted",
+    "kode": "74.990"
+  },
+  "navn": "151 RECORDS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "934397592",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-01-13",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-01-10",
+  "registreringsdatoEnhetsregisteret": "2024-11-01",
+  "registreringsdatoForetaksregisteret": "2024-11-01",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2024-10-15",
+  "telefon": "46 88 66 04",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2024-10-15",
+  "vedtektsfestetFormaal": [
+    "Formidling av musikk."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/991199187"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe."
+  ],
+  "epostadresse": "lilje@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Oserødveien 154"
+    ],
+    "kommune": "FÆRDER",
+    "kommunenummer": "3911",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3135",
+    "poststed": "TORØD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. NØTTERØY SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "991199187",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Geir Lilje",
+      "Årøyveien 1A"
+    ],
+    "kommune": "FÆRDER",
+    "kommunenummer": "3911",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3135",
+    "poststed": "TORØD"
+  },
+  "registreringsdatoEnhetsregisteret": "2007-10-15",
+  "registreringsdatoFrivillighetsregisteret": "2009-02-28",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1925-12-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

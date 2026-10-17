@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998345782"
+    }
+  },
+  "aktivitet": [
+    "Sikre økonomisk grunnlag for 1. Grue speidergruppe. Arbeide for",
+    "rekruttering og stabilitet i speideraktivitet i Grue. Være",
+    "kontaktledd mellom speiderledere og hjemmene. Ivareta speidergruppas",
+    "utstyr/eiendeler."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Finnskogvegen 369"
+    ],
+    "kommune": "GRUE",
+    "kommunenummer": "3417",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2260",
+    "poststed": "KIRKENÆR"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "400 00 741",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. GRUE SPEIDERGRUPPES FORELDRERÅD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "998345782",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Prestgardsgutua 176"
+    ],
+    "kommune": "GRUE",
+    "kommunenummer": "3417",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2260",
+    "poststed": "KIRKENÆR"
+  },
+  "registreringsdatoEnhetsregisteret": "2012-08-30",
+  "registreringsdatoFrivillighetsregisteret": "2012-08-30",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1975-07-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

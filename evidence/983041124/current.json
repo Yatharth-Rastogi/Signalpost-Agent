@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983041124"
+    }
+  },
+  "aktivitet": [
+    "Design av websider, logoer, grafikk for internett og andre tjenester i",
+    "forbindelse med databehandling og bruk av internett."
+  ],
+  "epostadresse": "frode.hansen@sunndal.online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Stangvikvegen 516"
+    ],
+    "kommune": "SURNADAL",
+    "kommunenummer": "1566",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6642",
+    "poststed": "STANGVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "123WEB Frode Næss Hansen",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "983041124",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2001-03-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "71 69 12 72",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

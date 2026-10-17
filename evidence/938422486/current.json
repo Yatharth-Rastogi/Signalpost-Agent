@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938422486"
+    }
+  },
+  "aktivitet": [
+    "Handel og utleie av kjøretøy og deler, bilpleie, bilglass, samt",
+    "deltakelse i andre selskaper."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Solbergs gate 8A"
+    ],
+    "kommune": "DRAMMEN",
+    "kommunenummer": "3301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3040",
+    "poststed": "DRAMMEN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-09-02",
+  "fravalgRevisjonDato": "2026-09-04",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-09-04",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med motorvogner",
+    "kode": "47.810"
+  },
+  "navn": "1S AUTO AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "938422486",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-09-04",
+  "registreringsdatoForetaksregisteret": "2026-09-04",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-09-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-09-02",
+  "vedtektsfestetFormaal": [
+    "Handel og utleie av kjøretøy og deler, bilpleie, bilglass, samt",
+    "deltakelse i andre selskaper."
+  ]
+}

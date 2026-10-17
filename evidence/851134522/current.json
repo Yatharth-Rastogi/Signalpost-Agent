@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/851134522"
+    }
+  },
+  "aktivitet": [
+    "Handel med salg av interiør og pyntegjenstander og",
+    "herunder hva står i forbindelse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Nittedalsgata 23"
+    ],
+    "kommune": "LILLESTRØM",
+    "kommunenummer": "3205",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2000",
+    "poststed": "LILLESTRØM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "1001 TING LILLESTRØM ANS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ANS"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med solidarisk ansvar",
+    "kode": "ANS"
+  },
+  "organisasjonsnummer": "851134522",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1995-02-19",
+  "registreringsdatoForetaksregisteret": "1989-03-17",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1989-01-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "1990-06-15",
+  "vedtektsfestetFormaal": [
+    "Handel med salg av interiør og pyntegjenstander og",
+    "herunder hva står i forbindelse."
+  ]
+}

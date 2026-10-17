@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/822178952"
+    }
+  },
+  "aktivitet": [
+    "Foreningen driver med velferdstiltak for de ansatte ved 130 luftving",
+    "avdeling Sola. Dette er alt fra felles vafler hver fredag, til",
+    "samlinger etter arbeidstid."
+  ],
+  "epostadresse": "saremoy@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skvadronvegen 7"
+    ],
+    "kommune": "SOLA",
+    "kommunenummer": "1124",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4050",
+    "poststed": "SOLA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2019-02-07 15:10:30",
+      "navn": "KAFFEBAREN 330 SKV SOLA",
+      "tilDato": "2024-09-23 13:01:49"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "920 49 617",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "130 LV KAFFEBAR AVD SOLA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "822178952",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 69"
+    ],
+    "kommune": "SOLA",
+    "kommunenummer": "1124",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4097",
+    "poststed": "SOLA"
+  },
+  "registreringsdatoEnhetsregisteret": "2019-02-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-01-29",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921194854"
+    }
+  },
+  "aktivitet": [
+    "Vindusvask, fasadevask, maling og relaterte tjenester."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Storevarveien 390"
+    ],
+    "kommune": "SANDEFJORD",
+    "kommunenummer": "3907",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3160",
+    "poststed": "STOKKE"
+  },
+  "fravalgRevisjonBeslutningsDato": "2018-06-25",
+  "fravalgRevisjonDato": "2018-07-25",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [
+    {
+      "fraDato": "2018-07-25 16:12:11",
+      "navn": "123VINDUSPUSS AS",
+      "tilDato": "2021-03-01 13:01:21"
+    },
+    {
+      "fraDato": "2021-03-01 13:01:21",
+      "navn": "UTERENHOLD AS",
+      "tilDato": "2022-02-24 12:45:57"
+    },
+    {
+      "fraDato": "2022-02-24 12:45:57",
+      "navn": "123VINDUSPUSS AS",
+      "tilDato": "2023-10-31 10:48:02"
+    },
+    {
+      "fraDato": "2023-10-31 10:48:02",
+      "navn": "123FASADESERVICE AS",
+      "tilDato": "2025-02-05 16:32:36"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30,
+    "belop": 30000.0,
+    "innfortDato": "2018-07-25",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Utvendig rengjøring av bygninger og industriell rengjøring",
+    "kode": "81.220"
+  },
+  "navn": "123VINDUSPUSS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "921194854",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-07-15",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-07-10",
+  "registreringsdatoEnhetsregisteret": "2018-07-25",
+  "registreringsdatoForetaksregisteret": "2018-07-25",
+  "registreringsdatoMerverdiavgiftsregisteret": "2018-09-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2018-10-11",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2018-06-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-01-10",
+  "vedtektsfestetFormaal": [
+    "Vinduspuss og relaterte tjenester"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/989011766"
+    }
+  },
+  "aktivitet": [
+    "Journalist, skribent. Leverer artikler til ledende magasiner. Bakgrunn",
+    "som interiørarkitekt og påtar seg design og produksjon av interiør."
+  ],
+  "epostadresse": "brevdue@1001rom.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Eilert Sundts gate 28"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0259",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2005-12-03 14:56:44",
+      "navn": "VISUELL - INTERIØRDESIGN Kathrine Sørgård",
+      "tilDato": "2009-08-27 20:19:24"
+    }
+  ],
+  "hjemmeside": "www.1001rom.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "92809757",
+  "naeringskode1": {
+    "beskrivelse": "Skapende kunstnerisk virksomhet innenfor litteratur",
+    "kode": "90.111"
+  },
+  "navn": "1001 ROM Kathrine Sørgård",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "989011766",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-12-03",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

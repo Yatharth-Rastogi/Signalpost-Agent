@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983742556"
+    }
+  },
+  "aktivitet": [
+    "Speiderorganisasjon."
+  ],
+  "epostadresse": "gruppeleder@1ski.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Tom Øyvind Jahren",
+      "Lysneveien 31A"
+    ],
+    "kommune": "NORDRE FOLLO",
+    "kommunenummer": "3207",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1423",
+    "poststed": "SKI"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.1ski.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "917 59 106",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.SKI GRUPPE AV NORGES SPEIDERFORBUND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "983742556",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2001-10-18",
+  "registreringsdatoFrivillighetsregisteret": "2009-03-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1945-10-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/919458666"
+    }
+  },
+  "aktivitet": [
+    "Permanent makeup, manikyr og pedikyr med negledesign."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "St. Olavs gate 3"
+    ],
+    "kommune": "NAMSOS",
+    "kommunenummer": "5007",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7800",
+    "poststed": "NAMSOS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Skjønnhetspleie",
+    "kode": "96.220"
+  },
+  "navn": "1010MICROBLADING NAMSOS THUNSUDA SIANGBUN KJELBOTN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "919458666",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 240  Sentrum"
+    ],
+    "kommune": "NAMSOS",
+    "kommunenummer": "5007",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7800",
+    "poststed": "NAMSOS"
+  },
+  "registreringsdatoEnhetsregisteret": "2017-08-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

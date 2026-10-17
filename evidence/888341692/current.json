@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/888341692"
+    }
+  },
+  "aktivitet": [
+    "Investeringsvirksomhet innenfor verdipapirer og eiendom."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Kjetil Mansåker Wigdel",
+      "Lysgårdsvegen 3"
+    ],
+    "kommune": "LILLEHAMMER",
+    "kommunenummer": "3405",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2618",
+    "poststed": "LILLEHAMMER"
+  },
+  "fravalgRevisjonDato": "2011-10-22",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 156,
+    "belop": 156000.0,
+    "innfortDato": "2025-07-28",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Kjøp og salg av egen fast eiendom",
+    "kode": "68.110"
+  },
+  "navn": "1905 INVEST AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "888341692",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-06-29",
+  "registreringsdatoForetaksregisteret": "2005-06-29",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2005-05-19",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-06-06",
+  "vedtektsfestetFormaal": [
+    "Investeringsvirksomhet, samt annet som står i nærhet til dette."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922972389"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe som har aktiviteter for barn i fra alderen 7 og",
+    "opp til den dagen du ikke ønsker å være med. En frivillig organisasjon",
+    "underlagt Norges Speider Forbund."
+  ],
+  "epostadresse": "t.b.edland@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Tuva Bjørnsdatter Edland",
+      "Langsetvegen 75"
+    ],
+    "kommune": "EIDSVOLL",
+    "kommunenummer": "3240",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2092",
+    "poststed": "MINNESUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "405 56 966",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. EIDSVOLL SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "922972389",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-08-19",
+  "registreringsdatoFrivillighetsregisteret": "2019-08-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1920-03-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

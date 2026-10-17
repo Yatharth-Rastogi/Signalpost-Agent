@@ -3,7 +3,7 @@
   "content_sha256": "4bdac12696a4fe20856bbb1c047af0bc2a9fa5d90169ff1d76999eb0bc8ab2a8",
   "snapshot": "current.json",
   "history": [],
-  "latency_ms": 264,
+  "latency_ms": 256,
   "attempts": 1,
-  "captured_utc": "2026-10-17T15:47:13Z"
+  "captured_utc": "2026-10-17T16:19:10Z"
 }

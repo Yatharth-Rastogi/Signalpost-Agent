@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938087407"
+    }
+  },
+  "aktivitet": [
+    "Drift av opplysningstjenester via internett, telefon, SMS og andre",
+    "digitale plattformer, samt tilhørende virksomhet."
+  ],
+  "erIKonsern": true,
+  "forretningsadresse": {
+    "adresse": [
+      "Hallsgate 5"
+    ],
+    "kommune": "PORSGRUNN",
+    "kommunenummer": "4001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3912",
+    "poststed": "PORSGRUNN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-07-03",
+  "fravalgRevisjonDato": "2026-07-13",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-07-13",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen virksomhet for distribuering av innhold",
+    "kode": "60.390"
+  },
+  "navn": "1875 OPPLYSNINGSTJENESTER AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "938087407",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-07-13",
+  "registreringsdatoForetaksregisteret": "2026-07-13",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-07-03",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-07-03",
+  "vedtektsfestetFormaal": [
+    "Drift av opplysningstjenester via internett, telefon, SMS og andre",
+    "digitale plattformer, samt tilhørende virksomhet."
+  ]
+}

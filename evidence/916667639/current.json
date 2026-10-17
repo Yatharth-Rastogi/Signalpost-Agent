@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916667639"
+    }
+  },
+  "aktivitet": [
+    "Forening for voksne med og uten speiderbakgrunn. Vårt mål er å arbeide",
+    "for speidersaken både lokalt, nasjonalt og internasjonalt."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Arild Urdal",
+      "Skolebakken 5"
+    ],
+    "kommune": "MOSS",
+    "kommunenummer": "3103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1538",
+    "poststed": "MOSS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. ST. GEORGS GILDE I MOSS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916667639",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-02-02",
+  "registreringsdatoFrivillighetsregisteret": "2016-02-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1972-11-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

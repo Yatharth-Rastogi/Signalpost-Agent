@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/838307922"
+    }
+  },
+  "aktivitet": [
+    "Drift av informasjonstjenester innen kjøretøyopplysninger via SMS,",
+    "telefon, internett og andre digitale plattformer, samt tilhørende",
+    "virksomhet."
+  ],
+  "erIKonsern": true,
+  "forretningsadresse": {
+    "adresse": [
+      "Hallsgate 5"
+    ],
+    "kommune": "PORSGRUNN",
+    "kommunenummer": "4001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3912",
+    "poststed": "PORSGRUNN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-08-24",
+  "fravalgRevisjonDato": "2026-08-28",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-08-28",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Andre informasjonstjenester",
+    "kode": "63.920"
+  },
+  "navn": "1875 INFORMATION SERVICES AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "838307922",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-08-28",
+  "registreringsdatoForetaksregisteret": "2026-08-28",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-08-24",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-08-24",
+  "vedtektsfestetFormaal": [
+    "Drift av digitale informasjons- og formidlingstjenester, samt",
+    "tilhørende virksomhet."
+  ]
+}

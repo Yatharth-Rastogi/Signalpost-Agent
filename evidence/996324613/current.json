@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996324613"
+    }
+  },
+  "aktivitet": [
+    "Musikkformidling av eigenkomponert musikk."
+  ],
+  "epostadresse": "rolf.tore@aldegarden.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Opheim Gard"
+    ],
+    "kommune": "ULVIK",
+    "kommunenummer": "4620",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5730",
+    "poststed": "ULVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.myspace.com/101guitarras",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "99597411",
+  "naeringskode1": {
+    "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+    "kode": "90.201"
+  },
+  "navn": "101GUITARRAS DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "996324613",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-12-31",
+  "registreringsdatoForetaksregisteret": "2010-12-31",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2008-01-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2010-12-10",
+  "vedtektsfestetFormaal": [
+    "Formidling av lyd og bilde."
+  ]
+}

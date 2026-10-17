@@ -1,0 +1,96 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921004737"
+    }
+  },
+  "aktivitet": [
+    "Drift av serveringssted samt eventbooking og diverse andre formål",
+    "knyttet mot utelivsbransjen."
+  ],
+  "antallAnsatte": 9,
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Torget 7"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4280",
+    "poststed": "SKUDENESHAVN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2018-04-24",
+  "fravalgRevisjonDato": "2018-06-14",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [
+    {
+      "fraDato": "2018-06-14 15:10:53",
+      "navn": "SKUDENES EVENT AS",
+      "tilDato": "2021-08-30 15:42:18"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 175000,
+    "belop": 175000.0,
+    "innfortDato": "2025-11-20",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Drift av restauranter",
+    "kode": "56.110"
+  },
+  "navn": "13 HUMLER AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "921004737",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Stian Risdal",
+      "Stykje 20"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4280",
+    "poststed": "SKUDENESHAVN"
+  },
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2025-11-11",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2025-11-10",
+  "registreringsdatoEnhetsregisteret": "2018-06-14",
+  "registreringsdatoForetaksregisteret": "2018-06-14",
+  "registreringsdatoMerverdiavgiftsregisteret": "2018-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2019-06-08",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2018-04-24",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-11-07",
+  "vedtektsfestetFormaal": [
+    "Drift av serveringssted samt tjenester knyttet til",
+    "underholdningsvirksomhet."
+  ]
+}

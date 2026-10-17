@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917986924"
+    }
+  },
+  "aktivitet": [
+    "Musikkgruppe."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Knut Kornelius Gundersen",
+      "Haugtussavegen 8"
+    ],
+    "kommune": "HÅ",
+    "kommunenummer": "1119",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4365",
+    "poststed": "NÆRBØ"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+    "kode": "90.201"
+  },
+  "navn": "2 ME & TO TE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "917986924",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-11-02",
+  "registreringsdatoFrivillighetsregisteret": "2016-11-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2016-09-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

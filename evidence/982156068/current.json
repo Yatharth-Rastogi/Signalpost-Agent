@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/982156068"
+    }
+  },
+  "aktivitet": [
+    "Underholdningstjenester, spesielt innen sang og musikk."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Bjørkedalen"
+    ],
+    "kommune": "VOLDA",
+    "kommunenummer": "1577",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6120",
+    "poststed": "FOLKESTAD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2000-07-12 13:23:06",
+      "navn": "2 IN TRANSIT ANS",
+      "tilDato": "2000-08-16 18:23:00"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+    "kode": "90.201"
+  },
+  "navn": "2 IN TRANSIT ANS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ANS"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med solidarisk ansvar",
+    "kode": "ANS"
+  },
+  "organisasjonsnummer": "982156068",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2000-07-12",
+  "registreringsdatoForetaksregisteret": "2000-08-16",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2000-06-22",
+  "telefon": "70 05 20 66",
+  "underAvvikling": true,
+  "underAvviklingDato": "2024-07-31",
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2000-06-22",
+  "vedtektsfestetFormaal": [
+    "Underholdningstjenester, spesielt innen sang og musikk."
+  ]
+}

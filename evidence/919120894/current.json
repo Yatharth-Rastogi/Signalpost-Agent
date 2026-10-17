@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/919120894"
+    }
+  },
+  "aktivitet": [
+    "1.Lier speidergruppe formål er å utvikle mennesker til selvstendighet",
+    "og til å ta aktivt ansvar i samfunnet i samsvar med idealene til",
+    "speiderløftet og speiderloven"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Lars Vik",
+      "Haskollveien 3"
+    ],
+    "kommune": "LIER",
+    "kommunenummer": "3312",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3403",
+    "poststed": "LIER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.LIER SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "919120894",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-06-12",
+  "registreringsdatoFrivillighetsregisteret": "2017-06-12",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1929-12-31",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

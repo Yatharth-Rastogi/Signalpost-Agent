@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937179243"
+    }
+  },
+  "aktivitet": [
+    "Drift av klassekasse, herunder utvikle tiltak for å skaffe til veie",
+    "ressurser, slik at klassen vil kunne finansiere klasseturer og andre",
+    "sosiale og trivselsfremmende aktiviteter gjennom skoleåra for å bidra",
+    "til et godt klasse og læringsmiljø."
+  ],
+  "epostadresse": "stianreinandresen@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hveemsvegen 76"
+    ],
+    "kommune": "ØSTRE TOTEN",
+    "kommunenummer": "3442",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2850",
+    "poststed": "LENA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "930 68 255",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2019-KULLET VED HOFFSVANGEN SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "937179243",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-04-17",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-03-17",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

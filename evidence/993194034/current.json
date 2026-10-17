@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993194034"
+    }
+  },
+  "aktivitet": [
+    "Ideell forening tilsluttet St.Georgsgildene i Norge. Vedtektene bygger",
+    "på speiderloven."
+  ],
+  "epostadresse": "tor-e-o@frisurf.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Åkerveien 15"
+    ],
+    "kommune": "VÅLER",
+    "kommunenummer": "3114",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1591",
+    "poststed": "SPERREBOTN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2008-11-27 20:29:57",
+      "navn": "VÅLER ST. GEORGSGILDE",
+      "tilDato": "2024-03-11 15:39:10"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "91140917",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.VÅLER ST. GEORGSGILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "993194034",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2008-11-27",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1992-08-29",
+  "telefon": "69 28 83 17",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

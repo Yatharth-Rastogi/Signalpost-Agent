@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929340302"
+    }
+  },
+  "aktivitet": [
+    "Skal sørge for en flott 17. mai feiring ved Jåren Råbygda",
+    "Oppvekstsenter."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Torstein Mo",
+      "Nerjåren 163"
+    ],
+    "kommune": "SKAUN",
+    "kommunenummer": "5029",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7357",
+    "poststed": "SKAUN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITE JÅREN RÅBYGDA OPPVEKSTSENTER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "929340302",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-06-11",
+  "registreringsdatoFrivillighetsregisteret": "2022-06-11",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-03-14",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921227639"
+    }
+  },
+  "aktivitet": [
+    "Dyre velferd, veilede og lære folk om dyre velferd. Forebygge og",
+    "bekjempe dyremishandling"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Årsvollveien 214"
+    ],
+    "kommune": "SANDNES",
+    "kommunenummer": "1108",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4312",
+    "poststed": "SANDNES"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2 SAVE ME",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "921227639",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-08-29",
+  "registreringsdatoFrivillighetsregisteret": "2018-08-29",
+  "registreringsdatoMerverdiavgiftsregisteret": "2025-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2025-11-03",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-07-04",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

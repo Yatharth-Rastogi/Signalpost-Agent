@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996644693"
+    }
+  },
+  "aktivitet": [
+    "Internett-tjenester. Domenenavn ledelse."
+  ],
+  "epostadresse": "ch@ybin.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ybin AS",
+      "Apalstien 43"
+    ],
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1387",
+    "poststed": "ASKER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen forretningsmessig tjenesteyting ikke nevnt annet sted",
+    "kode": "82.990"
+  },
+  "navn": "123DOMAIN.EU TRUSTEE SERVICES NUF",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "996644693",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-04-08",
+  "registreringsdatoForetaksregisteret": "2011-04-08",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922702055"
+    }
+  },
+  "aktivitet": [
+    "Vaktmestertjenester, transport."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Arne Garborgs veg 39C"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7071",
+    "poststed": "TRONDHEIM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Kombinerte tjenester tilknyttet eiendomsdrift",
+    "kode": "81.100"
+  },
+  "navn": "1982 TORKILD SØRØY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "922702055",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Torkild Sørøy",
+      "Basunvegen 34"
+    ],
+    "kommune": "MALVIK",
+    "kommunenummer": "5031",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7560",
+    "poststed": "VIKHAMMER"
+  },
+  "registreringsdatoEnhetsregisteret": "2019-05-07",
+  "registreringsdatoForetaksregisteret": "2019-05-07",
+  "registreringsdatoMerverdiavgiftsregisteret": "2019-09-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2019-10-23",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2020",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

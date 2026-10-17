@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508"
+    }
+  },
+  "aktivitet": [
+    "Produsere sirkulasjonspumper, selge vedlikeholdstjenester til",
+    "sirkulasjonssystemene og selge sirkulasjonssystemer på internett."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Stemmeveien 48"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5009",
+    "poststed": "BERGEN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2022-11-09",
+  "fravalgRevisjonDato": "2022-11-22",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 1000000,
+    "belop": 100000.0,
+    "innfortDato": "2022-11-22",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av pumper og kompressorer ellers",
+    "kode": "28.130"
+  },
+  "navn": "0GCS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "930072508",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-22",
+  "registreringsdatoForetaksregisteret": "2022-11-22",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2022-11-09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2022-11-09",
+  "vedtektsfestetFormaal": [
+    "Fremstilling/salg av sirkulasjonssystemer, automasjonssystemer for",
+    "sirkulasjonssystemer og programvare og andre produkter som naturlig",
+    "faller sammen med dette, herunder å delta i andre selskaper med",
+    "lignende virksomhet, kjøp og salg av aksjer, eller på annen måte gjøre",
+    "seg interessert i andre foretagender."
+  ]
+}

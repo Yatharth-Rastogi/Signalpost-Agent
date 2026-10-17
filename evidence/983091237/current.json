@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983091237"
+    }
+  },
+  "aktivitet": [
+    "Sosialt møtested for eiere av Lillehammer OLs nedtellings T-skjorter i",
+    "form av et årlig treff på et sted med olympisk tilknytning og med et",
+    "program i olympisk ånd.",
+    " ",
+    "Bidra økonomisk til et humanitært/samfunnsnyttig formål med",
+    "tilknytning olympiske leker."
+  ],
+  "epostadresse": "tonny.aardal@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Bjørn Erik Olsen",
+      "Dalstuvegen 4E"
+    ],
+    "kommune": "LØTEN",
+    "kommunenummer": "3412",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2340",
+    "poststed": "LØTEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "1000klubben.multi2net.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1000-KLUBBEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "983091237",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-11-14",
+  "registreringsdatoFrivillighetsregisteret": "2012-11-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2022",
+  "stiftelsesdato": "1991-05-19",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

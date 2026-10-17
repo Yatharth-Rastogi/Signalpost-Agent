@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998918499"
+    }
+  },
+  "aktivitet": [
+    "Drive barne- og ungdomsarbeide i Råde kommune."
+  ],
+  "epostadresse": "geir.ols1@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ted Øistein Nilsen",
+      "Vestre Tofteberggata 6"
+    ],
+    "kommune": "RÅDE",
+    "kommunenummer": "3112",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1643",
+    "poststed": "RÅDE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. RÅDE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "998918499",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-10-18",
+  "registreringsdatoFrivillighetsregisteret": "2012-10-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1963-03-06",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

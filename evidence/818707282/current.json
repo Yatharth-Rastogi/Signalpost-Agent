@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/818707282"
+    }
+  },
+  "aktivitet": [
+    "Konsertvirksomhet, innspilling av musikk."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Midtre Solligården 27"
+    ],
+    "kommune": "TROMSØ",
+    "kommunenummer": "5501",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "9020",
+    "poststed": "TROMSDALEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Andre tjenester tilknyttet kunstnerisk virksomhet og underholdningsvirksomhet",
+    "kode": "90.390"
+  },
+  "navn": "10TH MUSIC DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "818707282",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-03-17",
+  "registreringsdatoForetaksregisteret": "2017-03-17",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2017-02-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2017-02-26",
+  "vedtektsfestetFormaal": [
+    "Band som utøver musikalske tjenester."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926715526"
+    }
+  },
+  "aktivitet": [
+    "Er en frivillig forening nedsatt av og for bydelens",
+    "innbyggere for å planlegge og organisere gjennomføring av",
+    "arrangementer på nasjonaldagen i bydelen Songdalen i Kristiansand",
+    "kommune."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Tor Marius Markussen",
+      "Hagebrotvegen 6"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4645",
+    "poststed": "NODELAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI-KOMITEEN GREIPSTAD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "926715526",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-03-26",
+  "registreringsdatoFrivillighetsregisteret": "2021-03-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-02-03",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

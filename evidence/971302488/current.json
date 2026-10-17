@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/971302488"
+    }
+  },
+  "aktivitet": [
+    "Ansettelse av landbruksavløser som skal arbeide hos ringens medlemmer."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Edgar Magne Rolvsbakken",
+      "Kvarvvegen 176"
+    ],
+    "kommune": "SØR-FRON",
+    "kommunenummer": "3438",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2647",
+    "poststed": "SØR-FRON"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "1995-02-20 08:59:00",
+      "navn": "2 BK AVLØSERRING",
+      "tilDato": "1996-03-23 16:11:00"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Tjenester tilknyttet husdyrhold",
+    "kode": "01.620"
+  },
+  "navn": "2 BK AVLØSERRING V/ SØR-FRON AVLØSERLAG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "971302488",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1995-02-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1995-02-20",
+  "telefon": "61 29 64 44",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

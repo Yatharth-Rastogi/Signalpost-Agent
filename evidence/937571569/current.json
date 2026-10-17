@@ -1,0 +1,86 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937571569"
+    }
+  },
+  "aktivitet": [
+    "Erverv, drift, salg og forvaltning av fast eiendom, eierskap til andre",
+    "eiendomsselskap mv."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Puma Gruppen AS",
+      "Rådhusgaten 3"
+    ],
+    "kommune": "HOLMESTRAND",
+    "kommunenummer": "3903",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3080",
+    "poststed": "HOLMESTRAND"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-03-30",
+  "fravalgRevisjonDato": "2026-04-24",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 5000,
+    "belop": 30000.0,
+    "innfortDato": "2026-04-24",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Utleie av egen eller leid fast eiendom",
+    "kode": "68.200"
+  },
+  "navn": "153 INVEST AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937571569",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o 55 Invest AS",
+      "Postboks 55 Råel"
+    ],
+    "kommune": "TØNSBERG",
+    "kommunenummer": "3905",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3134",
+    "poststed": "TØNSBERG"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-04-24",
+  "registreringsdatoForetaksregisteret": "2026-04-24",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-03-30",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-03-30",
+  "vedtektsfestetFormaal": [
+    "Kjøpe, selge eie, leie ut, utvikle og drifte fast eiendom, samt eie",
+    "aksjer og andeler i andre eiendomsselskap samt det som naturlig står i",
+    "forbindelse med dette."
+  ]
+}

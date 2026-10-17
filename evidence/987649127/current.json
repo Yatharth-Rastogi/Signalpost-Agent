@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987649127"
+    }
+  },
+  "aktivitet": [
+    "Tradisjonelt speiderarbeid."
+  ],
+  "epostadresse": "torfinn.hanv@akerkvaerner.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "91572450",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. HINNA KFUM SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987649127",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Per Ingvar Omdal",
+      "Einevollveien 5"
+    ],
+    "kommune": "STAVANGER",
+    "kommunenummer": "1103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4017",
+    "poststed": "STAVANGER"
+  },
+  "registreringsdatoEnhetsregisteret": "2005-02-12",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1980-01-01",
+  "telefon": "51 88 17 11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

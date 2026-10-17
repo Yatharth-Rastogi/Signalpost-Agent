@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916629966"
+    }
+  },
+  "aktivitet": [
+    "2. Lier St. Georgs Gilde er en del av St. Georgsgildene i Norge og",
+    "følger formålet til St. Georgs -Gildene Norge med mål å arbeide for",
+    "speidersaken, både lokalt, nasjonalt og internasjonalt."
+  ],
+  "epostadresse": "mute.strandrud@hotmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "92617207",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. LIER ST. GEORGS GILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916629966",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Erdmute F.B. Strandrud",
+      "Syrinveien 6"
+    ],
+    "kommune": "LIER",
+    "kommunenummer": "3312",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3408",
+    "poststed": "TRANBY"
+  },
+  "registreringsdatoEnhetsregisteret": "2016-02-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1962-12-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

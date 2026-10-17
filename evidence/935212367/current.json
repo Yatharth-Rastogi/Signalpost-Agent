@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935212367"
+    }
+  },
+  "aktivitet": [
+    "Skape trivsel for elever og ansatte knyttet til 2017 kullet på",
+    "Hoffsvangen skole."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tømmerholsvegen 322"
+    ],
+    "kommune": "ØSTRE TOTEN",
+    "kommunenummer": "3442",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2850",
+    "poststed": "LENA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2017-KULLET HOFFSVANGEN SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "935212367",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-03-14",
+  "registreringsdatoFrivillighetsregisteret": "2025-03-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2024-10-28",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

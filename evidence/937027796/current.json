@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937027796"
+    }
+  },
+  "aktivitet": [
+    "Drift av pub."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rådhusgata 22"
+    ],
+    "kommune": "SAUDA",
+    "kommunenummer": "1135",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4200",
+    "poststed": "SAUDA"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-01-13",
+  "fravalgRevisjonDato": "2026-01-23",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-01-23",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Drift av barer",
+    "kode": "56.300"
+  },
+  "navn": "2.ETG AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937027796",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-01-23",
+  "registreringsdatoForetaksregisteret": "2026-01-23",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-04-17",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-04-18",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-01-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-01-13",
+  "vedtektsfestetFormaal": [
+    "Selge varer og tjenester innen pubdrift og annet som naturlig",
+    "sammenfaller med dette, samt deltakelse i andre selskaper,",
+    "investeringer og nærliggende virksomhet."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987531630"
+    }
+  },
+  "aktivitet": [
+    "Barne- og ungdomsorganisasjon."
+  ],
+  "epostadresse": "marius.hauglin@gmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "aas.speiding.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "994 59 839",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. ÅS SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987531630",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Marius Hauglin",
+      "Moerveien 37A"
+    ],
+    "kommune": "ÅS",
+    "kommunenummer": "3218",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1430",
+    "poststed": "ÅS"
+  },
+  "registreringsdatoEnhetsregisteret": "2004-12-20",
+  "registreringsdatoFrivillighetsregisteret": "2009-04-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1923-06-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

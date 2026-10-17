@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936019005"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk enhet/foretak."
+  ],
+  "erIKonsern": false,
+  "foretaksformIHjemlandet": {
+    "beskrivelse": "Private limited company",
+    "beskrivelseBokmaal": "Aksjeselskap",
+    "kode": "LTD"
+  },
+  "forretningsadresse": {
+    "adresse": [
+      "Goldwells House Grange Road,",
+      "Peterhead,"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "BANFFSHIRE AB42 1WN SCOTLAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "1111 SOLUTIONS LTD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "936019005",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-08-22",
+  "registreringsnummerIHjemlandet": "SC791755",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-12-07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "underlagtLovgivningLand": "Storbritannia",
+  "underlagtLovgivningLandKode": "GB",
+  "utenlandskRegisterAdresse": {
+    "adresse": [
+      "4th Floor",
+      "Edinburgh Quay 2",
+      "139 Fountainbridge"
+    ],
+    "land": "Storbritannia",
+    "poststed": "Edinburgh EH3 9FF"
+  },
+  "utenlandskRegisterNavn": "Companies House"
+}

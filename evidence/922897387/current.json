@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922897387"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17. mai-tilstelning i Kjølsdalen krins. Lage til program,",
+    "leikar og andre aktivitetar for born og vaksne på 17. mai kvart år.",
+    "Lage til og selje mat, drikke og andre forfriskningar på 17. mai kvart",
+    "år."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "v/Kai Jonny Bugjerde",
+      "Øvre Kjølsdalen 76"
+    ],
+    "kommune": "STAD",
+    "kommunenummer": "4649",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6776",
+    "poststed": "KJØLSDALEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI KOMITEEN I KJØLSDALEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "922897387",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-06-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-04-07",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

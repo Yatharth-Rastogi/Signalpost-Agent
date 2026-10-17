@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930215104"
+    }
+  },
+  "aktivitet": [
+    "Vi vil sørge for at 2016 kullet sine felles interesser blir ivaretatt",
+    "på en god måte. Felles aktiviteter og diverse arrangement .",
+    "Klassekasse som skal brukes til diverse avsluttninger og gaver."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Kari Nicolaysen Bergsbakken",
+      "Steinset 78"
+    ],
+    "kommune": "ETNEDAL",
+    "kommunenummer": "3450",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2890",
+    "poststed": "ETNEDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2016 KULLET I ETNEDAL",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930215104",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-09-28",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

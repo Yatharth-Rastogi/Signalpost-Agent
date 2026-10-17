@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/933216969"
+    }
+  },
+  "aktivitet": [
+    "Transport av gods på vei."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Toppåsen 3"
+    ],
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8519",
+    "poststed": "NARVIK"
+  },
+  "fravalgRevisjonBeslutningsDato": "2024-01-10",
+  "fravalgRevisjonDato": "2024-03-25",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100,
+    "belop": 30000.0,
+    "innfortDato": "2024-03-25",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Godstransport på vei",
+    "kode": "49.410"
+  },
+  "navn": "1TIL2 AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "933216969",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-03-25",
+  "registreringsdatoForetaksregisteret": "2024-03-25",
+  "registreringsdatoMerverdiavgiftsregisteret": "2024-04-04",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2024-04-04",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2024-01-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2024-01-10",
+  "vedtektsfestetFormaal": [
+    "Frakt/ forflytning av kjøretøy og tilhengere samt selskapet kan delta",
+    "i annen økonomisk virksomhet."
+  ]
+}

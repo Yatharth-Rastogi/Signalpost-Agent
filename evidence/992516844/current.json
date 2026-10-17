@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/992516844"
+    }
+  },
+  "aktivitet": [
+    "Utleie av arbeidskraft og konsulenttjenester til horeca bransjen:",
+    "hjelper restauranter i Norge med oppsett av restaurant konsept, alt",
+    "fra A til Å før oppstart, alt fra å lage logo, meny oppsett, kjøkken",
+    "oppsett, oppskrifter, til ferdig produkt ut deres."
+  ],
+  "epostadresse": "n.w.agrillhouse@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Løkkekroken 3"
+    ],
+    "kommune": "INDRE ØSTFOLD",
+    "kommunenummer": "3118",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1815",
+    "poststed": "ASKIM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2008-04-07 20:36:24",
+      "navn": "N.W.A GRILLHOUSE Burhan Jafar Haidar",
+      "tilDato": "2012-04-24 20:32:55"
+    },
+    {
+      "fraDato": "2012-04-24 20:32:55",
+      "navn": "N.W.A AUTOLAKK BURHAN JAFAR HAIDAR",
+      "tilDato": "2022-04-07 11:50:34"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "414 70 727",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "1985 BY HAIDAR",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "992516844",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2008-04-07",
+  "registreringsdatoForetaksregisteret": "2008-04-07",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

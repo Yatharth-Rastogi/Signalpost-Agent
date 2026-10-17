@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/927704870"
+    }
+  },
+  "aktivitet": [
+    "Håndverkerarbeid innenfor bygg og anlegg. Alt innen byggebransjen,",
+    "maling og renovasjon. Drenering og avløpsanlegg. Gartnerarbeid og",
+    "vaktmesterservice."
+  ],
+  "epostadresse": "mariussolly@hotmail.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Åsgaten 12"
+    ],
+    "kommune": "DRAMMEN",
+    "kommunenummer": "3301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3060",
+    "poststed": "SVELVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2021-09-10 15:13:43",
+      "navn": "HÅNDVERKEREN MARIUS GRANLI-SOLLY",
+      "tilDato": "2025-04-15 13:24:19"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "922 18 963",
+  "naeringskode1": {
+    "beskrivelse": "Maler- og glassarbeid",
+    "kode": "43.340"
+  },
+  "navn": "1993 SOLLY BYGG OG ANLEGG",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "927704870",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-09-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

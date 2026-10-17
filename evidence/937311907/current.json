@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937311907"
+    }
+  },
+  "aktivitet": [
+    "Snekkerarbeid, montering av dører, vinduer, kjøkken med mer."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hektnerhagan 49"
+    ],
+    "kommune": "RÆLINGEN",
+    "kommunenummer": "3224",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2008",
+    "poststed": "FJERDINGBY"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "1Sheriff",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+  },
+  "navn": "1 SHERIFF HASANAJ",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "937311907",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-03-08",
+  "registreringsdatoForetaksregisteret": "2026-03-08",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

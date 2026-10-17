@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/917900957"
+    }
+  },
+  "aktivitet": [
+    "Førstehjelpsundervisning."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Sidsel Sidserks veg 1B"
+    ],
+    "kommune": "LILLEHAMMER",
+    "kommunenummer": "3405",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2615",
+    "poststed": "LILLEHAMMER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen undervisning ellers",
+    "kode": "85.597"
+  },
+  "navn": "1-HJELPEN LILLEHAMMER NILS HALVOR GRYTING",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "917900957",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-10-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/924119020"
+    }
+  },
+  "aktivitet": [
+    "Utvikle oss faglig innen VVS."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Fagskolen Innlandet",
+      "c/o Eirik Fossen",
+      "Teknologivegen 12"
+    ],
+    "kommune": "GJØVIK",
+    "kommunenummer": "3407",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2815",
+    "poststed": "GJØVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "18KEM INNLANDET",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "924119020",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-01-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-11-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

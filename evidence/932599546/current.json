@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/932599546"
+    }
+  },
+  "aktivitet": [
+    "Foreningen skal jobbe for å fremme et godt klasse og læringsmiljø for",
+    "2016-kullet ved Hemnes Sentralskole."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Margrethe Brendberg",
+      "Ingvaldsletta 12"
+    ],
+    "kommune": "HEMNES",
+    "kommunenummer": "1832",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8640",
+    "poststed": "HEMNESBERGET"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2016-KULLET HEMNES SENTRALSKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "932599546",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-12-12",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-11-09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

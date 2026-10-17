@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935039932"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk foretak. Datterforetak i konsern."
+  ],
+  "erIKonsern": true,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Haugen-Gruppen AB",
+      "BOX 185"
+    ],
+    "land": "Sverige",
+    "landkode": "SE",
+    "poststed": "601 03 Norrköping"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "1916 INVEST AB",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "935039932",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o 1916 Invest AS",
+      "Postboks 14"
+    ],
+    "kommune": "VESTBY",
+    "kommunenummer": "3216",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1541",
+    "poststed": "VESTBY"
+  },
+  "registreringsdatoEnhetsregisteret": "2025-02-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2010-05-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

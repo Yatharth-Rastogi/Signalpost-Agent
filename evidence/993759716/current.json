@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993759716"
+    }
+  },
+  "aktivitet": [
+    "Speiding. Friluftsliv og samfunnsengasjement for barn og unge."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Romsdalsveien",
+      "Gamle Realskolebygget"
+    ],
+    "kommune": "RAUMA",
+    "kommunenummer": "1539",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6300",
+    "poststed": "ÅNDALSNES"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. RAUMA ÅNDALSNES AV NORGES SPEIDERFORBUND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "993759716",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Linda Sogge",
+      "Lyngheim"
+    ],
+    "kommune": "RAUMA",
+    "kommunenummer": "1539",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6300",
+    "poststed": "ÅNDALSNES"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-03-17",
+  "registreringsdatoFrivillighetsregisteret": "2009-03-17",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2002-08-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

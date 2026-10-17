@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/916204914"
+    }
+  },
+  "aktivitet": [
+    "Bistand til Kirkens bymisjons arbeid for barn og foreldre. Økonomisk",
+    "støtte til barnehjem/gatebarn i Estland. Praktisk hjelp til",
+    "speiderarbeid i regionen. Økonomisk bidrag til nødhjelpsarbeid."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Elin Drange",
+      "Christian Eggens veg 29"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7033",
+    "poststed": "TRONDHEIM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "99102325",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i religiøse organisasjoner",
+    "kode": "94.910"
+  },
+  "navn": "1. NIDAROS ST. GEORGS GILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "916204914",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2015-12-09",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1997-03-14",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

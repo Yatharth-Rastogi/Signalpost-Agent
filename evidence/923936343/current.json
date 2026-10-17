@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/923936343"
+    }
+  },
+  "aktivitet": [
+    "Generell IT hjelp, pc bygging, grunnleggende IT konsultasjon,",
+    "webdesign og utvikling."
+  ],
+  "epostadresse": "karlamundbolstad@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Storåsveien 33"
+    ],
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8516",
+    "poststed": "NARVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "416 47 227",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "1UNGITGEEK KARL AMUND NAKKEBERG BOLSTAD",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "923936343",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-11-26",
+  "registreringsdatoForetaksregisteret": "2019-11-26",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

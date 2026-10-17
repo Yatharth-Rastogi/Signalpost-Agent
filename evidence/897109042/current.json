@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/897109042"
+    }
+  },
+  "aktivitet": [
+    "Norsk Speiding skal: 1. utvikle og styrke speiderarbeidet i Norge slik",
+    "at flest mulig, barn og unge, opplever utviklingen i et arbeid basert",
+    "på den internasjonale speiderbevegelsens mål og arbeidsmetoder. 2.",
+    "styrke samarbeidet, fellesskapet og mangfoldet mellom de forbund som",
+    "er medlemmer. 3. arbeide mot mål som er satt for Norsk speiding."
+  ],
+  "epostadresse": "stine.winge@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Høyjordveien 563"
+    ],
+    "kommune": "SANDEFJORD",
+    "kommunenummer": "3907",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3158",
+    "poststed": "ANDEBU"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.speiding.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "+4797789276",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. HØYJORD SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "897109042",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Stine Winge-Olufsen",
+      "Nesveien 561"
+    ],
+    "kommune": "SANDEFJORD",
+    "kommunenummer": "3907",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3158",
+    "poststed": "ANDEBU"
+  },
+  "registreringsdatoEnhetsregisteret": "2012-02-02",
+  "registreringsdatoFrivillighetsregisteret": "2012-02-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2010-08-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930266809"
+    }
+  },
+  "aktivitet": [
+    "Sparing til klassetur, hygge og trivselskvelder."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Eva Kristin Bjørvik",
+      "Fridheims gate 10"
+    ],
+    "kommune": "VERDAL",
+    "kommunenummer": "5038",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7650",
+    "poststed": "VERDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2023-02-21 15:12:30",
+      "navn": "B-KLASSEKULL VERDALSØRA 2013",
+      "tilDato": "2024-11-11 11:28:07"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2013 KLASSEKULL VERDALSØRA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930266809",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-02-21",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-01-19",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

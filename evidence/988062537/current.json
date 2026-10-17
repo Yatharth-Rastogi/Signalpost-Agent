@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/988062537"
+    }
+  },
+  "aktivitet": [
+    "Ideel barne og ungdomsorganisasjon.",
+    " "
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [],
+    "kommune": "HUSTADVIKA",
+    "kommunenummer": "1579",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6440",
+    "poststed": "ELNESVÅGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2005-04-12 20:28:11",
+      "navn": "1. FRÆNA ELNESVÅGEN",
+      "tilDato": "2026-06-10 18:14:36"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "906 66 656",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. FRÆNA ELNESVÅGEN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "988062537",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "v/Odd Kjetil Sørgaard",
+      "Skrubbærstien 7"
+    ],
+    "kommune": "HUSTADVIKA",
+    "kommunenummer": "1579",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6440",
+    "poststed": "ELNESVÅGEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2005-04-12",
+  "registreringsdatoFrivillighetsregisteret": "2009-05-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1975-02-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

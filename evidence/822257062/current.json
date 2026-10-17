@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/822257062"
+    }
+  },
+  "aktivitet": [
+    "Speideraktiviteter, friluftsaktiviteter, naturkjennskap og",
+    "ledertrening."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Inge Selmer Myhre",
+      "Herstadveien 12"
+    ],
+    "kommune": "HOLMESTRAND",
+    "kommunenummer": "3903",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3090",
+    "poststed": "HOF"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. VÅLE KFUK-KFUM-SPEIDERE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "822257062",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-02-20",
+  "registreringsdatoFrivillighetsregisteret": "2019-02-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1996-09-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,97 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/830005412"
+    }
+  },
+  "aktivitet": [
+    "Konsulentbistand knyttet til installering av solceller."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hornelandsvegen 192"
+    ],
+    "kommune": "STORD",
+    "kommunenummer": "4614",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5412",
+    "poststed": "STORD"
+  },
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [
+    {
+      "fraDato": "2022-10-07 15:50:29",
+      "navn": "SUNIQON AS",
+      "tilDato": "2026-02-03 11:26:30"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 1000,
+    "belop": 1000000.0,
+    "innfortDato": "2022-10-07",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+  },
+  "navn": "1ST ENERGY AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "830005412",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 234"
+    ],
+    "kommune": "STORD",
+    "kommunenummer": "4614",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5408",
+    "poststed": "SAGVÅG"
+  },
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-08-11",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-08-10",
+  "registreringsdatoEnhetsregisteret": "2022-10-07",
+  "registreringsdatoForetaksregisteret": "2022-10-07",
+  "registreringsdatoMerverdiavgiftsregisteret": "2022-12-21",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2022-12-21",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2022-09-08",
+  "telefon": "90 28 08 00",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-01-05",
+  "vedtektsfestetFormaal": [
+    "Energileverandørvirksomhet, konsulentvirksomhet og management, kjøp og",
+    "salg av energi, energiløsninger og ulike produkter, varer og",
+    "tjenester, samt deltakelse i selskaper med tilsvarende eller beslektet",
+    "formål. Videre skal selskapetdrive investeringsvirksomhet, herunder",
+    "kjøp og salg av aksjer, eiendom og andreformuesobjekter, samt gi",
+    "støtte til veldedige og allmennyttige formål. Selskapet kan også drive",
+    "annen virksomhet som naturlig står i sammenheng med dette."
+  ]
+}

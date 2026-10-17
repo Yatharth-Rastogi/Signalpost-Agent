@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987928824"
+    }
+  },
+  "aktivitet": [
+    "Charterturer til Tyrkia fra Torp. Tannbehandling, synskorrigering,",
+    "helsereiser, eiendomsformidling."
+  ],
+  "epostadresse": "karborg2@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Elvevegen 48A"
+    ],
+    "kommune": "SKIEN",
+    "kommunenummer": "4003",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3712",
+    "poststed": "SKIEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.laletour.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "40874394",
+  "naeringskode1": {
+    "beskrivelse": "Reisearrangørvirksomhet ellers",
+    "kode": "79.122"
+  },
+  "navn": "1001 NATT Kari-Ann Borgerås",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "987928824",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-03-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "35 53 71 80",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

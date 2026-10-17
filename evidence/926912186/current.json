@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926912186"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe som utøver barne- og ungdomsaktiviteter. Frivillig",
+    "organisasjon med fokus på friluftsliv og samfunnsengasjement."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Johan Hals Jørgensen",
+      "Dalveien 9"
+    ],
+    "kommune": "SALTDAL",
+    "kommunenummer": "1840",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8250",
+    "poststed": "ROGNAN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. ROGNAN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "926912186",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-04-08",
+  "registreringsdatoFrivillighetsregisteret": "2021-04-08",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-03-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

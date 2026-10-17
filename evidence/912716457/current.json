@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/912716457"
+    }
+  },
+  "aktivitet": [
+    "Handelsvirksomhet med detaljhandel av barne-og lekeutstyr og hva som",
+    "dermed står i forbindelse med dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Nydalsveien 20A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0484",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 1500,
+    "belop": 150000.0,
+    "innfortDato": "2016-07-27",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": true,
+  "konkursdato": "2024-06-12",
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med spill og leker",
+    "kode": "47.640"
+  },
+  "navn": "2 PLAY AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "912716457",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2013-11-11",
+  "registreringsdatoForetaksregisteret": "2013-11-11",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2022",
+  "stiftelsesdato": "2013-10-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2015-12-31",
+  "vedtektsfestetFormaal": [
+    "Handelsvirksomhet med detaljhandel av barne-og lekeutstyr og hva som",
+    "dermed står i forbindelse med dette."
+  ]
+}

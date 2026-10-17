@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925818321"
+    }
+  },
+  "aktivitet": [
+    "Speider og friluftsaktiviteter."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Monica Jacobsen Beiermann",
+      "Ømmervassvegen 721"
+    ],
+    "kommune": "VEFSN",
+    "kommunenummer": "1824",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8664",
+    "poststed": "MOSJØEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.MOSJØEN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "925818321",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-10-21",
+  "registreringsdatoFrivillighetsregisteret": "2020-10-21",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2020-09-30",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

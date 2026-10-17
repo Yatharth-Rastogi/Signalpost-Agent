@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373"
+    }
+  },
+  "aktivitet": [
+    "Levere konsulent-, rådgivnings- ogutviklingstjenester innen finans,",
+    "idrett og dataanalyse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Stormyrvegen 6"
+    ],
+    "kommune": "RÆLINGEN",
+    "kommunenummer": "3224",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2005",
+    "poststed": "RÆLINGEN"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-08-01",
+  "fravalgRevisjonDato": "2026-08-25",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-08-25",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "1340 APEX AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "938343373",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-08-25",
+  "registreringsdatoForetaksregisteret": "2026-08-25",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-08-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-08-01",
+  "vedtektsfestetFormaal": [
+    "Levere konsulent-, rådgivnings- og utviklingstjenester innen finans,",
+    "idrett og dataanalyse."
+  ]
+}

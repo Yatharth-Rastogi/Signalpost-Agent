@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/918186220"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe som driver med friluftsliv for barn og unge fra 3.",
+    "klasse og oppover. Vi har ukentlige møter der vi øver på ferdigheter",
+    "som førstehjelp, kart og kompass, bruk av kniv og øks, primitiv",
+    "matlaging, samarbeid, toleranse og mye mer. Vi drar også på hytteturer",
+    "og teltturer. Vårt mål er å hjelpe barn til å bli selvstendige,",
+    "ansvarsbevisste og engasjert i samfunnet."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Carina Berge",
+      "Aspveien 2"
+    ],
+    "kommune": "RANA",
+    "kommunenummer": "1833",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8616",
+    "poststed": "MO I RANA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SELFORS SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "918186220",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2016-12-13",
+  "registreringsdatoFrivillighetsregisteret": "2016-12-13",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1978-08-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

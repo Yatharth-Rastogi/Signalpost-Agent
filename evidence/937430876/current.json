@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937430876"
+    }
+  },
+  "aktivitet": [
+    "Køpe klokkene i Asia. Etter å ha betalt avgiften for alle klokkene,",
+    "planlegger vi å markedsføre dem via sosiale medier og nettsider for å",
+    "selge dem her i Norge."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Michelets vei 114A"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1368",
+    "poststed": "STABEKK"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-01-15",
+  "fravalgRevisjonDato": "2026-04-16",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 1000,
+    "belop": 100000.0,
+    "innfortDato": "2026-04-16",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Engroshandel med klokker, ur og smykker",
+    "kode": "46.480"
+  },
+  "navn": "18KCHRONO AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937430876",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-04-16",
+  "registreringsdatoForetaksregisteret": "2026-04-16",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-01-15",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-01-15",
+  "vedtektsfestetFormaal": [
+    "Kjøpe og selge klokker og smykker."
+  ]
+}

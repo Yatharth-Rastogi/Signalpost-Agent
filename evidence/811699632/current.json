@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/811699632"
+    }
+  },
+  "aktivitet": [
+    "Underholdning - interaktive produksjoner."
+  ],
+  "epostadresse": "contact@2clapstudio.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Haskollveien 79"
+    ],
+    "kommune": "LIER",
+    "kommunenummer": "3312",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3403",
+    "poststed": "LIER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.2clapstudio.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "984 42 114",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av film, video og fjernsynsprogrammer",
+    "kode": "59.110"
+  },
+  "navn": "2 CLAP STUDIO DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "811699632",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Keysers gate 4A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0165",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2013-03-13",
+  "registreringsdatoForetaksregisteret": "2013-03-13",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2013-03-11",
+  "telefon": "95 28 14 08",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2013-03-11",
+  "vedtektsfestetFormaal": [
+    "2 Clap Studio skal produsere og utgi nyskapende og spennende spill."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/819772932"
+    }
+  },
+  "aktivitet": [
+    "Speideraktiviteter. Friluftsaktiviteter for barn og ungdom."
+  ],
+  "epostadresse": "post@bsandvik.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Tommy Christer Larsen",
+      "Prestgardsgutua 176"
+    ],
+    "kommune": "GRUE",
+    "kommunenummer": "3417",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2260",
+    "poststed": "KIRKENÆR"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "911 64 569",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. GRUE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "819772932",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-10-23",
+  "registreringsdatoFrivillighetsregisteret": "2019-04-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1926-06-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

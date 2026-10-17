@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994893882"
+    }
+  },
+  "aktivitet": [
+    "1. Tvedestrand er en speidergruppe i Norges speiderforbund."
+  ],
+  "epostadresse": "smamundsen@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Sonja May Amundsen",
+      "Havenveien 33"
+    ],
+    "kommune": "TVEDESTRAND",
+    "kommunenummer": "4213",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4915",
+    "poststed": "VESTRE SANDØYA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. TVEDESTRAND SPEIDERGRUPPE AV NORGES SPEIDERFORBUND",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994893882",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2009-12-16",
+  "registreringsdatoFrivillighetsregisteret": "2021-11-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1948-03-23",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

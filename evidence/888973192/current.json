@@ -1,0 +1,86 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/888973192"
+    }
+  },
+  "aktivitet": [
+    "Investeringsvirksomhet i verdipapirer samt deltakelse i andre",
+    "virksomheter. Utøve konsulentbistand i elektrofaglige og",
+    "elektrorelaterte spørsmål."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Oksehovedveien 26"
+    ],
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1365",
+    "poststed": "BLOMMENHOLM"
+  },
+  "fravalgRevisjonBeslutningsDato": "2024-08-20",
+  "fravalgRevisjonDato": "2024-09-09",
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [
+    {
+      "fraDato": "2006-01-14 14:38:33",
+      "navn": "H.O.B. AS",
+      "tilDato": "2022-09-17 10:42:02"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 300,
+    "belop": 30000.0,
+    "innfortDato": "2013-06-22",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "91744945",
+  "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+  },
+  "navn": "2 SIKRE AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "888973192",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2020-01-14",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2020-01-10",
+  "registreringsdatoEnhetsregisteret": "2006-01-14",
+  "registreringsdatoForetaksregisteret": "2006-01-14",
+  "registreringsdatoMerverdiavgiftsregisteret": "2022-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2022-11-01",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2005-11-17",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2022-09-02",
+  "vedtektsfestetFormaal": [
+    "Investeringsvirksomhet i verdipapirer, deltagelse i andre selskaper,",
+    "samt det som naturlig faller inn under slik virksomhet. Bistå andre",
+    "virksomheter og personer med bistand av teknisk karakter."
+  ]
+}

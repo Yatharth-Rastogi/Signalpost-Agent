@@ -1,0 +1,48 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/832764922"
+    }
+  },
+  "aktivitet": [
+    "Godstransport på veg. Landtransport og rørtransport."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "UL. DLUGA 25"
+    ],
+    "land": "Polen",
+    "landkode": "PL",
+    "poststed": "PL-25-650 KIELCE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Godstransport på vei",
+    "kode": "49.410"
+  },
+  "navn": "2 NK SOLUTION SP. Z O.O. SP. K",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+      }
+    },
+    "beskrivelse": "Norskregistrert utenlandsk foretak",
+    "kode": "NUF"
+  },
+  "organisasjonsnummer": "832764922",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2024-01-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

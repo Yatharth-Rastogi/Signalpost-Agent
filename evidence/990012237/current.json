@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/990012237"
+    }
+  },
+  "aktivitet": [
+    "Forretningsmessig rådgivning med vekt på utvikling av markeds- og",
+    "kundeprosesser, utvikling og drift av relaterte systemtekniske",
+    "løsninger, kundemålinger og analysetjenester"
+  ],
+  "epostadresse": "sven@10com.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kongleveien 2A"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0875",
+    "poststed": "OSLO"
+  },
+  "fravalgRevisjonDato": "2015-11-12",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.10com.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100000,
+    "belop": 100000.0,
+    "innfortDato": "2006-07-18",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "41129997",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "10COM AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "990012237",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2006-07-18",
+  "registreringsdatoForetaksregisteret": "2006-07-18",
+  "registreringsdatoMerverdiavgiftsregisteret": "2021-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2021-12-31",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2006-06-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2006-06-01",
+  "vedtektsfestetFormaal": [
+    "Forretningsmessig rådgivning med vekt på utvikling av markeds- og",
+    "kundeprosesser, utvikling og drift av relaterte systemtekniske",
+    "løsninger, kundemålinger og analysetjenester samt kjøp, salg og",
+    "investeringer i andre selskaper"
+  ]
+}

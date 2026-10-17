@@ -1,0 +1,91 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/913140125"
+    }
+  },
+  "aktivitet": [
+    "Kunstnerisk virksomhet."
+  ],
+  "epostadresse": "erling@merlink.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kongens gate 35"
+    ],
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4608",
+    "poststed": "KRISTIANSAND S"
+  },
+  "fravalgRevisjonBeslutningsDato": "2019-12-19",
+  "fravalgRevisjonDato": "2020-01-08",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2014-01-28",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "922 56 225",
+  "naeringskode1": {
+    "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+    "kode": "90.201"
+  },
+  "navn": "1B1 GROUP AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "913140125",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Erling Johansen",
+      "Postboks 102"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0323",
+    "poststed": "OSLO"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-01-28",
+  "registreringsdatoForetaksregisteret": "2014-01-28",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2024",
+  "stiftelsesdato": "2013-10-24",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2016-04-19",
+  "vedtektsfestetFormaal": [
+    "Øke gravitasjonen i det klassiske musikklivet og skape",
+    "et ambisiøst frittstående ensemble på internasjonalt toppnivå med",
+    "basis i regionen Agder, Rogaland og Hordaland. Videre er formålet å",
+    "styrke læringsmiljøet for musikk i regionen og bli et nytt kraftsenter",
+    "for musikkutdanning i Norge, og ikke minst å øke",
+    "publikumstilstrømningen til klassisk musikk og bli et eksempel til",
+    "etterfølgelse."
+  ]
+}

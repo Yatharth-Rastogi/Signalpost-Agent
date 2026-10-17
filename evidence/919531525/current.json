@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/919531525"
+    }
+  },
+  "aktivitet": [
+    "Konsulenttjenester og salg av varer innen data."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Parkveien 53"
+    ],
+    "kommune": "NORDRE FOLLO",
+    "kommunenummer": "3207",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1405",
+    "poststed": "LANGHUS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+  },
+  "navn": "191 SERVICE HÅKON KVAMME",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "919531525",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-09-07",
+  "registreringsdatoForetaksregisteret": "2017-09-07",
+  "registreringsdatoMerverdiavgiftsregisteret": "2019-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2019-11-14",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2019",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

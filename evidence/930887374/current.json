@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930887374"
+    }
+  },
+  "aktivitet": [
+    "Innsamling av midlar til skuletur 2025/2026."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Stein-Kåre Karstensen",
+      "Robakken 3"
+    ],
+    "kommune": "BREMANGER",
+    "kommunenummer": "4648",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6730",
+    "poststed": "DAVIK"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2023-02-23 16:15:25",
+      "navn": "2008 OG 2009 KULLET VED DAVIK OPPVEST",
+      "tilDato": "2025-10-09 15:15:28"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2011 KULLET VED DAVIK OPPVEKST",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930887374",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-02-23",
+  "registreringsdatoFrivillighetsregisteret": "2023-02-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-02-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

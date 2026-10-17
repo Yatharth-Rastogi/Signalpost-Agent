@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987074019"
+    }
+  },
+  "aktivitet": [
+    "Fysioterapi. Ergoterapi. Jordbruk. Skogbruk. Utleige."
+  ],
+  "epostadresse": "havardflaten@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Jonavegen 28"
+    ],
+    "kommune": "KVINNHERAD",
+    "kommunenummer": "4617",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5450",
+    "poststed": "SUNDE I SUNNHORDLAND"
+  },
+  "frivilligMvaRegistrertBeskrivelser": [
+    "Utleier av bygg eller anlegg"
+  ],
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2004-07-20 20:35:45",
+      "navn": "FYSIOTERAPEUT HÅVARD FLATEN",
+      "tilDato": "2012-04-10 20:14:39"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "410 24 391",
+  "naeringskode1": {
+    "beskrivelse": "Fysioterapi- og ergoterapitjenester",
+    "kode": "86.950"
+  },
+  "naeringskode2": {
+    "beskrivelse": "Avvirkning",
+    "kode": "02.200"
+  },
+  "navn": "153/1 FLATEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "987074019",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2004-07-20",
+  "registreringsdatoFrivilligMerverdiavgiftsregisteret": "2014-01-28",
+  "registreringsdatoMerverdiavgiftsregisteret": "2013-01-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2013-05-22",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "95 93 25 27",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

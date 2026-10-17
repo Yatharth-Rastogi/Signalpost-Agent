@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/931951157"
+    }
+  },
+  "aktivitet": [
+    "Legge tilrette for barn & unge i nær området slik at de kan trene",
+    "ishockey på likt grunnlag uansett religion, legging. Samt sørge for",
+    "barn i familier med dårlig økonomi skal også kunne delta."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Jonas Holm",
+      "Henrik Ibsens vei 35"
+    ],
+    "kommune": "LILLESTRØM",
+    "kommunenummer": "3205",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1465",
+    "poststed": "STRØMMEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i idrettslag og -klubber",
+    "kode": "93.120"
+  },
+  "navn": "2017-LAGET",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "931951157",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-08-29",
+  "registreringsdatoFrivillighetsregisteret": "2023-08-29",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-04-29",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

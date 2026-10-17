@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/995142686"
+    }
+  },
+  "aktivitet": [
+    "Speideraktiviteter."
+  ],
+  "epostadresse": "eliasker@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ann Mary Mittet Vidnes",
+      "Fuglsetvegen 16B"
+    ],
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6415",
+    "poststed": "MOLDE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "95201544",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. MOLDE SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "995142686",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2010-03-16",
+  "registreringsdatoFrivillighetsregisteret": "2010-03-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1920-04-21",
+  "telefon": "71 21 18 73",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

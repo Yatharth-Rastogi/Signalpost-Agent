@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/979743858"
+    }
+  },
+  "aktivitet": [
+    "Butikkhandel med gull/edelstener."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Thereses gate 46"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0168",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med ur, klokker og smykker",
+    "kode": "47.770"
+  },
+  "navn": "2 CARAT GULL OG DIAMANTER ANS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ANS"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med solidarisk ansvar",
+    "kode": "ANS"
+  },
+  "organisasjonsnummer": "979743858",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "1998-05-04",
+  "registreringsdatoForetaksregisteret": "1998-05-04",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1998-03-23",
+  "underAvvikling": true,
+  "underAvviklingDato": "2026-07-16",
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "1998-04-20",
+  "vedtektsfestetFormaal": [
+    "Butikkhandel med gull/edelstener."
+  ]
+}

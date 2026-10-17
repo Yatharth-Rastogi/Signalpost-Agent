@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/924803479"
+    }
+  },
+  "aktivitet": [
+    "Aktiviteter som kan bidra til inntekter til klassekonto."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Geir Martinsen",
+      "Oldtidsvegen 7"
+    ],
+    "kommune": "NAMSOS",
+    "kommunenummer": "5007",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7805",
+    "poststed": "NAMSOS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1B HØKNES BARNESKOLE 2019",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "924803479",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-03-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2019-08-20",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

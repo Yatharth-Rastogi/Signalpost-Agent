@@ -1,0 +1,67 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/991289127"
+    }
+  },
+  "aktivitet": [
+    "Utenlandsk enhet."
+  ],
+  "erIKonsern": false,
+  "foretaksformIHjemlandet": {
+    "beskrivelse": "Private limited company",
+    "beskrivelseBokmaal": "Aksjeselskap",
+    "kode": "LTD"
+  },
+  "forretningsadresse": {
+    "adresse": [
+      "100 Pall Mall Stron House"
+    ],
+    "land": "Storbritannia",
+    "landkode": "GB",
+    "poststed": "SW1Y 5EA London"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "1959 CONSULTING LIMITED",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/UTLA"
+      }
+    },
+    "beskrivelse": "Utenlandsk enhet",
+    "kode": "UTLA"
+  },
+  "organisasjonsnummer": "991289127",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2007-06-12",
+  "registreringsdatoForetaksregisteret": "2007-06-12",
+  "registreringsnummerIHjemlandet": "06242970",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2007-05-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "underlagtLovgivningLand": "Storbritannia",
+  "underlagtLovgivningLandKode": "GB",
+  "utenlandskRegisterAdresse": {
+    "adresse": [
+      "Crown Way",
+      "Maindy"
+    ],
+    "land": "Storbritannia",
+    "poststed": "Cardiff CF14 3UZ"
+  },
+  "utenlandskRegisterNavn": "Companies House",
+  "vedtektsdato": "2007-05-10",
+  "vedtektsfestetFormaal": [
+    "Utenlandsk foretak."
+  ]
+}

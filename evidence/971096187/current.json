@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/971096187"
+    }
+  },
+  "aktivitet": [
+    "Kjøp, salg, service, snekring, maling. Bilsalg, bilutleie, service.",
+    " "
+  ],
+  "epostadresse": "libekk.a@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Stasjonsvegen 30"
+    ],
+    "kommune": "HAMAR",
+    "kommunenummer": "3403",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2322",
+    "poststed": "RIDABU"
+  },
+  "harRegistrertAntallAnsatte": true,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "91323974",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med motorvogner",
+    "kode": "47.810"
+  },
+  "navn": "1000 FIX Arild Libekk",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "971096187",
+  "paategninger": [],
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-02-12",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-02-10",
+  "registreringsdatoEnhetsregisteret": "1995-02-20",
+  "registreringsdatoForetaksregisteret": "1994-09-13",
+  "registreringsdatoMerverdiavgiftsregisteret": "1994-07-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "1995-02-20",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "62 52 90 09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

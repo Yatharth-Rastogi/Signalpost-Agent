@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/912992950"
+    }
+  },
+  "aktivitet": [
+    "St. Georgs Gildene er en sammenslutning av voksne speidere. Formålet,",
+    "i tillegg til egenutvikling, er å støtte speiderarbeidet for barn og",
+    "unge. Medlemsmøter, dugnader på Speidernes hus i Molde, samarbeid om",
+    "drift av årlig Speidermesse."
+  ],
+  "epostadresse": "maja.mv@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Speidernes Hus i Molde",
+      "Fjellbruvegen 17"
+    ],
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6415",
+    "poststed": "MOLDE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "416 43 079",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.ST.GEORGS GILDE I MOLDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "912992950",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Ann Mary Mittet Vidnes",
+      "Fuglsetvegen 16B"
+    ],
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6415",
+    "poststed": "MOLDE"
+  },
+  "registreringsdatoEnhetsregisteret": "2013-12-21",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1962-05-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

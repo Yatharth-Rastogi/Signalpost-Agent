@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/829661802"
+    }
+  },
+  "aktivitet": [
+    "Salg av kunst / design."
+  ],
+  "epostadresse": "christine_wie@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Røstebygda 10"
+    ],
+    "kommune": "SØNDRE LAND",
+    "kommunenummer": "3447",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2863",
+    "poststed": "VESTSIDA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Skapende kunstnerisk virksomhet innenfor visuell kunst",
+    "kode": "90.120"
+  },
+  "navn": "10TING CHRISTINE VIE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "829661802",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-08-22",
+  "registreringsdatoForetaksregisteret": "2022-08-22",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

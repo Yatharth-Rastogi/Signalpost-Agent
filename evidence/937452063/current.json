@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937452063"
+    }
+  },
+  "aktivitet": [
+    "Programvareutvikling."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ormen Langes vei 12"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7041",
+    "poststed": "TRONDHEIM"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-03-17",
+  "fravalgRevisjonDato": "2026-03-30",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 80000,
+    "belop": 80000.0,
+    "innfortDato": "2026-07-24",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+  },
+  "navn": "13B PRODUCTIONS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937452063",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-03-30",
+  "registreringsdatoForetaksregisteret": "2026-03-30",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-06-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-06-01",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-03-17",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-04-27",
+  "vedtektsfestetFormaal": [
+    "Tilby programvareutviklingstjenester, inkludert, men ikke begrenset",
+    "til, utvikling av dataspill."
+  ]
+}

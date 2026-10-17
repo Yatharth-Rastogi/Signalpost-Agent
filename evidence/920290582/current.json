@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/920290582"
+    }
+  },
+  "aktivitet": [
+    "Ei foreldrebasert gruppe som skal gjennomføra sjølve 17. mai-feiringa",
+    "frå morgon til ettermiddag på Finnøy. Det er kvart år 7.",
+    "klasseforeldre som har ansvar for arrangementa på nasjonaldagen.",
+    "Gjennom aktivitetar, matsal, utloddingar og konkurransar samlar gruppa",
+    "inn pengar som kan finansiera leige og innkjøp til festen."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI FINNØY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "920290582",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Nesagjerdet 14"
+    ],
+    "kommune": "STAVANGER",
+    "kommunenummer": "1103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4160",
+    "poststed": "FINNØY"
+  },
+  "registreringsdatoEnhetsregisteret": "2018-01-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-01-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

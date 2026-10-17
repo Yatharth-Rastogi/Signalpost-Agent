@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930531863"
+    }
+  },
+  "aktivitet": [
+    "Komitéen skal organisere og legge til rette for felles 17. mai-feiring",
+    "for barneskoler, ungdomsskole, videregående skole og generelt for",
+    "befolkningen i Brumunddal, Ringsaker Kommune."
+  ],
+  "epostadresse": "knut.grosland@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Knut Grøsland",
+      "Nerkvernvegen 40"
+    ],
+    "kommune": "RINGSAKER",
+    "kommunenummer": "3411",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2380",
+    "poststed": "BRUMUNDDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "916 60 360",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17.MAI KOMITÉEN FOR BRUMUNDDAL",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930531863",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-12-22",
+  "registreringsdatoFrivillighetsregisteret": "2024-12-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-11-30",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072"
+    }
+  },
+  "aktivitet": [
+    "Investering i aksjer og verdipapirer."
+  ],
+  "epostadresse": "oyvinn@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Helleberget 11"
+    ],
+    "kommune": "STJØRDAL",
+    "kommunenummer": "5035",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7507",
+    "poststed": "STJØRDAL"
+  },
+  "fravalgRevisjonBeslutningsDato": "2025-10-01",
+  "fravalgRevisjonDato": "2025-11-04",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2025-11-04",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "95886326",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "0LOSS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "936517072",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-11-04",
+  "registreringsdatoForetaksregisteret": "2025-11-04",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-10-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-10-01",
+  "vedtektsfestetFormaal": [
+    "Å eie, forvalte og administrere aksjer, verdipapirer og andre",
+    "investeringer, samt å drive annen virksomhet som naturlig står i",
+    "forbindelse med dette."
+  ]
+}

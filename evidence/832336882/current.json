@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/832336882"
+    }
+  },
+  "aktivitet": [
+    "Vi holder foredrag om mobbing, psykisk helse, samhold Motorsport (som",
+    "eg driver med) Vi har bygget et verksted der vi kan ta i mot mennesker",
+    "i alle aldre for prat, samhold, skru på racerbilen. Vi reiser rundt",
+    "i landet på skoler og forskjellige tiltak med racerbil på slep, og",
+    "holder disse foredragene og lager Show kjøring."
+  ],
+  "epostadresse": "morten@lyngoymotorsport.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Heiane 10"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5131",
+    "poststed": "NYBORG"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.109sammen.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "476 92 630",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "109SAMMEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "832336882",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-11-01",
+  "registreringsdatoFrivillighetsregisteret": "2025-10-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-10-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

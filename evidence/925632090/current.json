@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925632090"
+    }
+  },
+  "aktivitet": [
+    "Foreininga har som føremål å planleggja og gjennomføra den årlege 17.",
+    "mai markeringa for bygdene Norheimsund, Vikøy og Steinsdalen. Arbeidet",
+    "i foreininga/ laget er basert på dugnad."
+  ],
+  "epostadresse": "monakkleiven@gmail.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "957 78 441",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "17. MAI KOMITEEN FOR NORHEIMSUND, VIKØY OG STEINSDALEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "925632090",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Eirin Måkestad",
+      "Skipadalsåsen 15"
+    ],
+    "kommune": "KVAM",
+    "kommunenummer": "4622",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5600",
+    "poststed": "NORHEIMSUND"
+  },
+  "registreringsdatoEnhetsregisteret": "2020-09-15",
+  "registreringsdatoFrivillighetsregisteret": "2020-09-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2020-06-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

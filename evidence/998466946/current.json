@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/998466946"
+    }
+  },
+  "aktivitet": [
+    "Speiding, Gruppen tilhører Norges Speiderforbund \"Friluftsliv året",
+    "rundt og opplevelser sammen med andre. Speiding er samarbeid om",
+    "oppgaver, og speiding er vennskap som oppstår og utvikles underveis -",
+    "også på tvers av landegrenser\""
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Fjordvangveien 80D"
+    ],
+    "kommune": "NESODDEN",
+    "kommunenummer": "3212",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1459",
+    "poststed": "NESODDEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "907 98 911",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.NESODDEN/ JAER SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "998466946",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-06-11",
+  "registreringsdatoFrivillighetsregisteret": "2012-06-11",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1927-11-04",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

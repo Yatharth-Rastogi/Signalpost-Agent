@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/988186856"
+    }
+  },
+  "aktivitet": [
+    "Speideraktiviteter for barn og unge gjennom ulike typer",
+    "samfunnsengasjement og friluftsliv."
+  ],
+  "epostadresse": "anne6631@online.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [],
+    "kommune": "GJEMNES",
+    "kommunenummer": "1557",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6631",
+    "poststed": "BATNFJORDSØRA"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "917 21 444",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. BATNFJORD SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "988186856",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Anne Astad",
+      "Gaupsetvegen 17"
+    ],
+    "kommune": "GJEMNES",
+    "kommunenummer": "1557",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6631",
+    "poststed": "BATNFJORDSØRA"
+  },
+  "registreringsdatoEnhetsregisteret": "2005-05-25",
+  "registreringsdatoFrivillighetsregisteret": "2009-02-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2010",
+  "stiftelsesdato": "1973-12-31",
+  "telefon": "71 29 05 63",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

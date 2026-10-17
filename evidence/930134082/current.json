@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930134082"
+    }
+  },
+  "aktivitet": [
+    "Ishockey Klubb. Å gjøre folk",
+    "kjent med hvilken verdi idretten har, så vel fysisk som moralsk,",
+    "spesielt for barn og ungdom. Være et lag for Lørenskogs befolkning, og",
+    "arbeide for å skaffe best mulig trenings- og konkurranseforhold for de",
+    "i det drettsutøvende i laget. Kan også engasjere",
+    "seg i ikke-idrettslig aktivitet i lokalmiljøet i den grad dette er",
+    "positive tiltak for barn og ungdom."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ole-Petter Berge",
+      "Hamarveien 2"
+    ],
+    "kommune": "LØRENSKOG",
+    "kommunenummer": "3222",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1464",
+    "poststed": "FJELLHAMAR"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i idrettslag og -klubber",
+    "kode": "93.120"
+  },
+  "navn": "2016-LAGET",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "930134082",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-01",
+  "registreringsdatoFrivillighetsregisteret": "2022-11-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-09-25",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

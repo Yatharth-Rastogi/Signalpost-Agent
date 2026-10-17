@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935998298"
+    }
+  },
+  "aktivitet": [
+    "Konkursbo."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Nedre Grønliveien 17"
+    ],
+    "kommune": "LØRENSKOG",
+    "kommunenummer": "3222",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1464",
+    "poststed": "FJELLHAMAR"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+  },
+  "navn": "1INCH AS KONKURSBO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/KBO"
+      }
+    },
+    "beskrivelse": "Konkursbo",
+    "kode": "KBO"
+  },
+  "organisasjonsnummer": "935998298",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "v/Adv. Jostein Nordbø",
+      "Postboks 63"
+    ],
+    "kommune": "LILLESTRØM",
+    "kommunenummer": "3205",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2001",
+    "poststed": "LILLESTRØM"
+  },
+  "registreringsdatoEnhetsregisteret": "2025-08-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2025-08-20",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

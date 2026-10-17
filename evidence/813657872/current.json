@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/813657872"
+    }
+  },
+  "aktivitet": [
+    "Skal utvikle mennesker til selvstendighet og til å ta aktivt ansvar i",
+    "samfunnet i samsvar med idealene fra speiderløftet og speiderloven.",
+    "Aktiviteter for barn og ungdom, med lærerike og spennende aktiviteter",
+    "på land og sjø. Stort fokus på sikkerhetsopplæring og mestring."
+  ],
+  "epostadresse": "gruppen@1skudeneshavnsjo.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Holmen 21"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4280",
+    "poststed": "SKUDENESHAVN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.1skudeneshavnsjo.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SKUDENESHAVN SJØ SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "813657872",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 86"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4297",
+    "poststed": "SKUDENESHAVN"
+  },
+  "registreringsdatoEnhetsregisteret": "2014-05-20",
+  "registreringsdatoFrivillighetsregisteret": "2014-05-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1928-12-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

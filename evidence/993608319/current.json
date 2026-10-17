@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993608319"
+    }
+  },
+  "aktivitet": [
+    "Sjøspeidergruppe som driver speideraktiviteter på sjø og land. Har",
+    "speidere fra 1. klasse (6 år) og oppover så lenge man ønsker å være",
+    "speider."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ospøyvegen 2",
+      "Ospøy Grendahus"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4276",
+    "poststed": "VEAVÅGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "911 21 171",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. VEDAVÅGEN SJØ SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "993608319",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Postboks 28"
+    ],
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4295",
+    "poststed": "VEAVÅGEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-02-23",
+  "registreringsdatoFrivillighetsregisteret": "2009-02-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1949-12-31",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

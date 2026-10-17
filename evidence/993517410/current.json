@@ -1,0 +1,67 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993517410"
+    }
+  },
+  "aktivitet": [
+    "Dataspelbransjen, og driv produksjon av",
+    "forholdsvis små dataspel til ulike konsoller."
+  ],
+  "epostadresse": "1991interactive@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Sandviksveien 3A"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5036",
+    "poststed": "BERGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "mobil": "952 99 089",
+  "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+  },
+  "navn": "1991 INTERACTIVE ANS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ANS"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med solidarisk ansvar",
+    "kode": "ANS"
+  },
+  "organisasjonsnummer": "993517410",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2009-01-13",
+  "registreringsdatoForetaksregisteret": "2009-01-13",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2009-01-05",
+  "underAvvikling": true,
+  "underAvviklingDato": "2026-09-07",
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2009-01-05",
+  "vedtektsfestetFormaal": [
+    "Produksjon av interaktiv digital underholdning",
+    "til ulike plattformer som iPhone, Playstation Portable og Playstation",
+    "3."
+  ]
+}

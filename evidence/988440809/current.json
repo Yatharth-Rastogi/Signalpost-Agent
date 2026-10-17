@@ -1,0 +1,68 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/988440809"
+    }
+  },
+  "aktivitet": [
+    "Salg av fliser som har fått et kunstneriskt utrykk ved reglassering,",
+    "sandblåsing og vannskjæring og/eller salg av kompetanse på området."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ystenesgata 32"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6007",
+    "poststed": "ÅLESUND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "90735809",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av keramiske vegg- og gulvfliser",
+    "kode": "23.310"
+  },
+  "navn": "1280 DESIGN AV CHRISTOFFER SVENDSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "988440809",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Fjellgata 41A"
+    ],
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6003",
+    "poststed": "ÅLESUND"
+  },
+  "registreringsdatoEnhetsregisteret": "2005-09-07",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

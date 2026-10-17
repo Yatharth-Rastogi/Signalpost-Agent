@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/932415429"
+    }
+  },
+  "aktivitet": [
+    "Foreningen skal drive dugnad, skoleavslutninger, sosiale formål,",
+    "sosiale arrangementer og andre felles aktiviteter."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Ann-Louise Eivik",
+      "Kyrkjevegen 43"
+    ],
+    "kommune": "ETNEDAL",
+    "kommunenummer": "3450",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2890",
+    "poststed": "ETNEDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2012KULLET VED ETNEDAL SKULE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "932415429",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-11-20",
+  "registreringsdatoFrivillighetsregisteret": "2023-11-20",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2023-10-26",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

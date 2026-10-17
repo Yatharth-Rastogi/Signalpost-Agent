@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937822642"
+    }
+  },
+  "aktivitet": [
+    "Tvangsavviklingsbo."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hjortefaret 4"
+    ],
+    "kommune": "HALDEN",
+    "kommunenummer": "3101",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1779",
+    "poststed": "HALDEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "1779 HOLDING AS TVANGSAVVIKLINGSBO",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/KBO"
+      }
+    },
+    "beskrivelse": "Konkursbo",
+    "kode": "KBO"
+  },
+  "organisasjonsnummer": "937822642",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "v/Adv. Nora Carine Schjønsby",
+      "Postboks 624"
+    ],
+    "kommune": "HALDEN",
+    "kommunenummer": "3101",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1754",
+    "poststed": "HALDEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2026-06-04",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-06-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

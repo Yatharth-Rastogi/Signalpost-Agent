@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994834428"
+    }
+  },
+  "aktivitet": [
+    "Å drive speiding i henhold til Norges Speiderforbunds formålsparagraf",
+    "og retningslinjer."
+  ],
+  "epostadresse": "kjellaug.olsen@milnor.no",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "934 95 675",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. JEVNAKER SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994834428",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Kato Hoelsveen",
+      "Svenåvegen 12"
+    ],
+    "kommune": "JEVNAKER",
+    "kommunenummer": "3236",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3520",
+    "poststed": "JEVNAKER"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-11-30",
+  "registreringsdatoFrivillighetsregisteret": "2009-11-30",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1936-11-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

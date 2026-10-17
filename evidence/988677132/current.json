@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/988677132"
+    }
+  },
+  "aktivitet": [
+    "Portal/startside for private internettsider. Det vil også på sikt være",
+    "ønskelig å starte salg/formidling av nye/brukte varer, og helst",
+    "innenfor lystbåtmarkedet. Fotografering og fotoredigering."
+  ],
+  "epostadresse": "rune.melberg@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Tunglandsvegen 39B"
+    ],
+    "kommune": "STRAND",
+    "kommunenummer": "1130",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4100",
+    "poststed": "JØRPELAND"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "917 77 745",
+  "naeringskode1": {
+    "beskrivelse": "Datainfrastruktur, -behandling, -lagring og tilknyttede tjenester",
+    "kode": "63.100"
+  },
+  "navn": "1P Rune Melberg",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "988677132",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-10-10",
+  "registreringsdatoMerverdiavgiftsregisteret": "2022-02-23",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2023-01-16",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

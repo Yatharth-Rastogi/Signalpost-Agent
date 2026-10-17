@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/997927427"
+    }
+  },
+  "aktivitet": [
+    "Speiding."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Langåker"
+    ],
+    "kommune": "FARSUND",
+    "kommunenummer": "4206",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4560",
+    "poststed": "VANSE"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. LISTA SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "997927427",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Torbjørn Syvertsen",
+      "Gamleveien 2"
+    ],
+    "kommune": "FARSUND",
+    "kommunenummer": "4206",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4563",
+    "poststed": "BORHAUG"
+  },
+  "registreringsdatoEnhetsregisteret": "2012-02-13",
+  "registreringsdatoFrivillighetsregisteret": "2012-02-13",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2010-01-02",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

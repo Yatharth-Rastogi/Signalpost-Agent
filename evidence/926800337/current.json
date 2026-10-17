@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/926800337"
+    }
+  },
+  "aktivitet": [
+    "Konsulent og instalasjon av Jack up rigger, for drilling, vedlikehold",
+    "og geotekniske undersøkelser, som også inkluderer, instalering av",
+    "plattformer og fundamenter for olje, gass og vind farmer. I tillegg",
+    "kommer det til å være spesial kurser som er for olje, gass og vind",
+    "ansatte, World Wide."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Liang 7A"
+    ],
+    "kommune": "STAVANGER",
+    "kommunenummer": "1103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4018",
+    "poststed": "STAVANGER"
+  },
+  "fravalgRevisjonBeslutningsDato": "2021-03-09",
+  "fravalgRevisjonDato": "2021-03-16",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2021-03-16",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+  },
+  "navn": "19LFS AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "926800337",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2021-03-16",
+  "registreringsdatoForetaksregisteret": "2021-03-16",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2023",
+  "stiftelsesdato": "2021-03-09",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2021-03-09",
+  "vedtektsfestetFormaal": [
+    "Konsulenttjeneseter til olje, gass og vind innen posisjonering av",
+    "enheter plattformer og Mono piles, samtidig treningskonsulent for",
+    "offshore ansatte, World Wide."
+  ]
+}

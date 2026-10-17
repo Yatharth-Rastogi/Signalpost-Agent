@@ -1,0 +1,55 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/936987281"
+    }
+  },
+  "aktivitet": [
+    "Filmproduksjon."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Øvre Stølslie 22"
+    ],
+    "kommune": "ØYSTRE SLIDRE",
+    "kommunenummer": "3453",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2953",
+    "poststed": "BEITOSTØLEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av film, video og fjernsynsprogrammer",
+    "kode": "59.110"
+  },
+  "navn": "2 WHEEL ADVENTURE KNUTSEN",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "936987281",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-01-18",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

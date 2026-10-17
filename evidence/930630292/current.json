@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930630292"
+    }
+  },
+  "aktivitet": [
+    "Investeringer i andre selskaper og eiendom, samt hva hermed står i",
+    "forbindelse."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Hellekroken 4"
+    ],
+    "kommune": "SOLA",
+    "kommunenummer": "1124",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4052",
+    "poststed": "RØYNEBERG"
+  },
+  "fravalgRevisjonBeslutningsDato": "2023-01-16",
+  "fravalgRevisjonDato": "2023-01-18",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 100,
+    "belop": 30000.0,
+    "innfortDato": "2023-01-18",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "1434 INVEST AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "930630292",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2023-01-18",
+  "registreringsdatoForetaksregisteret": "2023-01-18",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2023-01-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2023-01-16",
+  "vedtektsfestetFormaal": [
+    "Investeringer i andre selskaper og eiendom, samt hva hermed står i",
+    "forbindelse."
+  ]
+}

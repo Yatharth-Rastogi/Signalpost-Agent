@@ -1,0 +1,78 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661"
+    }
+  },
+  "aktivitet": [
+    "Holdingselskap."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Vidnesveien 131"
+    ],
+    "kommune": "SKIPTVET",
+    "kommunenummer": "3116",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1816",
+    "poststed": "SKIPTVET"
+  },
+  "fravalgRevisjonBeslutningsDato": "2025-07-10",
+  "fravalgRevisjonDato": "2025-07-15",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2025-07-15 12:07:54",
+      "navn": "STAFSENG AB HOLDING AS",
+      "tilDato": "2025-09-20 11:30:11"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 300,
+    "belop": 30000.0,
+    "innfortDato": "2025-07-15",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "1816 INVEST AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "935851661",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2025-07-15",
+  "registreringsdatoForetaksregisteret": "2025-07-15",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2025-07-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2025-09-05",
+  "vedtektsfestetFormaal": [
+    "Å investere, eie og forvalte aksjer i selskaper, og annen virksomhet",
+    "tilknyttet dette."
+  ]
+}

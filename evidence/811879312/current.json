@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/811879312"
+    }
+  },
+  "aktivitet": [
+    "Arrangere 17. mai på Kaupanger skule årleg."
+  ],
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2013-07-01 21:25:55",
+      "navn": "17. MAI NEMDA KAUPANGER",
+      "tilDato": "2013-08-05 20:40:31"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Nynorsk",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter utført av utflukts- og eventarrangører",
+    "kode": "79.121"
+  },
+  "navn": "17. MAI NEMDA KAUPANGER",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "811879312",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Bregnevegen 16"
+    ],
+    "kommune": "SOGNDAL",
+    "kommunenummer": "4640",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "6854",
+    "poststed": "KAUPANGER"
+  },
+  "registreringsdatoEnhetsregisteret": "2013-07-01",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2013-04-24",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

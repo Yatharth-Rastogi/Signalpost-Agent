@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/983806619"
+    }
+  },
+  "aktivitet": [
+    "Frivillig organisasjon som arbeider for barn og unge gjennom",
+    "speiderarbeid. Driver økonomisk 1/3 av Speiderhuset i Steinkjer."
+  ],
+  "epostadresse": "torunn.braathen@ntebb.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Torunn Braathen",
+      "Molovegen 3"
+    ],
+    "kommune": "STEINKJER",
+    "kommunenummer": "5006",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7714",
+    "poststed": "STEINKJER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "911 47 774",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. STEINKJER ST. GEORGS GILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "983806619",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Sigrun Skjesol",
+      "Kringlavegen 721"
+    ],
+    "kommune": "STEINKJER",
+    "kommunenummer": "5006",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7710",
+    "poststed": "SPARBU"
+  },
+  "registreringsdatoEnhetsregisteret": "2002-01-26",
+  "registreringsdatoFrivillighetsregisteret": "2009-03-30",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1960-02-02",
+  "telefon": "74 16 28 51",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

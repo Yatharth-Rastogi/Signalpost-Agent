@@ -1,0 +1,81 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/929455614"
+    }
+  },
+  "aktivitet": [
+    "Eie aksjer og andeler i andre selskaper, samt det som står i naturlig",
+    "forbindelse med dette."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Henrich Gerners gate 8"
+    ],
+    "kommune": "MOSS",
+    "kommunenummer": "3103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1530",
+    "poststed": "MOSS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2022-07-05 15:50:53",
+      "navn": "NFH 220654 AS",
+      "tilDato": "2022-09-05 15:45:24"
+    },
+    {
+      "fraDato": "2022-09-05 15:45:24",
+      "navn": "HALODI ROBOTICS HOLDING AS",
+      "tilDato": "2023-03-15 09:15:29"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 387182,
+    "belop": 387182.0,
+    "innfortDato": "2026-10-06",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "1X HOLDING AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "929455614",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-07-05",
+  "registreringsdatoForetaksregisteret": "2022-07-05",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "sisteInnsendteAarsregnskap": "2025",
+  "stiftelsesdato": "2022-06-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-08-21",
+  "vedtektsfestetFormaal": [
+    "Å eie aksjer i 1X Holdings Inc og alt som er forbundet med dette."
+  ]
+}

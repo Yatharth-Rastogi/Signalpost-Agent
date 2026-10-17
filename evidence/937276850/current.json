@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/937276850"
+    }
+  },
+  "aktivitet": [
+    "Holdingselskap."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Mitandersforsvegen 1000"
+    ],
+    "kommune": "KONGSVINGER",
+    "kommunenummer": "3401",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2224",
+    "poststed": "AUSTMARKA"
+  },
+  "fravalgRevisjonBeslutningsDato": "2026-01-21",
+  "fravalgRevisjonDato": "2026-05-13",
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Private aksjeselskaper mv.",
+    "kode": "2100"
+  },
+  "kapital": {
+    "antallAksjer": 30000,
+    "belop": 30000.0,
+    "innfortDato": "2026-05-13",
+    "type": "Aksjekapital",
+    "valuta": "NOK"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+  },
+  "navn": "0815 ADVENTURES AS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+      }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+  },
+  "organisasjonsnummer": "937276850",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2026-05-13",
+  "registreringsdatoForetaksregisteret": "2026-05-13",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2026-01-21",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2026-01-21",
+  "vedtektsfestetFormaal": [
+    "Eie og forvalte aksjer i datterselskaper, investering i aksjer,",
+    "verdipapirer og fast eiendom, samt annen investeringsvirksomhet og",
+    "tilknyttet virksomhet."
+  ]
+}

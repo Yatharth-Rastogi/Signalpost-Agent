@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/993877379"
+    }
+  },
+  "aktivitet": [
+    "Film- og TV-produksjon. Eventbooking og ledelse. Reality TV-show.",
+    "Manus. Programleder for TV og Radio. Markedsføring, konseptutvikling.",
+    "Kunst og kulturelle aktiviteter, talentcoach, ungdomsutvikling og",
+    "karriere. Coach og bedriftsrådgivning og an. Transport av varer og",
+    "tjenester fra Gambia og Senegal til Norge og omvendt."
+  ],
+  "epostadresse": "2rayzonline@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Jordstjerneveien 38E"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1283",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2009-03-21 14:49:47",
+      "navn": "MOMODOU LAMIN TOURAY",
+      "tilDato": "2013-02-21 20:16:44"
+    },
+    {
+      "fraDato": "2013-02-21 20:16:44",
+      "navn": "2-RAYZ SYNDICATE TOURAY",
+      "tilDato": "2013-03-07 20:27:37"
+    }
+  ],
+  "hjemmeside": "www.2-rayz.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "471 65 455",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon av film, video og fjernsynsprogrammer",
+    "kode": "59.110"
+  },
+  "navn": "2-RAYZ SYNDICATE TOURAY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "993877379",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2009-03-21",
+  "registreringsdatoForetaksregisteret": "2013-03-07",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "telefon": "21 39 82 35",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

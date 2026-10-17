@@ -1,0 +1,78 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/927642123"
+    }
+  },
+  "aktivitet": [
+    "Boligstyling."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Odalsvegen 15"
+    ],
+    "kommune": "EIDSVOLL",
+    "kommunenummer": "3240",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2080",
+    "poststed": "EIDSVOLL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2021-09-02 15:24:52",
+      "navn": "SOLHEIM STYLING, SATHASIVAM",
+      "tilDato": "2024-06-21 14:55:46"
+    },
+    {
+      "fraDato": "2024-06-21 14:55:46",
+      "navn": "SKJEMA CONSULTING SATHASIVAM",
+      "tilDato": "2026-03-23 12:44:08"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Interiørdesignvirksomhet",
+    "kode": "74.130"
+  },
+  "navn": "1VISNING SATHASIVAM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "927642123",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Malene Solheim Sathasivam",
+      "Odalsvegen 15"
+    ],
+    "kommune": "EIDSVOLL",
+    "kommunenummer": "3240",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2080",
+    "poststed": "EIDSVOLL"
+  },
+  "registreringsdatoEnhetsregisteret": "2021-09-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

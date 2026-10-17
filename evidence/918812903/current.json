@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/918812903"
+    }
+  },
+  "aktivitet": [
+    "Speidergruppe med hovedvekt på friluftsliv og fellesskap."
+  ],
+  "epostadresse": "stisund@hotmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Guds Menighet Vegårshei",
+      "Aklandsveien 22"
+    ],
+    "kommune": "VEGÅRSHEI",
+    "kommunenummer": "4212",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4985",
+    "poststed": "VEGÅRSHEI"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "911 97 291",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. VEGÅRSHEI MSK-SPEIDERE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "918812903",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2017-12-06",
+  "registreringsdatoFrivillighetsregisteret": "2017-12-06",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1966-09-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

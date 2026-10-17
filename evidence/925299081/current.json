@@ -1,0 +1,60 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925299081"
+    }
+  },
+  "aktivitet": [
+    "Management-tjeneste for artister. Omhandler rådgivning, veiledning,",
+    "representasjon m.v. i forbindelse med artisters karriere innen",
+    "musikkbransjen."
+  ],
+  "epostadresse": "mgmt@16raa.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Rostockgata 74"
+    ],
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "0194",
+    "poststed": "OSLO"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "All annen faglig, vitenskapelig og teknisk virksomhet ikke nevnt annet sted",
+    "kode": "74.990"
+  },
+  "navn": "16RAA SPORSHEIM",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "925299081",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-07-06",
+  "registreringsdatoMerverdiavgiftsregisteret": "2026-08-22",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2026-08-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

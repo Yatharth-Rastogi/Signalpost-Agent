@@ -1,0 +1,67 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/928484025"
+    }
+  },
+  "aktivitet": [
+    "Formålet til 2013- Festen Fellesforening er å skape en møteplass og",
+    "fremme det lokale kultur- og foreningslivet inkludert idrett på",
+    "Skjetten. Møteplassen skapes gjennom en årlig utendørs festival for",
+    "alle lag og foreninger som holder til på Skjetten,"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Terje Ferstad",
+      "Landskronaveien 366"
+    ],
+    "kommune": "LILLESTRØM",
+    "kommunenummer": "3205",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2013",
+    "poststed": "SKJETTEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2022-01-05 09:59:50",
+      "navn": "2013-FESTEN FELLESFORENING",
+      "tilDato": "2024-11-06 16:52:35"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2013-SKJETTEN FELLESFORENING",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "928484025",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-01-05",
+  "registreringsdatoFrivillighetsregisteret": "2022-01-05",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2021-12-16",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

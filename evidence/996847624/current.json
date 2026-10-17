@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/996847624"
+    }
+  },
+  "aktivitet": [
+    "Speiding er friluftsliv året rundt og opplevelser sammen med andre.",
+    "Speiding er samarbeid om oppgaver, og speiding er vennskap som oppstår",
+    "og utvikles underveis - også på tvers av landegrenser. Formålet med",
+    "speiding er å utvikle selvstendighet og ansvarsbevissthet hos barn,",
+    "unge og voksne."
+  ],
+  "epostadresse": "1.tverlandet@hotmail.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Karen Therse Torgersen",
+      "Kryddermoen 1B"
+    ],
+    "kommune": "BODØ",
+    "kommunenummer": "1804",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "8050",
+    "poststed": "TVERLANDET"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "speiding.no/district/salten-og-helgeland-krets",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1 TVERLANDET SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "996847624",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2011-05-19",
+  "registreringsdatoFrivillighetsregisteret": "2011-05-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1975-01-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

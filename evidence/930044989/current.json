@@ -1,0 +1,49 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/930044989"
+    }
+  },
+  "aktivitet": [
+    "Læring gjennom entreprenørskap i utdanning."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Kirkeparken videregående skole",
+      "Dronningens gate 22"
+    ],
+    "kommune": "MOSS",
+    "kommunenummer": "3103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1530",
+    "poststed": "MOSS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "navn": "1SRA HJELP&FIX UNGDOMSBEDRIFT",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ANNA"
+      }
+    },
+    "beskrivelse": "Annen juridisk person",
+    "kode": "ANNA"
+  },
+  "organisasjonsnummer": "930044989",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2022-11-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2022-09-12",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

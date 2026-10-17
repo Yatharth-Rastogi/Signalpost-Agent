@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987237163"
+    }
+  },
+  "aktivitet": [
+    "Å utvikle medlemmene til selvstendige og ansvarsbevisste mennesker ved",
+    "å tilby dem et treningsprogram med vekt på friluftsliv,",
+    "samfunnsengasjement, internasjonalt engasjement og opplevelse av",
+    "speideridealene, samt gi dem medbestemmelse og ansvar."
+  ],
+  "epostadresse": "aj@knag.org",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Starefossveien 20"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5019",
+    "poststed": "BERGEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.18bergen.org",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "419 16 709",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "18. BERGEN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987237163",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Alf Johan Knag",
+      "Starefossveien 30"
+    ],
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "5019",
+    "poststed": "BERGEN"
+  },
+  "registreringsdatoEnhetsregisteret": "2010-11-25",
+  "registreringsdatoFrivillighetsregisteret": "2010-11-25",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1929-09-11",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

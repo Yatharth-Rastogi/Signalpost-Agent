@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/923879196"
+    }
+  },
+  "aktivitet": [
+    "Forening for tidligere speidere, speiderledere og speiderinteresserte",
+    "med formål om å være til nytte for speiderbevegelsen"
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Kirsti Ruden Østlund",
+      "Brutorget 8"
+    ],
+    "kommune": "RINGERIKE",
+    "kommunenummer": "3305",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "3510",
+    "poststed": "HØNEFOSS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1.HØNEFOSS ST.GEORGSGILDE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "923879196",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2019-11-23",
+  "registreringsdatoFrivillighetsregisteret": "2019-11-23",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1980-05-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

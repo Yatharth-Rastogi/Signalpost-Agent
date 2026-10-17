@@ -1,0 +1,65 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/999024467"
+    }
+  },
+  "aktivitet": [
+    "Kultur: utgivelser musikk, innkjøp og salg av musikk og studioutstyr."
+  ],
+  "epostadresse": "post@1099band.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Jonsvannsveien 23"
+    ],
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7052",
+    "poststed": "TRONDHEIM"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.1099band.com",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "922 00 829",
+  "naeringskode1": {
+    "beskrivelse": "Produksjon og utgivelse av musikk- og lydopptak",
+    "kode": "59.200"
+  },
+  "navn": "1099 MANAGEMENT DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "999024467",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2012-10-18",
+  "registreringsdatoForetaksregisteret": "2012-10-18",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2012-10-01",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2017-11-29",
+  "vedtektsfestetFormaal": [
+    "Kjøp og salg av utstyr, samt kostnader og inntekter forbundet med",
+    "utgivelser relatert til musikkgruppen 1099."
+  ]
+}

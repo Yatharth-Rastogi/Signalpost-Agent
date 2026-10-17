@@ -1,0 +1,72 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/921603037"
+    }
+  },
+  "aktivitet": [
+    "Arrangere og finansiere klassetur for en 10. klasse på Torstad",
+    "ungdomskole. Dette gjennom å organisere dugnader som produktsalg,",
+    "kakelotteri osv., i tillegg til å skrive søknader om støtte til",
+    "veldedige foreninger, legater og fond."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Steinar Låg",
+      "Bjørndalsveien 11A"
+    ],
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1395",
+    "poststed": "HVALSTAD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2018-10-24 11:11:28",
+      "navn": "KLASSETUR 10A TORSTAD U-SKOLE 2019",
+      "tilDato": "2021-11-16 16:31:14"
+    },
+    {
+      "fraDato": "2021-11-16 16:31:14",
+      "navn": "KLASSETUR 10E TORSTAD U-SKOLE 2022",
+      "tilDato": "2023-12-21 10:17:38"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "10.KLASSETUR TORSTAD U-SKOLE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "921603037",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2018-10-24",
+  "registreringsdatoFrivillighetsregisteret": "2018-10-24",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2018-10-13",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

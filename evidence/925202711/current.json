@@ -1,0 +1,64 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/925202711"
+    }
+  },
+  "aktivitet": [
+    "Rådgiving, administrasjon. Rådgiving og veiledning med dokumentasjon",
+    "og daglig økonomi."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Ringnesveien 1"
+    ],
+    "kommune": "AURSKOG-HØLAND",
+    "kommunenummer": "3226",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1960",
+    "poststed": "LØKEN"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2020-06-16 13:08:52",
+      "navn": "REGNSKAP BAGOCIENÉ",
+      "tilDato": "2024-09-27 10:23:47"
+    }
+  ],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+  },
+  "navn": "123 BAGOCIENÉ",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "925202711",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2020-06-16",
+  "registreringsdatoMerverdiavgiftsregisteret": "2020-11-01",
+  "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2020-11-19",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": true,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

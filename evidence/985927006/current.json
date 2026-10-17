@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/985927006"
+    }
+  },
+  "aktivitet": [
+    "MC-klubb"
+  ],
+  "epostadresse": "post@2mc.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Skagakorsen"
+    ],
+    "kommune": "NÆRØYSUND",
+    "kommunenummer": "5060",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7970",
+    "poststed": "KOLVEREID"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "917 34 942",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2 MC-NÆRØY",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "985927006",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Ingebrigt Østnes gate 26"
+    ],
+    "kommune": "NÆRØYSUND",
+    "kommunenummer": "5060",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7900",
+    "poststed": "RØRVIK"
+  },
+  "registreringsdatoEnhetsregisteret": "2003-08-21",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1992-04-10",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

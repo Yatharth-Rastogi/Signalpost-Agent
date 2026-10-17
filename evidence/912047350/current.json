@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/912047350"
+    }
+  },
+  "aktivitet": [
+    "Konsulentbistand i forbindelse med design, web og markedsføring."
+  ],
+  "epostadresse": "post@01kommunikasjon.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Jens Gjerløws vei 9"
+    ],
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4841",
+    "poststed": "ARENDAL"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [
+    {
+      "fraDato": "2013-06-10 20:16:06",
+      "navn": "MARTA DIAZ HINAREJOS",
+      "tilDato": "2014-08-20 09:51:01"
+    }
+  ],
+  "hjemmeside": "www.01kommunikasjon.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlig næringsdrivende",
+    "kode": "8200"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "455 49 747",
+  "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+  },
+  "navn": "01KOMMUNIKASJON - MARTA DIAZ HINAREJOS",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK"
+      }
+    },
+    "beskrivelse": "Enkeltpersonforetak",
+    "kode": "ENK"
+  },
+  "organisasjonsnummer": "912047350",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "Revesandveien 262"
+    ],
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4818",
+    "poststed": "FÆRVIK"
+  },
+  "registreringsdatoEnhetsregisteret": "2013-06-10",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

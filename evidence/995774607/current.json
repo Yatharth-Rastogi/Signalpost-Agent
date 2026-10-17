@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/995774607"
+    }
+  },
+  "aktivitet": [
+    "1. Sandvollan speidergruppes formål er å utvikle mennesker til",
+    "selvstendighet og til å ta aktivt ansvar i samfunnet i samsvar med",
+    "idealene fra speiderløftet og speiderloven."
+  ],
+  "epostadresse": "skogaker@msn.com",
+  "erIKonsern": false,
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "464 30 995",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. SANDVOLLAN SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "995774607",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Jens Petter Hollås",
+      "Slåttasvevegen 10"
+    ],
+    "kommune": "INDERØY",
+    "kommunenummer": "5053",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "7670",
+    "poststed": "INDERØY"
+  },
+  "registreringsdatoEnhetsregisteret": "2010-08-02",
+  "registreringsdatoFrivillighetsregisteret": "2010-08-02",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1978-02-22",
+  "telefon": "74 15 63 89",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

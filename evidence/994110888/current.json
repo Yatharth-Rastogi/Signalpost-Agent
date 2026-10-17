@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/994110888"
+    }
+  },
+  "aktivitet": [
+    "Enhetens formål er å gi barn og ungdom ett fritidsalternativ der de",
+    "kan lære om samfunnet vi lever i. Medlemmene lærer om ledelse og",
+    "vennskap. Friluftsliv står sentralt i organissasjonen."
+  ],
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "Mosvangen 13"
+    ],
+    "kommune": "STAVANGER",
+    "kommunenummer": "1103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4021",
+    "poststed": "STAVANGER"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "2. STAVANGER SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "994110888",
+  "paategninger": [],
+  "postadresse": {
+    "adresse": [
+      "c/o Annette Gillebo",
+      "Nilsebuveien 35"
+    ],
+    "kommune": "STAVANGER",
+    "kommunenummer": "1103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4019",
+    "poststed": "STAVANGER"
+  },
+  "registreringsdatoEnhetsregisteret": "2009-11-14",
+  "registreringsdatoFrivillighetsregisteret": "2009-11-14",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1911-03-22",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}

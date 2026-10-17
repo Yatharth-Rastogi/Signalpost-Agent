@@ -1,0 +1,67 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/991859926"
+    }
+  },
+  "aktivitet": [
+    "Import og salg av sportsartikler."
+  ],
+  "epostadresse": "post@123sport.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Frode Hansen",
+      "Bysteinveien 10B"
+    ],
+    "kommune": "GJESDAL",
+    "kommunenummer": "1122",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "4331",
+    "poststed": "ÅLGÅRD"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.123Sport.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Personlige foretak",
+    "kode": "2300"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "414 13 811",
+  "naeringskode1": {
+    "beskrivelse": "Detaljhandel med sportsvarer",
+    "kode": "47.631"
+  },
+  "navn": "123SPORT DA",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/DA"
+      }
+    },
+    "beskrivelse": "Ansvarlig selskap med delt ansvar",
+    "kode": "DA"
+  },
+  "organisasjonsnummer": "991859926",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2007-10-26",
+  "registreringsdatoForetaksregisteret": "2007-10-26",
+  "registrertIForetaksregisteret": true,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2007-10-20",
+  "telefon": "47 23 47 82",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "vedtektsdato": "2007-10-20",
+  "vedtektsfestetFormaal": [
+    "Salg av sportsutstyr med hovedvekt på golf og fiske utstyr. Importere",
+    "varer, og selge videre i nettbutikk."
+  ]
+}

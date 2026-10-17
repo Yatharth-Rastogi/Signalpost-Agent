@@ -1,0 +1,63 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/986223134"
+    }
+  },
+  "aktivitet": [
+    "1. Jeløy er en lokal speidergruppe som er godkjent av Norges",
+    "Speiderforbund og driver etter forbundets mål og lover."
+  ],
+  "epostadresse": "peik.naesje@gmail.com",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Peik Næsje",
+      "Augustenborgalleen 48"
+    ],
+    "kommune": "MOSS",
+    "kommunenummer": "3103",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "1519",
+    "poststed": "MOSS"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "jeloy.speiding.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "90 88 01 44",
+  "naeringskode1": {
+    "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+    "kode": "94.992"
+  },
+  "navn": "1. JELØY SPEIDERGRUPPE",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "986223134",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2003-12-09",
+  "registreringsdatoFrivillighetsregisteret": "2009-02-26",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": true,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "1971-05-05",
+  "telefon": "69 27 48 92",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}
