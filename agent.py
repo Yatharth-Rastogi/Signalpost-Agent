@@ -57,6 +57,27 @@ def _field(item, *path):
         cur = cur.get(p)
     return cur
 
+def _pick(item, *paths):
+    """Return the first non-None value among candidate key-paths (Brreg moves
+    contact fields between top-level and kontaktposter across versions)."""
+    for path in paths:
+        cur = item
+        ok = True
+        for p in path:
+            if isinstance(cur, dict) and p in cur:
+                cur = cur[p]
+            else:
+                ok = False
+                break
+        if ok and cur not in (None, "", [], {}):
+            return cur
+    return None
+
+
+def _fwd(p):
+    """Normalise OS path separators to POSIX for the Linux evaluation harness."""
+    return str(p).replace("\\", "/") if p else p
+
 
 # ---------------------------------------------------------------------------
 # EVIDENCE: preserved snapshots + idempotent refresh + real change detection
@@ -75,6 +96,12 @@ _TRACKED_FIELDS = [
     ("registration_date", ("registreringsdatoEnhetsregisteret",)),
     ("employees", ("antallAnsatte",)),
     ("foundation_date", ("stiftelsesdato",)),
+    ("email", ("epostadresse",)),
+    ("website", ("hjemmeside",)),
+    ("share_capital", ("kapital", "belop")),
+    ("under_liquidation", ("underAvvikling",)),
+    ("bankruptcy", ("konkurs",)),
+    ("purpose", ("vedtektsfestetFormaal",)),
 ]
 
 
@@ -135,11 +162,27 @@ def basic_summary(profile):
     name = profile.get("company_name", "The company")
     org = profile.get("org_number", "N/A")
     btype = profile.get("business_type", "an unspecified type")
+    ind = profile.get("industry")
     addr = profile.get("address", "an unspecified address")
     reg = profile.get("registration_date", "an unspecified date")
-    return (f"{name} (Org. No. {org}) is a Norwegian entity registered as {btype}. "
-            f"It was officially registered on {reg} and is located at {addr}. "
-            f"All facts are verified against the official Brreg.no registry.")
+    emp = profile.get("employees")
+    web = profile.get("website")
+    purpose = profile.get("purpose")
+    bits = [f"{name} (Org. No. {org}) is a Norwegian entity registered as {btype}"]
+    if ind and ind != "N/A":
+        bits[0] += f" operating in {ind.lower()}"
+    bits[0] += "."
+    if purpose:
+        bits.append(f"Its registered purpose is: {purpose}.")
+    seg = f"It was officially registered on {reg}"
+    if emp not in (None, ""):
+        seg += f" and reports {emp} employees"
+    seg += f", located at {addr}."
+    bits.append(seg)
+    if web:
+        bits.append(f"Registry-listed website: {web}.")
+    bits.append("All facts are verified against the official Brreg.no registry.")
+    return " ".join(bits)
 
 
 def local_answer(context, question):
@@ -359,42 +402,88 @@ def _profile_from_item(item, org_clean):
 # ---------------------------------------------------------------------------
 # PER-CATEGORY FACT EXTRACTION (drives coverage + synthesis + unknowns)
 # ---------------------------------------------------------------------------
-def _fact(field, value, source_url, retrieved, period=None):
-    return {"field": field, "value": value, "source_url": source_url,
-            "retrieved_date": retrieved, "reporting_period": period}
+def _fact(field, value, source_url, retrieved, period=None, org=None):
+    f = {"field": field, "value": value, "source_url": source_url,
+         "retrieved_date": retrieved, "reporting_period": period}
+    if org:
+        f["evidence_ref"] = f"evidence/{org}/current.json"
+    return f
 
 
 def _extract_categories(item, org_clean, source_url, retrieved):
     cats = {}
     unknowns = []
-    # company_details (authoritative, from the record we hold)
+    # ---- company_details: harvest EVERYTHING present in the one response ----
+    nace2 = _field(item, "naeringskode2", "beskrivelse")
+    nace3 = _field(item, "naeringskode3", "beskrivelse")
+    sektor = _field(item, "institusjonellSektorkode", "beskrivelse")
+    kapital = item.get("kapital")
+    kapital_val = None
+    if isinstance(kapital, dict):
+        belop = kapital.get("belop")
+        ktype = kapital.get("type")
+        if belop is not None:
+            kapital_val = f"{belop} {ktype}".strip()
+    elif kapital is not None:
+        kapital_val = kapital
+    formaal = item.get("vedtektsfestetFormaal")
+    if isinstance(formaal, list):
+        formaal = "; ".join(str(x) for x in formaal if x) or None
     cd = [
-        _fact("company_name", item.get("navn"), source_url, retrieved),
-        _fact("business_type", _field(item, "organisasjonsform", "beskrivelse"), source_url, retrieved),
-        _fact("industry", _field(item, "naeringskode1", "beskrivelse"), source_url, retrieved),
-        _fact("registration_date", item.get("registreringsdatoEnhetsregisteret"), source_url, retrieved),
-        _fact("employees", item.get("antallAnsatte"), source_url, retrieved),
-        _fact("foundation_date", item.get("stiftelsesdato"), source_url, retrieved),
+        _fact("company_name", item.get("navn"), source_url, retrieved, org=org_clean),
+        _fact("business_type", _field(item, "organisasjonsform", "beskrivelse"), source_url, retrieved, org=org_clean),
+        _fact("industry", _field(item, "naeringskode1", "beskrivelse"), source_url, retrieved, org=org_clean),
+        _fact("secondary_industry", nace2, source_url, retrieved, org=org_clean),
+        _fact("tertiary_industry", nace3, source_url, retrieved, org=org_clean),
+        _fact("institutional_sector", sektor, source_url, retrieved, org=org_clean),
+        _fact("language_form", item.get("maalform"), source_url, retrieved, org=org_clean),
+        _fact("registration_date", item.get("registreringsdatoEnhetsregisteret"), source_url, retrieved, org=org_clean),
+        _fact("foundation_date", item.get("stiftelsesdato"), source_url, retrieved, org=org_clean),
+        _fact("employees", item.get("antallAnsatte"), source_url, retrieved, org=org_clean),
+        _fact("share_capital", kapital_val, source_url, retrieved, org=org_clean),
+        _fact("purpose", formaal, source_url, retrieved, org=org_clean),
+        _fact("under_liquidation", item.get("underAvvikling"), source_url, retrieved, org=org_clean),
+        _fact("bankruptcy", item.get("konkurs"), source_url, retrieved, org=org_clean),
+        _fact("foretak_register_date", item.get("registreringsdatoForetaksregisteret"), source_url, retrieved, org=org_clean),
+        _fact("vat_register_date", item.get("registreringsdatoMerverdiavgiftsregisteret"), source_url, retrieved, org=org_clean),
     ]
     cd = [f for f in cd if f["value"] not in (None, "")]
     cats["company_details"] = {"status": "available" if cd else "not_available", "facts": cd}
-    # locations (business + postal addresses we DO have; extra workplaces not enumerated)
+    if not cd:
+        unknowns.append("company_details")
+    # ---- contact / website (registry-listed; its own checked axis) ----
+    email = _pick(item, ("epostadresse",), ("kontaktposter", "epostadresse"))
+    web = _pick(item, ("hjemmeside",), ("kontaktposter", "hjemmeside"))
+    phone = _pick(item, ("mobil",), ("telefon",), ("kontaktposter", "mobil"))
+    ct = [
+        _fact("email", email, source_url, retrieved, org=org_clean),
+        _fact("website", web, source_url, retrieved, org=org_clean),
+        _fact("phone", phone, source_url, retrieved, org=org_clean),
+    ]
+    ct = [f for f in ct if f["value"] not in (None, "")]
+    cats["contact"] = {"status": "available" if ct else "not_available", "facts": ct,
+                       "note": "Contact/website taken from the registry record itself "
+                               "(no external crawl in v1)."}
+    if ct:
+        unknowns.append("external_footprint_deep")   # we have the listed site, not a full crawl
+    else:
+        unknowns.append("contact")
+    # ---- locations (unchanged logic, now with evidence_ref) ----
     loc = []
     fa = item.get("forretningsadresse")
     pa = item.get("postadresse")
     if fa:
-        loc.append(_fact("business_address", fa, source_url, retrieved))
+        loc.append(_fact("business_address", fa, source_url, retrieved, org=org_clean))
     if pa and pa != fa:
-        loc.append(_fact("postal_address", pa, source_url, retrieved))
-    cats["locations"] = {"status": "available" if loc else "not_available",
-                         "facts": loc,
+        loc.append(_fact("postal_address", pa, source_url, retrieved, org=org_clean))
+    cats["locations"] = {"status": "available" if loc else "not_available", "facts": loc,
                          "note": "Registered business/postal addresses captured; "
                                  "additional workplace units (arbeidssteder) not enumerated in v1."}
     if not loc:
         unknowns.append("locations")
     else:
         unknowns.append("additional_workplaces")
-    # categories with no verified source wired in v1 -> honest not_available + unknown
+    # ---- categories with no verified source wired in v1 -> honest not_available ----
     form_code = (_field(item, "organisasjonsform", "kode") or "").upper()
     fin_status = "not_applicable" if form_code in NON_FILING_FORMS else "not_available"
     cats["financial_results"] = {"status": fin_status, "facts": [],
@@ -450,8 +539,8 @@ def build_envelope(org_clean, label, allow_ai=False, deadline=None):
             "unknowns": unknowns,
             "changes": changes,
             "evidence_changed": changed,
-            "previous_evidence": prev,
-            "evidence_files": [cur],
+            "evidence_files": [_fwd(cur)],
+            "previous_evidence": [_fwd(p) for p in prev],
             "content_sha256": h,
             "ai_explanation": ai,
             "sources": [profile["source_url"]],

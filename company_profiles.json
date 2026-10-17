@@ -12176,7 +12176,7 @@
     "employees": 21272,
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
     "retrieved_date": "2026-10-11",
-    "ai_explanation": "EQUINOR ASA (Org. No. 923609016) is a Norwegian entity registered as Allmennaksjeselskap. It was officially registered on 1995-03-12 and is located at Forusbeen 50, STAVANGER. All facts are verified against the official Brreg.no registry.",
+    "ai_explanation": "EQUINOR ASA (Org. No. 923609016) is a Norwegian entity registered as Allmennaksjeselskap. It was officially registered on 1995-03-12 and reports 21272 employees, located at Forusbeen 50, STAVANGER. All facts are verified against the official Brreg.no registry.",
     "industry": "N/A"
   },
   {
@@ -12358,5 +12358,17 @@
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/994932934",
     "retrieved_date": "2026-10-17",
     "ai_explanation": "CLEAR VOICE (Org. No. 994932934) is a Norwegian entity registered as Forening/lag/innretning. It was officially registered on 2010-02-23 and is located at Ekebergveien 174, ENEBAKK. All facts are verified against the official Brreg.no registry."
+  },
+  {
+    "company_name": "NAMASTE AS",
+    "org_number": "916998120",
+    "business_type": "Aksjeselskap",
+    "industry": "Drift av restauranter",
+    "address": "Toftes gate 19B, OSLO",
+    "registration_date": "2016-04-11",
+    "employees": 14,
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916998120",
+    "retrieved_date": "2026-10-17",
+    "ai_explanation": "NAMASTE AS (Org. No. 916998120) is a Norwegian entity registered as Aksjeselskap operating in drift av restauranter. It was officially registered on 2016-04-11 and reports 14 employees, located at Toftes gate 19B, OSLO. All facts are verified against the official Brreg.no registry."
   }
 ]

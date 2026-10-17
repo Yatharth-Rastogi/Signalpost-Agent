@@ -1,6 +1,6 @@
 # Auto-pinned by pin_deps.py — exact versions proven in THIS environment.
-# Python 3.14.8  |  generated 2026-10-17T19:18:51
-# Satisfies section 04: clone @ pinned commit -> empty venv -> pip install -r requirements.txt -> run.
+# Python 3.14.8  |  generated 2026-10-17T21:27:54
+# Satisfies §04: clone @ pinned commit -> empty venv -> pip install -r requirements.txt -> run.
 
 streamlit==1.65.0
 openai==3.26.0
