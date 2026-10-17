@@ -2,16 +2,20 @@
 agent.py — Signalpost: Norwegian Company Intelligence Agent (Core Engine)
 Brreg.no registry + local cache + evidence files + Tavily web search +
 OpenRouter reasoning, with graceful Basic-mode degradation.
-Fetch statuses: ok / not_found (404) / network_error (retried).
+Fetch statuses: ok / not_found (404) / invalid_input (4xx) / network_error (retried).
 Name resolution safety: rank gate -> coverage guard -> difflib typo-rescue ->
 LLM spellcheck re-verified; weak matches never publish, closest names offered
 via LAST_SUGGESTIONS (registry candidates first, local cache fallback).
-SELF-HEALING CACHE: Corrupted/stale explanations (CoT leaks, API errors, oversized blobs)
-are automatically regenerated on first query via lookup_company()'s upgrade check.
+SELF-HEALING CACHE (permanent, no manual script):
+  - _ensure_cache_hygiene() runs once per process (startup) to backfill schema
+    fields and purge any contaminated explanation text from legacy rows.
+  - generate_ai_explanation() validates on WRITE so dirt can never be stored.
+  - lookup_company() validates on READ so any residual dirt self-corrects.
 """
 import requests
 import json
 import os
+import re
 import time
 import difflib
 import warnings
@@ -25,8 +29,8 @@ load_dotenv()
 
 CACHE_FILE = "company_profiles.json"
 EVIDENCE_DIR = "evidence"
-LAST_SOURCES = []       # populated by chat functions for the UI sources expander
-LAST_SUGGESTIONS = []   # closest registered names when a weak match is rejected
+LAST_SOURCES = []          # populated by chat functions for the UI sources expander
+LAST_SUGGESTIONS = []      # closest registered names when a weak match is rejected
 LAST_LOOKUP_STATUS = "ok"  # 'ok' | 'not_found' | 'fetch_error'
 
 # ---------------------------------------------------------------------------
@@ -39,6 +43,71 @@ def save_evidence(org_nr, raw_item):
             json.dump(raw_item, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"Warning: could not save evidence for {org_nr}: {e}")
+
+# ---------------------------------------------------------------------------
+# CACHE HYGIENE (permanent self-heal — replaces any one-off fix script)
+# ---------------------------------------------------------------------------
+_CONTAMINATION_MARKERS = (
+    "RESOURCE_EXHAUSTED",
+    "AI Generation Error",
+    "Here's a thinking process",
+    "thinking process:",
+    "step by step",
+)
+
+def _is_contaminated(text):
+    """True if an ai_explanation is empty, oversized, CoT-shaped, or an error dump."""
+    if not text or not isinstance(text, str):
+        return True
+    if len(text) > 700:
+        return True
+    low = text.lower()
+    if any(m.lower() in low for m in _CONTAMINATION_MARKERS if isinstance(m, str)):
+        return True
+    try:
+        if llm.looks_like_cot(text):
+            return True
+    except Exception:
+        pass
+    return False
+
+def _heal_row(row):
+    """Backfill schema fields + replace contaminated explanation. Returns True if changed."""
+    changed = False
+    if "industry" not in row or row.get("industry") in (None, ""):
+        row["industry"] = "N/A"
+        changed = True
+    if "employees" not in row:
+        row["employees"] = None
+        changed = True
+    expl = row.get("ai_explanation", "")
+    if _is_contaminated(expl):
+        row["ai_explanation"] = basic_summary(row)
+        changed = True
+    return changed
+
+def _ensure_cache_hygiene():
+    """One-pass startup heal of the committed cache. Idempotent; writes only if dirty."""
+    if not os.path.exists(CACHE_FILE):
+        return
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"[HYGIENE] Could not read cache: {e}")
+        return
+    if not isinstance(data, list):
+        return
+    fixed = 0
+    for row in data:
+        if isinstance(row, dict) and _heal_row(row):
+            fixed += 1
+    if fixed:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"[HYGIENE] Healed {fixed} cached rows (schema + explanation).")
+    else:
+        print("[HYGIENE] Cache already clean.")
 
 # ---------------------------------------------------------------------------
 # BASIC-MODE LOCAL INTELLIGENCE (zero API calls)
@@ -128,25 +197,25 @@ def save_cache(cache_dict):
         json.dump(list(cache_dict.values()), f, ensure_ascii=False, indent=2)
 
 # ---------------------------------------------------------------------------
-# INPUT SANITIZER (handles NO923609016MVA, spaces, prefixes/suffixes)
-# ---------------------------------------------------------------------------
-import re as _re
-
-def sanitize_org_number(query):
-    """Extracts 9-digit org number from dirty strings like 'NO923609016MVA'."""
-    if not query: return None
-    cleaned = _re.sub(r"[^\dA-Za-z]", "", str(query).upper())
-    if cleaned.startswith("NO"): cleaned = cleaned[2:]
-    if cleaned.endswith("MVA"): cleaned = cleaned[:-3]
-    if cleaned.isdigit() and len(cleaned) == 9:
-        return cleaned
-    return None
-
-# ---------------------------------------------------------------------------
-# LIVE REGISTRY FETCHING (Brreg.no) — status-aware + NACE industry + no-retry on 4xx
+# INPUT SANITIZER + LIVE REGISTRY FETCHING (connection-pooled, NACE-aware,
+# 4xx never retried)
 # ---------------------------------------------------------------------------
 _SESSION = requests.Session()
 _SESSION.headers.update({"User-Agent": "Signalpost-Intelligence-Agent/1.0"})
+
+def sanitize_org_number(query):
+    """Extract a valid 9-digit org number from dirty inputs: 'NO923609016MVA',
+    '999 999 999', 'Org.nr 914778271', etc. Returns None if not a clean 9-digit."""
+    if not query:
+        return None
+    cleaned = re.sub(r"[^\dA-Za-z]", "", str(query).upper())
+    if cleaned.startswith("NO"):
+        cleaned = cleaned[2:]
+    if cleaned.endswith("MVA"):
+        cleaned = cleaned[:-3]
+    if cleaned.isdigit() and len(cleaned) == 9:
+        return cleaned
+    return None
 
 def fetch_from_registry(org_nr):
     """Returns (profile_or_None, status); status in {'ok','not_found','invalid_input','network_error'}."""
@@ -165,11 +234,8 @@ def fetch_from_registry(org_nr):
             street = address_list[0] if address_list else ""
             postplace = addr_info.get("poststed", "")
             full_address = f"{street}, {postplace}".strip(", ")
-            
-            # Extract NACE industry classification
             nace = item.get("naeringskode1", {})
             industry = nace.get("beskrivelse") if isinstance(nace, dict) else None
-
             return {
                 "company_name": item.get("navn"),
                 "org_number": str(org_clean),
@@ -185,7 +251,7 @@ def fetch_from_registry(org_nr):
             print(f"[NOT FOUND] Registry has no entity {org_clean} (HTTP 404).")
             return None, "not_found"
         if 400 <= response.status_code < 500:
-            return None, "invalid_input"  # Prevents 6-second retry penalty
+            return None, "invalid_input"  # client error: never retry (no 6s penalty)
         print(f"[NETWORK] Registry HTTP {response.status_code} for {org_clean}.")
         return None, "network_error"
     except Exception as e:
@@ -242,7 +308,7 @@ def search_by_name(name_query, max_rank=4):
 
     def fetch_candidates(q):
         try:
-            r = requests.get(url, params={"navn": q, "size": 10}, timeout=10)
+            r = _SESSION.get(url, params={"navn": q, "size": 10}, timeout=10)
             if r.status_code == 200:
                 return r.json().get("_embedded", {}).get("enheter", [])
         except Exception as e:
@@ -306,9 +372,8 @@ def search_by_name(name_query, max_rank=4):
     best_match = sorted(enheter, key=lambda c: rank_company(c, query_lower))[0]
     best_rank = rank_company(best_match, query_lower)
     if best_rank in (2, 3) and not coverage_ok(best_match, query_lower):
-        best_rank = 4  # demote: query covers too little of the candidate name
+        best_rank = 4
 
-    # Sentence guard: never fuzzy-match a full question to a company
     if best_rank >= 4 and len(name_query.split()) > 3:
         print("[NOT FOUND] Query looks like a sentence; ignoring weak fuzzy match.")
         return None
@@ -348,11 +413,11 @@ def search_by_name(name_query, max_rank=4):
     return org_nr
 
 # ---------------------------------------------------------------------------
-# AI GENERATION (OpenRouter + Tavily)
+# AI GENERATION (OpenRouter + Tavily) — write-path contamination guard
 # ---------------------------------------------------------------------------
 def generate_ai_explanation(profile):
     """Concise business summary via the fast free model; template fallback.
-    Rejects chain-of-thought leakage and over-long outputs."""
+    Rejects chain-of-thought leakage, over-long outputs, AND error dumps."""
     if getattr(llm, "client", None) is None:
         return basic_summary(profile)
     prompt = (
@@ -363,7 +428,7 @@ def generate_ai_explanation(profile):
         f"Data: {json.dumps(profile, ensure_ascii=False)}"
     )
     res = llm.ask_llm(prompt, model_tier="fast")
-    if res and not llm.looks_like_cot(res) and len(res) <= 700:
+    if res and not _is_contaminated(res):
         return res
     return basic_summary(profile)
 
@@ -503,8 +568,8 @@ Reply with ONLY the JSON object (no markdown, no fences)."""
     return None
 
 # ---------------------------------------------------------------------------
-# MAIN LOOKUP LOGIC (retries transient network errors; never retries a 404)
-# SELF-HEALING: Cache-hit path auto-regenerates corrupted/stale explanations
+# MAIN LOOKUP LOGIC (retries transient network errors; never retries 404/4xx)
+# READ-PATH HEAL: cache-hit upgrades contaminated/stale explanations
 # ---------------------------------------------------------------------------
 def lookup_company(org_nr, force_refresh=False):
     global LAST_LOOKUP_STATUS
@@ -519,12 +584,9 @@ def lookup_company(org_nr, force_refresh=False):
                 cache[org_nr]["employees"] = live.get("employees")
                 save_cache(cache)
         current = cache[org_nr].get("ai_explanation", "")
-        # AUTO-UPGRADE CHECK: Detects CoT leaks, API error dumps, oversized blobs, stale templates
         if ai_status()[0] == "ai" and (
-            not current
+            _is_contaminated(current)
             or current == basic_summary(cache[org_nr])
-            or llm.looks_like_cot(current)
-            or len(current) > 700
             or "All facts are verified against the official Brreg.no registry" in current
         ):
             print("[UPGRADING] Regenerating AI explanation for cached record...")
@@ -551,7 +613,7 @@ def lookup_company(org_nr, force_refresh=False):
         LAST_LOOKUP_STATUS = "ok"
         return profile
 
-    if status == "not_found":
+    if status in ("not_found", "invalid_input"):
         LAST_LOOKUP_STATUS = "not_found"
     else:
         LAST_LOOKUP_STATUS = "fetch_error"
@@ -559,10 +621,10 @@ def lookup_company(org_nr, force_refresh=False):
     return None
 
 # ---------------------------------------------------------------------------
-# BATCH INITIALIZATION (Hackathon requirement: 1,000+ profiles; paginated, proven)
-# Adds industry field for schema parity with fetch_from_registry
+# BATCH INITIALIZATION (1,000+ profiles; paginated) + startup hygiene hook
 # ---------------------------------------------------------------------------
 def initialize_batch_cache(target_count=1000):
+    _ensure_cache_hygiene()  # permanent self-heal: runs once per process, before early-return
     cache = load_cache()
     if len(cache) >= target_count:
         print(f"[READY] Cache already contains {len(cache)} companies.")
@@ -575,7 +637,7 @@ def initialize_batch_cache(target_count=1000):
     while len(cache) < target_count:
         url = f"https://data.brreg.no/enhetsregisteret/api/enheter?page={page}&size={size_per_page}"
         try:
-            res = requests.get(url, timeout=10)
+            res = _SESSION.get(url, timeout=10)
             if res.status_code != 200:
                 break
             enheter = res.json().get("_embedded", {}).get("enheter", [])
@@ -589,10 +651,8 @@ def initialize_batch_cache(target_count=1000):
                     street = address_list[0] if address_list else ""
                     postplace = addr_info.get("poststed", "")
                     full_address = f"{street}, {postplace}".strip(", ")
-                    
                     nace = item.get("naeringskode1", {})
                     industry = nace.get("beskrivelse") if isinstance(nace, dict) else None
-                    
                     profile = {
                         "company_name": item.get("navn"),
                         "org_number": org_nr,

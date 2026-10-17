@@ -11,12 +11,12 @@
     "Virksomheten kan også drives ved deltagelse i",
     "eller i samarbeid med andre foretagender."
   ],
-  "antallAnsatte": 400,
+  "antallAnsatte": 391,
   "epostadresse": "corporate@hydro.com",
   "erIKonsern": true,
   "forretningsadresse": {
     "adresse": [
-      "Drammensveien 264"
+      "Drammensveien 260"
     ],
     "kommune": "OSLO",
     "kommunenummer": "0301",
@@ -75,8 +75,8 @@
     "postnummer": "0240",
     "poststed": "OSLO"
   },
-  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-09-14",
-  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-09-10",
+  "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-10-13",
+  "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-10-10",
   "registreringsdatoEnhetsregisteret": "1995-02-19",
   "registreringsdatoForetaksregisteret": "1988-03-09",
   "registreringsdatoFrivilligMerverdiavgiftsregisteret": "2016-09-07",

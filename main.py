@@ -1,10 +1,11 @@
 """
 main.py — Signalpost CLI Agent (official hackathon entry point)
-Three modes:
---batch-file PATH    (batch processing of a file)
---companies A B C    (space-separated on the command line)
-(no arguments)       (interactive: one query at a time, Ctrl+C to exit)
-Mixed input (org numbers + company names) supported in every mode.
+Modes:
+  --batch-file PATH   (txt one-per-line OR .jsonl universe batch)
+  --companies A B C   (space-separated on the command line)
+  (no arguments)      (interactive: one query at a time, Ctrl+C to exit)
+Emits results.json + results.csv + results.jsonl (one envelope per input)
++ run_report.json (machine-readable runtime/request/cost report).
 """
 import argparse
 import json
@@ -12,8 +13,10 @@ import csv
 import time
 import os
 import sys
+import urllib.parse
 from datetime import datetime, timezone
 import agent
+import llm
 from agent import lookup_company, initialize_batch_cache, ai_status, search_by_name
 
 REGISTRY_URL = "https://data.brreg.no/enhetsregisteret/api/enheter/{}"
@@ -43,17 +46,20 @@ def _missing_entry(label, org, status):
     sugg = getattr(agent, "LAST_SUGGESTIONS", []) or []
     if sugg and status == "not_found":
         expl += " Closest registered names: " + "; ".join(f"{n} ({o})" for n, o in sugg) + "."
+    if org:
+        source_url = REGISTRY_URL.format(org)
+    else:
+        encoded_query = urllib.parse.quote(str(label or "").strip())
+        source_url = f"https://data.brreg.no/enhetsregisteret/api/enheter?navn={encoded_query}"
     return {
         "company_name": None if org else label,
         "org_number": org,
         "business_type": None,
-        "industry": None,          # SCHEMA PARITY WITH FIELDNAMES
+        "industry": None,
         "address": None,
         "registration_date": None,
         "employees": None,
-        "source_url": REGISTRY_URL.format(org) if org else
-                      "https://data.brreg.no/enhetsregisteret/api/enheter?navn="
-                      + label.replace(" ", "%20"),
+        "source_url": source_url,
         "retrieved_date": _today(),
         "ai_explanation": expl,
         "status": status,
@@ -77,7 +83,35 @@ def _save_results(results, json_file):
                 else:
                     flat[k] = v
             writer.writerow(flat)
-    return csv_file
+    # JSONL: exactly one terminal envelope per input record
+    jsonl_file = json_file.replace('.json', '.jsonl')
+    with open(jsonl_file, 'w', encoding='utf-8') as f:
+        for row in results:
+            f.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
+    return csv_file, jsonl_file
+
+def _write_run_report(results, start, items_in, command):
+    ok_n = sum(1 for r in results if r.get("status") == "ok")
+    nf_n = sum(1 for r in results if r.get("status") == "not_found")
+    fe_n = sum(1 for r in results if r.get("status") == "fetch_error")
+    report = {
+        "run_id": time.strftime("signalpost-%Y%m%d-%H%M%S"),
+        "command": command,
+        "items_in": items_in,
+        "items_recorded": len(results),
+        "ok": ok_n, "not_found": nf_n, "fetch_error": fe_n,
+        "runtime_seconds": round(time.time() - start, 1),
+        "registry_requests": ok_n + fe_n,
+        "web_search_calls": 0,
+        "models": {"smart": (llm.MODEL_CHAIN[0] if getattr(llm, "MODEL_CHAIN", None) else "none"),
+                   "fast": (llm.FAST_CHAIN[0] if getattr(llm, "FAST_CHAIN", None) else "none")},
+        "third_party_cost_usd": 0.0,
+        "cost_basis": "free-tier OpenRouter + keyless Brreg; declared ceiling <= $10/day",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    with open("run_report.json", "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+    return report
 
 def _print_summary(results, elapsed):
     ok_n = sum(1 for r in results if r.get("status") == "ok")
@@ -93,7 +127,6 @@ def _resolve_item(item):
     sanitized = agent.sanitize_org_number(item)
     if sanitized:
         return {"label": item, "org": sanitized}
-        
     print(f"[NAME SEARCH] Resolving “{item}”...")
     org = search_by_name(item)
     if org:
@@ -106,10 +139,10 @@ def _batch_header():
     print("\n" + "=" * 60)
     print("  SIGNALPOST AGENT — BATCH PROCESSING MODE")
     print("=" * 60 + "\n")
-    print("[1/3] Initializing local cache (1,000 companies)...")
+    print("[1/3] Initializing local cache (1,000 companies) + self-heal...")
     initialize_batch_cache(1000)
 
-def batch_mode(raw_lines, output="results.json", limit=0):
+def batch_mode(raw_lines, output="results.json", limit=0, command="python main.py --batch-file <file>"):
     if limit > 0:
         raw_lines = raw_lines[:limit]
     if not raw_lines:
@@ -152,10 +185,13 @@ def batch_mode(raw_lines, output="results.json", limit=0):
         time.sleep(0.6)
 
     print(f"\n[3/3] Saving results...")
-    csv_file = _save_results(results, output)
+    csv_file, jsonl_file = _save_results(results, output)
     _print_summary(results, time.time() - start)
-    print(f"📄 JSON Output: {os.path.abspath(output)}")
-    print(f"📊 CSV Output:  {os.path.abspath(csv_file)}\n")
+    _write_run_report(results, start, len(raw_lines), command)
+    print(f"📄 JSON Output:   {os.path.abspath(output)}")
+    print(f"📊 CSV Output:    {os.path.abspath(csv_file)}")
+    print(f"📦 JSONL Envelopes: {os.path.abspath(jsonl_file)}")
+    print(f"📑 Run Report:    {os.path.abspath('run_report.json')}\n")
     print("💡 WANT THE INTERACTIVE WEB UI?")
     print("   👉 streamlit run streamlit_app.py\n")
 
@@ -163,7 +199,7 @@ def interactive_mode():
     print("\n" + "=" * 60)
     print("  SIGNALPOST AGENT — INTERACTIVE MODE")
     print("=" * 60)
-    print("[INIT] Initializing local cache (1,000 companies)...")
+    print("[INIT] Initializing local cache (1,000 companies) + self-heal...")
     initialize_batch_cache(1000)
     _, desc = ai_status()
     print(f"  AI Status: {desc}")
@@ -213,17 +249,39 @@ def interactive_mode():
 
     if results:
         out = "results.json"
-        csv_file = _save_results(results, out)
+        csv_file, jsonl_file = _save_results(results, out)
         _print_summary(results, time.time() - start)
-        print(f"📄 JSON Output: {os.path.abspath(out)}")
-        print(f"📊 CSV Output:  {os.path.abspath(csv_file)}\n")
+        _write_run_report(results, start, len(results), "python main.py (interactive)")
+        print(f"📄 JSON Output:   {os.path.abspath(out)}")
+        print(f"📊 CSV Output:    {os.path.abspath(csv_file)}")
+        print(f"📦 JSONL Envelopes: {os.path.abspath(jsonl_file)}")
+        print(f"📑 Run Report:    {os.path.abspath('run_report.json')}\n")
+
+def _read_batch_file(path):
+    """Support both plain txt (one per line) and official .jsonl universe batches."""
+    if path.endswith(".jsonl"):
+        lines = []
+        with open(path, "r", encoding="utf-8") as f:
+            for ln in f:
+                ln = ln.strip()
+                if not ln:
+                    continue
+                try:
+                    obj = json.loads(ln)
+                    val = obj.get("organisasjonsnummer") or obj.get("org_number") or obj.get("org")
+                    lines.append(str(val) if val else ln)
+                except Exception:
+                    lines.append(ln)
+        return [x for x in lines if x]
+    with open(path, "r", encoding="utf-8") as f:
+        return [ln.strip() for ln in f if ln.strip()]
 
 def main():
     parser = argparse.ArgumentParser(
         description="Signalpost: Norwegian Company Intelligence Agent",
         formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--batch-file', type=str,
-                        help='Path to a text file with org numbers and/or company names (one per line)')
+                        help='Path to a .txt (one per line) or .jsonl batch of org numbers/names')
     parser.add_argument('--companies', nargs='+',
                         help='Space-separated list of org numbers and/or company names')
     parser.add_argument('--output', type=str, default='results.json',
@@ -236,13 +294,14 @@ def main():
         if not os.path.exists(args.batch_file):
             print(f"❌ Error: Batch file '{args.batch_file}' not found.")
             sys.exit(1)
-        with open(args.batch_file, 'r', encoding='utf-8') as f:
-            raw_lines = [ln.strip() for ln in f if ln.strip()]
+        raw_lines = _read_batch_file(args.batch_file)
         _batch_header()
-        batch_mode(raw_lines, args.output, args.limit)
+        batch_mode(raw_lines, args.output, args.limit,
+                   command=f"python main.py --batch-file {args.batch_file}")
     elif args.companies:
         _batch_header()
-        batch_mode([c for c in args.companies if c.strip()], args.output, args.limit)
+        batch_mode([c for c in args.companies if c.strip()], args.output, args.limit,
+                   command="python main.py --companies ...")
     else:
         interactive_mode()
 

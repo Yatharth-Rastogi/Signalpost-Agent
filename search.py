@@ -1,5 +1,5 @@
 """
-search.py — Tavily web search layer with judge-key fallback.
+search.py — Tavily web search layer with judge-key fallback + depth control.
 """
 import os
 from dotenv import load_dotenv
@@ -43,7 +43,7 @@ else:
     print("[SEARCH] No Tavily key found in .env or judge_keys.py — web search disabled.")
 
 def get_web_context(query, max_results=5, depth="basic"):
-    """max_results = how many websites Tavily scans; depth: 'basic' (1 credit/result)
+    """max_results = how many websites Tavily scans; depth 'basic' (1 credit/result)
     or 'advanced' (2 credits/result, full-page extraction = deeper research)."""
     if _client is None:
         return "Web search is currently unavailable."
@@ -52,7 +52,8 @@ def get_web_context(query, max_results=5, depth="basic"):
         return "No relevant web results found."
     print(f"[SEARCH] Querying Tavily for: {query[:90]}... ({max_results} results, {depth})")
     try:
-        res = _client.search(query[:400], max_results=max_results, search_depth=depth, include_answer=False)
+        res = _client.search(query[:400], max_results=max_results,
+                             search_depth=depth, include_answer=False)
         items = res.get("results") or []
         if not items:
             return "No relevant web results found."

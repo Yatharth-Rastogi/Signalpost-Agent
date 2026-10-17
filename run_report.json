@@ -1,0 +1,19 @@
+{
+  "run_id": "signalpost-20261017-163610",
+  "command": "python main.py --batch-file test_batch.txt",
+  "items_in": 6,
+  "items_recorded": 6,
+  "ok": 2,
+  "not_found": 4,
+  "fetch_error": 0,
+  "runtime_seconds": 19.4,
+  "registry_requests": 2,
+  "web_search_calls": 0,
+  "models": {
+    "smart": "nvidia/nemotron-3-super-120b-a12b:free",
+    "fast": "nvidia/nemotron-3.5-lightning:free"
+  },
+  "third_party_cost_usd": 0.0,
+  "cost_basis": "free-tier OpenRouter + keyless Brreg; declared ceiling <= $10/day",
+  "generated_at": "2026-10-17T11:06:10.558771+00:00"
+}

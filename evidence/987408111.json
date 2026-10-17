@@ -1,0 +1,61 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/enheter/987408111"
+    }
+  },
+  "aktivitet": [
+    "Undervisning og forebygging mot rus og kriminalitet."
+  ],
+  "epostadresse": "jostein@sure.no",
+  "erIKonsern": false,
+  "forretningsadresse": {
+    "adresse": [
+      "c/o Jostein Hågan",
+      "Støtterudvegen 57"
+    ],
+    "kommune": "RÆLINGEN",
+    "kommunenummer": "3224",
+    "land": "Norge",
+    "landkode": "NO",
+    "postnummer": "2008",
+    "poststed": "FJERDINGBY"
+  },
+  "harRegistrertAntallAnsatte": false,
+  "historiskeNavn": [],
+  "hjemmeside": "www.quit.no",
+  "institusjonellSektorkode": {
+    "beskrivelse": "Ideelle organisasjoner",
+    "kode": "7000"
+  },
+  "konkurs": false,
+  "maalform": "Bokmål",
+  "mobil": "473 37 777",
+  "naeringskode1": {
+    "beskrivelse": "Annen undervisning ellers",
+    "kode": "85.597"
+  },
+  "navn": "FORENINGEN QUIT",
+  "organisasjonsform": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+      }
+    },
+    "beskrivelse": "Forening/lag/innretning",
+    "kode": "FLI"
+  },
+  "organisasjonsnummer": "987408111",
+  "paategninger": [],
+  "registreringsdatoEnhetsregisteret": "2005-02-15",
+  "registrertIForetaksregisteret": false,
+  "registrertIFrivillighetsregisteret": false,
+  "registrertIMvaregisteret": false,
+  "registrertIPartiregisteret": false,
+  "registrertIStiftelsesregisteret": false,
+  "respons_klasse": "Enhet",
+  "stiftelsesdato": "2005-02-03",
+  "telefon": "63 83 64 70",
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false
+}
