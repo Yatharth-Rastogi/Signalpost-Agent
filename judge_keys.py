@@ -12,7 +12,7 @@ Personal use: put your own keys in .env — they always take priority over these
 """
 
 # OpenRouter free-tier key (used for AI summaries, reasoning, intent routing)
-OPENROUTER_JUDGE_KEY = "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"
-OPENROUTER_JUDGE_KEY_2 = "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"
+OPENROUTER_JUDGE_KEY = ""
+OPENROUTER_JUDGE_KEY_2 = ""
 # Tavily free-tier key (used for live web search in chat)
-TAVILY_JUDGE_KEY = "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"
+TAVILY_JUDGE_KEY = ""
