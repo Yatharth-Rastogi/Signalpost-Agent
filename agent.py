@@ -348,9 +348,11 @@ def sanitize_org_number(query):
 # ---------------------------------------------------------------------------
 # CORE FETCH (status-aware, latency+attempts measured, 4xx never retried)
 # ---------------------------------------------------------------------------
-def _fetch_core(org_clean, timeout=6, max_attempts=2):
+def _fetch_core(org_clean, timeout=6, max_attempts=4, deadline=None):
     """Returns (item_or_None, status, latency_ms, attempts).
-    status in {'ok','not_found','blocked','failed','invalid_input'}."""
+status in {'ok','not_found','blocked','failed','invalid_input'}.
+Includes adaptive backoff for HTTP 429 (Too Many Requests).
+"""
     if not org_clean.isdigit() or len(org_clean) != 9:
         return None, "invalid_input", 0, 0
     url = f"{BRREG_ENHETER}/{org_clean}"
@@ -358,6 +360,8 @@ def _fetch_core(org_clean, timeout=6, max_attempts=2):
     last = "failed"
     t0 = time.perf_counter()
     while attempts < max_attempts:
+        if deadline is not None and time.time() > deadline:
+            return None, "failed", int((time.perf_counter() - t0) * 1000), attempts
         attempts += 1
         try:
             r = _SESSION.get(url, timeout=timeout)
@@ -367,14 +371,26 @@ def _fetch_core(org_clean, timeout=6, max_attempts=2):
                 return r.json(), "ok", lat, attempts
             if sc == 404:
                 return None, "not_found", int((time.perf_counter() - t0) * 1000), attempts
-            if sc in (403, 429):
+            if sc == 429:
+                if attempts < max_attempts:
+                    wait_time = min(2 ** attempts, 8)
+                    if deadline is not None and time.time() + wait_time > deadline:
+                        print(f"[RATE LIMIT] 429 for {org_clean} but no time left in budget.")
+                        return None, "blocked", int((time.perf_counter() - t0) * 1000), attempts
+                    print(f"[RATE LIMIT] 429 for {org_clean}. Backing off for {wait_time}s (attempt {attempts}/{max_attempts})...")
+                    time.sleep(wait_time)
+                    continue
+                return None, "blocked", int((time.perf_counter() - t0) * 1000), attempts
+            if sc == 403:
                 return None, "blocked", int((time.perf_counter() - t0) * 1000), attempts
             if sc in (400, 422):
                 return None, "invalid_input", int((time.perf_counter() - t0) * 1000), attempts
             last = "failed"          # 5xx / other -> transient
+            time.sleep(1)
         except Exception as e:
             print(f"[NETWORK] {org_clean} attempt {attempts}: {e}")
             last = "failed"
+            time.sleep(1)
     return None, last, int((time.perf_counter() - t0) * 1000), attempts
 
 
@@ -511,7 +527,7 @@ def build_envelope(org_clean, label, allow_ai=False, deadline=None):
     Never raises; on any failure returns a 'failed'/'blocked'/'not_available'
     envelope so the run always returns one row per input."""
     org_clean = sanitize_org_number(org_clean) or str(org_clean).strip()
-    item, status, lat, att = _fetch_core(org_clean)
+    item, status, lat, att = _fetch_core(org_clean, deadline=deadline)
     base = {"input_label": label, "org_number": org_clean if org_clean.isdigit() else None,
             "request_count": att, "latency_ms": lat}
     if status == "ok" and item is not None:

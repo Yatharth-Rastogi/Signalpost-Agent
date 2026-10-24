@@ -1,0 +1,30 @@
+{
+  "run_id": "signalpost-20261024-201046",
+  "command": "python main.py --batch-file entry-companies.jsonl",
+  "items_in": 1000,
+  "items_recorded": 1000,
+  "row_parity_ok": true,
+  "states": {
+    "available": 1000,
+    "not_available": 0,
+    "blocked": 0,
+    "not_applicable": 0,
+    "ambiguous": 0,
+    "failed": 0
+  },
+  "runtime_seconds": 477.1,
+  "registry_requests": 1000,
+  "web_search_calls": 0,
+  "latency_ms_avg": 410.5,
+  "models": {
+    "smart": "nvidia/nemotron-3-super-120b-a12b:free",
+    "fast": "nvidia/nemotron-3.5-lightning:free"
+  },
+  "ai_synthesis_enabled": false,
+  "per_row_delay_s": 0.05,
+  "budget_seconds": 1500,
+  "circuit_breaker_tripped": false,
+  "third_party_cost_usd": 0.0,
+  "cost_basis": "free-tier OpenRouter + keyless Brreg; declared ceiling <= $10/day",
+  "generated_at": "2026-10-24T14:40:46.511631+00:00"
+}
