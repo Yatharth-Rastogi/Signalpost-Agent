@@ -31,6 +31,7 @@ else:
     KEY_SOURCE = None
 
 _client = None
+LAST_ITEMS = []
 if TAVILY_API_KEY:
     try:
         from tavily import TavilyClient
@@ -45,6 +46,8 @@ else:
 def get_web_context(query, max_results=5, depth="basic"):
     """max_results = how many websites Tavily scans; depth 'basic' (1 credit/result)
     or 'advanced' (2 credits/result, full-page extraction = deeper research)."""
+    global LAST_ITEMS
+    LAST_ITEMS = []
     if _client is None:
         return "Web search is currently unavailable."
     query = (query or "").strip()
@@ -56,13 +59,18 @@ def get_web_context(query, max_results=5, depth="basic"):
                              search_depth=depth, include_answer=False)
         items = res.get("results") or []
         if not items:
+            LAST_ITEMS = []
             return "No relevant web results found."
+        LAST_ITEMS = [{"title": (r.get("title") or "").strip(),
+                       "snippet": (r.get("content") or "").strip(),
+                       "url": (r.get("url") or "").strip()} for r in items]
         lines = []
         for i, r in enumerate(items, 1):
             title = (r.get("title") or "").strip()
-            snippet = (r.get("content") or "").strip()
+            snippet = (r.get("content") or "").strip()[:700]
             url = (r.get("url") or "").strip()
             lines.append(f"[{i}] {title}\n{snippet}\nSource: {url}\n")
         return "\n".join(lines).strip()
     except Exception as e:
+        LAST_ITEMS = []
         return f"Web search unavailable: {e}"

@@ -12004,12 +12004,72 @@
     "org_number": "914778271",
     "business_type": "Allmennaksjeselskap",
     "industry": "Produksjon av aluminium",
-    "address": "Drammensveien 260, OSLO",
+    "address": "Drammensveien 260, 0283 OSLO",
     "registration_date": "1995-02-19",
     "employees": 391,
+    "email": "corporate@hydro.com",
+    "phone": "22 53 81 00",
+    "website": "www.hydro.com",
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914778271",
-    "retrieved_date": "2026-10-17",
-    "ai_explanation": "Norsk Hydro ASA (Org. No. 914778271) is a Norwegian entity registered as Allmennaksjeselskap. It was officially registered on 1995-02-19 and is located at Drammensveien 260, OSLO. All facts are verified against the official Brreg.no registry."
+    "retrieved_date": "2026-10-26",
+    "key_people": [
+      {
+        "name": "Eivind Kallevik",
+        "role": "Daglig leder",
+        "code": "DAGL"
+      },
+      {
+        "name": "Rune Bjerke",
+        "role": "Styrets leder",
+        "code": "LEDE"
+      },
+      {
+        "name": "Kristin Fejerskov Kragseth",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Espen Gundersen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Kim Wahl",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Marianne Wiinholt",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Philip Graham New",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Jane Elizabeth Toogood",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      }
+    ],
+    "revenue": "213.28B NOK",
+    "revenue_period": "2025",
+    "revenue_period_full": "2025-01-01 to 2025-12-31",
+    "revenue_type": "KONSERN",
+    "net_profit": "8.30B NOK",
+    "total_assets": "208.30B NOK",
+    "total_debt": "101.20B NOK",
+    "equity": "107.10B NOK",
+    "revenue_exact": 213281000000.0,
+    "profit_exact": 8304000000.0,
+    "equity_exact": 107096000000.0,
+    "debt_exact": 101200000000.0,
+    "assets_exact": 208296000000.0,
+    "financial_currency": "NOK",
+    "fin_schema": 3,
+    "ai_explanation": "Norsk Hydro ASA (Org. No. 914778271) is an entity registered in Norway as Allmennaksjeselskap operating in produksjon av aluminium. It was officially registered on 1995-02-19 and reports 391 employees, located at Drammensveien 260, 0283 OSLO. Key registered officers: Eivind Kallevik (Daglig leder); Rune Bjerke (Styrets leder); Kristin Fejerskov Kragseth (Styremedlem). Its konsern accounts for 2025 show revenue 213.28B NOK and net profit 8.30B NOK (Regnskapsregisteret). Registry-listed website: www.hydro.com. All facts are verified against the official Brreg.no registry."
   },
   {
     "company_name": "NITO TELENOR",
@@ -12040,12 +12100,72 @@
     "org_number": "982463718",
     "business_type": "Allmennaksjeselskap",
     "industry": "Kabelbasert, satellittbasert og trådløs telekommunikasjon",
-    "address": "Snarøyveien 30, FORNEBU",
+    "address": "Snarøyveien 30, 1360 FORNEBU",
     "registration_date": "2000-10-06",
     "employees": 370,
+    "email": null,
+    "phone": "67 89 00 00",
+    "website": "www.telenor.no/",
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982463718",
-    "retrieved_date": "2026-10-17",
-    "ai_explanation": "TELENOR ASA (Org. No. 982463718) is a Norwegian entity registered as Allmennaksjeselskap. It was officially registered on 2000-10-06 and is located at Snarøyveien 30, FORNEBU. All facts are verified against the official Brreg.no registry."
+    "retrieved_date": "2026-10-26",
+    "key_people": [
+      {
+        "name": "Benedicte Schilbred Fasmer",
+        "role": "Daglig leder",
+        "code": "DAGL"
+      },
+      {
+        "name": "Jens Petter Olsen",
+        "role": "Styrets leder",
+        "code": "LEDE"
+      },
+      {
+        "name": "Gyrid Skalleberg Ingerø",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Pieter Cornelis Knook",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Grethe Bergly",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Ottar Ertzeid",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Marianne Dahl Steensen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Mats Ulrik Granryd",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      }
+    ],
+    "ai_explanation": "TELENOR ASA is a Norwegian public limited company (Allmennaksjeselskap) providing cable, satellite, and wireless telecommunications services, headquartered at Snarøyveien 30, 1360 Fornebu. Its consolidated group accounts (KONSERN) for 2025 report revenue of 77.29 billion NOK and a net profit of 8.37 billion NOK.",
+    "revenue": "77.29B NOK",
+    "revenue_period": "2025",
+    "revenue_period_full": "2025-01-01 to 2025-12-31",
+    "revenue_type": "KONSERN",
+    "net_profit": "8.37B NOK",
+    "total_assets": "221.65B NOK",
+    "total_debt": "146.02B NOK",
+    "equity": "75.63B NOK",
+    "fin_schema": 3,
+    "revenue_exact": 77292000000.0,
+    "profit_exact": 8365000000.0,
+    "equity_exact": 75629000000.0,
+    "debt_exact": 146022000000.0,
+    "assets_exact": 221650000000.0,
+    "financial_currency": "NOK"
   },
   {
     "company_name": "NITO AS",
@@ -12171,13 +12291,73 @@
     "company_name": "EQUINOR ASA",
     "org_number": "923609016",
     "business_type": "Allmennaksjeselskap",
+    "industry": "Utvinning av råolje",
     "address": "Forusbeen 50, STAVANGER",
     "registration_date": "1995-03-12",
-    "employees": 21272,
+    "employees": 21231,
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
-    "retrieved_date": "2026-10-11",
-    "ai_explanation": "EQUINOR ASA (Org. No. 923609016) is a Norwegian entity registered as Allmennaksjeselskap. It was officially registered on 1995-03-12 and reports 21272 employees, located at Forusbeen 50, STAVANGER. All facts are verified against the official Brreg.no registry.",
-    "industry": "N/A"
+    "retrieved_date": "2026-10-25",
+    "ai_explanation": "EQUINOR ASA is a public limited company (Allmennaksjeselskap) headquartered at Forusbeen 50, Stavanger, Norway, engaged in crude oil extraction. Its consolidated group accounts (KONSERN) for the 2025 financial year report revenue of 106.46 billion USD and a net profit of 5.06 billion USD.",
+    "key_people": [
+      {
+        "name": "Anders Opedal",
+        "role": "Daglig leder",
+        "code": "DAGL"
+      },
+      {
+        "name": "Jarle Kjell Roth",
+        "role": "Styrets leder",
+        "code": "LEDE"
+      },
+      {
+        "name": "Haakon Stephen Bruun-Hanssen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Fernanda Lopes Larsen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Hilde Møllerstad",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Frank Indreland Gundersen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Geir Leon Vadheim",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Anne Drinkwater",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      }
+    ],
+    "email": null,
+    "phone": "51 99 00 00",
+    "website": "www.equinor.com",
+    "revenue": "106.46B USD",
+    "revenue_period": "2025",
+    "revenue_period_full": "2025-01-01 to 2025-12-31",
+    "revenue_type": "KONSERN",
+    "net_profit": "5.06B USD",
+    "total_assets": "131.73B USD",
+    "total_debt": "91.23B USD",
+    "equity": "40.50B USD",
+    "revenue_exact": 106462000000.0,
+    "profit_exact": 5058000000.0,
+    "equity_exact": 40497000000.0,
+    "debt_exact": 91230000000.0,
+    "assets_exact": 131727000000.0,
+    "financial_currency": "USD",
+    "fin_schema": 3
   },
   {
     "company_name": "SØREN BREDAHL NISSEN",
@@ -12231,13 +12411,13 @@
     "company_name": "QUITE SIMPLE AS",
     "org_number": "930076171",
     "business_type": "Aksjeselskap",
+    "industry": "Reklamebyråvirksomhet",
     "address": "c/o Hans Kristian Larsen, BERGEN",
     "registration_date": "2022-10-22",
     "employees": null,
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930076171",
-    "retrieved_date": "2026-10-08",
-    "ai_explanation": "QUITE SIMPLE AS is a Norwegian private limited company (Aksjeselskap) registered on 22 October 2022. It is based in Bergen, operating at the address c/o Hans Kristian Larsen, Bergen, and currently has no reported employees.",
-    "industry": "N/A"
+    "retrieved_date": "2026-10-24",
+    "ai_explanation": "QUITE SIMPLE AS (Org. No. 930076171) is a Norwegian entity registered as Aksjeselskap operating in reklamebyråvirksomhet. It was officially registered on 2022-10-22, located at c/o Hans Kristian Larsen, BERGEN. All facts are verified against the official Brreg.no registry."
   },
   {
     "company_name": "DNB BANK ASA",
@@ -12370,5 +12550,105 @@
     "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916998120",
     "retrieved_date": "2026-10-17",
     "ai_explanation": "NAMASTE AS (Org. No. 916998120) is a Norwegian entity registered as Aksjeselskap operating in drift av restauranter. It was officially registered on 2016-04-11 and reports 14 employees, located at Toftes gate 19B, OSLO. All facts are verified against the official Brreg.no registry."
+  },
+  {
+    "company_name": "EMAILME AS",
+    "org_number": "922771863",
+    "business_type": "Aksjeselskap",
+    "industry": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "address": "Sogneprest Munthe-Kaas vei 51, GJETTUM",
+    "registration_date": "2019-05-29",
+    "employees": null,
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922771863",
+    "retrieved_date": "2026-10-24",
+    "ai_explanation": "EMAILME AS (Org. No. 922771863) is a Norwegian entity registered as Aksjeselskap operating in konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer. It was officially registered on 2019-05-29, located at Sogneprest Munthe-Kaas vei 51, GJETTUM. All facts are verified against the official Brreg.no registry."
+  },
+  {
+    "company_name": "DIPS AS",
+    "org_number": "979543883",
+    "business_type": "Aksjeselskap",
+    "industry": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "address": "Jernbaneveien 85, 8006 BODØ",
+    "registration_date": "1998-01-23",
+    "employees": 351,
+    "email": "post@dips.no",
+    "phone": "75 59 20 00",
+    "website": "www.dips.com",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979543883",
+    "retrieved_date": "2026-10-25",
+    "key_people": [
+      {
+        "name": "Thomas Smedsrud",
+        "role": "Daglig leder",
+        "code": "DAGL"
+      },
+      {
+        "name": "Arve Ree",
+        "role": "Styrets leder",
+        "code": "LEDE"
+      },
+      {
+        "name": "Kolbjørn Haarr",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Øystein Sikora Ingstad",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Liv Elise Saue Tøftum",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Kari-Jussie Lønning",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Gjøran Figenschau",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Heidi Øyvann",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      }
+    ],
+    "ai_explanation": "DIPS AS (Org. No. 979543883) is an entity registered in Norway as Aksjeselskap operating in konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer. It was officially registered on 1998-01-23 and reports 351 employees, located at Jernbaneveien 85, 8006 BODØ. Key registered officers: Thomas Smedsrud (Daglig leder); Arve Ree (Styrets leder); Kolbjørn Haarr (Styremedlem). Its selskap accounts for 2025 show revenue 790.40M NOK and net profit 163.96M NOK (Regnskapsregisteret). Registry-listed website: www.dips.com. All facts are verified against the official Brreg.no registry.",
+    "revenue": "790.40M NOK",
+    "revenue_period": "2025",
+    "revenue_period_full": "2025-01-01 to 2025-12-31",
+    "revenue_type": "SELSKAP",
+    "net_profit": "163.96M NOK",
+    "total_assets": "1.02B NOK",
+    "total_debt": "660.54M NOK",
+    "equity": "355.84M NOK",
+    "fin_schema": 2
+  },
+  {
+    "company_name": "SEADRILL LTD",
+    "org_number": "986867279",
+    "business_type": "Utenlandsk enhet",
+    "industry": "N/A",
+    "address": "Investment House Union Row, ABERDEEN AB 10 1DQ, Storbritannia",
+    "registration_date": "2004-05-07",
+    "employees": null,
+    "email": null,
+    "phone": null,
+    "website": null,
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986867279",
+    "retrieved_date": "2026-10-25",
+    "key_people": [
+      {
+        "name": "Jonas Lunde",
+        "role": "Kontaktperson",
+        "code": "KONT"
+      }
+    ],
+    "ai_explanation": "SEADRILL LTD is a foreign entity registered in the Norwegian Business Registry since May 7, 2004, with its registered address at Investment House Union Row, Aberdeen, United Kingdom. The company operates as an international business with Jonas Lunde listed as the contact person."
   }
 ]

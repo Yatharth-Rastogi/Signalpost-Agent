@@ -122,7 +122,7 @@ html, body, [class*="css"] {
         padding: 14px 16px; height: 100%; }
 .card h3 { margin: 0 0 6px 0; font-size: 15px; font-weight: 750; color: var(--text-strong); }
 .card p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+.grid { display: grid; grid-template-columns: repeat(3, 1fr);
         gap: 10px; margin: 10px 0; }
 .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
         padding: 10px 12px; }
@@ -130,6 +130,15 @@ html, body, [class*="css"] {
                color: var(--muted); margin-bottom: 3px; }
 .tile .value { font-size: 13.5px; font-weight: 650; color: var(--text-strong);
                word-break: break-word; }
+.tile[data-exact] { cursor: help; position: relative; }
+.tile[data-exact]:hover::after, .tile[data-exact]:focus::after {
+    content: attr(data-exact);
+    position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%);
+    background: #1e293b; color: #e2e8f0; border: 1px solid var(--border-strong);
+    border-radius: 8px; padding: 4px 9px; font-size: 11.5px; font-weight: 600;
+    white-space: nowrap; z-index: 60; box-shadow: 0 4px 12px rgba(0,0,0,.45);
+    pointer-events: none;
+}
 .orgpill {
     display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     font-size: 12px; background: var(--accent-soft); color: #c7d2fe;
@@ -218,6 +227,7 @@ html, body, [class*="css"] {
 /* Tablet */
 @media (max-width: 900px) {
     .block-container { padding-top: 1.35rem; max-width: 100%; }
+    .grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* Mobile */
@@ -327,6 +337,8 @@ def generate_pdf_report(companies, title="Signalpost Intelligence Report"):
                      f"Address: {clean_for_pdf(comp.get('address'))}",
                      f"Registered: {clean_for_pdf(comp.get('registration_date'))}",
                      f"Employees: {clean_for_pdf(comp.get('employees'))}",
+                     *([f"Revenue: {clean_for_pdf(format(comp['revenue_exact'], ',.0f') + ' ' + str(comp.get('financial_currency') or 'NOK') + ' (' + str(comp.get('revenue_period') or '') + ')')}"]
+                       if comp.get("revenue_exact") is not None else []),
                      f"Source: {clean_for_pdf(comp.get('source_url'))}"]:
             pdf.multi_cell(0, 6, line, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(2)
@@ -349,17 +361,41 @@ def safe_filename(name: str, default: str = "Signalpost_Report") -> str:
 
 
 # --- RENDER HELPERS ---
+def _exact_attr(p, key):
+    v = p.get(key)
+    if v is None:
+        return ""
+    try:
+        s = f"{float(v):,.0f} {p.get('financial_currency') or 'NOK'}"
+    except (TypeError, ValueError):
+        return ""
+    yr = p.get("revenue_period")
+    label = f"Exact: {s}" + (f" · {yr}" if yr else "")
+    return f' data-exact="{escape(label)}"'
+
+
 def card_html(p):
     e = lambda v: escape(str(v)) if v not in (None, "") else "N/A"
+    contact = " · ".join(str(x) for x in (p.get("email"), p.get("phone")) if x) or None
+    yr = p.get("revenue_period")
+    def fin(val):
+        if not val:
+            return "No filed accounts"
+        return f"{val} ({yr})" if yr else str(val)
     return f"""
-    <div class="grid">
-      <div class="tile"><div class="label">Business Type</div><div class="value">{e(p.get('business_type'))}</div></div>
-      <div class="tile"><div class="label">Registration Date</div><div class="value">{e(p.get('registration_date'))}</div></div>
-      <div class="tile"><div class="label">Address</div><div class="value">{e(p.get('address'))}</div></div>
-      <div class="tile"><div class="label">Employees</div><div class="value">{e(p.get('employees'))}</div></div>
-    </div>
-    <div class="ai-box"><h4>🤖 AI Analysis</h4><p>{e(p.get('ai_explanation', 'Not available.'))}</p></div>
-    """
+<div class="grid">
+  <div class="tile"><div class="label">Business Type</div><div class="value">{e(p.get('business_type'))}</div></div>
+  <div class="tile"><div class="label">Registration Date</div><div class="value">{e(p.get('registration_date'))}</div></div>
+  <div class="tile"><div class="label">Address</div><div class="value">{e(p.get('address'))}</div></div>
+  <div class="tile"><div class="label">Employees</div><div class="value">{e(p.get('employees'))}</div></div>
+  <div class="tile"><div class="label">Contact</div><div class="value">{e(contact) if contact else 'Not listed'}</div></div>
+  <div class="tile"><div class="label">Website</div><div class="value">{e(p.get('website'))}</div></div>
+  <div class="tile" tabindex="0"{_exact_attr(p, 'revenue_exact')}><div class="label">Revenue</div><div class="value">{escape(fin(p.get('revenue')))}</div></div>
+  <div class="tile" tabindex="0"{_exact_attr(p, 'assets_exact')}><div class="label">Total Assets</div><div class="value">{escape(fin(p.get('total_assets')))}</div></div>
+  <div class="tile" tabindex="0"{_exact_attr(p, 'debt_exact')}><div class="label">Total Debt</div><div class="value">{escape(fin(p.get('total_debt')))}</div></div>
+</div>
+<div class="ai-box"><h4>🤖 AI Analysis</h4><p>{e(p.get('ai_explanation', 'Not available.'))}</p></div>
+"""
 
 
 def render_card(p):
@@ -587,7 +623,8 @@ def handle_input(text):
                                            {"text": resp, "sources": list(agent.LAST_SOURCES)},
                                            kind="research")
                     else:
-                        add_card(p)
+                        if not in_thread(str(p["org_number"])):
+                            add_card(p)
                         if question:
                             answer_question(p, question)
                 elif intent.looks_like_question(text) and memory.last_company_org(tid):

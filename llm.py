@@ -58,18 +58,23 @@ if _CANDIDATES:
 else:
     print("[LLM] No OpenRouter key (.env or judge_keys) — AI disabled (Basic mode).")
 
-# Merged chain: proven-fast Nemotron first, universal stable models as net.
+# Merged chain: proven-fast models first, universal stable models as net.
 MODEL_CHAIN = [
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
+    "thinkingmachines/inkling-small:free",
+    "nvidia/nemotron-3.5-super-vl:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "qwen/qwen-2.5-72b-instruct:free",
-    "google/gemma-2-9b-it:free",
+    "google/gemma-4-31b-it:free",
+    "openrouter/free",
+    "openai/gpt-4o-mini",
+    "anthropic/claude-3-5-haiku",
 ]
 FAST_CHAIN = [
+    "google/gemma-4-26b-a4b-it:free",
     "nvidia/nemotron-3.5-lightning:free",
-    "google/gemma-2-9b-it:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "openai/gpt-4o-mini",
+    "openrouter/free",
 ]
 _working = {"smart": None, "fast": None}
 _cooldown = {}
@@ -85,6 +90,14 @@ COT_MARKERS = ("the user is asking", "i need to", "first, check", "first check",
                "analysis:", "reasoning:", "thinking process", "here's a thinking",
                "analyze the request", "drafting", "iteration", "critique:",
                "check constraints", "final polish", "let's do:", "step 1", "step 2")
+
+JUNK_MARKERS = ("user safety:", "safety: safe", "safety: unsafe", "content policy:")
+
+def _looks_like_junk(t):
+    low = (t or "").strip().lower()
+    if len(low) < 3:
+        return True
+    return any(low[:60].startswith(m) or m in low[:60] for m in JUNK_MARKERS)
 
 def _safe_extract_content(resp):
     """Never raises: returns '' if choices missing/empty (moderation/throttle)."""
@@ -133,6 +146,10 @@ def _clean_tail(t):
 def _is_account_limit(err):
     return "free-models-per-day" in err or ("429" in err and "per-day" in err)
 
+def quota_blocked():
+    """True while every OpenRouter key sits in the daily-cap quiet period."""
+    return _account_limited_until > time.time()
+
 def _is_rate_limited(err):
     e = err.lower()
     return "429" in e or "rate limit" in e or "temporarily" in e
@@ -143,6 +160,20 @@ def _is_timeout(err):
 
 def _polish(raw):
     return _strip_think(_strip_fences(raw or ""))
+
+_RETIRED = set()
+_PRINTED_FAILS = set()
+
+def _is_retired(err):
+    e = err.lower()
+    return ("no longer available" in e or "unavailable for free" in e
+            or "no provider" in e)
+
+def _fail_note(model, err):
+    if model in _PRINTED_FAILS:
+        return
+    _PRINTED_FAILS.add(model)
+    print(f"[LLM] FAIL {model}: {err[:120]}")
 
 def _call(model, messages, tier, ctrl):
     kwargs = {"model": model, "messages": messages,
@@ -171,7 +202,7 @@ def ask_llm(prompt, system_prompt=None, model_tier="smart", json_mode=False):
     last_err = None
 
     for model in chain:
-        if _cooldown.get(model, 0) > time.time():
+        if model in _RETIRED or _cooldown.get(model, 0) > time.time():
             continue
         for ctrl in (True, False):
             if time.time() > deadline:
@@ -182,10 +213,16 @@ def ask_llm(prompt, system_prompt=None, model_tier="smart", json_mode=False):
                 if not raw_text:
                     continue  # empty choices -> next hop, no IndexError
                 content = _polish(raw_text)
+                if _looks_like_junk(content):
+                    last_err = f"{model}: junk/safety-classifier output"
+                    continue
             except Exception as e:
                 err = str(e)
                 last_err = f"{model}: {err[:120]}"
-                print(f"[LLM] FAIL {last_err}")
+                _fail_note(model, err)
+                if _is_retired(err):
+                    _RETIRED.add(model)
+                    break
                 if _is_account_limit(err):
                     if _key_index + 1 < len(_CANDIDATES):
                         _key_index += 1

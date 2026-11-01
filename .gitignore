@@ -19,3 +19,4 @@ results.jsonl
 run_report.json
 
 # keep committed: smoke100.* , smoke-results.* , smoke-run-report.json , judge_keys.py , .env.example
+evidence/

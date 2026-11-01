@@ -162,6 +162,7 @@ def batch_mode(labels, output="results.json", limit=0, ai_on=False,
         print("❌ Error: no input items.")
         sys.exit(1)
     items_in = len(labels)
+    print(f"\n[1/3] Inputs loaded & validated: {items_in} labels (parity target: {items_in} rows).")
     print(f"\n[2/3] Processing {items_in} inputs (one envelope per input, in order)...")
     _, desc = ai_status()
     print(f"      AI status: {desc} | synthesis in batch: {'ON (--ai)' if ai_on else 'OFF (template, budget-safe)'}")
@@ -173,9 +174,13 @@ def batch_mode(labels, output="results.json", limit=0, ai_on=False,
     deadline = start + budget
     consecutive_failed = 0
     breaker = False
+    extras_enabled = True
     for i, label in enumerate(labels, 1):
         if time.time() > deadline:
             envelopes.append(_quick_failed(label, "global budget exceeded"))
+            continue
+        if breaker:
+            envelopes.append(_quick_failed(label, "circuit breaker tripped earlier"))
             continue
         org, amb = _resolve(label)
         if amb and not org:
@@ -189,7 +194,16 @@ def batch_mode(labels, output="results.json", limit=0, ai_on=False,
             env["input_label"] = label
             envelopes.append(env)
             continue
-        env = build_envelope(org, label, allow_ai=ai_on, deadline=deadline)
+        completed_rows = i - 1
+        if extras_enabled and completed_rows >= 5:
+            projected_runtime = ((time.time() - start) / completed_rows) * items_in
+            if projected_runtime >= budget * 0.85:
+                extras_enabled = False
+                print(f"  [PACE] Projected runtime {projected_runtime:.1f}s approaches "
+                      f"the {budget * 0.85:.1f}s safety threshold; skipping optional roles "
+                      "and financials for remaining uncached companies.")
+        env = build_envelope(org, label, allow_ai=ai_on, deadline=deadline,
+                             allow_extras=extras_enabled)
         memo[org] = {k: v for k, v in env.items() if k != "input_label"}
         envelopes.append(env)
         if env.get("status") in ("failed", "blocked"):
