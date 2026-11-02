@@ -12618,7 +12618,7 @@
         "code": "MEDL"
       }
     ],
-    "ai_explanation": "DIPS AS (Org. No. 979543883) is an entity registered in Norway as Aksjeselskap operating in konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer. It was officially registered on 1998-01-23 and reports 351 employees, located at Jernbaneveien 85, 8006 BODØ. Key registered officers: Thomas Smedsrud (Daglig leder); Arve Ree (Styrets leder); Kolbjørn Haarr (Styremedlem). Its selskap accounts for 2025 show revenue 790.40M NOK and net profit 163.96M NOK (Regnskapsregisteret). Registry-listed website: www.dips.com. All facts are verified against the official Brreg.no registry.",
+    "ai_explanation": "DIPS AS (Org. No. 979543883) is an entity registered in Norway as Aksjeselskap operating in konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer. It was officially registered on 1998-01-23. It reports 351 employees and is located at Jernbaneveien 85, 8006 BODØ. Key registered officers: Thomas Smedsrud (Daglig leder); Arve Ree (Styrets leder); Kolbjørn Haarr (Styremedlem). Its selskap accounts for 2025 show revenue 790.40M NOK, net profit 163.96M NOK, total assets 1.02B NOK, equity 355.84M NOK, total debt 660.54M NOK (Regnskapsregisteret). Registry-listed website: www.dips.com. All facts are verified against the official Brreg.no registry.",
     "revenue": "790.40M NOK",
     "revenue_period": "2025",
     "revenue_period_full": "2025-01-01 to 2025-12-31",
@@ -12627,7 +12627,13 @@
     "total_assets": "1.02B NOK",
     "total_debt": "660.54M NOK",
     "equity": "355.84M NOK",
-    "fin_schema": 2
+    "fin_schema": 3,
+    "revenue_exact": 790400865.0,
+    "profit_exact": 163960244.0,
+    "equity_exact": 355836228.0,
+    "debt_exact": 660538489.0,
+    "assets_exact": 1016374717.0,
+    "financial_currency": "NOK"
   },
   {
     "company_name": "SEADRILL LTD",
