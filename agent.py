@@ -978,6 +978,20 @@ def _fetch_financials(org_clean, deadline=None, timeout=6):
 
     rev = first_amount(_REV_PATHS)
     prof = first_amount(_PROFIT_PATHS)
+    
+    # Validate margin to catch wrong revenue field (margin > 100% = impossible)
+    if rev is not None and prof is not None:
+        try:
+            rev_float = float(rev)
+            prof_float = float(prof)
+            if rev_float > 0:
+                margin = (prof_float / rev_float) * 100
+                if margin > 100:
+                    print(f"[FINANCIALS] Suspicious margin {margin:.1f}% for {org_clean}, skipping financials")
+                    return None, True
+        except (ValueError, TypeError):
+            pass
+    
     eq = _field(pick, "egenkapitalGjeld", "egenkapital", "sumEgenkapital")
     debt = _field(pick, "egenkapitalGjeld", "gjeldOversikt", "sumGjeld")
     assets = _field(pick, "eiendeler", "sumEiendeler")

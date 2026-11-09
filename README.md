@@ -20,7 +20,8 @@ never padded with zeros.
   revenue, net profit, equity, total debt and total assets, each stamped with its
   accounting period and accounts type (KONSERN preferred over SELSKAP). Facts carry exact
   numeric values plus human-scaled display strings (`106.46B USD`); org forms that file no
-  Norwegian accounts are honestly `not_applicable`.
+  Norwegian accounts are honestly `not_applicable`. Financial validation guards against
+  impossible margins (>100%) from misaligned revenue/profit fields.
 - 👥 **Live officers & board** — active roles from the Brreg **Roller** dataset
   (daglig leder, styrets leder, styremedlemmer, revisor, regnskapsfører…); departed
   (avregistrert) roles excluded. For CEO/board questions the registry overrides web
@@ -30,12 +31,15 @@ never padded with zeros.
   the exact unrounded figures behind every scaled number.
 - 🤖 **AI research chat** — follow-up questions answered by fusing live, cited Tavily web
   search with verified registry data; brief/deep modes; company-vs-topic disambiguation
-  ("tell me about python" answers the topic, not a `PYTHON AS` card).
+  ("tell me about python" answers the topic, not a `PYTHON AS` card). For news/recency
+  questions, the chat uses **dual-source retrieval**: first scrapes the company's own news
+  page (authoritative), then supplements with Tavily web search. Future dates are silently
+  corrected to prevent hallucination.
 - 🧾 **Evidence chain** — every live lookup stores the raw registry JSON under
-  `evidence/<org>/` (`current.json` + `meta.json` + `history/`, plus `roles.json` and
-  `regnskap.json` sidecars). Idempotent refresh: an identical snapshot writes no duplicate
-  and no false "change"; a different snapshot archives the old one and emits a real
-  `changes[]` diff.
+  `evidence/<org>/` (`current.json` + `meta.json` + `history/`, plus `roles.json`,
+  `regnskap.json`, and `careers.html` sidecars). Idempotent refresh: an identical snapshot
+  writes no duplicate and no false "change"; a different snapshot archives the old one and
+  emits a real `changes[]` diff.
 - 📄 **PDF report builder** — save companies across sessions and download unified,
   unicode-safe briefs from the sidebar.
 - 🛡 **Honest six-state degradation** — `available / not_available / blocked /
@@ -95,12 +99,12 @@ fixed time/cost budgets). Missing values are `null`, never `0`.
 - **Inputs** — `smoke100.txt` / `smoke100.jsonl` (100-company parity proof),
   `entry-companies.jsonl` (1,000-company stress set), `test_batch.txt` (live feature demo:
   typos, MVA normalisation, ambiguous names, odd-character registry names).
-- **100-company smoke (Rev-2 code, 2026-10-31)** — `smoke-results.jsonl/.json/.csv` +
-  `smoke-run-report.json`: 100/100 rows, parity True, 100 available, 300 registry requests
-  (3 per row: enheter + roller + regnskap), 97.4 s.
-- **1,000-company stress (Rev-2 code, 2026-10-31)** — `entry-1000-envelopes.jsonl/.csv` +
-  `entry-1000-run-report.json`: 1000/1000 rows, parity True, 1000 available, 1058.9 s
-  inside the default 1500 s budget with the pace governor armed but never latched.
+- **100-company smoke (Rev-3 code, 2026-11-07)** — `smoke-results.jsonl/.json/.csv` +
+  `run_report.json`: 100/100 rows, parity True, 100 available, ~400 registry requests
+  (enheter + roller + regnskap + subunits + careers/news where available), 137.3 s.
+- **1,000-company stress (Rev-3 code, 2026-11-07)** — `entry-1000-envelopes.jsonl/.csv` +
+  `run_report.json`: 1000/1000 rows, parity True, 1000 available, 1228.6 s inside the
+  default 1500 s budget with dynamic per-row pacing (auto-recovers from slow rows).
 - **Circuit-breaker proof** — a 10-row run of unreachable org numbers: 8 consecutive
   transport failures trip the breaker; rows 9–10 are emitted instantly with
   `request_count: 0` and `unknowns: ["not_attempted_budget_or_breaker"]`
@@ -146,10 +150,14 @@ exact + display values, `not_applicable` for non-filing org forms); `people` (Ro
 active roles only).
 
 **Wired and verified in the batch path (Rev 3):** `company_details`, `contact`,
-`locations` (Enhetsregisteret); `financial_results` (Regnskapsregisteret); `people` (Roller);
-and **`jobs` / `public_activity`** (verified careers and news page discovery with strict
-content verification gates to prevent aggregator hallucinations, e.g., correctly identifying
-"0 active listings" instead of counting navigation links).
+`locations` (Enhetsregisteret + subunits/underenheter); `financial_results` (Regnskapsregisteret
+with margin validation); `people` (Roller); and **`jobs` / `public_activity`** (verified
+careers and news page discovery with ATS domain detection, asset/CDN filtering, and strict
+content verification gates to prevent aggregator hallucinations). The batch path uses an
+**Algorithmic Financial Analyst Engine** that computes equity ratios, net margins, longevity,
+governance hierarchy, and KONSERN vs SELSKAP distinctions deterministically in <1ms with zero
+hallucination risk. Dynamic per-row pacing auto-recovers from slow rows instead of permanently
+latching extras off.
 
 ## 🛡️ Resilience (what survives a judge's clone + a flaky network)
 
@@ -161,9 +169,10 @@ content verification gates to prevent aggregator hallucinations, e.g., correctly
   the remaining rows with zero network calls. Honest answers (`available`,
   `not_available`, `ambiguous`) reset the streak — so an input list that *starts* with
   unregistered companies never trips it.
-- **Adaptive pace governor:** after row 5, if projected runtime ≥ 85 % of the budget,
-  optional endpoints (roller + regnskap) switch off for remaining uncached rows; those rows
-  state "not fetched this run" instead of claiming the data is absent.
+- **Dynamic per-row pacing:** recalculates `time_per_item` for every row instead of
+  latching after row 5. If ≥2.20s/item: fetch registry extras + web crawling (careers/news).
+  If 0.85-2.20s/item: fetch registry extras only. If <0.85s/item: core entity profile only.
+  Auto-recovers if cached hits speed up later rows.
 - **Key resilience:** env keys → graceful Basic mode (registry templates, zero API calls).
   Daily-cap detection flips the UI into an honest "Cap mode" state instead of pretending
   AI is live.
@@ -225,8 +234,8 @@ streamlit_app.py       web UI: chat, threads, 9-tile cards, exact-value tooltips
 intent.py / llm.py / search.py / memory.py    router, OpenRouter engine, Tavily, SQLite memory
 judge_keys.py          placeholders only (keys revoked per organizer request)
 smoke100.* / entry-companies.jsonl / test_batch.txt        inputs
-smoke-results.* / smoke-run-report.json                    committed 100-company proof (Rev 2)
-entry-1000-envelopes.* / entry-1000-run-report.json        committed 1,000-company proof (Rev 2)
+smoke-results.* / run_report.json                          committed 100-company proof (Rev 3)
+entry-1000-envelopes.* / run_report.json                   committed 1,000-company proof (Rev 3)
 company_profiles.json  enriched demo cache (contacts + officers + financials)
 evidence/              runtime evidence snapshots (gitignored, regenerated per run)
 pin_deps.py            one-shot generator that pins requirements.txt to a proven env
