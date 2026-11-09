@@ -183,10 +183,9 @@ latching extras off.
 
 ## 🔁 Reproducibility (clean-machine check)
 
-Tested on **Python 3.12–3.14** (primary testing on 3.14). `requirements.txt` is
-auto-pinned to exact versions (`pin_deps.py` regenerates it from a proven environment, so
-a clean-machine install resolves to the same versions that pass the smoke). To verify the
-way the harness does:
+Tested on **Python 3.12–3.14** (primary testing on 3.14). `requirements.txt` contains
+pinned dependencies so a clean-machine install resolves to the same versions that pass
+the smoke test. To verify the way the harness does:
 
 ```bash
 git clone https://github.com/Yatharth-Rastogi/Signalpost-Agent.git
@@ -228,17 +227,24 @@ by any run.
 ## 📁 Repository layout
 
 ```
-agent.py               core engine: fetchers (enheter/roller/regnskap), evidence, envelopes
-main.py                CLI: batch harness (budget, governor, breaker, parity), interactive
+agent.py               core engine: fetchers (enheter/roller/regnskap/subunits/careers/news),
+                       evidence chain, envelopes, Algorithmic Financial Analyst Engine
+main.py                CLI: batch harness (dynamic pacing, circuit breaker, parity), interactive
 streamlit_app.py       web UI: chat, threads, 9-tile cards, exact-value tooltips, PDF builder
-intent.py / llm.py / search.py / memory.py    router, OpenRouter engine, Tavily, SQLite memory
+intent.py              intent router (lookup/followup/save/report/refresh/chitchat)
+llm.py                 OpenRouter engine (multi-key failover, CoT stripping, junk rejection)
+search.py              Tavily web search (recency-aware, deduplication, asset filtering)
+memory.py              SQLite persistence (threads, saved companies, report pool)
 judge_keys.py          placeholders only (keys revoked per organizer request)
+requirements.txt       pinned dependencies (Python 3.12–3.14 compatible)
+signalpost.db          SQLite database (auto-created on first run)
+company_profiles.json  enriched demo cache (contacts + officers + financials + careers/news)
 smoke100.* / entry-companies.jsonl / test_batch.txt        inputs
 smoke-results.* / run_report.json                          committed 100-company proof (Rev 3)
 entry-1000-envelopes.* / run_report.json                   committed 1,000-company proof (Rev 3)
-company_profiles.json  enriched demo cache (contacts + officers + financials)
 evidence/              runtime evidence snapshots (gitignored, regenerated per run)
-pin_deps.py            one-shot generator that pins requirements.txt to a proven env
+assets/                static assets (images, fonts for PDF generation)
+.streamlit/            Streamlit configuration (theme, server settings)
 ```
 
 ## 📬 Contact
