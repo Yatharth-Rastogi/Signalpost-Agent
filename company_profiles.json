@@ -12656,5 +12656,144 @@
       }
     ],
     "ai_explanation": "SEADRILL LTD is a foreign entity registered in the Norwegian Business Registry since May 7, 2004, with its registered address at Investment House Union Row, Aberdeen, United Kingdom. The company operates as an international business with Jonas Lunde listed as the contact person."
+  },
+  {
+    "company_name": "AF GRUPPEN ASA",
+    "org_number": "938702675",
+    "business_type": "Allmennaksjeselskap",
+    "industry": "Oppføring av bygninger",
+    "address": "Standardveien 1, 0581 OSLO",
+    "registration_date": "1995-02-19",
+    "employees": null,
+    "email": null,
+    "phone": "22 89 11 00",
+    "website": "www.afgruppen.no",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938702675",
+    "retrieved_date": "2026-11-05",
+    "key_people": [
+      {
+        "name": "Amund Tøftum",
+        "role": "Daglig leder",
+        "code": "DAGL"
+      },
+      {
+        "name": "Morten Grongstad",
+        "role": "Styrets leder",
+        "code": "LEDE"
+      },
+      {
+        "name": "Kristian Holth",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Saloume Djoudat",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Erik Tømmeraas Veiby",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Marianne Gjertsen Ebbesen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Hilde Wikesland Flaen",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Espen Jahr",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      }
+    ],
+    "revenue": "31.99B NOK",
+    "revenue_period": "2025",
+    "revenue_period_full": "2025-01-01 to 2025-12-31",
+    "revenue_type": "KONSERN",
+    "net_profit": "1.29B NOK",
+    "total_assets": "17.09B NOK",
+    "total_debt": "13.14B NOK",
+    "equity": "3.95B NOK",
+    "revenue_exact": 31992000000.0,
+    "profit_exact": 1289000000.0,
+    "equity_exact": 3949000000.0,
+    "debt_exact": 13143000000.0,
+    "assets_exact": 17092000000.0,
+    "financial_currency": "NOK",
+    "fin_schema": 3,
+    "ai_explanation": "AF GRUPPEN ASA is a Norwegian Allmennaksjeselskap (public limited company) headquartered at Standardveien 1, 0581 Oslo. Its 2025 consolidated group (KONSERN) accounts report revenue of 31.99 billion NOK and net profit of 1.29 billion NOK."
+  },
+  {
+    "company_name": "BYPASS AS",
+    "org_number": "926420461",
+    "business_type": "Aksjeselskap",
+    "industry": "Bygging av veier og motorveier",
+    "address": "Heiane 31, 5412 STORD",
+    "registration_date": "2021-01-20",
+    "employees": 6,
+    "email": null,
+    "phone": null,
+    "website": "www.bypass.no",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926420461",
+    "retrieved_date": "2026-11-05",
+    "key_people": [
+      {
+        "name": "Kjell Agnar Fylkesnes",
+        "role": "Daglig leder",
+        "code": "DAGL"
+      },
+      {
+        "name": "Kjell Agnar Fylkesnes",
+        "role": "Styrets leder",
+        "code": "LEDE"
+      },
+      {
+        "name": "Elisabeth Nonås Fylkesnes",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Svein Terje Strandlie",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "Olaf Magnus Strøm Haavik",
+        "role": "Styremedlem",
+        "code": "MEDL"
+      },
+      {
+        "name": "BDO AS",
+        "role": "Revisor",
+        "code": "REVI"
+      },
+      {
+        "name": "KONTADO AS",
+        "role": "Regnskapsfører",
+        "code": "REGN"
+      }
+    ],
+    "revenue": "21.4K NOK",
+    "revenue_period": "2025",
+    "revenue_period_full": "2025-01-01 to 2025-12-31",
+    "revenue_type": "SELSKAP",
+    "net_profit": "-7.30M NOK",
+    "total_assets": "32.34M NOK",
+    "total_debt": "24.74M NOK",
+    "equity": "7.60M NOK",
+    "revenue_exact": 21423.0,
+    "profit_exact": -7303302.0,
+    "equity_exact": 7599347.0,
+    "debt_exact": 24739316.0,
+    "assets_exact": 32338663.0,
+    "financial_currency": "NOK",
+    "fin_schema": 3,
+    "ai_explanation": "BYPASS AS is a limited company (Aksjeselskap) in the road and motorway construction industry, headquartered at Heiane 31, 5412 Stord, Norway. Its 2025 entity‑only (SELSKAP) financial statements report revenue of NOK 21.4 k, a net loss of NOK 7.3 million, total assets of NOK 32.3 million and total debt of NOK 24.7 million."
   }
 ]

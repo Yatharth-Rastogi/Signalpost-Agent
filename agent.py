@@ -19,7 +19,9 @@ import time
 import hashlib
 import difflib
 import warnings
-from datetime import datetime, timezone
+import urllib.parse
+import html
+from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 import search
 import llm
@@ -162,65 +164,123 @@ def save_evidence_snapshot(org_nr, raw_item, latency_ms=0, attempts=1):
 # BASIC-MODE INTELLIGENCE (zero API calls)
 # ---------------------------------------------------------------------------
 def basic_summary(profile):
-    def has_value(value):
-        return value is not None and (
-            not isinstance(value, str) or value.strip().casefold() not in {"", "n/a", "none"}
-        )
-
+    """
+    Algorithmic Financial & Corporate Analyst Engine.
+    Generates decision-useful synthesis matching business evaluation standards
+    with deterministic latency (<1ms) and 0 token cost.
+    """
     name = profile.get("company_name", "The company")
     org = profile.get("org_number", "N/A")
     btype = profile.get("business_type") or "an unspecified type"
     ind = profile.get("industry")
     addr = profile.get("address")
-    reg = profile.get("registration_date")
+    reg_date = profile.get("registration_date")
     emp = profile.get("employees")
-    web = profile.get("website")
-    purpose = profile.get("purpose")
+    liq = profile.get("under_liquidation", False)
+    bankrupt = profile.get("bankruptcy", False)
     
-    # Accurate phrasing for both domestic and foreign entities registered in Norway
-    bits = [f"{name} (Org. No. {org}) is an entity registered in Norway as {btype}"]
-    if ind and ind != "N/A":
-        bits[0] += f" operating in {ind.lower()}"
-    bits[0] += "."
+    # 1. Identification & Legal Standing
+    sentences = []
+    status_flags = []
+    if bankrupt:
+        status_flags.append("ACTIVE BANKRUPTCY PROCEEDINGS")
+    elif liq:
+        status_flags.append("UNDER LIQUIDATION")
     
-    if purpose:
-        bits.append(f"Its registered purpose is: {purpose}.")
+    status_str = f" [WARNING: {', '.join(status_flags)}]" if status_flags else ""
+    
+    ind_desc = f" in {ind.lower()}" if ind and ind != "N/A" else ""
+    sentences.append(f"{name} (Org. No. {org}) is a Norwegian-registered {btype}{ind_desc}{status_str}.")
+
+    # 2. Longevity & Operational Footprint
+    loc_bits = []
+    if addr and addr != "N/A":
+        loc_bits.append(f"headquartered at {addr}")
+    if emp is not None and emp > 0:
+        loc_bits.append(f"supported by {emp} registered employee(s)")
+    if reg_date:
+        reg_year = str(reg_date)[:4]
+        try:
+            years_active = int(_today()[:4]) - int(reg_year)
+            age_desc = f"registered in {reg_date} (~{years_active} years in operation)"
+        except Exception:
+            age_desc = f"registered on {reg_date}"
+        loc_bits.append(age_desc)
         
-    if has_value(reg):
-        bits.append(f"It was officially registered on {reg}.")
-    if has_value(emp) and emp != 0 and has_value(addr):
-        bits.append(f"It reports {emp} employees and is located at {addr}.")
-    elif has_value(emp) and emp != 0:
-        bits.append(f"It reports {emp} employees.")
-    elif has_value(addr):
-        bits.append(f"It is located at {addr}.")
-    else:
-        bits.append("Its address is not available.")
-    
+    if loc_bits:
+        sentences.append(f"Operationally, the business is {'; '.join(loc_bits)}.")
+
+    # 3. Governance Structure (Daglig Leder, Styrets Leder, Revisor)
     kp = profile.get("key_people") or []
     if kp:
-        who = "; ".join(f"{p['name']} ({p['role']})" for p in kp[:3])
-        bits.append(f"Key registered officers: {who}.")
+        gov_leads = []
+        dl = next((p['name'] for p in kp if p.get('code') == 'DAGL'), None)
+        sl = next((p['name'] for p in kp if p.get('code') == 'LEDE'), None)
+        rev = next((p['name'] for p in kp if p.get('code') == 'REVI'), None)
         
-    if profile.get("revenue") or profile.get("total_assets"):
-        acc_type = str(profile.get("revenue_type") or "filed").lower()
-        period = profile.get("revenue_period") or "the latest period"
-        fin_items = []
-        for label, key in (("revenue", "revenue"), ("net profit", "net_profit"),
-                           ("total assets", "total_assets"), ("equity", "equity"),
-                           ("total debt", "total_debt")):
-            value = profile.get(key)
-            if value not in (None, ""):
-                fin_items.append(f"{label} {value}")
-        if fin_items:
-            bits.append(f"Its {acc_type} accounts for {period} show "
-                        f"{', '.join(fin_items)} (Regnskapsregisteret).")
+        if dl and sl and dl == sl:
+            gov_leads.append(f"led by {dl} serving jointly as Managing Director (Daglig leder) and Board Chair (Styrets leder)")
+        else:
+            if dl:
+                gov_leads.append(f"managed by Daglig leder {dl}")
+            if sl:
+                gov_leads.append(f"governed by Board Chair {sl}")
+        if rev:
+            gov_leads.append(f"audited by {rev}")
+            
+        if gov_leads:
+            sentences.append(f"Governance is {', '.join(gov_leads)}.")
+
+    # 4. Financial Solvency & Performance Analysis (KONSERN vs SELSKAP)
+    rev_exact = profile.get("revenue_exact")
+    prof_exact = profile.get("profit_exact")
+    eq_exact = profile.get("equity_exact")
+    assets_exact = profile.get("assets_exact")
+    debt_exact = profile.get("debt_exact")
+    acc_type = profile.get("revenue_type") or "SELSKAP"
+    period = profile.get("revenue_period_full") or profile.get("revenue_period")
+
+    if any(x is not None for x in [rev_exact, prof_exact, eq_exact, assets_exact]):
+        fin_parts = []
+        scope = "Consolidated group (KONSERN)" if acc_type == "KONSERN" else "Entity-level (SELSKAP)"
         
-    if web:
-        bits.append(f"Registry-listed website: {web}.")
-        
-    bits.append("All facts are verified against the official Brreg.no registry.")
-    return " ".join(bits)
+        # Performance
+        if rev_exact is not None and prof_exact is not None:
+            margin = f" ({prof_exact/rev_exact*100:.1f}% net margin)" if rev_exact > 0 else ""
+            fin_parts.append(f"generated revenue of {profile.get('revenue', '0 NOK')} with net profit of {profile.get('net_profit', '0 NOK')}{margin}")
+        elif rev_exact is not None:
+            fin_parts.append(f"recorded total revenue of {profile.get('revenue', '0 NOK')}")
+        elif prof_exact is not None:
+            fin_parts.append(f"reported net result of {profile.get('net_profit', '0 NOK')}")
+            
+        # Balance Sheet & Solvency
+        balance_parts = []
+        if eq_exact is not None:
+            if eq_exact < 0:
+                balance_parts.append(f"a capital deficiency / negative equity of {profile.get('equity')}")
+            else:
+                balance_parts.append(f"total equity of {profile.get('equity')}")
+                
+        if assets_exact is not None and eq_exact is not None and assets_exact > 0:
+            solvency_ratio = (eq_exact / assets_exact) * 100
+            balance_parts.append(f"an equity-to-assets ratio of {solvency_ratio:.1f}% against {profile.get('total_assets')} in total assets")
+        elif assets_exact is not None:
+            balance_parts.append(f"total balance sheet assets of {profile.get('total_assets')}")
+
+        fin_summary = f"{scope} accounts for period {period} show the company " + ", and ".join(fin_parts)
+        if balance_parts:
+            fin_summary += f", holding {', and '.join(balance_parts)}"
+        fin_summary += " (source: Regnskapsregisteret)."
+        sentences.append(fin_summary)
+
+    # 5. Purpose & Registry Verification
+    purpose = profile.get("purpose")
+    if purpose and len(purpose.strip()) > 5:
+        clean_purp = purpose.strip().rstrip(".;")
+        sentences.append(f'Registered mandate: "{clean_purp}".')
+
+    sentences.append("All statements are verified against primary records from Brønnøysund Register Centre.")
+    return " ".join(sentences)
 
 def local_answer(context, question):
     q = question.lower()
@@ -396,14 +456,14 @@ def sanitize_org_number(query):
     '999 999 999', 'Org.nr 914778271'. None if not a clean 9-digit."""
     if not query:
         return None
-    cleaned = re.sub(r"[^\dA-Za-z]", "", str(query).upper())
-    if cleaned.startswith("NO"):
-        cleaned = cleaned[2:]
-    if cleaned.endswith("MVA"):
-        cleaned = cleaned[:-3]
-    if cleaned.isdigit() and len(cleaned) == 9:
-        return cleaned
-    return None
+    # Match any 9-digit sequence isolated by word boundaries or non-digits
+    match = re.search(r'(?:^|[^\d])(\d{9})(?:[^\d]|$)', str(query))
+    if match:
+        return match.group(1)
+    # Handle NO123456789MVA format
+    cleaned = re.sub(r"[^\dA-Z]", "", str(query).upper())
+    m = re.search(r'(?:NO)?(\d{9})(?:MVA)?', cleaned)
+    return m.group(1) if m else None
 
 # ---------------------------------------------------------------------------
 # CORE FETCH (status-aware, latency+attempts measured, 4xx never retried)
@@ -596,6 +656,273 @@ def _fmt_money(v, currency="NOK"):
         return f"{v/1e3:.1f}K {currency}"
     return f"{v:,.0f} {currency}"
 
+def _fetch_careers(org_clean, website_url, company_name, deadline=None, timeout=4):
+    """-> (careers_url_or_None, job_count_or_None, attempted). Finds careers page and attempts to count listings."""
+    if deadline is not None and time.time() > deadline - 30:
+        return None, None, False
+    if not website_url:
+        return None, None, False
+    if not website_url.startswith("http"):
+        website_url = "https://" + website_url.lstrip("/")
+
+    try:
+        r_home = _SESSION.get(website_url, timeout=timeout, allow_redirects=True)
+        if r_home.status_code != 200:
+            return None, None, True
+        html = r_home.text
+    except Exception:
+        return None, None, True
+
+    links = re.findall(r'href=["\'](.*?)["\']', html, re.IGNORECASE)
+    
+    career_keywords = ['job', 'career', 'work', 'stilling', 'karriere', 'ledig', 'join']
+    # Known ATS domains to prioritize even if off-domain
+    KNOWN_ATS = ["teamtailor.com", "webcruiter.no", "recman.no", "jobbnorge.no", "myworkdayjobs.com", "workable.com"]
+    # Ignore script/asset extensions and CDN domains
+    IGNORE_EXTS = ('.js', '.css', '.png', '.jpg', '.svg', '.json', '.woff', '.woff2')
+    IGNORE_DOMAINS = ('parastorage.com', 'wixstatic.com', 'google-analytics.com', 'doubleclick.net', 'cloudflare.com')
+    
+    candidate_urls = set()
+    for link in links:
+        link_lower = link.lower()
+        # Filter out asset/CDN links
+        if any(link_lower.endswith(ext) or ext in link_lower for ext in IGNORE_EXTS):
+            continue
+        if any(d in link_lower for d in IGNORE_DOMAINS):
+            continue
+            
+        # Check if it's a career link or a known ATS domain
+        is_career = any(kw in link_lower for kw in career_keywords)
+        is_ats = any(ats in link_lower for ats in KNOWN_ATS)
+        
+        if is_career or is_ats:
+            abs_url = urllib.parse.urljoin(website_url, link)
+            if abs_url.startswith("http"):
+                candidate_urls.add(abs_url)
+
+    company_lower = company_name.lower().split(" asa")[0].split(" as")[0].strip()
+    
+    for url in candidate_urls:
+        try:
+            r_career = _SESSION.get(url, timeout=timeout, allow_redirects=True)
+            if r_career.status_code == 200:
+                text = r_career.text.lower()
+                if company_lower in text:
+                    # Strict job count extraction: ONLY trust explicit numbers or explicit "none" statements
+                    job_count = None
+                    
+                    # 1. Check for explicit "no positions" statements first
+                    if re.search(r'ingen\s+(utlyste\s+)?stillinger|ingen\s+ledige\s+stillinger|no\s+(open\s+)?positions|no\s+current\s+openings', text, re.IGNORECASE):
+                        job_count = 0
+                    else:
+                        # 2. Look for explicit counts like "5 ledige stillinger" or "12 jobber"
+                        # Use word boundaries and limit to 1-3 digits to avoid matching years (2024, 2025, etc.)
+                        match = re.search(r'\b([1-9]|[1-9]\d|[1-9]\d\d)\s*(ledige\s+stillinger|jobber|vacancies|open\s+positions|ledig\s+stilling|stillinger)\b', text, re.IGNORECASE)
+                        if match:
+                            job_count = int(match.group(1))
+                            
+                    # 3. If still None, DO NOT fallback to counting links (avoids nav link traps).
+                    # We will just return None and the UI will say "Live listings change daily".
+                            
+                    try:
+                        od = os.path.join(EVIDENCE_DIR, str(org_clean))
+                        os.makedirs(od, exist_ok=True)
+                        with open(os.path.join(od, "careers.html"), "w", encoding="utf-8") as f:
+                            f.write(text[:5000])
+                    except OSError:
+                        pass
+                    return url, job_count, True
+        except Exception:
+            continue
+            
+    return None, None, True
+
+def _fetch_news(org_clean, website_url, company_name, deadline=None, timeout=4):
+    """-> (news_items_list, attempted). Finds news/press pages and extracts up to 5 dated headlines."""
+    if deadline is not None and time.time() > deadline - 30:
+        return [], False
+    if not website_url:
+        return [], False
+    if not website_url.startswith("http"):
+        website_url = "https://" + website_url.lstrip("/")
+
+    try:
+        r_home = _SESSION.get(website_url, timeout=timeout, allow_redirects=True)
+        if r_home.status_code != 200:
+            return [], True
+        html_doc = r_home.text
+    except Exception:
+        return [], True
+
+    links = re.findall(r'href=["\'](.*?)["\']', html_doc, re.IGNORECASE)
+    news_keywords = ['news', 'nyheter', 'press', 'presse', 'media', 'aktuell', 'updates', 'investor']
+    
+    IGNORE_EXTS = ('.js', '.css', '.png', '.jpg', '.svg', '.json', '.woff', '.woff2', '.xml', '.rss')
+    IGNORE_DOMAINS = ('parastorage.com', 'wixstatic.com', 'google-analytics.com', 'doubleclick.net', 'cloudflare.com', 'facebook.com', 'linkedin.com', 'twitter.com')
+    
+    candidate_urls = set()
+    for link in links:
+        link_lower = link.lower()
+        if any(link_lower.endswith(ext) or ext in link_lower for ext in IGNORE_EXTS):
+            continue
+        if any(d in link_lower for d in IGNORE_DOMAINS):
+            continue
+        if any(kw in link_lower for kw in news_keywords):
+            abs_url = urllib.parse.urljoin(website_url, link)
+            if abs_url.startswith("http"):
+                candidate_urls.add(abs_url)
+
+    company_lower = company_name.lower().split(" asa")[0].split(" as")[0].strip()
+    news_items = []
+    
+    for url in candidate_urls:
+        try:
+            r_news = _SESSION.get(url, timeout=timeout, allow_redirects=True)
+            if r_news.status_code == 200:
+                text = r_news.text
+                text_lower = text.lower()
+                if company_lower in text_lower:
+                    # Extract date+headline pairs
+                    date_headline_patterns = [
+                        r'(\d{1,2}[\./-]\d{1,2}[\./-]\d{2,4}|\d{4}[\./-]\d{1,2}[\./-]\d{1,2}|(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+\d{4}|\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4})[^<>]{0,100}<h[23][^>]*>(.*?)</h[23]>',
+                        r'<time[^>]*datetime="([^"]+)"[^>]*>.*?</time>.*?<h[23][^>]*>(.*?)</h[23]>',
+                        r'<span[^>]*class="[^"]*date[^"]*"[^>]*>([^<]+)</span>.*?<h[23][^>]*>(.*?)</h[23]>',
+                    ]
+                    
+                    for pattern in date_headline_patterns:
+                        matches = re.findall(pattern, text, re.IGNORECASE | re.DOTALL)
+                        for date_str, headline_raw in matches[:5]:
+                            headline = html.unescape(headline_raw)
+                            headline = re.sub(r'<[^>]+>', '', headline)
+                            headline = re.sub(r'\s+', ' ', headline).strip()
+                            if 15 < len(headline) < 200:
+                                news_items.append({
+                                    "headline": headline,
+                                    "date": date_str.strip(),
+                                    "source_url": url,
+                                    "retrieved_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                                    "source": "direct"
+                                })
+                        if news_items:
+                            break
+                    
+                    # Fallback: just headlines if no dates found
+                    if not news_items:
+                        headline_patterns = [
+                            r'<h[23][^>]*>(.*?)</h[23]>',
+                            r'<article[^>]*>.*?<h[23][^>]*>(.*?)</h[23]>.*?</article>',
+                            r'<div[^>]*class="[^"]*news-item[^"]*">.*?<h[23][^>]*>(.*?)</h[23]>.*?</div>',
+                        ]
+                        for pattern in headline_patterns:
+                            matches = re.findall(pattern, text, re.IGNORECASE | re.DOTALL)
+                            for match in matches[:5]:
+                                clean_text = html.unescape(match)
+                                clean_text = re.sub(r'<[^>]+>', '', clean_text)
+                                clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+                                if 15 < len(clean_text) < 200:
+                                    news_items.append({
+                                        "headline": clean_text,
+                                        "date": None,
+                                        "source_url": url,
+                                        "retrieved_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                                        "source": "direct"
+                                    })
+                            if news_items:
+                                break
+                    
+                    if news_items:
+                        break
+        except Exception:
+            continue
+
+    return news_items[:5], True
+
+def get_company_news_dual(org_clean, company_name, website_url, user_question, deep=False):
+    """Dual-source news retrieval: direct website scraping + Tavily web search.
+    Returns merged results with source attribution.
+    -> (merged_context_str, merged_sources_list, direct_news_items)
+    """
+    global LAST_SOURCES
+    
+    # Source 1: Direct website scraping
+    direct_news = []
+    if website_url:
+        print(f"[DUAL] Attempting direct news scrape for {company_name}...")
+        direct_news, _ = _fetch_news(org_clean, website_url, company_name)
+        if direct_news:
+            print(f"[DUAL] Found {len(direct_news)} items from direct scrape")
+    
+    # Source 2: Tavily web search
+    tavily_context = ""
+    tavily_items = []
+    days = 90 if _needs_recency_filter(user_question) else None
+    search_query = _construct_search_query(company_name, user_question)
+    
+    print(f"[DUAL] Querying Tavily for: {search_query}")
+    tavily_context = search.get_web_context(
+        search_query,
+        max_results=12 if deep else 7,
+        depth="advanced" if deep else "basic",
+        days=days
+    )
+    tavily_items = getattr(search, "LAST_ITEMS", [])
+    
+    # Collect Tavily sources
+    for item in tavily_items:
+        u = item.get("url")
+        if u and u not in LAST_SOURCES:
+            LAST_SOURCES.append(u)
+    
+    # Merge: prioritize direct news (company's own source), then Tavily
+    merged_context = ""
+    
+    if direct_news:
+        merged_context += "=== DIRECT FROM COMPANY WEBSITE (authoritative) ===\n"
+        for i, item in enumerate(direct_news, 1):
+            date_str = item.get("date") or "date not in source"
+            merged_context += f"[{i}] {item['headline']}\n"
+            merged_context += f"    Published: {date_str}\n"
+            merged_context += f"    Source: {item['source_url']}\n\n"
+    
+    if tavily_context:
+        merged_context += "=== FROM WEB SEARCH (broader coverage) ===\n"
+        merged_context += tavily_context
+    
+    # If both failed, return empty
+    if not merged_context:
+        return "", [], []
+    
+    return merged_context, LAST_SOURCES, direct_news
+
+BRREG_UNDERENHETER = "https://data.brreg.no/enhetsregisteret/api/underenheter"
+
+def _fetch_subunits(org_clean, deadline=None, timeout=4):
+    """Fetch registered workplace branch units (underenheter) from Brreg."""
+    if deadline is not None and time.time() > deadline - 30:
+        return [], False
+    try:
+        r = _SESSION.get(BRREG_UNDERENHETER, params={"overordnetEnhet": org_clean, "size": 10}, timeout=timeout)
+        if r.status_code != 200:
+            return [], True
+        data = r.json()
+        units = data.get("_embedded", {}).get("underenheter", [])
+        parsed = []
+        for u in units:
+            addr = _field(u, "beliggenhetsadresse") or _field(u, "postadresse") or {}
+            street = ", ".join(addr.get("adresse", [])) if isinstance(addr, dict) else ""
+            city = addr.get("poststed", "") if isinstance(addr, dict) else ""
+            full_addr = f"{street}, {city}".strip(", ")
+            parsed.append({
+                "org_number": str(u.get("organisasjonsnummer")),
+                "name": u.get("navn"),
+                "address": full_addr or "N/A",
+                "employees": u.get("antallAnsatte")
+            })
+        return parsed, True
+    except Exception as e:
+        print(f"[SUBUNITS] Fetch error for {org_clean}: {e}")
+        return [], True
+
 def _fetch_financials(org_clean, deadline=None, timeout=6):
     """-> (fin_dict_or_None, attempted). Latest filed annual accounts from
     Regnskapsregisteret; prefers KONSERN over SELSKAP.
@@ -676,7 +1003,8 @@ def _fact(field, value, source_url, retrieved, period=None, org=None):
     return f
 
 def _extract_categories(item, org_clean, source_url, retrieved, roles=None, fin=None,
-                        roles_checked=True, fin_checked=True):
+                        roles_checked=True, fin_checked=True, careers_url=None, job_count=None, 
+                        news_items=None, subunits=None, subunits_checked=True):
     cats = {}
     unknowns = []
     
@@ -737,7 +1065,7 @@ def _extract_categories(item, org_clean, source_url, retrieved, roles=None, fin=
     else:
         unknowns.append("contact")
         
-    # ---- locations (unchanged logic, now with evidence_ref) ----
+    # ---- locations (now includes subunits/underenheter) ----
     loc = []
     fa = item.get("forretningsadresse")
     pa = item.get("postadresse")
@@ -745,12 +1073,23 @@ def _extract_categories(item, org_clean, source_url, retrieved, roles=None, fin=
         loc.append(_fact("business_address", fa, source_url, retrieved, org=org_clean))
     if pa and pa != fa:
         loc.append(_fact("postal_address", pa, source_url, retrieved, org=org_clean))
-    cats["locations"] = {"status": "available" if loc else "not_available", "facts": loc,
-                         "note": "Registered business/postal addresses captured; additional workplace units (arbeidssteder) not enumerated in v1."}
+    
+    if subunits:
+        for sub in subunits:
+            loc.append(_fact("workplace_branch", sub, f"{BRREG_UNDERENHETER}/{sub['org_number']}", retrieved, org=org_clean))
+        cats["locations"] = {
+            "status": "available",
+            "facts": loc,
+            "note": f"Captured registered address and {len(subunits)} branch workplace unit(s) (underenheter)."
+        }
+    else:
+        cats["locations"] = {
+            "status": "available" if loc else "not_available",
+            "facts": loc,
+            "note": "Registered address captured; no separate branch units (underenheter) registered in Brreg."
+        }
     if not loc:
         unknowns.append("locations")
-    else:
-        unknowns.append("additional_workplaces")
         
     # ---- financial results from annual filings; unavailable data stays explicit ----
     form_code = (_field(item, "organisasjonsform", "kode") or "").upper()
@@ -810,20 +1149,53 @@ def _extract_categories(item, org_clean, source_url, retrieved, roles=None, fin=
                           "note": "Roller endpoint returned no active roles for this entity."}
         unknowns.append("people")
         
-    cats["jobs"] = {"status": "not_available", "facts": [],
-                    "note": "No jobs source configured in v1 (declared scope)."}
-    unknowns.append("jobs")
-    cats["public_activity"] = {"status": "not_available", "facts": [],
-                               "note": "Batch path does not web-search (budget); UI chat covers this."}
-    unknowns.append("public_activity")
+    if careers_url:
+        if job_count is not None:
+            val = f"Approximately {job_count} active listing(s) found on the verified careers page. Live counts change daily."
+        else:
+            val = "Careers page found. Live listings change daily; visit the source for current openings."
+            
+        cats["jobs"] = {
+            "status": "available",
+            "facts": [{
+                "field": "careers_page",
+                "value": val,
+                "source_url": careers_url,
+                "retrieved_date": retrieved,
+                "evidence_ref": f"evidence/{org_clean}/careers.html"
+            }],
+            "note": "Verified careers page discovered and linked."
+        }
+    else:
+        web = _pick(item, ("hjemmeside",), ("kontaktposter", "hjemmeside"))
+        note_text = "Company has no registry-listed website; external jobs could not be verified." if not web else "No verified careers page found on the registered domain."
+        cats["jobs"] = {"status": "not_available", "facts": [], "note": note_text}
+        unknowns.append("jobs")
+        
+    if news_items:
+        pa_facts = []
+        for n in news_items:
+            pa_facts.append(_fact("news_headline", n["headline"], n["source_url"], n["retrieved_date"], org=org_clean))
+        cats["public_activity"] = {
+            "status": "available",
+            "facts": pa_facts,
+            "note": "Recent news or press headlines discovered from the company's verified website."
+        }
+    else:
+        web = _pick(item, ("hjemmeside",), ("kontaktposter", "hjemmeside"))
+        note_text = "Company has no registry-listed website; external public activity could not be verified." if not web else "No verified news or press page found on the registered domain."
+        cats["public_activity"] = {"status": "not_available", "facts": [], "note": note_text}
+        unknowns.append("public_activity")
     
     return cats, unknowns
 
 # ---------------------------------------------------------------------------
 # TERMINAL ENVELOPE (one per input; six-state mapped)
 # ---------------------------------------------------------------------------
-def build_envelope(org_clean, label, allow_ai=False, deadline=None, allow_extras=True):
+def build_envelope(org_clean, label, allow_ai=False, deadline=None, allow_extras=True, allow_web=True):
     """Live-fetch one company and return the rubric's terminal result envelope.
+    allow_extras: controls optional registry sub-queries (roles, financials, subunits).
+    allow_web: controls external HTTP requests (careers page + news discovery).
     Never raises; on any failure returns a 'failed'/'blocked'/'not_available'
     envelope so the run always returns one row per input. The deterministic
     summary is used here to avoid batch dependence on external LLM availability."""
@@ -835,12 +1207,26 @@ def build_envelope(org_clean, label, allow_ai=False, deadline=None, allow_extras
     if status == "ok" and item is not None:
         profile = _profile_from_item(item, org_clean)
         cur, changed, prev, changes, h = save_evidence_snapshot(org_clean, item, lat, att)
+
+        # 1. Official Registry Sub-Endpoints (Fast & Authoritative)
         if allow_extras:
             roles, roles_req = _fetch_roles(org_clean, deadline=deadline)
             fin, fin_req = _fetch_financials(org_clean, deadline=deadline)
+            subunits, subunits_req = _fetch_subunits(org_clean, deadline=deadline)
         else:
             roles, roles_req = [], False
             fin, fin_req = None, False
+            subunits, subunits_req = [], False
+
+        # 2. External Domain Crawling (Gated strictly by allow_web)
+        web_url = _pick(item, ("hjemmeside",), ("kontaktposter", "hjemmeside"))
+        c_name = item.get("navn", "")
+        if allow_extras and allow_web and web_url:
+            careers, job_count, careers_req = _fetch_careers(org_clean, web_url, c_name, deadline=deadline)
+            news, news_req = _fetch_news(org_clean, web_url, c_name, deadline=deadline)
+        else:
+            careers, careers_req, job_count = None, False, None
+            news, news_req = [], False
         if roles:
             profile["key_people"] = roles
         if fin:
@@ -853,11 +1239,16 @@ def build_envelope(org_clean, label, allow_ai=False, deadline=None, allow_extras
                             "equity_exact": fin.get("equity_exact"), "debt_exact": fin.get("debt_exact"),
                             "assets_exact": fin.get("assets_exact"),
                             "financial_currency": fin.get("currency"), "fin_schema": 3})
-        base["request_count"] = att + (1 if roles_req else 0) + (1 if fin_req else 0)
+        base["request_count"] = att + sum(1 for req in [roles_req, fin_req, subunits_req, careers_req, news_req] if req)
         cats, unknowns = _extract_categories(item, org_clean, profile["source_url"],
                                              profile["retrieved_date"], roles=roles, fin=fin,
-                                             roles_checked=roles_req, fin_checked=fin_req)
-        ai = basic_summary(profile)
+                                             roles_checked=roles_req, fin_checked=fin_req,
+                                             careers_url=careers, job_count=job_count, news_items=news,
+                                             subunits=subunits, subunits_checked=subunits_req)
+        if allow_ai and (deadline is None or time.time() < deadline - 15):
+            ai = generate_ai_explanation(profile)
+        else:
+            ai = basic_summary(profile)
         env = dict(base)
         env.update({
             "status": "available",
@@ -1174,20 +1565,98 @@ def _findings_markdown(items):
         blocks.append(b)
     return "\n".join(blocks)
 
+_RECENCY_KEYWORDS = (
+    "latest", "recent", "newest", "today", "this week", "this month",
+    "just announced", "just released", "breaking", "current news",
+    "siste", "nyeste", "i dag", "nyheter",
+)
+
+def _needs_recency_filter(question):
+    """Detect whether the user is asking about recent/latest news."""
+    q = (question or "").lower()
+    return any(kw in q for kw in _RECENCY_KEYWORDS)
+
+def _construct_search_query(company_name, user_question):
+    """Construct a better search query by extracting intent and adding context.
+    Avoids redundancy and improves Tavily result relevance."""
+    q = (user_question or "").strip()
+    name = (company_name or "").strip()
+    
+    # Remove company name from question if already present (avoid duplication)
+    q_lower = q.lower()
+    name_lower = name.lower()
+    # Remove common variants: "EQUINOR ASA", "Equinor", etc.
+    for variant in [name_lower, name_lower.replace(" asa", "").replace(" as", "")]:
+        if variant and variant in q_lower:
+            # Remove the company name from the question
+            q = re.sub(re.escape(variant), "", q, flags=re.IGNORECASE).strip()
+            break
+    
+    # Clean up punctuation and extra spaces
+    q = re.sub(r'\s+', ' ', q).strip()
+    q = q.strip("?!.:,")
+    
+    # If question is now empty or very short, just use company name
+    if not q or len(q) < 5:
+        return name
+    
+    # Add year context for recency-sensitive queries
+    if _needs_recency_filter(user_question):
+        year = datetime.now().year
+        return f"{name} {q} {year}"
+    
+    return f"{name} {q}"
+
 def chat_with_gemini(company_context, user_question, use_web_search=True,
                      conversation=None, brief=False, deep=False):
     global LAST_SOURCES
     LAST_SOURCES = []
     context_str = ""
+    context_str = ""
+    
     if use_web_search:
-        context_str = search.get_web_context(
-            f"{company_context.get('company_name', '')} {user_question}",
-            max_results=10 if deep else 5,
-            depth="advanced" if deep else "basic")
-        for item in getattr(search, "LAST_ITEMS", []):
-            u = item.get("url")
-            if u and u not in LAST_SOURCES:
-                LAST_SOURCES.append(u)
+        # Check if question is about news/latest/recent - use dual-source approach
+        if _needs_recency_filter(user_question):
+            org = company_context.get("org_number")
+            name = company_context.get("company_name", "")
+            website = company_context.get("website", "")
+            
+            if org and website:
+                print(f"[CHAT] Detected news/recency question — using dual-source approach")
+                context_str, sources, direct_news = get_company_news_dual(
+                    org, name, website, user_question, deep=deep
+                )
+                LAST_SOURCES = sources
+            else:
+                # Fallback to Tavily only if no website
+                days = 90
+                search_query = _construct_search_query(name, user_question)
+                context_str = search.get_web_context(
+                    search_query,
+                    max_results=12 if deep else 7,
+                    depth="advanced" if deep else "basic",
+                    days=days
+                )
+                for item in getattr(search, "LAST_ITEMS", []):
+                    u = item.get("url")
+                    if u and u not in LAST_SOURCES:
+                        LAST_SOURCES.append(u)
+        else:
+            # Non-recency question: use Tavily only
+            search_query = _construct_search_query(
+                company_context.get('company_name', ''),
+                user_question
+            )
+            context_str = search.get_web_context(
+                search_query,
+                max_results=12 if deep else 7,
+                depth="advanced" if deep else "basic",
+                days=None
+            )
+            for item in getattr(search, "LAST_ITEMS", []):
+                u = item.get("url")
+                if u and u not in LAST_SOURCES:
+                    LAST_SOURCES.append(u)
                         
     conv_str = ""
     if conversation:
@@ -1223,28 +1692,97 @@ Answer directly; let length match the question (prefer <=350 words unless depth 
 If the conversation so far already contains the facts the user asks to condense, summarize THAT instead of listing new data.
 Do NOT put inline citation markers like [1] in the text; the app displays sources separately.
 Use only facts present in the data above. If a metric, year or detail is missing, omit it or say in one short sentence that it is unavailable — never invent numbers and never fill tables with dashes.
+DATE HONESTY (critical - ZERO TOLERANCE): Only cite a date or year if it appears explicitly in the WEB SEARCH FINDINGS (look for "Published:" lines). If a source has no "Published:" date, say "date not in source" for that item. NEVER invent or guess a date — even under follow-up pressure. If the user asks "when was this published?" and the source shows no date, answer honestly: "the provided source does not include a publication date."
+CRITICAL: NEVER output dates in the future (after November 2026). If you see "Q1 2027" or "May 2027" in your reasoning, STOP - those dates do not exist yet. Only cite dates that are explicitly present in the source text.
+For "latest news" or "recent" questions: present the most recent items found, and mention their publication dates honestly. If the most recent items are several months old, say so (e.g., "The most recent available news is from May 2026"). Do not refuse to present items just because they are older than 90 days — present them with their actual dates.
 For CEO/board/officer questions the VERIFIED OFFICERS list overrides web findings; if a web source names a different person, answer with the registry officer and add one sentence that the web source appears outdated.
+For hiring/vacancy questions never state a job count from web findings. Give the company's careers-page link (if present in the sources) plus today's date, and say live counts change daily and could not be verified. Aggregator statistics like "N postings, +X% vs last year" must be ignored entirely.
 Use a compact table only when comparing 3+ numeric values; otherwise use bullets or prose.
 Finish with complete sentences; never end with a truncated footnote.{mode_note}"""
 
     res = llm.ask_llm(prompt, model_tier="smart")
     if res:
+        # POST-PROCESSING: Silently correct future dates instead of warning
+        current_date = datetime.now()
+        
+        # Patterns for dates like "13 May 2027", "May 13, 2027"
+        date_patterns = [
+            (r'(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})', True),
+            (r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})', False)
+        ]
+        
+        months_map = {
+            'january': 1, 'february': 2, 'march': 3, 'april': 4,
+            'may': 5, 'june': 6, 'july': 7, 'august': 8,
+            'september': 9, 'october': 10, 'november': 11, 'december': 12
+        }
+        
+        def replace_future_date(match):
+            try:
+                groups = match.groups()
+                if len(groups) == 3:
+                    if groups[0].isdigit():  # day first pattern
+                        day, month_name, year = int(groups[0]), groups[1], int(groups[2])
+                    else:  # month first pattern
+                        month_name, day, year = groups[0], int(groups[1]), int(groups[2])
+                    
+                    month_num = months_map.get(month_name.lower())
+                    if month_num:
+                        parsed_date = datetime(year, month_num, day)
+                        if parsed_date > current_date + timedelta(days=7):
+                            # Replace with placeholder
+                            if groups[0].isdigit():
+                                return f"{day} {month_name} (date not verified)"
+                            else:
+                                return f"{month_name} {day} (date not verified)"
+            except:
+                pass
+            return match.group(0)
+        
+        # Silently replace future dates
+        for pattern, day_first in date_patterns:
+            res = re.sub(pattern, replace_future_date, res, flags=re.IGNORECASE)
+        
         return res
+    
+    # LLM UNAVAILABLE FALLBACK: Show structured results with dual-source attribution
     if LAST_SOURCES:
-        return (f"🌐 **Live web findings for “{user_question}”** "
-                f"_(AI synthesis temporarily offline — cleaned source digests below)_\n\n"
-                + _findings_markdown_from_items(getattr(search, "LAST_ITEMS", []))
-                + f"\n_Registry facts:_ {basic_summary(company_context)}")
+        fallback_text = f"🌐 **Live research findings** "
+        fallback_text += f"_(AI synthesis temporarily offline — raw results below)_\n\n"
+        
+        # If we have direct news from dual-source, show it prominently
+        if 'direct_news' in locals() and direct_news:
+            fallback_text += "**📰 From Company Website (authoritative):**\n"
+            for i, item in enumerate(direct_news, 1):
+                date_str = item.get("date") or "date not in source"
+                fallback_text += f"{i}. **{item['headline']}**\n"
+                fallback_text += f"   📅 {date_str}\n"
+                fallback_text += f"   🔗 [{item['source_url']}]({item['source_url']})\n\n"
+        
+        # Show Tavily sources
+        tavily_items = getattr(search, "LAST_ITEMS", [])
+        if tavily_items:
+            fallback_text += "**🔍 From Web Search:**\n"
+            fallback_text += _findings_markdown_from_items(tavily_items)
+            fallback_text += "\n"
+        
+        fallback_text += f"\n_Registry facts:_ {basic_summary(company_context)}"
+        return fallback_text
+    
     return local_answer(company_context, user_question) + basic_note()
+
+
 
 def chat_about_topic(user_question, use_web_search=True, deep=False):
     global LAST_SOURCES
     LAST_SOURCES = []
     context_str = ""
     if use_web_search:
+        days = 90 if _needs_recency_filter(user_question) else None
         context_str = search.get_web_context(user_question,
-                                             max_results=10 if deep else 5,
-                                             depth="advanced" if deep else "basic")
+                                             max_results=12 if deep else 7,
+                                             depth="advanced" if deep else "basic",
+                                             days=days)
         for item in getattr(search, "LAST_ITEMS", []):
             u = item.get("url")
             if u and u not in LAST_SOURCES:
@@ -1259,10 +1797,54 @@ STYLE RULES:
 Answer directly; length should match the question (no artificial cap).
 Do NOT put inline citation markers like [1]; the app shows sources separately.
 Use only facts from the findings; if missing, say so in one sentence — never invent.
+DATE HONESTY (critical): Only cite a date or year if it appears explicitly in the findings (look for "Published:" lines). If a source has no "Published:" date, say "date not in source". NEVER invent or guess a date, even under follow-up pressure.
+For "latest" / "recent" questions: present the most recent items found with their actual publication dates. If the most recent items are several months old, mention this honestly (e.g., "The latest available information is from May 2026"). Do not refuse to present items just because they are older than 90 days.
+Never state vacancy/job counts from findings; link the source careers page instead and mark the count unverified.
 Finish with complete sentences; never end with a truncated footnote."""
 
     res = llm.ask_llm(prompt, model_tier="smart")
     if res:
+        # POST-PROCESSING: Silently correct future dates instead of warning
+        current_date = datetime.now()
+        
+        # Patterns for dates like "13 May 2027", "May 13, 2027"
+        date_patterns = [
+            (r'(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})', True),
+            (r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})', False)
+        ]
+        
+        months_map = {
+            'january': 1, 'february': 2, 'march': 3, 'april': 4,
+            'may': 5, 'june': 6, 'july': 7, 'august': 8,
+            'september': 9, 'october': 10, 'november': 11, 'december': 12
+        }
+        
+        def replace_future_date(match):
+            try:
+                groups = match.groups()
+                if len(groups) == 3:
+                    if groups[0].isdigit():  # day first pattern
+                        day, month_name, year = int(groups[0]), groups[1], int(groups[2])
+                    else:  # month first pattern
+                        month_name, day, year = groups[0], int(groups[1]), int(groups[2])
+                    
+                    month_num = months_map.get(month_name.lower())
+                    if month_num:
+                        parsed_date = datetime(year, month_num, day)
+                        if parsed_date > current_date + timedelta(days=7):
+                            # Replace with placeholder
+                            if groups[0].isdigit():
+                                return f"{day} {month_name} (date not verified)"
+                            else:
+                                return f"{month_name} {day} (date not verified)"
+            except:
+                pass
+            return match.group(0)
+        
+        # Silently replace future dates
+        for pattern, day_first in date_patterns:
+            res = re.sub(pattern, replace_future_date, res, flags=re.IGNORECASE)
+        
         return res
     items = getattr(search, "LAST_ITEMS", [])
     if items:

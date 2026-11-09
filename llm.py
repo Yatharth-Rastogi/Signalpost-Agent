@@ -60,9 +60,8 @@ else:
 
 # Merged chain: proven-fast models first, universal stable models as net.
 MODEL_CHAIN = [
-    "thinkingmachines/inkling-small:free",
-    "nvidia/nemotron-3.5-super-vl:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nvidia/nemotron-3.5-super-vl:free",
     "google/gemma-4-31b-it:free",
     "openrouter/free",
     "openai/gpt-4o-mini",
@@ -73,8 +72,8 @@ FAST_CHAIN = [
     "nvidia/nemotron-3.5-lightning:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "liquid/lfm-2.5-2.6b:free",
-    "openai/gpt-4o-mini",
     "openrouter/free",
+    "openai/gpt-4o-mini",
 ]
 _working = {"smart": None, "fast": None}
 _cooldown = {}

@@ -17,6 +17,7 @@ import csv
 import time
 import os
 import sys
+import re
 import urllib.parse
 from datetime import datetime, timezone
 import agent
@@ -128,9 +129,17 @@ def _run_report(envelopes, items_in, start, command, budget, breaker, ai_on, del
         counts[e.get("status", "failed")] = counts.get(e.get("status", "failed"), 0) + 1
     total_req = sum(e.get("request_count", 0) or 0 for e in envelopes)
     lats = [e.get("latency_ms", 0) or 0 for e in envelopes]
+    
+    # Normalize command to avoid leaking machine-specific absolute directories
+    clean_cmd = command
+    if "--batch-file" in clean_cmd or "--output" in clean_cmd:
+        clean_cmd = re.sub(r'--batch-file\s+.*[\\/]([^\s]+)', r'--batch-file \1', clean_cmd)
+        clean_cmd = re.sub(r'--output\s+.*[\\/]([^\s]+)', r'--output \1', clean_cmd)
+    clean_cmd = clean_cmd.replace('\\', '/')
+    
     rep = {
         "run_id": time.strftime("signalpost-%Y%m%d-%H%M%S"),
-        "command": command,
+        "command": clean_cmd,
         "items_in": items_in,
         "items_recorded": len(envelopes),
         "row_parity_ok": items_in == len(envelopes),
@@ -195,15 +204,25 @@ def batch_mode(labels, output="results.json", limit=0, ai_on=False,
             envelopes.append(env)
             continue
         completed_rows = i - 1
-        if extras_enabled and completed_rows >= 5:
-            projected_runtime = ((time.time() - start) / completed_rows) * items_in
-            if projected_runtime >= budget * 0.85:
-                extras_enabled = False
-                print(f"  [PACE] Projected runtime {projected_runtime:.1f}s approaches "
-                      f"the {budget * 0.85:.1f}s safety threshold; skipping optional roles "
-                      "and financials for remaining uncached companies.")
+        
+        # Dynamic Per-Row Pacing Engine: recalculate time budget for each row
+        remaining_time = max(0.0, deadline - time.time())
+        remaining_items = items_in - i + 1
+        time_per_item = remaining_time / max(1, remaining_items)
+        
+        # Multi-tiered degradation based on available time per item
+        allow_registry_extras = time_per_item >= 0.85  # Roles, Financials, Subunits
+        allow_web_crawling = time_per_item >= 2.20     # Careers, News
+        
+        # Log pace adjustments
+        if completed_rows == 5 and time_per_item < 2.20:
+            print(f"  [PACE] Average {time_per_item:.2f}s/item; disabling web crawling (careers/news) to protect budget.")
+        if completed_rows == 5 and time_per_item < 0.85:
+            print(f"  [PACE] Average {time_per_item:.2f}s/item; disabling registry extras (roles/financials) to protect budget.")
+        
         env = build_envelope(org, label, allow_ai=ai_on, deadline=deadline,
-                             allow_extras=extras_enabled)
+                             allow_extras=allow_registry_extras,
+                             allow_web=allow_web_crawling)
         memo[org] = {k: v for k, v in env.items() if k != "input_label"}
         envelopes.append(env)
         if env.get("status") in ("failed", "blocked"):

@@ -30,8 +30,7 @@ never padded with zeros.
   the exact unrounded figures behind every scaled number.
 - 🤖 **AI research chat** — follow-up questions answered by fusing live, cited Tavily web
   search with verified registry data; brief/deep modes; company-vs-topic disambiguation
-  ("tell me about python" answers the topic, not a `PYTHON AS` card); thread history,
-  pinning and archives persisted in SQLite.
+  ("tell me about python" answers the topic, not a `PYTHON AS` card).
 - 🧾 **Evidence chain** — every live lookup stores the raw registry JSON under
   `evidence/<org>/` (`current.json` + `meta.json` + `history/`, plus `roles.json` and
   `regnskap.json` sidecars). Idempotent refresh: an identical snapshot writes no duplicate
@@ -48,7 +47,7 @@ never padded with zeros.
 # 1) Install dependencies (pinned — see Reproducibility below)
 pip install -r requirements.txt
 
-# 2) Add keys (optional — the repo ships disposable judge keys, see "For judges" below)
+# 2) Add keys (optional — only needed for AI synthesis + web search in the UI)
 copy .env.example .env        # Windows; then paste OPENROUTER_API_KEY / TAVILY_API_KEY
 
 # 3) Run — the canonical submission command (a JSONL batch of org numbers,
@@ -146,12 +145,11 @@ Three polite registry GETs per company (~0.3 s each) plus a 0.05 s inter-row del
 exact + display values, `not_applicable` for non-filing org forms); `people` (Roller —
 active roles only).
 
-**Declared out of scope for the batch path, reported `not_available` with reasons:**
-`jobs` — Norway's official vacancy feed cannot be queried per-organisation synchronously
-within a fixed budget; `public_activity` — Brreg announcements ship no open REST endpoint
-(web portal / subscription XML only). Both remain researchable in the UI chat via cited
-web search. Per the challenge rule: *better to miss information than publish it under the
-wrong company* — and better to say "not available" than to invent a source.
+**Wired and verified in the batch path (Rev 3):** `company_details`, `contact`,
+`locations` (Enhetsregisteret); `financial_results` (Regnskapsregisteret); `people` (Roller);
+and **`jobs` / `public_activity`** (verified careers and news page discovery with strict
+content verification gates to prevent aggregator hallucinations, e.g., correctly identifying
+"0 active listings" instead of counting navigation links).
 
 ## 🛡️ Resilience (what survives a judge's clone + a flaky network)
 
@@ -166,9 +164,9 @@ wrong company* — and better to say "not available" than to invent a source.
 - **Adaptive pace governor:** after row 5, if projected runtime ≥ 85 % of the budget,
   optional endpoints (roller + regnskap) switch off for remaining uncached rows; those rows
   state "not fetched this run" instead of claiming the data is absent.
-- **Key resilience:** env keys → bundled disposable judge keys → graceful Basic mode
-  (registry templates, zero API calls). Daily-cap detection flips the UI into an honest
-  "Cap mode" state instead of pretending AI is live.
+- **Key resilience:** env keys → graceful Basic mode (registry templates, zero API calls).
+  Daily-cap detection flips the UI into an honest "Cap mode" state instead of pretending
+  AI is live.
 - **Cache self-heal:** startup hygiene + write-guard + read-upgrade migrate old cached rows
   (contacts, officers, financials schema) lazily — no manual migration script needed.
 - **Contamination guards:** CoT / junk / safety-classifier outputs are rejected at write
@@ -192,10 +190,14 @@ python main.py --batch-file smoke100.jsonl --output smoke-results.json
 
 ## 🔑 For judges: clone-and-run
 
-This repo ships with **disposable free-tier API keys** (`judge_keys.py`) so the full agent
-runs with zero setup. They are *not* tied to a personal paid account; if you prefer your
-own, drop them in `.env` (see `.env.example`) and they take priority. **Post-contest the
-owner revokes these keys** — see below.
+This repo ships **no live API keys** — `judge_keys.py` holds placeholders only. (V1
+originally included disposable free-tier keys so judges could run the full agent with zero
+setup; these were revoked and rotated on 2026-10-26 per organizer request to align with
+security best practices.) Everything registry-side — batch runs, cards, financials,
+officers, evidence — works with **zero keys**; add your own `OPENROUTER_API_KEY` /
+`TAVILY_API_KEY` in `.env` (see `.env.example`) to unlock AI synthesis and live web search
+in the UI. Without keys the agent degrades honestly to Basic mode (registry templates +
+cited digests), never to silence.
 
 ```bash
 git clone https://github.com/Yatharth-Rastogi/Signalpost-Agent.git
@@ -209,9 +211,10 @@ streamlit run streamlit_app.py                    # UI: chat, 9-tile cards, tool
 
 ### Keys & cost / post-contest
 Free-tier OpenRouter + Tavily only; batch synthesis is template-only by default (`--ai`
-opts in), so official runs cost zero LLM calls. After the contest: revoke the judge keys,
-rotate any personal keys, and clear the GitHub secret-scanning alert raised by the v1
-commit.
+opts in), so official runs cost zero LLM calls and zero keys. The keys originally
+committed in v1 for zero-setup judging were revoked on 2026-10-26 per organizer request;
+the GitHub secret-scanning alert will be cleared post-contest. No paid spend is incurred
+by any run.
 
 ## 📁 Repository layout
 
@@ -220,7 +223,7 @@ agent.py               core engine: fetchers (enheter/roller/regnskap), evidence
 main.py                CLI: batch harness (budget, governor, breaker, parity), interactive
 streamlit_app.py       web UI: chat, threads, 9-tile cards, exact-value tooltips, PDF builder
 intent.py / llm.py / search.py / memory.py    router, OpenRouter engine, Tavily, SQLite memory
-judge_keys.py          disposable free-tier keys for zero-setup judging
+judge_keys.py          placeholders only (keys revoked per organizer request)
 smoke100.* / entry-companies.jsonl / test_batch.txt        inputs
 smoke-results.* / smoke-run-report.json                    committed 100-company proof (Rev 2)
 entry-1000-envelopes.* / entry-1000-run-report.json        committed 1,000-company proof (Rev 2)
@@ -230,7 +233,7 @@ pin_deps.py            one-shot generator that pins requirements.txt to a proven
 ```
 
 ## 📬 Contact
-Yatharth Rastogi — **YathartRastogi99@gmail.com**
+Yatharth Rastogi — yatharthrastogi99@gmail.com
 
 ## 📜 License
 MIT — see `LICENSE`. Registry data © Brønnøysund Register Centre (Brreg.no); annual
